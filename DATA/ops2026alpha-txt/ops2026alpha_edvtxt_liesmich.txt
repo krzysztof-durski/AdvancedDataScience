@@ -1,0 +1,81 @@
+﻿OPS, Alphabetisches Verzeichnis
+Operationen- und Prozedurenschlüssel
+Internationale Klassifikation der Prozeduren in der Medizin
+
+Herausgegeben vom Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM)
+im Auftrag des Bundesministeriums für Gesundheit (BMG)
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+LIESMICHDATEI
+
+OPS Version 2026 (OID 1.2.276.0.76.5.555)
+Alphabetisches Verzeichnis
+EDV-Fassung TXT (CSV)
+
+Stand der Klassifikation: 07.11.2025
+
+Das Standdatum entspricht dem Stand der Klassifikationsdateien bei der Erstveröffentlichung einer neuen Jahresversion.
+Werden die Dateien nach der Erstveröffentlichung unterjährig aufgrund von Fehlerkorrekturen oder nachträglichen Ergänzungen geändert und neu publiziert, wird zusätzlich das Aktualisierungsdatum angegeben.
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+INHALT DES ZIP-FILES  ops2026alpha-txt.zip:
+
+  - ops2026alpha_edvtxt_liesmich.txt
+
+  - downloadbedingungen-2025.pdf
+
+  - KLASSIFIKATIONSDATEI
+    ops2026alpha_edvtxt_20251107.txt
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+HINWEISE ZUR REFERENZFASSUNG
+
+Der OPS wird jedes Jahr in verschiedenen Fassungen und Formaten veröffentlicht.
+
+Verbindliche Referenzfassung einer Klassifikation ist jeweils das aktuell gültige Systematische Verzeichnis als PDF.
+Bei Unstimmigkeiten zwischen dem Systematischen Verzeichnis und dem Alphabetischen Verzeichnis ist das Systematische Verzeichnis maßgeblich.
+Bei Unstimmigkeiten zwischen den verschiedenen technischen Formaten des Systematischen Verzeichnisses ist die Referenzfassung maßgeblich.
+
+Bitte beachten Sie:
+Im Falle unterjähriger Fehlerkorrekturen und Aktualisierungen informieren wir per Corrigenda, die Sie klassifikationsspezifisch unter Downloads finden.
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+DATEIINHALT
+
+Die aktuelle Version des Alphabetischen Verzeichnisses wurde an die Änderungen und Ergänzungen des Systematischen Verzeichnisses des OPS 2026 angepasst.
+
+Bei der Erstellung des Alphabetischen Verzeichnisses wurde versucht, jede mit dem amtlichen OPS verschlüsselbare Operation und sonstige Prozedur zumindest einmal zu nennen. Dazu wurden die Prozeduren- und Operationenbezeichnungen der Systematik in normalsprachliche Texte umgewandelt. Das Alphabet enthält zusätzlich klinisch gebräuchliche Synonyme von Prozedurenbezeichnungen. Diese Synonyme sind nicht zwingend in der Systematik enthalten.
+
+Die Texte der Systematik entsprechen nicht immer dem klinischen Sprachgebrauch. Bei der Vielfältigkeit der klinischen Begriffe ist es nicht immer möglich, alle gebräuchlichen medizinischen Ausdrücke, Formulierungen und Schreibweisen einzubeziehen.
+Um das Alphabetische Verzeichnis zum OPS besser an die klinischen Bedürfnisse anzupassen, können Hinweise, Anregungen und Vorschläge per E-Mail (klassi@bfarm.de) eingeschickt werden.
+
+Nicht alle Kodes, die in der Systematik enthalten sind, sind auch im Alphabet enthalten:
+  - Nicht endständige Kodes haben grundsätzlich keinen Eintrag im Alphabet.
+  - Kodes, deren Klassentitel in der Systematik unspezifische Angaben enthalten wie "sonstige", "n.n.bez." und "andere" sind nur in Ausnahmefällen enthalten, z. B. wenn bei solchen Kodes spezifische Inklusiva genannt sind.
+  - Ebenfalls nicht enthalten sind Kodes, die sich aus medizinisch unmöglichen Kombinationen durch Subklassifikationslisten ergeben, z. B. die unmögliche Kombination einer bestimmten Lokalisation mit einer bestimmten Operation oder Prozedur.
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+DATENSATZBESCHREIBUNG
+
+Die Datei ist für die Integration in Programme zur Prozedurenverschlüsselung gedacht. Sie liegt im UTF-8-Zeichensatz vor und kann in jedes Tabellen- oder Datenbankprogramm importiert werden.
+
+Jeder Datensatz besteht aus 5 Feldern, die jeweils durch ein Verkettungszeichen, also einen senkrechten Strich ("|"), getrennt sind. Die Felder enthalten folgende Daten:
+
+Feld 1: Art der Kodierung
+        0 = reiner Verweissatz
+        Diese Datensätze haben keine Schlüsselnummer,
+        sondern innerhalb des Textfeldes Verweise auf andere Begriffe,
+        unter denen ihre Schlüsselnummern nachgewiesen sind.
+        1 = Kodierung nur mit einer Schlüsselnummer
+        2 = Kodierung mit zwei Schlüsselnummern
+Feld 2: Id (BfArM-interne Nummer)
+Feld 3: erste Schlüsselnummer
+Feld 4: zweite Schlüsselnummer
+Feld 5: zugehöriger Text
+
+Schlüsselnummern, die ein Zusatzkennzeichen für die Seitenangabe benötigen, sind mit einer Raute ("#") gekennzeichnet.
