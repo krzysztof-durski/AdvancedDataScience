@@ -1,0 +1,1563 @@
+{
+  "Qualitaetsbericht": {
+    "Einleitung": {
+      "Datensatz": {
+        "Datum": "2024-10-15",
+        "Uhrzeit": "07:41:05",
+        "Sprache": "deutsch"
+      },
+      "Software": {
+        "Hersteller": "netfutura GmbH",
+        "Produktname": "promato QBM",
+        "Version": "2.12"
+      },
+      "Verantwortlicher_Erstellung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Sarah",
+            "Nachname": "Lemke",
+            "Funktion_Arbeitsschwerpunkt": "Qualitätsmanagementbeauftragte"
+          },
+          "Telefon": {
+            "Vorwahl": "05162",
+            "Rufnummer": "44634"
+          },
+          "Fax": {
+            "Vorwahl": "05162",
+            "Rufnummer": "44400"
+          },
+          "Email": "lemke@klinik-fallingbostel.de"
+        }
+      },
+      "Verantwortlicher_Krankenhausleitung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Wilfried",
+            "Nachname": "Bissel",
+            "Funktion_Arbeitsschwerpunkt": "Geschäftsführer"
+          },
+          "Telefon": {
+            "Vorwahl": "05162",
+            "Rufnummer": "44603"
+          },
+          "Fax": {
+            "Vorwahl": "05162",
+            "Rufnummer": "440"
+          },
+          "Email": "bissel@klinik-fallingbostel.de"
+        }
+      },
+      "URL_Internetseite_Krankenhaus": "http://www.klinikfallingbostel.com/"
+    },
+    "Krankenhaus": {
+      "Ein_Standort": {
+        "Krankenhauskontaktdaten": {
+          "Name": "Klinik Fallingbostel",
+          "IK": "260330624",
+          "Standortnummer": "773307000",
+          "Standortnummer_alt": "00",
+          "Kontakt_Zugang": {
+            "Strasse": "Kolkweg",
+            "Hausnummer": "1",
+            "Postleitzahl": "29683",
+            "Ort": "Bad Fallingbostel",
+            "URL_Zugang": "http://www.klinik-fallingbostel.de"
+          },
+          "Kontakt_Adresse": {
+            "Adresse": {
+              "Strasse": "Kolkweg",
+              "Hausnummer": "1"
+            },
+            "Postleitzahl": "29683",
+            "Ort": "Bad Fallingbostel"
+          },
+          "Telefon": {
+            "Vorwahl": "05162",
+            "Rufnummer": "440"
+          },
+          "Email": "info@klinik-fallingbostel.de",
+          "Aerztliche_Leitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Titel": "Dr. med",
+                "Vorname": "Susanne",
+                "Nachname": "Brunner",
+                "Funktion_Arbeitsschwerpunkt": "Chefärztin"
+              },
+              "Telefon": {
+                "Vorwahl": "05162",
+                "Rufnummer": "44",
+                "Durchwahl": "701"
+              },
+              "Email": "brunner@klinik-fallingbostel.de"
+            }
+          },
+          "Pflegedienstleitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Diercks",
+                "Nachname": "Bärbel",
+                "Funktion_Arbeitsschwerpunkt": "Leiterin des Pflege und Funktionsdienstes"
+              },
+              "Telefon": {
+                "Vorwahl": "05162",
+                "Rufnummer": "44755"
+              },
+              "Fax": {
+                "Vorwahl": "05162",
+                "Rufnummer": "44625"
+              },
+              "Email": "diercks@klinik-fallingbostel.de"
+            }
+          },
+          "Verwaltungsleitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Tobias",
+                "Nachname": "Schuchhardt",
+                "Funktion_Arbeitsschwerpunkt": "Verwaltungsleiter"
+              },
+              "Telefon": {
+                "Vorwahl": "05162",
+                "Rufnummer": "44",
+                "Durchwahl": "627"
+              },
+              "Email": "schuchhardt@klinik-fallingbostel.de"
+            }
+          }
+        }
+      }
+    },
+    "Krankenhaustraeger": {
+      "Name": "von Graevemeyer GmbH&Co. KG",
+      "Krankenhaustraeger_Art": {
+        "Art": "privat"
+      }
+    },
+    "Medizinisch_Pflegerische_Leistungsangebote": {
+      "MP_Leistungsangebot": [
+        {
+          "MP_Schluessel": "MP48",
+          "Erlaeuterungen": "Heißluft / Rotlicht / Wechselbäder / Wassertreten"
+        },
+        {
+          "MP_Schluessel": "MP40",
+          "Erlaeuterungen": "Autogenes Training / Progressive Muskelentspannung"
+        },
+        {
+          "MP_Schluessel": "MP12"
+        },
+        {
+          "MP_Schluessel": "MP44",
+          "Erlaeuterungen": "in externer Kooperation"
+        },
+        {
+          "MP_Schluessel": "MP13",
+          "Erlaeuterungen": "Beratungen, Lehrküche"
+        },
+        {
+          "MP_Schluessel": "MP10"
+        },
+        {
+          "MP_Schluessel": "MP11"
+        },
+        {
+          "MP_Schluessel": "MP24"
+        },
+        {
+          "MP_Schluessel": "MP03"
+        },
+        {
+          "MP_Schluessel": "MP64",
+          "Erlaeuterungen": "Vorträge / Informationsveranstaltungen"
+        },
+        {
+          "MP_Schluessel": "MP34",
+          "Erlaeuterungen": "Gesprächstherapie / Seelsorge, Psychotherapie"
+        },
+        {
+          "MP_Schluessel": "MP56",
+          "Erlaeuterungen": "im Rahmen des MBOR-Programms"
+        },
+        {
+          "MP_Schluessel": "MP33",
+          "Erlaeuterungen": "Nichtraucherkurse, Lebensstilgruppe, Arbeitsgruppe Wunschgewicht, Herzgruppe über den SVE Bad Fallingbostel"
+        },
+        {
+          "MP_Schluessel": "MP47",
+          "Erlaeuterungen": "über externes Sanitätshaus"
+        },
+        {
+          "MP_Schluessel": "MP51",
+          "Erlaeuterungen": "Spezielle Versorgung chronischer Wunden"
+        },
+        {
+          "MP_Schluessel": "MP23"
+        },
+        {
+          "MP_Schluessel": "MP16"
+        },
+        {
+          "MP_Schluessel": "MP25"
+        },
+        {
+          "MP_Schluessel": "MP31",
+          "Erlaeuterungen": "Medizinische Bäder, Vierzellenbad, Hydrotherapie, Kneippanwendungen, Elektrotherapie"
+        },
+        {
+          "MP_Schluessel": "MP14"
+        },
+        {
+          "MP_Schluessel": "MP04"
+        },
+        {
+          "MP_Schluessel": "MP32",
+          "Erlaeuterungen": "Krankengymnastik Einzel / Gruppe, Krankengymnastik am Gerät, med. Trainingstherapie"
+        },
+        {
+          "MP_Schluessel": "MP52",
+          "Erlaeuterungen": "Herzgruppe / Rheumagruppe"
+        },
+        {
+          "MP_Schluessel": "MP63"
+        },
+        {
+          "MP_Schluessel": "MP15"
+        }
+      ]
+    },
+    "Nicht_Medizinische_Leistungsangebote": {
+      "NM_Leistungsangebot": [
+        {
+          "NM_Schluessel": "NM40"
+        },
+        {
+          "NM_Schluessel": "NM49"
+        },
+        {
+          "NM_Schluessel": "NM66"
+        },
+        {
+          "NM_Schluessel": "NM03"
+        },
+        {
+          "NM_Schluessel": "NM11"
+        },
+        {
+          "NM_Schluessel": "NM69",
+          "Erlaeuterungen": "Fernseher, WLAN, Tresor, Telefon"
+        },
+        {
+          "NM_Schluessel": "NM09",
+          "Erlaeuterungen": "im Zweibettzimmer"
+        },
+        {
+          "NM_Schluessel": "NM42"
+        }
+      ]
+    },
+    "Barrierefreiheit": {
+      "Ansprechpartner_Menschen_mit_Beeintraechtigung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Tobias",
+            "Nachname": "Schuchhardt",
+            "Funktion_Arbeitsschwerpunkt": "Verwaltungsleiter"
+          },
+          "Telefon": {
+            "Vorwahl": "05162",
+            "Rufnummer": "44627"
+          },
+          "Email": "schuchhardt@klinik-fallingbostel.de"
+        }
+      },
+      "Barrierefreiheit_Aspekt": [
+        {
+          "BF_Schluessel": "BF23"
+        },
+        {
+          "BF_Schluessel": "BF08"
+        },
+        {
+          "BF_Schluessel": "BF25",
+          "Erlaeuterungen": "arabisch"
+        },
+        {
+          "BF_Schluessel": "BF24",
+          "Erlaeuterungen": "Herzgesunde Kost, Keimarme Kost"
+        },
+        {
+          "BF_Schluessel": "BF22"
+        },
+        {
+          "BF_Schluessel": "BF26",
+          "Erlaeuterungen": "Englisch,"
+        },
+        {
+          "BF_Schluessel": "BF21",
+          "Erlaeuterungen": "bis 150 kg Körpergewicht"
+        },
+        {
+          "BF_Schluessel": "BF17",
+          "Erlaeuterungen": "bis 150 kg Körpergewicht"
+        },
+        {
+          "BF_Schluessel": "BF06",
+          "Erlaeuterungen": "3 Zimmer"
+        },
+        {
+          "BF_Schluessel": "BF32"
+        },
+        {
+          "BF_Schluessel": "BF10"
+        }
+      ]
+    },
+    "Ausbildung_andere_Heilberufe": {
+      "Ausbildung_in_anderen_Heilberufen": {
+        "HB_Schluessel": "HB01",
+        "Erlaeuterungen": "in Kooperation mit dem Heidekreisklinikum"
+      }
+    },
+    "Anzahl_Betten": "22",
+    "Fallzahlen": {
+      "Vollstationaere_Fallzahl": "710",
+      "Teilstationaere_Fallzahl": "0",
+      "Ambulante_Fallzahl": "0",
+      "StaeB_Fallzahl": "0"
+    },
+    "Personal_des_Krankenhauses": {
+      "Aerzte": {
+        "Aerzte_ohne_Belegaerzte": {
+          "Personalerfassung": {
+            "Anzahl_VK": "1",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "1"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "1"
+              }
+            }
+          },
+          "Fachaerzte": {
+            "Personalerfassung": {
+              "Anzahl_VK": "1",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "1"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "1"
+                }
+              }
+            }
+          },
+          "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+        },
+        "Belegaerzte": {
+          "Anzahl": "0"
+        },
+        "Aerzte_ohne_Fachabteilungszuordnung": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          },
+          "Fachaerzte": {
+            "Personalerfassung": {
+              "Anzahl_VK": "0",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Pflegekraefte": {
+        "Gesundheits_Krankenpfleger": {
+          "Personalerfassung": {
+            "Anzahl_VK": "17,19",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "17,19"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "17,19"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Medizinische_Fachangestellte": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,78",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,78"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,78"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Massgebliche_tarifliche_Wochenarbeitszeit": "38,50"
+      },
+      "Spezielles_Therapeutisches_Personal": {
+        "Therapeutisches_Personal": [
+          {
+            "SP_Schluessel": "SP25",
+            "Personalerfassung": {
+              "Anzahl_VK": "0,2",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,2"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,2"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP17",
+            "Personalerfassung": {
+              "Anzahl_VK": "0,1",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,1"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,1"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP23",
+            "Personalerfassung": {
+              "Anzahl_VK": "0,3",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,3"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,3"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP05",
+            "Personalerfassung": {
+              "Anzahl_VK": "0,1",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,1"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,1"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP32",
+            "Personalerfassung": {
+              "Anzahl_VK": "0,1",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,1"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,1"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP55",
+            "Personalerfassung": {
+              "Anzahl_VK": "0,1",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,1"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,1"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP15",
+            "Personalerfassung": {
+              "Anzahl_VK": "0,3",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,3"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,3"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP42",
+            "Personalerfassung": {
+              "Anzahl_VK": "0,1",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,1"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,1"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP04",
+            "Personalerfassung": {
+              "Anzahl_VK": "0,2",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,2"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,2"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP21",
+            "Personalerfassung": {
+              "Anzahl_VK": "0,7",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,7"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,7"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP28",
+            "Personalerfassung": {
+              "Anzahl_VK": "0,2",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,2"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,2"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "Umgang_mit_Risiken_in_der_Patientenversorgung": {
+      "Verantwortliche_Person_Qualitaetsmanagement": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Sarah",
+            "Nachname": "Lemke",
+            "Funktion_Arbeitsschwerpunkt": "Qualitätsmanagementbeauftragte"
+          },
+          "Telefon": {
+            "Vorwahl": "05162",
+            "Rufnummer": "44",
+            "Durchwahl": "634"
+          },
+          "Fax": {
+            "Vorwahl": "05162",
+            "Rufnummer": "44",
+            "Durchwahl": "400"
+          },
+          "Email": "lemke@klinik-fallingbostel.de"
+        }
+      },
+      "Lenkungsgremium_Qualitaetsmanagement": {
+        "Lenkungsgremium": {
+          "Beteiligte_Abteilungen_Funktionsbereiche": "Ärztlicher Dienst, Pflegedienst, Therapie, Psychologie, Küche, Hauswirtschaft, Verwaltung, Technischer Dienst",
+          "Tagungsfrequenz": "andere Frequenz"
+        }
+      },
+      "Verantwortliche_Person_Risikomanagement": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Sarah",
+            "Nachname": "Lemke",
+            "Funktion_Arbeitsschwerpunkt": "Qualitätsmanagementbeauftragte"
+          },
+          "Telefon": {
+            "Vorwahl": "05162",
+            "Rufnummer": "44",
+            "Durchwahl": "634"
+          },
+          "Fax": {
+            "Vorwahl": "05162",
+            "Rufnummer": "44",
+            "Durchwahl": "400"
+          },
+          "Email": "lemke@klinik-fallingbostel.de"
+        }
+      },
+      "Lenkungsgremium_Risikomanagement": {
+        "Lenkungsgremium": {
+          "Beteiligte_Abteilungen_Funktionsbereiche": "Ärztlicher Dienst, Pflegedienst, Therapie, Psychologie, Küche, Hauswirtschaft, Verwaltung, Technischer Dienst",
+          "Tagungsfrequenz": "bei Bedarf"
+        }
+      },
+      "Einrichtungsinternes_Fehlermeldesystem": {
+        "Tagungsgremium": {
+          "Tagungsfrequenz": "bei Bedarf"
+        },
+        "Massnahmen": "Anpassung der Organisationsstrukturen, Abteilungsübergreifende Gespräche zur Lösungsfindung",
+        "Fehlermeldesystem_intern": {
+          "System_intern": {
+            "IF_Schluessel": "IF02",
+            "Zusatzangaben_IF": {
+              "Frequenz": "monatlich"
+            }
+          }
+        }
+      },
+      "Hygienepersonal": {
+        "Krankenhaushygieniker": {
+          "Anzahl": "1",
+          "Erlaeuterungen": "extern"
+        },
+        "Hygienebeauftragte_Aerzte": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "1"
+          },
+          "Erlaeuterungen": "intern"
+        },
+        "Hygienefachkraefte": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "1"
+          },
+          "Erlaeuterungen": "intern"
+        },
+        "Hygienebeauftragte_Pflege": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "1"
+          }
+        },
+        "Hygienekommission_eingerichtet": {
+          "Kontakt_Person_kurz": {
+            "Person": {
+              "Vorname": "Susanne",
+              "Nachname": "Brunner",
+              "Funktion_Arbeitsschwerpunkt": "Chefärztin"
+            },
+            "Telefon": {
+              "Vorwahl": "05162",
+              "Rufnummer": "44",
+              "Durchwahl": "701"
+            },
+            "Fax": {
+              "Vorwahl": "05162",
+              "Rufnummer": "44",
+              "Durchwahl": "400"
+            },
+            "Email": "bissel@klinik-fallingbostel.de"
+          },
+          "Tagungsfrequenz": "halbjährlich"
+        }
+      },
+      "Weitere_Informationen_Hygiene": {
+        "Hygienestandard_ZVK": {
+          "Standard_Hygiene_ZVK_liegt_nicht_vor": {},
+          "Standard_Liegedauer_ZVK_liegt_vor": {
+            "Standard_autorisiert": "ja"
+          }
+        },
+        "Antibiotikaprophylaxe_Antibiotikatherapie": {
+          "Leitlinie_Antibiotikatherapie_liegt_nicht_vor": {},
+          "Standard_perioperative_Antibiotikaprophylaxe_liegt_nicht_vor": {}
+        },
+        "Umgang_Wunden": {
+          "Standard_Wundversorgung_Verbandwechsel_liegt_vor": {
+            "Standard_thematisiert": {
+              "Hygienische_Haendedesinfektion": "ja",
+              "Verbandwechsel_aseptische_Bedingungen": "ja",
+              "Antiseptische_Behandlung_infizierte_Wunden": "ja",
+              "Pruefung_Notwendigkeit_Wundauflage": "ja",
+              "Meldung_Wundinfektion": "ja"
+            },
+            "Standard_autorisiert": "ja"
+          }
+        },
+        "Haendedesinfektion": {
+          "Haendedesinfektionsmittelverbrauch_Allgemeinstationen_wurde_erhoben": {
+            "Haendedesinfektionsmittelverbrauch_Allgemeinstationen": "55"
+          },
+          "Keine_Intensivstation_vorhanden": {},
+          "Erfassung_Haendedesinfektionsmittelverbrauch_stationsbezogen": "ja"
+        },
+        "Umgang_Patienten_MRE": {
+          "Standardisierte_Information_MRSA": "ja",
+          "Informationsmanagement_MRSA": "ja",
+          "Risikoadaptives_Aufnahmescreening": "nein",
+          "Regelmaessige_Schulungen": "ja"
+        }
+      },
+      "Beschwerdemanagement": {
+        "Strukturiertes_Beschwerdemanagement": {
+          "Strukturiertes_Beschwerdemanagement_Eingefuehrt": "ja"
+        },
+        "Schriftliches_Konzept": {
+          "Schriftliches_Konzept_Existiert": "ja"
+        },
+        "Umgang_muendliche_Beschwerden": {
+          "Umgang_muendliche_Beschwerden_Geregelt": "ja"
+        },
+        "Umgang_schriftliche_Beschwerden": {
+          "Umgang_schriftliche_Beschwerden_Geregelt": "ja"
+        },
+        "Zeitziele_fuer_Rueckmeldung": {
+          "Zeitziele_fuer_Rueckmeldung_Definiert": "ja"
+        },
+        "Ansprechpartner": {
+          "Ansprechpersonen": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Sonja",
+                "Nachname": "Kieseler",
+                "Funktion_Arbeitsschwerpunkt": "Marketing"
+              },
+              "Telefon": {
+                "Vorwahl": "05162",
+                "Rufnummer": "44",
+                "Durchwahl": "615"
+              },
+              "Fax": {
+                "Vorwahl": "05162",
+                "Rufnummer": "44",
+                "Durchwahl": "400"
+              },
+              "Email": "kieseler@klinik-fallingbostel.de"
+            }
+          }
+        },
+        "Patientenfuersprecher": {
+          "Fuersprechpersonen": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Hans-Hinrich",
+                "Nachname": "Meyer",
+                "Funktion_Arbeitsschwerpunkt": "Rentner"
+              },
+              "Telefon": {
+                "Vorwahl": "05162",
+                "Rufnummer": "44",
+                "Durchwahl": "0"
+              },
+              "Fax": {
+                "Vorwahl": "05162",
+                "Rufnummer": "44",
+                "Durchwahl": "400"
+              },
+              "Email": "info@klinik-fallingbostel.de"
+            }
+          }
+        },
+        "Anonyme_Eingabemoeglichkeiten": {
+          "Anonyme_Eingabemoeglichkeiten_Existieren": "ja"
+        },
+        "Patientenbefragungen": {
+          "Patientenbefragungen_Durchgefuehrt": "nein"
+        },
+        "Einweiserbefragungen": {
+          "Einweiserbefragungen_Durchgefuehrt": "nein"
+        }
+      },
+      "Arzneimitteltherapiesicherheit": {
+        "Hinweis_Arzneimitteltherapiesicherheit": "AMTS ist die Gesamtheit der Maßnahmen zur Gewährleistung eines optimalen Medikationsprozesses mit dem Ziel, Medikationsfehler und damit vermeidbare Risiken für Patientinnen und Patienten bei der Arzneimitteltherapie zu verringern. Eine Voraussetzung für die erfolgreiche Umsetzung dieser Maßnahmen ist, dass AMTS als integraler Bestandteil der täglichen Routine in einem interdisziplinären und multiprofessionellen Ansatz gelebt wird.",
+        "Verantwortliches_Gremium_AMTS": {
+          "Arzneimittelkommission": {}
+        },
+        "Verantwortliche_Person_AMTS": {
+          "Verantwortliche_Person_nicht_festgelegt": {}
+        },
+        "Pharmazeutisches_Personal": {
+          "Anzahl_Apotheker": "0",
+          "Anzahl_weiteres_pharmazeutisches_Personal": "0"
+        }
+      },
+      "Praevention_Hilfe_Missbrauch_Gewalt": {
+        "Hinweis_Praevention_Hilfe_Missbrauch_Gewalt": "Gemäß § 4 Absatz 2 der Qualitätsmanagement-Richtlinie haben Einrichtungen die Prävention von und Intervention bei Gewalt und Missbrauch als Teil des einrichtungsinternen Qualitätsmanagements vorzusehen. Ziel ist es, Missbrauch und Gewalt insbesondere gegenüber vulnerablen Patientengruppen, wie beispielsweise Kindern und Jugendlichen oder hilfsbedürftigen Personen, vorzubeugen, zu erkennen, adäquat darauf zu reagieren und auch innerhalb der Einrichtung zu verhindern. Das jeweilige Vorgehen wird an Einrichtungsgröße, Leistungsspektrum und den Patientinnen und Patienten ausgerichtet, um so passgenaue Lösungen zur Sensibilisierung der Teams sowie weitere geeignete vorbeugende und intervenierende Maßnahmen festzulegen. Dies können unter anderem Informationsmaterialien, Kontaktadressen, Schulungen/Fortbildungen, Verhaltenskodizes, Handlungsempfehlungen/Interventionspläne oder umfassende Schutzkonzepte sein.",
+        "Praevention_Intervention_Massnahmen": "nein",
+        "Schutzkonzepte_Gewalt_Kinder": {
+          "Hinweis_Schutzkonzepte_Gewalt_Kinder": "Gemäß § 4 Absatz 2 in Verbindung mit Teil B Abschnitt I § 1 der Qualitätsmanagement-Richtlinie haben sich Einrichtungen, die Kinder und Jugendliche versorgen, gezielt mit der Prävention von und Intervention bei (sexueller) Gewalt und Missbrauch bei Kindern und Jugendlichen zu befassen (Risiko- und Gefährdungsanalyse) und – der Größe und Organisationsform der Einrichtung entsprechend – konkrete Schritte und Maßnahmen abzuleiten (Schutzkonzept). In diesem Abschnitt geben Krankenhäuser, die Kinder und Jugendliche versorgen, an, ob sie gemäß § 4 Absatz 2 in Verbindung mit Teil B Abschnitt I § 1 der Qualitätsmanagement-Richtlinie ein Schutzkonzept gegen (sexuelle) Gewalt bei Kindern und Jugendlichen aufweisen.",
+          "Keine_Versorgung_Kinder_Jugendliche": {}
+        }
+      }
+    },
+    "Teilnahme_Notfallversorgung": {
+      "Hinweis_Teilnahme_Notfallversorgung": "Alle Krankenhäuser gewährleisten Notfallversorgung und haben allgemeine Pflichten zur Hilfeleistung im Notfall. Darüber hinaus hat der Gemeinsame Bundesausschuss ein gestuftes System von Notfallstrukturen in Krankenhäusern im entgeltrechtlichen Sinne geregelt. Das bedeutet, dass Krankenhäuser, die festgelegte Anforderungen an eine von drei Notfallstufen erfüllen, durch Vergütungszuschläge finanziell unterstützt werden. Krankenhäuser, die die Anforderungen an eine der drei Stufen nicht erfüllen, erhalten keine Zuschläge. Nimmt ein Krankenhaus nicht am gestuften System von Notfallstrukturen teil und gewährleistet es nicht eine spezielle Notfallversorgung, sieht der Gesetzgeber Abschläge vor.",
+      "Teilnahme_Notfallstufe": {
+        "Notfallstufe_Nichtteilnahme_noch_nicht_vereinbart": {}
+      },
+      "Kooperation_mit_Kassenaerztlicher_Vereinigung": {
+        "Notdienstpraxis_Existiert": "nein",
+        "Vertragsaerztlicher_Notdienst_Existiert": "nein"
+      }
+    },
+    "Organisationseinheiten_Fachabteilungen": {
+      "Organisationseinheit_Fachabteilung": {
+        "Gliederungsnummer": "1",
+        "Name": "Kardiologie",
+        "Aerztliche_Leitung_OE": {
+          "Chefarzt": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Titel": "Dr.",
+                "Vorname": "Susanne",
+                "Nachname": "Brunner",
+                "Funktion_Arbeitsschwerpunkt": "Chefärztin"
+              },
+              "Telefon": {
+                "Vorwahl": "05162",
+                "Rufnummer": "44",
+                "Durchwahl": "625"
+              },
+              "Fax": {
+                "Vorwahl": "05162",
+                "Rufnummer": "44",
+                "Durchwahl": "400"
+              },
+              "Email": "brunner@klinik-fallingbostel.de"
+            },
+            "Kontakt_Zugang": {
+              "Strasse": "Kolkweg",
+              "Hausnummer": "1",
+              "Postleitzahl": "29683",
+              "Ort": "Bad Fallingbostel"
+            }
+          }
+        },
+        "Zielvereinbarungen": {
+          "Zielvereinbarungen_geschlossen_an_Empfehlung_DKG_gehalten": {}
+        },
+        "Fachabteilungsschluessel": {
+          "FA_Schluessel": "0300"
+        },
+        "Medizinische_Leistungsangebote": {
+          "Medizinisches_Leistungsangebot": [
+            {
+              "VA_VU_Schluessel": "VI21",
+              "Erlaeuterungen": "Fallpauschale (Besondere Einrichtung)"
+            },
+            {
+              "VA_VU_Schluessel": "VI03",
+              "Erlaeuterungen": "TTE, TEE, Stress-Echo, Spiroergometrie, EKG, LZ-EKG, 24H-RR, Sonographie Abdomen und Gefäße"
+            }
+          ]
+        },
+        "Fallzahlen_OE": {
+          "Vollstationaere_Fallzahl": "710",
+          "Teilstationaere_Fallzahl": "0"
+        },
+        "Hauptdiagnosen": {
+          "Hauptdiagnose": [
+            {
+              "ICD_10": "I25.13",
+              "Fallzahl": "143"
+            },
+            {
+              "ICD_10": "I21.4",
+              "Fallzahl": "74"
+            },
+            {
+              "ICD_10": "I35.0",
+              "Fallzahl": "72"
+            },
+            {
+              "ICD_10": "I34.0",
+              "Fallzahl": "60"
+            },
+            {
+              "ICD_10": "I33.0",
+              "Fallzahl": "46"
+            },
+            {
+              "ICD_10": "I35.2",
+              "Fallzahl": "43"
+            },
+            {
+              "ICD_10": "I25.12",
+              "Fallzahl": "36"
+            },
+            {
+              "ICD_10": "I35.1",
+              "Fallzahl": "31"
+            },
+            {
+              "ICD_10": "I25.14",
+              "Fallzahl": "23"
+            },
+            {
+              "ICD_10": "I20.8",
+              "Fallzahl": "21"
+            },
+            {
+              "ICD_10": "I42.0",
+              "Fallzahl": "16"
+            },
+            {
+              "ICD_10": "I25.5",
+              "Fallzahl": "14"
+            },
+            {
+              "ICD_10": "I71.01",
+              "Fallzahl": "12"
+            },
+            {
+              "ICD_10": "I20.0",
+              "Fallzahl": "11"
+            },
+            {
+              "ICD_10": "I71.2",
+              "Fallzahl": "8"
+            },
+            {
+              "ICD_10": "I25.11",
+              "Fallzahl": "6"
+            },
+            {
+              "ICD_10": "I21.0",
+              "Fallzahl": "5"
+            },
+            {
+              "ICD_10": "I21.1",
+              "Fallzahl": "5"
+            },
+            {
+              "ICD_10": "I21.9",
+              "Fallzahl": "5"
+            },
+            {
+              "ICD_10": "I34.88",
+              "Fallzahl": "5"
+            },
+            {
+              "ICD_10": "I50.14",
+              "Fallzahl": "5"
+            },
+            {
+              "ICD_10": "I20.9",
+              "Fallzahl": "4"
+            },
+            {
+              "ICD_10": "Q21.1",
+              "Fallzahl": "4"
+            },
+            {
+              "ICD_10": "C38.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "D15.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I07.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I21.2",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I21.3",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I24.9",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I25.19",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I25.3",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I26.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I27.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I27.20",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I27.28",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I34.80",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I35.8",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I35.9",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I36.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I37.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I37.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I38",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I42.2",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I42.5",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I49.8",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I50.13",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I50.9",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I51.9",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I71.00",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I71.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I71.4",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I71.6",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I71.9",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "Q20.3",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "Q20.8",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "Q22.3",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "Q22.5",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "Q23.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "Q23.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "Q24.5",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "Q25.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "R57.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "T82.3",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "T82.6",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "Z95.80",
+              "Fallzahl_Datenschutz": {}
+            }
+          ]
+        },
+        "Prozeduren": {
+          "Verpflichtende_Angabe": {
+            "Prozedur": [
+              {
+                "OPS_301": "8-831.00",
+                "Anzahl": "6"
+              },
+              {
+                "OPS_301": "5-399.5",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-771",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-831.01",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-831.20",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-831.y",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-97c.01",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-97c.11",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-97c.21",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-97c.41",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-97c.51",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-987.10",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-987.11",
+                "Anzahl_Datenschutz": {}
+              }
+            ]
+          }
+        },
+        "Ambulante_Operationen": {
+          "Keine_Erbracht": {}
+        },
+        "Personelle_Ausstattung": {
+          "Aerztliches_Personal": {
+            "Hauptabteilung": {
+              "Aerzte_ohne_Belegaerzte": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "1,0",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "1,0"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "1,0",
+                      "Fall_je_Anzahl": "710,00000"
+                    }
+                  }
+                },
+                "Fachaerzte": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "1",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "1"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "1",
+                        "Fall_je_Anzahl": "710,00000"
+                      }
+                    }
+                  }
+                },
+                "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+              }
+            }
+          },
+          "Aerztliche_Fachexpertisen": {
+            "Fachexpertise": [
+              {
+                "AQ_ZF_Schluessel": "AQ28"
+              },
+              {
+                "AQ_ZF_Schluessel": "AQ23"
+              },
+              {
+                "AQ_ZF_Schluessel": "ZF40"
+              }
+            ]
+          },
+          "Pflegekraefte": {
+            "Gesundheits_Krankenpfleger": {
+              "Personalerfassung": {
+                "Anzahl_VK": "17,19",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "17,19"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0,00"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0,00"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "17,19",
+                    "Fall_je_Anzahl": "41,30308"
+                  }
+                }
+              }
+            },
+            "Medizinische_Fachangestellte": {
+              "Personalerfassung": {
+                "Anzahl_VK": "0,78",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "0,78"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0,00"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0,00"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "0,78",
+                    "Fall_je_Anzahl": "910,25641"
+                  }
+                }
+              }
+            },
+            "Massgebliche_tarifliche_Wochenarbeitszeit": "38,50"
+          },
+          "Pflegerische_Fachexpertisen": {
+            "Fachexpertise_Pflege": [
+              {
+                "PQ_ZP_Schluessel": "PQ05"
+              },
+              {
+                "PQ_ZP_Schluessel": "ZP19"
+              },
+              {
+                "PQ_ZP_Schluessel": "ZP16"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Qualitaetssicherung": {
+      "QS_nach_Landesrecht": {
+        "Keine_Teilnahme_landesspezifische_Qualitaetssicherungsmassnahme": {}
+      },
+      "Sonstige_Verfahren_Externe_QS": {
+        "Sonstiges_Verfahren_Externe_QS": {
+          "Bezeichnung_Qualitaetsindikator": "Reha-QS der Deutschen Rentenversicherung",
+          "Ergebnis": "Rehabilitantenbefragung, Reha-Therapiestandard und Therapeutische Versorgung",
+          "Messzeitraum": "fortlaufend",
+          "Datenerhebung": "Rehabilitantenbefragung, Peer-Review-Verfahren, Therapeutische Versorgung (KTL), Reha-Therapiestandard, Rehabilitantenstruktur, Sozialmedizinischer Verlauf",
+          "Vergleichswerte": "Vergleich mit anderen Kliniken der gleichen Indikation",
+          "Quellenangabe_Dokumentation": "DGPR (Deutsche Gesellschaft für Prävention und Rehabilitation von Herzkreislauferkrankungen e.V.) Registernummer: DGPR-12/043"
+        }
+      },
+      "Fortbildung": {
+        "Fortbildungspflichtige": "1",
+        "Nachweispflichtige": "1",
+        "Fortbildungsnachweis_Erbracht_Habende": "1"
+      },
+      "Pflegepersonaluntergrenzen": {
+        "Monatsbezogener_Erfuellungsgrad_PpUG": [
+          {
+            "Pflegesensitiver_Bereich": "Innere Medizin, Kardiologie",
+            "Station": "Kardiologie Akut",
+            "Schicht": "Nachtschicht",
+            "Monatsbezogener_Erfuellungsgrad": "100,00",
+            "Ausnahmetatbestaende": "0"
+          },
+          {
+            "Pflegesensitiver_Bereich": "Innere Medizin, Kardiologie",
+            "Station": "Kardiologie Akut",
+            "Schicht": "Tagschicht",
+            "Monatsbezogener_Erfuellungsgrad": "100,00",
+            "Ausnahmetatbestaende": "0"
+          }
+        ],
+        "Schichtbezogener_Erfuellungsgrad_PpUG": [
+          {
+            "Pflegesensitiver_Bereich": "Innere Medizin, Kardiologie",
+            "Station": "Kardiologie Akut",
+            "Schicht": "Nachtschicht",
+            "Schichtbezogener_Erfuellungsgrad": "99,45"
+          },
+          {
+            "Pflegesensitiver_Bereich": "Innere Medizin, Kardiologie",
+            "Station": "Kardiologie Akut",
+            "Schicht": "Tagschicht",
+            "Schichtbezogener_Erfuellungsgrad": "98,36"
+          }
+        ]
+      },
+      "ATMP-QS-RL": {
+        "Hinweis_ATMP-QS-RL": "Krankenhausstandorte, an denen neue Therapien gemäß den Anlagen der ATMP-QS-RL angewendet werden, müssen die dort vorgegebenen Mindestanforderungen an die Struktur-, Prozess- oder Ergebnisqualität erfüllen. Der Medizinische Dienst überprüft die Umsetzung der relevanten Qualitätsanforderungen und stellt dem Krankenhaus eine Bescheinigung aus, wenn diese vollumfänglich erfüllt werden. ATMP nach dieser Richtlinie dürfen ausschließlich von Leistungserbringern angewendet werden, die die Mindestanforderungen erfüllen.",
+        "Keine_Anwendung_Arzneimittel_neuartige_Therapien": {}
+      }
+    }
+  }
+}

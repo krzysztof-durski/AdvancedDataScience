@@ -1,0 +1,1051 @@
+{
+  "Qualitaetsbericht": {
+    "Einleitung": {
+      "Datensatz": {
+        "Datum": "2024-12-10",
+        "Uhrzeit": "11:07:09",
+        "Sprache": "deutsch"
+      },
+      "Software": {
+        "Hersteller": "empira Software GmbH, Troisdorf",
+        "Produktname": "empira Krankenhaus-Qualitätsbericht-Manager QBX Desktop",
+        "Version": "23.10.6948.0 (9aac34e42)"
+      },
+      "Verantwortlicher_Erstellung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Titel": "Frau",
+            "Vorname": "Männel",
+            "Nachname": "Kathrin",
+            "Funktion_Arbeitsschwerpunkt": "Verwaltung"
+          },
+          "Telefon": {
+            "Vorwahl": "02103",
+            "Rufnummer": "896",
+            "Durchwahl": "155"
+          },
+          "Fax": {
+            "Vorwahl": "02103",
+            "Rufnummer": "896",
+            "Durchwahl": "159"
+          },
+          "Email": "kathrin.maennel@bergmanclinics.de"
+        }
+      },
+      "Verantwortlicher_Krankenhausleitung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Titel": "Herr",
+            "Vorname": "Eine",
+            "Nachname": "Dietmar",
+            "Funktion_Arbeitsschwerpunkt": "Verwaltungsdirektor"
+          },
+          "Telefon": {
+            "Vorwahl": "02103",
+            "Rufnummer": "896",
+            "Durchwahl": "150"
+          },
+          "Fax": {
+            "Vorwahl": "02103",
+            "Rufnummer": "896",
+            "Durchwahl": "159"
+          },
+          "Email": "info.hilden@bergmanclinics.de"
+        }
+      },
+      "URL_Internetseite_Krankenhaus": "http://www.bergmanclinics.de"
+    },
+    "Krankenhaus": {
+      "Ein_Standort": {
+        "Krankenhauskontaktdaten": {
+          "Name": "Bergman Clinics Klinik im Park",
+          "IK": "260511714",
+          "Standortnummer": "771054000",
+          "Standortnummer_alt": "00",
+          "Kontakt_Zugang": {
+            "Strasse": "Hagelkreuzstr.",
+            "Hausnummer": "37",
+            "Postleitzahl": "40721",
+            "Ort": "Hilden"
+          },
+          "Kontakt_Adresse": {
+            "Postleitzahl": "40721",
+            "Ort": "Hilden"
+          },
+          "Telefon": {
+            "Vorwahl": "02103",
+            "Rufnummer": "896",
+            "Durchwahl": "0"
+          },
+          "Email": "info.Hilden@bergmanclinics.de",
+          "Aerztliche_Leitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Titel": "Dr.med.",
+                "Vorname": "Elisabeth",
+                "Nachname": "Langer",
+                "Funktion_Arbeitsschwerpunkt": "Chefarzt"
+              },
+              "Telefon": {
+                "Vorwahl": "02103",
+                "Rufnummer": "896",
+                "Durchwahl": "272"
+              },
+              "Fax": {
+                "Vorwahl": "02103",
+                "Rufnummer": "896",
+                "Durchwahl": "159"
+              },
+              "Email": "info.hilden@bergmanclinics.de"
+            }
+          },
+          "Pflegedienstleitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Przybycin",
+                "Nachname": "Gabriele",
+                "Funktion_Arbeitsschwerpunkt": "PDL"
+              },
+              "Telefon": {
+                "Vorwahl": "02103",
+                "Rufnummer": "896",
+                "Durchwahl": "282"
+              },
+              "Fax": {
+                "Vorwahl": "02103",
+                "Rufnummer": "896",
+                "Durchwahl": "699"
+              },
+              "Email": "gabriele.przybycin@bergmanclinics.de"
+            }
+          },
+          "Verwaltungsleitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Dietmar",
+                "Nachname": "Eine",
+                "Funktion_Arbeitsschwerpunkt": "Verwaltungsdirektor"
+              },
+              "Telefon": {
+                "Vorwahl": "02103",
+                "Rufnummer": "896",
+                "Durchwahl": "150"
+              },
+              "Fax": {
+                "Vorwahl": "02103",
+                "Rufnummer": "896",
+                "Durchwahl": "159"
+              },
+              "Email": "info.hilden@bergmanclinics.de"
+            }
+          }
+        }
+      }
+    },
+    "Krankenhaustraeger": {
+      "Name": "Bergman Deutsche Clinics GmbH",
+      "Krankenhaustraeger_Art": {
+        "Art": "privat"
+      }
+    },
+    "Medizinisch_Pflegerische_Leistungsangebote": {
+      "MP_Leistungsangebot": [
+        {
+          "MP_Schluessel": "MP15"
+        },
+        {
+          "MP_Schluessel": "MP17"
+        },
+        {
+          "MP_Schluessel": "MP64",
+          "Erlaeuterungen": "Besichtigungen und Führungen , Vorträge, Informationsveranstaltungen"
+        },
+        {
+          "MP_Schluessel": "MP47"
+        }
+      ]
+    },
+    "Nicht_Medizinische_Leistungsangebote": {
+      "NM_Leistungsangebot": [
+        {
+          "NM_Schluessel": "NM02",
+          "Erlaeuterungen": "4"
+        },
+        {
+          "NM_Schluessel": "NM10",
+          "Erlaeuterungen": "26"
+        },
+        {
+          "NM_Schluessel": "NM11",
+          "Erlaeuterungen": "12"
+        },
+        {
+          "NM_Schluessel": "NM07",
+          "Erlaeuterungen": "www.bergmanclinics.de"
+        },
+        {
+          "NM_Schluessel": "NM09",
+          "Erlaeuterungen": "www.bergmanclinics.de"
+        },
+        {
+          "NM_Schluessel": "NM40",
+          "Erlaeuterungen": "www.bergmanclinics.de"
+        },
+        {
+          "NM_Schluessel": "NM49",
+          "Erlaeuterungen": "www.bergmanclinics.de"
+        },
+        {
+          "NM_Schluessel": "NM66",
+          "Erlaeuterungen": "muslimische Ernährung, vegetarische/vegane Küche, glutenfreie Ernährung"
+        }
+      ]
+    },
+    "Barrierefreiheit": {
+      "Ansprechpartner_Menschen_mit_Beeintraechtigung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Titel": "Frau",
+            "Vorname": "Heike",
+            "Nachname": "Müller",
+            "Funktion_Arbeitsschwerpunkt": "Serviceleiter"
+          },
+          "Telefon": {
+            "Vorwahl": "02103",
+            "Rufnummer": "896",
+            "Durchwahl": "302"
+          },
+          "Fax": {
+            "Vorwahl": "02103",
+            "Rufnummer": "896",
+            "Durchwahl": "159"
+          },
+          "Email": "info.hilden@bergmanclinics.de"
+        }
+      },
+      "Barrierefreiheit_Aspekt": [
+        {
+          "BF_Schluessel": "BF33"
+        },
+        {
+          "BF_Schluessel": "BF06"
+        },
+        {
+          "BF_Schluessel": "BF08"
+        },
+        {
+          "BF_Schluessel": "BF09"
+        },
+        {
+          "BF_Schluessel": "BF10"
+        },
+        {
+          "BF_Schluessel": "BF11"
+        },
+        {
+          "BF_Schluessel": "BF35"
+        },
+        {
+          "BF_Schluessel": "BF17"
+        },
+        {
+          "BF_Schluessel": "BF20"
+        },
+        {
+          "BF_Schluessel": "BF22"
+        },
+        {
+          "BF_Schluessel": "BF29"
+        }
+      ]
+    },
+    "Ausbildung_andere_Heilberufe": {
+      "Ausbildung_in_anderen_Heilberufen": [
+        {
+          "HB_Schluessel": "HB01"
+        },
+        {
+          "HB_Schluessel": "HB19"
+        },
+        {
+          "HB_Schluessel": "HB02"
+        }
+      ]
+    },
+    "Anzahl_Betten": "48",
+    "Fallzahlen": {
+      "Vollstationaere_Fallzahl": "635",
+      "Teilstationaere_Fallzahl": "22",
+      "Ambulante_Fallzahl": "2189",
+      "StaeB_Fallzahl": "0"
+    },
+    "Personal_des_Krankenhauses": {
+      "Aerzte": {
+        "Aerzte_ohne_Belegaerzte": {
+          "Personalerfassung": {
+            "Anzahl_VK": "7,15",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "7,15"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "7,15"
+              }
+            }
+          },
+          "Fachaerzte": {
+            "Personalerfassung": {
+              "Anzahl_VK": "6,4",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "6,4"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "6,4"
+                }
+              }
+            }
+          },
+          "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+        },
+        "Belegaerzte": {
+          "Anzahl": "0"
+        }
+      },
+      "Pflegekraefte": {
+        "Gesundheits_Krankenpfleger": {
+          "Personalerfassung": {
+            "Anzahl_VK": "9,48",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "9,48"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "9,48"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Medizinische_Fachangestellte": {
+          "Personalerfassung": {
+            "Anzahl_VK": "8",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "8"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "8"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+      }
+    },
+    "Umgang_mit_Risiken_in_der_Patientenversorgung": {
+      "Verantwortliche_Person_Qualitaetsmanagement": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Nora",
+            "Nachname": "Radziwill",
+            "Funktion_Arbeitsschwerpunkt": "MFA"
+          },
+          "Telefon": {
+            "Vorwahl": "02103",
+            "Rufnummer": "896",
+            "Durchwahl": "198"
+          },
+          "Fax": {
+            "Vorwahl": "02103",
+            "Rufnummer": "896",
+            "Durchwahl": "159"
+          },
+          "Email": "info-hilden@bermanclinics.de"
+        }
+      },
+      "Lenkungsgremium_Qualitaetsmanagement": {
+        "Lenkungsgremium": {
+          "Beteiligte_Abteilungen_Funktionsbereiche": "Verwaltung\nPDL\nLeitung OP\nLeiter Service\nLeiter Haustechnik",
+          "Tagungsfrequenz": "monatlich"
+        }
+      },
+      "Verantwortliche_Person_Risikomanagement": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Nora",
+            "Nachname": "Radziwill",
+            "Funktion_Arbeitsschwerpunkt": "MFA"
+          },
+          "Telefon": {
+            "Vorwahl": "02103",
+            "Rufnummer": "896",
+            "Durchwahl": "198"
+          },
+          "Fax": {
+            "Vorwahl": "02103",
+            "Rufnummer": "896",
+            "Durchwahl": "159"
+          },
+          "Email": "info-hilden@bermanclinics.de"
+        }
+      },
+      "Instrumente_Massnahmen_Risikomanagement": {
+        "Instrument_Massnahme_Risikomanagement": [
+          {
+            "RM_Schluessel": "RM02"
+          },
+          {
+            "RM_Schluessel": "RM03"
+          },
+          {
+            "RM_Schluessel": "RM08",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Jennifer Hinz",
+                "Datum": "2021-11-01"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM09",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Jennifer Hinz",
+                "Datum": "2021-11-01"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM12"
+          },
+          {
+            "RM_Schluessel": "RM13"
+          },
+          {
+            "RM_Schluessel": "RM14",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Jennifer Hinz",
+                "Datum": "2021-11-01"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM15",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Jennifer Hinz",
+                "Datum": "2021-11-01"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM16",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Jennifer Hinz",
+                "Datum": "2021-11-01"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM17",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Jennifer Hinz",
+                "Datum": "2021-11-01"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM18",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Jennifer Hinz",
+                "Datum": "2021-11-01"
+              }
+            }
+          }
+        ]
+      },
+      "Einrichtungsinternes_Fehlermeldesystem": {
+        "Tagungsgremium": {
+          "Tagungsfrequenz": "bei Bedarf"
+        },
+        "Massnahmen": "Risiko- und Fehlervorsorge sind wichtige Mittel, die Patientensicherheit zu verbessern. Berichtssysteme helfen,\nRisiken zu vermindern. Ein Risiko ist jedes aus der Sicht eines Berichtenden zukünftig zu vermeidendem Ereignis.\nSolche Ereignisse sind häufig die Vorstufe zu Fehlern. Vorsorge ist effektiv, wenn Fehler vermieden werden.\nFehlervermeidung setzt die Erkenntnis von Risiken voraus, die zu Fehlern führen können. Ein Critical Incident\nReporting System (CIRS) ist ein wichtiges Instrument",
+        "Fehlermeldesystem_intern": {
+          "System_intern": [
+            {
+              "IF_Schluessel": "IF01",
+              "Zusatzangaben_IF": {
+                "Datum": "2021-10-01"
+              }
+            },
+            {
+              "IF_Schluessel": "IF02",
+              "Zusatzangaben_IF": {
+                "Frequenz": "bei Bedarf"
+              }
+            }
+          ]
+        }
+      },
+      "Einrichtungsuebergreifendes_Fehlermeldesystem": {
+        "Fehlermeldesystem_uebergreifend": {
+          "System_uebergreifend": [
+            {
+              "EF_Schluessel": "EF06"
+            },
+            {
+              "EF_Schluessel": "EF12"
+            }
+          ]
+        },
+        "Tagungsgremium": {
+          "Tagungsfrequenz": "bei Bedarf"
+        }
+      },
+      "Hygienepersonal": {
+        "Krankenhaushygieniker": {
+          "Anzahl": "1"
+        },
+        "Hygienebeauftragte_Aerzte": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "1"
+          }
+        },
+        "Hygienefachkraefte": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "2"
+          },
+          "Erlaeuterungen": "extern durch Herrn Helmut Wenzel"
+        },
+        "Hygienebeauftragte_Pflege": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "2"
+          }
+        },
+        "Hygienekommission_eingerichtet": {
+          "Kontakt_Person_kurz": {
+            "Person": {
+              "Titel": "Dr.med.",
+              "Vorname": "Langer",
+              "Nachname": "Elisabeth",
+              "Funktion_Arbeitsschwerpunkt": "Chefärztin"
+            },
+            "Telefon": {
+              "Vorwahl": "02103",
+              "Rufnummer": "896",
+              "Durchwahl": "172"
+            },
+            "Fax": {
+              "Vorwahl": "02103",
+              "Rufnummer": "896",
+              "Durchwahl": "159"
+            },
+            "Email": "info.Hilden@bergmanclinics.de"
+          },
+          "Tagungsfrequenz": "bei Bedarf"
+        }
+      },
+      "Weitere_Informationen_Hygiene": {
+        "Hygienestandard_ZVK": {
+          "Standard_Hygiene_ZVK_liegt_nicht_vor": {},
+          "Standard_Liegedauer_ZVK_liegt_nicht_vor": {}
+        },
+        "Antibiotikaprophylaxe_Antibiotikatherapie": {
+          "Leitlinie_Antibiotikatherapie_liegt_nicht_vor": {},
+          "Standard_perioperative_Antibiotikaprophylaxe_liegt_nicht_vor": {}
+        },
+        "Umgang_Wunden": {
+          "Standard_Wundversorgung_Verbandwechsel_liegt_vor": {
+            "Standard_thematisiert": {
+              "Hygienische_Haendedesinfektion": "ja",
+              "Verbandwechsel_aseptische_Bedingungen": "ja",
+              "Antiseptische_Behandlung_infizierte_Wunden": "ja",
+              "Pruefung_Notwendigkeit_Wundauflage": "ja",
+              "Meldung_Wundinfektion": "ja"
+            },
+            "Standard_autorisiert": "ja"
+          }
+        },
+        "Haendedesinfektion": {
+          "Haendedesinfektionsmittelverbrauch_Allgemeinstationen_wurde_nicht_erhoben": {},
+          "Haendedesinfektionsmittelverbrauch_Intensivstationen_wurde_nicht_erhoben": {},
+          "Erfassung_Haendedesinfektionsmittelverbrauch_stationsbezogen": "nein"
+        },
+        "Umgang_Patienten_MRE": {
+          "Standardisierte_Information_MRSA": "ja",
+          "Informationsmanagement_MRSA": "ja",
+          "Risikoadaptives_Aufnahmescreening": "ja",
+          "Regelmaessige_Schulungen": "ja"
+        },
+        "Hygienebezogenes_Risikomanagement": {
+          "Hygiene_Instrument_Massnahme": [
+            {
+              "HM_Schluessel": "HM05"
+            },
+            {
+              "HM_Schluessel": "HM09"
+            }
+          ]
+        }
+      },
+      "Beschwerdemanagement": {
+        "Strukturiertes_Beschwerdemanagement": {
+          "Strukturiertes_Beschwerdemanagement_Eingefuehrt": "ja"
+        },
+        "Schriftliches_Konzept": {
+          "Schriftliches_Konzept_Existiert": "ja"
+        },
+        "Umgang_muendliche_Beschwerden": {
+          "Umgang_muendliche_Beschwerden_Geregelt": "ja"
+        },
+        "Umgang_schriftliche_Beschwerden": {
+          "Umgang_schriftliche_Beschwerden_Geregelt": "ja"
+        },
+        "Zeitziele_fuer_Rueckmeldung": {
+          "Zeitziele_fuer_Rueckmeldung_Definiert": "ja"
+        },
+        "Anonyme_Eingabemoeglichkeiten": {
+          "Anonyme_Eingabemoeglichkeiten_Existieren": "ja"
+        },
+        "Patientenbefragungen": {
+          "Patientenbefragungen_Durchgefuehrt": "ja"
+        },
+        "Einweiserbefragungen": {
+          "Einweiserbefragungen_Durchgefuehrt": "ja"
+        }
+      },
+      "Arzneimitteltherapiesicherheit": {
+        "Hinweis_Arzneimitteltherapiesicherheit": "AMTS ist die Gesamtheit der Maßnahmen zur Gewährleistung eines optimalen Medikationsprozesses mit dem Ziel, Medikationsfehler und damit vermeidbare Risiken für Patientinnen und Patienten bei der Arzneimitteltherapie zu verringern. Eine Voraussetzung für die erfolgreiche Umsetzung dieser Maßnahmen ist, dass AMTS als integraler Bestandteil der täglichen Routine in einem interdisziplinären und multiprofessionellen Ansatz gelebt wird.",
+        "Verantwortliches_Gremium_AMTS": {
+          "Arbeitsgruppe_Qualitaetsmanagement": {
+            "Lenkungsgremium_Qualitaetsmanagement": {
+              "Lenkungsgremium": {
+                "Beteiligte_Abteilungen_Funktionsbereiche": "Verwaltung\nPDL\nLeitung OP\nLeiter Service\nLeiter Haustechnik",
+                "Tagungsfrequenz": "monatlich"
+              }
+            }
+          }
+        },
+        "Verantwortliche_Person_AMTS": {
+          "Verantwortliche_Person_festgelegt": {
+            "Person_Entspricht_Angaben_Qualitaetsmanagement": {
+              "Verantwortliche_Person_Qualitaetsmanagement": {
+                "Kontakt_Person_lang": {
+                  "Person": {
+                    "Vorname": "Nora",
+                    "Nachname": "Radziwill",
+                    "Funktion_Arbeitsschwerpunkt": "MFA"
+                  },
+                  "Telefon": {
+                    "Vorwahl": "02103",
+                    "Rufnummer": "896",
+                    "Durchwahl": "198"
+                  },
+                  "Fax": {
+                    "Vorwahl": "02103",
+                    "Rufnummer": "896",
+                    "Durchwahl": "159"
+                  },
+                  "Email": "info-hilden@bermanclinics.de"
+                }
+              }
+            }
+          }
+        },
+        "Pharmazeutisches_Personal": {
+          "Anzahl_Apotheker": "0",
+          "Anzahl_weiteres_pharmazeutisches_Personal": "0"
+        },
+        "Instrumente_Massnahmen_AMTS": {
+          "Hinweis_Instrumente_Massnahmen_AMTS": "Die Instrumente und Maßnahmen zur Förderung der Arzneimitteltherapiesicherheit werden mit Fokus auf den typischen Ablauf des Medikationsprozesses bei der stationären Patientenversorgung dargestellt. Eine Besonderheit des Medikationsprozesses im stationären Umfeld stellt das Überleitungsmanagement bei Aufnahme und Entlassung dar. Die im Folgenden gelisteten Instrumente und Maßnahmen adressieren Strukturelemente, z.B. besondere EDV-Ausstattung und Arbeitsmaterialien, sowie Prozessaspekte, wie Arbeitsbeschreibungen für besonders risikobehaftete Prozessschritte bzw. Konzepte zur Sicherung typischer Risikosituationen. Zusätzlich können bewährte Maßnahmen zur Vermeidung von bzw. zum Lernen aus Medikationsfehlern angegeben werden. Das Krankenhaus stellt hier dar, mit welchen Aspekten es sich bereits auseinandergesetzt bzw. welche Maßnahmen es konkret umgesetzt hat. Die folgenden Aspekte können, gegebenenfalls unter Verwendung von Freitextfeldern, dargestellt werden: \n\r - Aufnahme ins Krankenhaus, inklusive Anamnese \n\r Dargestellt werden können Instrumente und Maßnahmen zur Ermittlung der bisherigen Medikation (Arzneimittelanamnese), der anschließenden klinischen Bewertung und der Umstellung auf die im Krankenhaus verfügbare Medikation (Hausliste), sowie zur Dokumentation, sowohl der ursprünglichen Medikation der Patientin oder des Patienten als auch der für die Krankenhausbehandlung angepassten Medikation. \n\r - Medikationsprozess im Krankenhaus \n\r Im vorliegenden Rahmen wird beispielhaft von folgenden Teilprozessen ausgegangen: Arzneimittelanamnese – Verordnung – Patienteninformation – Arzneimittelabgabe – Arzneimittelanwendung – Dokumentation – Therapieüberwachung – Ergebnisbewertung. Dargestellt werden können hierzu Instrumente und Maßnahmen zur sicheren Arzneimittelverordnung, z. B. bezüglich Leserlichkeit, Eindeutigkeit und Vollständigkeit der Dokumentation, aber auch bezüglich Anwendungsgebiet, Wirksamkeit, Nutzen-Risiko-Verhältnis, Verträglichkeit (inklusive potentieller Kontraindikationen, Wechselwirkungen und Ähnliches) und Ressourcenabwägungen. Außerdem können Angaben zur Unterstützung einer zuverlässigen Arzneimittelbestellung, -abgabe und -anwendung bzw. -verabreichung gemacht werden. \n\r - Entlassung \n\r Dargestellt werden können insbesondere die Maßnahmen der Krankenhäuser, die sicherstellen, dass eine strukturierte und sichere Weitergabe von Informationen zur Arzneimitteltherapie an weiterbehandelnde Ärztinnen und Ärzte sowie die angemessene Ausstattung der Patientinnen und Patienten mit Arzneimittelinformationen, Medikationsplan und Medikamenten bzw. Arzneimittelverordnungen erfolgt.",
+          "Instrument_Massnahme_AMTS": {
+            "AMTS_Schluessel": "AS13",
+            "Zusatzangaben_AMTS": {
+              "Massnahmen_Arzneimitteltherapie_Entlassung": {
+                "Massnahme_Arzneimitteltherapie_Entlassung": [
+                  {
+                    "Massnahme": "Aushändigung von Patienteninformationen zur Umsetzung von Therapieempfehlungen"
+                  },
+                  {
+                    "Massnahme": "bei Bedarf Arzneimittel-Mitgabe oder Ausstellung von Entlassrezepten"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "Praevention_Hilfe_Missbrauch_Gewalt": {
+        "Hinweis_Praevention_Hilfe_Missbrauch_Gewalt": "Gemäß § 4 Absatz 2 der Qualitätsmanagement-Richtlinie haben Einrichtungen die Prävention von und Intervention bei Gewalt und Missbrauch als Teil des einrichtungsinternen Qualitätsmanagements vorzusehen. Ziel ist es, Missbrauch und Gewalt insbesondere gegenüber vulnerablen Patientengruppen, wie beispielsweise Kindern und Jugendlichen oder hilfsbedürftigen Personen, vorzubeugen, zu erkennen, adäquat darauf zu reagieren und auch innerhalb der Einrichtung zu verhindern. Das jeweilige Vorgehen wird an Einrichtungsgröße, Leistungsspektrum und den Patientinnen und Patienten ausgerichtet, um so passgenaue Lösungen zur Sensibilisierung der Teams sowie weitere geeignete vorbeugende und intervenierende Maßnahmen festzulegen. Dies können unter anderem Informationsmaterialien, Kontaktadressen, Schulungen/Fortbildungen, Verhaltenskodizes, Handlungsempfehlungen/Interventionspläne oder umfassende Schutzkonzepte sein.",
+        "Praevention_Intervention_Massnahmen": "nein",
+        "Schutzkonzepte_Gewalt_Kinder": {
+          "Hinweis_Schutzkonzepte_Gewalt_Kinder": "Gemäß § 4 Absatz 2 in Verbindung mit Teil B Abschnitt I § 1 der Qualitätsmanagement-Richtlinie haben sich Einrichtungen, die Kinder und Jugendliche versorgen, gezielt mit der Prävention von und Intervention bei (sexueller) Gewalt und Missbrauch bei Kindern und Jugendlichen zu befassen (Risiko- und Gefährdungsanalyse) und – der Größe und Organisationsform der Einrichtung entsprechend – konkrete Schritte und Maßnahmen abzuleiten (Schutzkonzept). In diesem Abschnitt geben Krankenhäuser, die Kinder und Jugendliche versorgen, an, ob sie gemäß § 4 Absatz 2 in Verbindung mit Teil B Abschnitt I § 1 der Qualitätsmanagement-Richtlinie ein Schutzkonzept gegen (sexuelle) Gewalt bei Kindern und Jugendlichen aufweisen.",
+          "Keine_Versorgung_Kinder_Jugendliche": {}
+        }
+      }
+    },
+    "Teilnahme_Notfallversorgung": {
+      "Hinweis_Teilnahme_Notfallversorgung": "Alle Krankenhäuser gewährleisten Notfallversorgung und haben allgemeine Pflichten zur Hilfeleistung im Notfall. Darüber hinaus hat der Gemeinsame Bundesausschuss ein gestuftes System von Notfallstrukturen in Krankenhäusern im entgeltrechtlichen Sinne geregelt. Das bedeutet, dass Krankenhäuser, die festgelegte Anforderungen an eine von drei Notfallstufen erfüllen, durch Vergütungszuschläge finanziell unterstützt werden. Krankenhäuser, die die Anforderungen an eine der drei Stufen nicht erfüllen, erhalten keine Zuschläge. Nimmt ein Krankenhaus nicht am gestuften System von Notfallstrukturen teil und gewährleistet es nicht eine spezielle Notfallversorgung, sieht der Gesetzgeber Abschläge vor.",
+      "Teilnahme_Notfallstufe": {
+        "Notfallstufe_Nichtteilnahme_noch_nicht_vereinbart": {}
+      },
+      "Kooperation_mit_Kassenaerztlicher_Vereinigung": {
+        "Notdienstpraxis_Existiert": "nein",
+        "Vertragsaerztlicher_Notdienst_Existiert": "nein"
+      }
+    },
+    "Organisationseinheiten_Fachabteilungen": {
+      "Organisationseinheit_Fachabteilung": {
+        "Gliederungsnummer": "1",
+        "Name": "Gefäßchirurgie",
+        "Aerztliche_Leitung_OE": {
+          "Chefarzt": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Titel": "Dr.med.",
+                "Vorname": "Elisabeth",
+                "Nachname": "Langer",
+                "Funktion_Arbeitsschwerpunkt": "Chefarzt"
+              },
+              "Telefon": {
+                "Vorwahl": "02103",
+                "Rufnummer": "896",
+                "Durchwahl": "272"
+              },
+              "Fax": {
+                "Vorwahl": "02103",
+                "Rufnummer": "896",
+                "Durchwahl": "159"
+              },
+              "Email": "info-hilden@bergmanclinics.de"
+            },
+            "Kontakt_Zugang": {
+              "Strasse": "Hagelkreuzstr.",
+              "Hausnummer": "37",
+              "Postleitzahl": "40721",
+              "Ort": "Hilden"
+            }
+          }
+        },
+        "Zielvereinbarungen": {
+          "Keine_Zielvereinbarungen_geschlossen": {}
+        },
+        "Fachabteilungsschluessel": {
+          "FA_Schluessel": "1800"
+        },
+        "Fallzahlen_OE": {
+          "Vollstationaere_Fallzahl": "635",
+          "Teilstationaere_Fallzahl": "22"
+        },
+        "Hauptdiagnosen": {
+          "Hauptdiagnose": {
+            "ICD_10": "I83.9",
+            "Fallzahl": "635"
+          }
+        },
+        "Prozeduren": {
+          "Verpflichtende_Angabe": {
+            "Prozedur": [
+              {
+                "OPS_301": "5-385.4",
+                "Anzahl": "658"
+              },
+              {
+                "OPS_301": "5-385.96",
+                "Anzahl": "885"
+              },
+              {
+                "OPS_301": "5-385.d0",
+                "Anzahl": "301"
+              }
+            ]
+          }
+        },
+        "Ambulante_Operationen": {
+          "Verpflichtende_Angabe": {
+            "Ambulante_Operation": {
+              "OPS_301": "5-385.96",
+              "Anzahl": "885"
+            }
+          }
+        },
+        "Personelle_Ausstattung": {
+          "Aerztliches_Personal": {
+            "Hauptabteilung": {
+              "Aerzte_ohne_Belegaerzte": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "7,15",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "7,15"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "7,15",
+                      "Fall_je_Anzahl": "88,81119"
+                    }
+                  }
+                },
+                "Fachaerzte": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "6,4",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "6,4"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "6,4",
+                        "Fall_je_Anzahl": "99,21875"
+                      }
+                    }
+                  }
+                },
+                "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+              }
+            }
+          },
+          "Aerztliche_Fachexpertisen": {
+            "Fachexpertise": [
+              {
+                "AQ_ZF_Schluessel": "AQ06"
+              },
+              {
+                "AQ_ZF_Schluessel": "AQ63"
+              },
+              {
+                "AQ_ZF_Schluessel": "AQ07"
+              },
+              {
+                "AQ_ZF_Schluessel": "AQ23"
+              },
+              {
+                "AQ_ZF_Schluessel": "AQ28"
+              },
+              {
+                "AQ_ZF_Schluessel": "ZF01"
+              },
+              {
+                "AQ_ZF_Schluessel": "ZF31"
+              },
+              {
+                "AQ_ZF_Schluessel": "ZF34"
+              },
+              {
+                "AQ_ZF_Schluessel": "ZF42"
+              }
+            ]
+          },
+          "Pflegekraefte": {
+            "Gesundheits_Krankenpfleger": {
+              "Personalerfassung": {
+                "Anzahl_VK": "9,48",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "9,48"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "9,48",
+                    "Fall_je_Anzahl": "66,98312"
+                  }
+                }
+              }
+            },
+            "Medizinische_Fachangestellte": {
+              "Personalerfassung": {
+                "Anzahl_VK": "8",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "8"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "8",
+                    "Fall_je_Anzahl": "79,37500"
+                  }
+                }
+              }
+            },
+            "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+          },
+          "Pflegerische_Fachexpertisen": {
+            "Fachexpertise_Pflege": [
+              {
+                "PQ_ZP_Schluessel": "PQ05"
+              },
+              {
+                "PQ_ZP_Schluessel": "PQ08"
+              },
+              {
+                "PQ_ZP_Schluessel": "PQ13"
+              },
+              {
+                "PQ_ZP_Schluessel": "PQ14"
+              },
+              {
+                "PQ_ZP_Schluessel": "ZP13"
+              },
+              {
+                "PQ_ZP_Schluessel": "ZP14"
+              },
+              {
+                "PQ_ZP_Schluessel": "ZP16"
+              },
+              {
+                "PQ_ZP_Schluessel": "ZP32"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Qualitaetssicherung": {
+      "QS_nach_Landesrecht": {
+        "Keine_Teilnahme_landesspezifische_Qualitaetssicherungsmassnahme": {}
+      },
+      "Fortbildung": {
+        "Fortbildungspflichtige": "3",
+        "Nachweispflichtige": "3",
+        "Fortbildungsnachweis_Erbracht_Habende": "3"
+      },
+      "Pflegepersonaluntergrenzen": {
+        "Monatsbezogener_Erfuellungsgrad_PpUG": [
+          {
+            "Pflegesensitiver_Bereich": "Allgemeine Chirurgie",
+            "Station": "Station 1",
+            "Schicht": "Tagschicht",
+            "Monatsbezogener_Erfuellungsgrad": "100,00",
+            "Ausnahmetatbestaende": "0"
+          },
+          {
+            "Pflegesensitiver_Bereich": "Allgemeine Chirurgie",
+            "Station": "Station 1",
+            "Schicht": "Nachtschicht",
+            "Monatsbezogener_Erfuellungsgrad": "100,00",
+            "Ausnahmetatbestaende": "0"
+          }
+        ],
+        "Schichtbezogener_Erfuellungsgrad_PpUG": [
+          {
+            "Pflegesensitiver_Bereich": "Allgemeine Chirurgie",
+            "Station": "Station 1",
+            "Schicht": "Tagschicht",
+            "Schichtbezogener_Erfuellungsgrad": "100,00"
+          },
+          {
+            "Pflegesensitiver_Bereich": "Allgemeine Chirurgie",
+            "Station": "Station 1",
+            "Schicht": "Nachtschicht",
+            "Schichtbezogener_Erfuellungsgrad": "99,45"
+          }
+        ]
+      },
+      "ATMP-QS-RL": {
+        "Hinweis_ATMP-QS-RL": "Krankenhausstandorte, an denen neue Therapien gemäß den Anlagen der ATMP-QS-RL angewendet werden, müssen die dort vorgegebenen Mindestanforderungen an die Struktur-, Prozess- oder Ergebnisqualität erfüllen. Der Medizinische Dienst überprüft die Umsetzung der relevanten Qualitätsanforderungen und stellt dem Krankenhaus eine Bescheinigung aus, wenn diese vollumfänglich erfüllt werden. ATMP nach dieser Richtlinie dürfen ausschließlich von Leistungserbringern angewendet werden, die die Mindestanforderungen erfüllen.",
+        "Keine_Anwendung_Arzneimittel_neuartige_Therapien": {}
+      }
+    }
+  }
+}

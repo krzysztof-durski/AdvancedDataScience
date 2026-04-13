@@ -1,0 +1,4602 @@
+{
+  "Qualitaetsbericht": {
+    "Einleitung": {
+      "Datensatz": {
+        "Datum": "2025-10-22",
+        "Uhrzeit": "12:10:26",
+        "Sprache": "deutsch"
+      },
+      "Software": {
+        "Hersteller": "netfutura GmbH",
+        "Produktname": "promato QBM",
+        "Version": "3.0"
+      },
+      "Verantwortlicher_Erstellung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Andrea",
+            "Nachname": "Boros",
+            "Funktion_Arbeitsschwerpunkt": "Qualitätsmanagementbeauftragte"
+          },
+          "Telefon": {
+            "Vorwahl": "0871",
+            "Rufnummer": "6008",
+            "Durchwahl": "660"
+          },
+          "Fax": {
+            "Vorwahl": "0871",
+            "Rufnummer": "6008",
+            "Durchwahl": "614"
+          },
+          "Email": "a.boros@bkh-landshut.de"
+        }
+      },
+      "Verantwortlicher_Krankenhausleitung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Christian",
+            "Nachname": "Fenzl",
+            "Funktion_Arbeitsschwerpunkt": "Krankenhausdirektor / Verwaltungsdirektor / Dienststellenleiter"
+          },
+          "Telefon": {
+            "Vorwahl": "0871",
+            "Rufnummer": "6008",
+            "Durchwahl": "160"
+          },
+          "Fax": {
+            "Vorwahl": "0871",
+            "Rufnummer": "6008",
+            "Durchwahl": "688"
+          },
+          "Email": "c.fenzl@bkh-landshut.de"
+        }
+      },
+      "URL_Internetseite_Krankenhaus": "http://www.bkh-landshut.de"
+    },
+    "Krankenhaus": {
+      "Mehrere_Standorte": {
+        "Krankenhauskontaktdaten": {
+          "Name": "Bezirkskrankenhaus Landshut",
+          "IK": "260920866",
+          "Kontakt_Zugang": {
+            "Strasse": "Prof.-Buchner-Str.",
+            "Hausnummer": "22",
+            "Postleitzahl": "84034",
+            "Ort": "Landshut",
+            "URL_Zugang": "http://www.bkh-landshut.de"
+          },
+          "Kontakt_Adresse": {
+            "Adresse": {
+              "Strasse": "Prof.-Buchner-Str.",
+              "Hausnummer": "22"
+            },
+            "Postleitzahl": "84034",
+            "Ort": "Landshut"
+          },
+          "Telefon": {
+            "Vorwahl": "0871",
+            "Rufnummer": "6008",
+            "Durchwahl": "0"
+          },
+          "Email": "info@bkh-landshut.de",
+          "Aerztliche_Leitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Titel": "Prof. Dr.",
+                "Vorname": "Hermann",
+                "Nachname": "Spießl",
+                "Funktion_Arbeitsschwerpunkt": "Ärztlicher Direktor und Chefarzt der Klinik für Psychiatrie, Psychotherapie und Psychosomatik"
+              },
+              "Telefon": {
+                "Vorwahl": "0871",
+                "Rufnummer": "6008",
+                "Durchwahl": "140"
+              },
+              "Fax": {
+                "Vorwahl": "0871",
+                "Rufnummer": "6008",
+                "Durchwahl": "148"
+              },
+              "Email": "h.spiessl@bkh-landshut.de"
+            }
+          },
+          "Pflegedienstleitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Michèle",
+                "Nachname": "Schuierer",
+                "Funktion_Arbeitsschwerpunkt": "Pflegedirektorin"
+              },
+              "Telefon": {
+                "Vorwahl": "0871",
+                "Rufnummer": "6008",
+                "Durchwahl": "150"
+              },
+              "Email": "m.schuierer@bkh-landshut.de"
+            }
+          },
+          "Verwaltungsleitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Christian",
+                "Nachname": "Fenzl",
+                "Funktion_Arbeitsschwerpunkt": "Krankenhausdirektor"
+              },
+              "Telefon": {
+                "Vorwahl": "0871",
+                "Rufnummer": "6008",
+                "Durchwahl": "160"
+              },
+              "Fax": {
+                "Vorwahl": "0871",
+                "Rufnummer": "6008",
+                "Durchwahl": "688"
+              },
+              "Email": "c.fenzl@bkh-landshut.de"
+            }
+          }
+        },
+        "Standortkontaktdaten": {
+          "Name": "Bezirkskrankenhaus Landshut",
+          "IK": "260920866",
+          "Standortnummer": "771857000",
+          "Kontakt_Zugang": {
+            "Strasse": "Prof.-Buchner-Str.",
+            "Hausnummer": "22",
+            "Postleitzahl": "84034",
+            "Ort": "Landshut",
+            "URL_Zugang": "http://www.bkh-landshut.de"
+          },
+          "Kontakt_Adresse": {
+            "Adresse": {
+              "Strasse": "Prof.-Buchner-Str.",
+              "Hausnummer": "22"
+            },
+            "Postleitzahl": "84034",
+            "Ort": "Landshut"
+          },
+          "Aerztliche_Leitung": {
+            "Kontakt_Person_lang": [
+              {
+                "Person": {
+                  "Titel": "Prof. Dr.",
+                  "Vorname": "Hermann",
+                  "Nachname": "Spießl",
+                  "Funktion_Arbeitsschwerpunkt": "Ärztlicher Direktor und Chefarzt der Klinik für Psychiatrie, Psychotherapie und Psychosomatik"
+                },
+                "Telefon": {
+                  "Vorwahl": "0871",
+                  "Rufnummer": "6008",
+                  "Durchwahl": "140"
+                },
+                "Fax": {
+                  "Vorwahl": "0871",
+                  "Rufnummer": "6008",
+                  "Durchwahl": "148"
+                },
+                "Email": "h.spiessl@bkh-landshut.de"
+              },
+              {
+                "Person": {
+                  "Titel": "Dr.",
+                  "Vorname": "Tanja",
+                  "Nachname": "Hochegger",
+                  "Funktion_Arbeitsschwerpunkt": "Chefärztin der Klinik für Kinder- und Jugendpsychiatrie, Psychotherapie und Psychosomatik"
+                },
+                "Telefon": {
+                  "Vorwahl": "0871",
+                  "Rufnummer": "6008",
+                  "Durchwahl": "390"
+                },
+                "Fax": {
+                  "Vorwahl": "0871",
+                  "Rufnummer": "6008",
+                  "Durchwahl": "392"
+                },
+                "Email": "t.hochegger@bkh-landshut.de"
+              }
+            ]
+          },
+          "Pflegedienstleitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Michéle",
+                "Nachname": "Schuierer",
+                "Funktion_Arbeitsschwerpunkt": "Pflegedirektorin"
+              },
+              "Telefon": {
+                "Vorwahl": "0871",
+                "Rufnummer": "6008",
+                "Durchwahl": "150"
+              },
+              "Email": "m.schuierer@bkh-landshut.de"
+            }
+          },
+          "Verwaltungsleitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Christian",
+                "Nachname": "Fenzl",
+                "Funktion_Arbeitsschwerpunkt": "Krankenhausdirektor"
+              },
+              "Telefon": {
+                "Vorwahl": "0871",
+                "Rufnummer": "6008",
+                "Durchwahl": "160"
+              },
+              "Fax": {
+                "Vorwahl": "0871",
+                "Rufnummer": "6008",
+                "Durchwahl": "688"
+              },
+              "Email": "c.fenzl@bkh-landshut.de"
+            }
+          }
+        }
+      }
+    },
+    "Krankenhaustraeger": {
+      "Name": "Bezirk Niederbayern",
+      "Krankenhaustraeger_Art": {
+        "Art": "öffentlich"
+      }
+    },
+    "Medizinisch_Pflegerische_Leistungsangebote": {
+      "MP_Leistungsangebot": [
+        {
+          "MP_Schluessel": "MP23",
+          "Erlaeuterungen": "Möglichkeit für Patienten, innerseelisches Befinden auszudrücken/ mitzuteilen; einzeln, in der Gruppe, stationsübergreifend; Angebote: Bibliotherapie, Kreatives Schreiben, Offenes Atelier, Projektarbeit; Ziele: Reflexionsprozesse initiieren; kommunikative, kognitive, emotionale Kompetenzen fördern"
+        },
+        {
+          "MP_Schluessel": "MP40",
+          "Erlaeuterungen": "PMR nach Jacobson, Phantasiereisen, Yoga"
+        },
+        {
+          "MP_Schluessel": "MP11",
+          "Erlaeuterungen": "Sport- und bewegungstherapeutisches Angebot für alle Stationen, als Einzel-/ Gruppentherapie, in der Sporthalle, im Freien, auf Station; Schwimmen, Sauna, Entspannungstraining, Feldenkrais, Nordic Walking, Seniorengymnastik, Fitnesstraining, Tanztherapie, Yogatherapie; stationsübergreifende Angebote"
+        },
+        {
+          "MP_Schluessel": "MP17",
+          "Erlaeuterungen": "Bezugspflegende übernehmen die Verantwortung für den gesamten Pflegeprozess des Patienten (Erstellen und Aktualisieren der Pflegeplanung, in Abstimmung mit den Erkrankten, Bezugspflegegespräche, Einbringen der Pflegeplanung in die Behandlungsplanung), Kontakt/ Zusammenarbeit mit Eltern/ Angehörigen"
+        },
+        {
+          "MP_Schluessel": "MP25",
+          "Erlaeuterungen": "Im Rahmen der Physiotherapie"
+        },
+        {
+          "MP_Schluessel": "MP22",
+          "Erlaeuterungen": "Beckenbodentraining, Toilettentraining, Hilfsmittelberatung"
+        },
+        {
+          "MP_Schluessel": "MP59",
+          "Erlaeuterungen": "Kognitives Training im Rahmen der Ergotherapie, der Arbeitstherapie und in alltagspraktischen Übungen auf Station, einzeln und in der Gruppe"
+        },
+        {
+          "MP_Schluessel": "MP35",
+          "Erlaeuterungen": "Im Rahmen der Bewegungs- und Sporttherapie sowie Physiotherapie"
+        },
+        {
+          "MP_Schluessel": "MP15",
+          "Erlaeuterungen": "Rechtzeitige Info über Entlass.termin; Abschied von Mitpat. + Personal; Vorbereitung Wiederaufnahme häuslicher, schulischer, beruflicher Pflichten; Vorbereitung auf neue Wohnsituation; Terminvereinb. mit weiterbehand. Arzt; Übersendung vorläuf. Entlassungs- + Verlegungsbericht (Heim durch PED)"
+        },
+        {
+          "MP_Schluessel": "MP14",
+          "Erlaeuterungen": "Beratung durch den behandelnden Arzt; bei Bedarf wird dem Patienten externe Fachberatung vermittelt; in der Klinik für Kinder- und Jugendpsychiatrie arbeitet eine ausgebildete Ernährungsberaterin im Pflege- und Erziehungsdienst ."
+        },
+        {
+          "MP_Schluessel": "MP16",
+          "Erlaeuterungen": "Kreatives Arbeiten zur Förderung von Kompetenz (lebenspraktische Fähigkeiten), Interaktion und Ausdrucksfähigkeit; positive Verstärkung; Aufzeigen von zu bearbeitenden Defiziten; Einzel- und Gruppentherapie und stationsübergreifendes Angebot in speziell ausgestatteten Räumen; große Materialvielfalt"
+        },
+        {
+          "MP_Schluessel": "MP52",
+          "Erlaeuterungen": "ADHS; Abhängigkeitserkrankungen (aktiv auf den Suchtmedizinischen Stationen); depressive Erkrankungen; Zwangsstörungen; Selbsthilfegruppe für Angehörige seelisch erkrankter Menschen"
+        },
+        {
+          "MP_Schluessel": "MP66",
+          "Erlaeuterungen": "Spezielles Angebot für psychiatrisch erkrankte Personen: nicht invasive Behandlungsverfahren wie tDCS (Transkranielle Gleichstromstimulation) und rTMS (repetative transkranielle Magnetstimulation)"
+        },
+        {
+          "MP_Schluessel": "MP47",
+          "Erlaeuterungen": "Rollstuhl, Rollator, Walker und weitere Hilfsmittel können für den Behandlungszeitraum im Krankenhaus zur Verfügung gestellt werden; auch Verordnung von Hilfsmitteln im Rahmen des Entlassmanagements üblich"
+        },
+        {
+          "MP_Schluessel": "MP34",
+          "Erlaeuterungen": "Psychotherapie einzeln/ Gruppe, Gesprächspsychotherapie, Kognit. Verhaltensth., systemische + Schematherapie, Neurofeedback, dialektisch-behaviorale Therapie, Soziales Kompetenztrain., Tiefenpsych. fund. Psychotherapie, Traumatherapie, Funktionelle Entwickl. therapie, Multifamilientherapie"
+        },
+        {
+          "MP_Schluessel": "MP51",
+          "Erlaeuterungen": "Pflege und Therapie von Wunden nach ICW; Schwerpunkt Gerontopsychiatrie, aber auch stations- und klinikübergreifend"
+        },
+        {
+          "MP_Schluessel": "MP53",
+          "Erlaeuterungen": "Angebot des Pflege- und Erziehungsdienstes in beiden Kliniken"
+        },
+        {
+          "MP_Schluessel": "MP10",
+          "Erlaeuterungen": "Nutzung im Rahmen der Bewegungs- und Sporttherapie und während stationsübergreifender Schwimmzeiten; in der KJP auch Nutzung im Rahmen des Wochenplanes des Pflege- und Erziehungsdienstes, vor allem im Rahmen von verhaltenstherapeutischen Verstärkerprogrammen; im Bewegungsbad gibt es auch eine Sauna"
+        },
+        {
+          "MP_Schluessel": "MP02",
+          "Erlaeuterungen": "Ohrakupunktur nach dem NADA-Protokoll; Anwendung in den Fachbereichen der Erwachsenenpsychiatrie und in der geschützten Station der Kinder- und Jugendpsychiatrie"
+        },
+        {
+          "MP_Schluessel": "MP64",
+          "Erlaeuterungen": "Angebot der Klinik für Kinder- und Jugendpsychiatrie mit Vorträgen im Haus und extern zur Vorstellung neuer Konzepte/Stationen"
+        },
+        {
+          "MP_Schluessel": "MP06",
+          "Erlaeuterungen": "Anwendung bei Erkrankungen wie Demenz,  Wahrnehmungsstörungen anderer Genese wie auch Intelligenzminderungen; Integration in den Stationsalltag und gezielte Interventionen durch den Pflege- und Erziehungsdienst; bei Bedarf stations- und klinikübergreifende Unterstützung"
+        },
+        {
+          "MP_Schluessel": "MP42",
+          "Erlaeuterungen": "Alltagsnahe Hilfe zur Selbsthilfe; Gruppen: Aktivierung, Depressionsbewältig., Essstörung, Kochen, Kreative Gruppe, Selbstsicherheit, DBT, SKT; Außenaktivität; Sport/ Bewegung; Gesprächsrunde; einzeln: Angstexposition, Kognitives Training, Medikamententraining, Kommunikationstraining"
+        },
+        {
+          "MP_Schluessel": "MP56",
+          "Erlaeuterungen": "Arbeitstherapie (meist stationsübergreifend) - Schwerpunkt: Belastungserprobung"
+        },
+        {
+          "MP_Schluessel": "MP21",
+          "Erlaeuterungen": "Basis für rückenschonende und kraftsparende Arbeitsweise im Pflegealltag durch effektive Bewegungsgestaltung und -anpassung, sowohl für Patienten als auch für Pflegende"
+        },
+        {
+          "MP_Schluessel": "MP37",
+          "Erlaeuterungen": "Im Rahmen der ärztlichen Behandlung"
+        },
+        {
+          "MP_Schluessel": "MP30",
+          "Erlaeuterungen": "Integration pädagogischer Interventionen und Übungen, verhaltenstherapeutische Verstärkerprogramme (z. B. Token-System); Stufenverträge, positive Erziehung etc.; Erlebnispädagogik"
+        },
+        {
+          "MP_Schluessel": "MP04",
+          "Erlaeuterungen": "Im Rahmen der Physiotherapie"
+        },
+        {
+          "MP_Schluessel": "MP27",
+          "Erlaeuterungen": "Gemeinsame musikalische Improvisation zur Förderung von Anteilnahmefähigkeit und Kommunikation; Positive Einwirkung auf die ”Gestimmtheit” bei depress. Störungen und das ”Takt”-gefühl bei impulsiven oder emotional-instabilen Patienten; Einzel- und Gruppentherapie und stationsübergreifendes Angebot"
+        },
+        {
+          "MP_Schluessel": "MP65",
+          "Erlaeuterungen": "Wöchentliche Eltern-Kind-Interaktionsgruppe, 6 Termine a 90min; Element 1: Vermittlung grundlegender Kenntnisse und Einüben und Erproben neuer Verhaltensstrategien; Element 2: Einbeziehung der Kinder in das therapeutische Geschehen; Ziel: Stärkung des Vertrauens in die eigenen familiären Ressourcen"
+        },
+        {
+          "MP_Schluessel": "MP57",
+          "Erlaeuterungen": "Verhaltensmedizinische Behandlung von Ängsten, Panikstörungen, somatoformen Störungen und Aufmerksamkeitsstörungen, unter Verwendung verschiedener psychophysiologischer Parameter"
+        },
+        {
+          "MP_Schluessel": "MP68",
+          "Erlaeuterungen": "Aufsuchende ambulante psychiatrische Behandlung in Pflegeheimen durch ärztliche und pflegerische MitarbeiterInnen der Institutsambulanz; Verlegungsberichte; Überleitungspflege durch Sozialpädagoginnen"
+        },
+        {
+          "MP_Schluessel": "MP28",
+          "Erlaeuterungen": "Phyto-Psychopharmakatherapie"
+        },
+        {
+          "MP_Schluessel": "MP26",
+          "Erlaeuterungen": "Externe Fußpflegerin kommt bei Bedarf ins Haus"
+        },
+        {
+          "MP_Schluessel": "MP39",
+          "Erlaeuterungen": "Anleitung Angehöriger erwachsener Patienten in Form von Gesprächen, Angehörigengruppen und Hausbesuchen; In der Kinder- und Jugendpsychiatrie erfolgt bei allen patientenzentrierten therapeutischen Angeboten eine begleitende Beratung und Anleitung der Bezugspersonen, auch im Rahmen von Hospitationen."
+        },
+        {
+          "MP_Schluessel": "MP63",
+          "Erlaeuterungen": "Schwerpunkt: Entwicklung neuer Perspektiven; (Wieder-)finden und Aktivieren von vorhandenen Fähigkeiten und Möglichkeiten der individuellen Alltagsbewältigung in den Lebensbereichen Familie, Ausbildung, Arbeitsplatz, Wohnen, Finanzen und soziale Absicherung"
+        },
+        {
+          "MP_Schluessel": "MP01",
+          "Erlaeuterungen": "Aufkleben von Magnetkügelchen an den Akupressurpunkten der Ohren, zur Stärkung der seelischen und körperlichen Gesundheit; Regulierung von Störungen im Wohlbefinden: • lindern Entzugssymptome, vermindern Suchtverlangen • wirken entspannend, fördern Wachheit/ Konzentration, verbessern den Nachtschlaf"
+        },
+        {
+          "MP_Schluessel": "MP33",
+          "Erlaeuterungen": "Information und emotionale Entlastung durch Psychoedukation bei Angsterkrankungen, schizophrenen Erkrankungen, Suchterkrankungen sowie Depressionen, zur Verbesserung der Compliance und zur Unterstützung der Rezidivprophylaxe"
+        },
+        {
+          "MP_Schluessel": "MP03",
+          "Erlaeuterungen": "Gespräche mit Angehörigen; Elternabende, -hospitation, -training; Familien- und Paartherapie; Informationsgruppen für Angehörige (Erkrankungsschwerpunkte: Demenz, Depression, Schizophrenie), auch telefonische Betreuung"
+        },
+        {
+          "MP_Schluessel": "MP08",
+          "Erlaeuterungen": "Gehört u. a. zum Aufgabengebiet der Sozialpädagoginnen"
+        },
+        {
+          "MP_Schluessel": "MP24",
+          "Erlaeuterungen": "Behandlung im benachbarten Klinikum; bei Bedarf kommen auch externe Physiotherapeuten ins Haus"
+        },
+        {
+          "MP_Schluessel": "MP44",
+          "Erlaeuterungen": "Sprachheilpädagogische Förderung bei Störung Sprachentwicklung, Artikulation, Stimme, im Bereich der Grammatik, des Sprachverhältnisses, des Redeflusses; differenzierte Sprach- und Sprechdiagnostik mit anschließender Aufklärung, Beratung und ggf. Förderungsanleitung der Bezugspersonen"
+        },
+        {
+          "MP_Schluessel": "MP32",
+          "Erlaeuterungen": "Manuelle Therapie, PNF (Spez. neuromuskuläre Koordinationstechnik), Med. Trainingstherapie (Kraft- und Herz-Kreislauf-Training), Atemgymnastik, Elektrotherapie (inkl. Ultraschall), Heiße Rolle, Heißluft, Massagen/ Bindegewebsmassagen, KG im Bewegungsbad"
+        }
+      ]
+    },
+    "Nicht_Medizinische_Leistungsangebote": {
+      "NM_Leistungsangebot": [
+        {
+          "NM_Schluessel": "NM49"
+        },
+        {
+          "NM_Schluessel": "NM62",
+          "Erlaeuterungen": "In Einzelfällen besuchen jugendliche Patienten während des stationären Aufenthaltes ein örtliches Gymnasium bzw. die Heimatschule"
+        },
+        {
+          "NM_Schluessel": "NM68",
+          "Erlaeuterungen": "Freundlich gestalteter Raum in einem ausgebauten Bereich des Untergeschosses"
+        },
+        {
+          "NM_Schluessel": "NM66",
+          "Erlaeuterungen": "Differenzierte Essens-Bestellmöglichkeiten mit Berücksichtigung besonderer Ernährungsgewohnheiten"
+        },
+        {
+          "NM_Schluessel": "NM60",
+          "Erlaeuterungen": "Regelmäßige Zusammenarbeit mit Selbsthilfeorganisationen in der Suchtmedizin; Selbsthilfegruppe für Angehörige seelisch erkrankter Menschen tagt in unserem Haus"
+        },
+        {
+          "NM_Schluessel": "NM02"
+        },
+        {
+          "NM_Schluessel": "NM64",
+          "Erlaeuterungen": "Teilweise interaktiver Unterricht durch Herkunftsschule"
+        },
+        {
+          "NM_Schluessel": "NM63",
+          "Erlaeuterungen": "Unterrichtung der Kinder und Jugendlichen in allen Schulformen"
+        },
+        {
+          "NM_Schluessel": "NM42",
+          "Erlaeuterungen": "ökumenische Seelsorge"
+        },
+        {
+          "NM_Schluessel": "NM69",
+          "Erlaeuterungen": "Informationen zu den weiteren nicht-medizinischen Leistungsangeboten können dem Patienten-ABC auf der Homepage des Bezirkskrankenhauses Landshut  entnommen werden; das Patienten-ABC mit detaillierten Informationen über Angebote rund um die Behandlung liegt auch auf den Stationen aus."
+        },
+        {
+          "NM_Schluessel": "NM03",
+          "Erlaeuterungen": "wird bei entsprechender Wahlleistungsvereinbarung und ausreichender Verfügbarkeit von Betten angeboten"
+        },
+        {
+          "NM_Schluessel": "NM11",
+          "Erlaeuterungen": "Regelleistung"
+        }
+      ]
+    },
+    "Barrierefreiheit": {
+      "Ansprechpartner_Menschen_mit_Beeintraechtigung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Maria",
+            "Nachname": "Stock",
+            "Funktion_Arbeitsschwerpunkt": "Diplomsozialpädagogin (FH) in der Klinik für Kinder- und Jugendpsychiatrie, Psychotherapie und Psychosomatik; Vertrauensperson der Menschen mit Schwerbehinderung, Gleichstellung oder von Behinderung bedrohten Menschen"
+          },
+          "Telefon": {
+            "Vorwahl": "0871",
+            "Rufnummer": "6008",
+            "Durchwahl": "302"
+          },
+          "Fax": {
+            "Vorwahl": "0871",
+            "Rufnummer": "6008",
+            "Durchwahl": "366"
+          },
+          "Email": "m.stock@bkh-landshut.de"
+        }
+      },
+      "Barrierefreiheit_Aspekt": [
+        {
+          "BF_Schluessel": "BF25",
+          "Erlaeuterungen": "externe Dolmetscherdienste können angefordert werden, s. Standard \"Sprachmittlerleistung für stationäre und teilstationäre Patienten-Anforderung\" vom 06.08.2020"
+        },
+        {
+          "BF_Schluessel": "BF11",
+          "Erlaeuterungen": "Begleitung/ Führen eines Rollstuhls zur Station, zu Therapien innerhalb des Hauses oder zu Untersuchungen im benachbarten Klinikum möglich"
+        },
+        {
+          "BF_Schluessel": "BF16",
+          "Erlaeuterungen": "Beschäftigung von Betreuungsassistentinnen"
+        },
+        {
+          "BF_Schluessel": "BF09",
+          "Erlaeuterungen": "in unmittelbarer Nähe zu jedem Stationseingang"
+        },
+        {
+          "BF_Schluessel": "BF37",
+          "Erlaeuterungen": "Stockwerksanzeige"
+        },
+        {
+          "BF_Schluessel": "BF04"
+        },
+        {
+          "BF_Schluessel": "BF08",
+          "Erlaeuterungen": "alle Serviceeinrichtungen befinden sich ebenerdig im Zentralbau des Krankenhauses"
+        },
+        {
+          "BF_Schluessel": "BF17",
+          "Erlaeuterungen": "neue Betten bis 250 kg belastbar; Betten mit Überlänge und Niedrigstbetten"
+        },
+        {
+          "BF_Schluessel": "BF10",
+          "Erlaeuterungen": "im zentralen Bereich des Krankenhauses"
+        },
+        {
+          "BF_Schluessel": "BF14",
+          "Erlaeuterungen": "Verwendung von Piktogrammen bei Hinweisschildern"
+        },
+        {
+          "BF_Schluessel": "BF32",
+          "Erlaeuterungen": "Kapelle im Zentralbau"
+        },
+        {
+          "BF_Schluessel": "BF06",
+          "Erlaeuterungen": "je 7 Patientenzimmer in den beiden gerontopsychiatrischen Stationen und je ein Patientenzimmer in den vier kinder- und jugendpsychiatrischen Stationen; auf allen Stationen Bad mit rollstuhlgerechtem Zugang zu Dusche und Toilette"
+        },
+        {
+          "BF_Schluessel": "BF21",
+          "Erlaeuterungen": "Patientenlifter, Aufstehhilfe, Transfermatten, Walker"
+        },
+        {
+          "BF_Schluessel": "BF34",
+          "Erlaeuterungen": "selbstöffnende Türen"
+        },
+        {
+          "BF_Schluessel": "BF29",
+          "Erlaeuterungen": "krankheitsbezogenes Informationsmaterial im Suchtbereich teilweise in mehreren Sprachen"
+        },
+        {
+          "BF_Schluessel": "BF05",
+          "Erlaeuterungen": "Begleitung durch Pflege- oder Assistenzpersonal zu Therapien oder Untersuchungen außerhalb der Station oder des Krankenhauses"
+        },
+        {
+          "BF_Schluessel": "BF33",
+          "Erlaeuterungen": "ausreichend Behindertenparkplätze vorhanden"
+        },
+        {
+          "BF_Schluessel": "BF15",
+          "Erlaeuterungen": "Geschützte Gärten für die beiden Stationen der Gerontopsychiatrie; Farbige und andere Gestaltungsmaßnahmen innerhalb der Stationen zur besseren Orientierung"
+        },
+        {
+          "BF_Schluessel": "BF41",
+          "Erlaeuterungen": "im Patientenzimmer und in den Sanitäranlagen"
+        },
+        {
+          "BF_Schluessel": "BF22",
+          "Erlaeuterungen": "überbreite Rollstühle, überbreite Pflegestühle"
+        },
+        {
+          "BF_Schluessel": "BF26",
+          "Erlaeuterungen": "Sprachkenntnisliste von Beschäftigten aller Berufsgruppen im Intranet"
+        },
+        {
+          "BF_Schluessel": "BF20",
+          "Erlaeuterungen": "Untersuchungsliege im EEG für übergewichtige Patienten, übergroße und kleine Blutdruckmanschetten, Körperwaagen bis 250 kg"
+        },
+        {
+          "BF_Schluessel": "BF24",
+          "Erlaeuterungen": "Inanspruchnahme der Diätassistentin des benachbarten Klinikums; Sonderkostformen bei Essstörungen, Unverträglichkeiten und anderen Erkrankungen"
+        }
+      ]
+    },
+    "Akademische_Lehre": {
+      "Akademische_Lehre_Wissenschaftliche_Taetigkeit": [
+        {
+          "FL_Schluessel": "FL04",
+          "Erlaeuterungen": "Zusammenarbeit mit den Fachhochschulen in Landshut und Deggendorf"
+        },
+        {
+          "FL_Schluessel": "FL01",
+          "Erlaeuterungen": "Apl. Professur: Med. Fakultät der Uni Regensburg;  Dozentur: Med. Fakultät der LMU München;  Lehrbeauftragung: Philosophische Fakultät II / Psychologie der Uni Regensburg"
+        },
+        {
+          "FL_Schluessel": "FL03"
+        }
+      ]
+    },
+    "Ausbildung_andere_Heilberufe": {
+      "Ausbildung_in_anderen_Heilberufen": [
+        {
+          "HB_Schluessel": "HB17"
+        },
+        {
+          "HB_Schluessel": "HB19"
+        },
+        {
+          "HB_Schluessel": "HB06",
+          "Erlaeuterungen": "Praktika im Rahmen der Ausbildung in der KJP im BKH Landshut und der KJP-Außenstelle in Passau"
+        }
+      ]
+    },
+    "Anzahl_Betten": "260",
+    "Fallzahlen": {
+      "Vollstationaere_Fallzahl": "3234",
+      "Teilstationaere_Fallzahl": "517",
+      "Ambulante_Fallzahl": "8124",
+      "StaeB_Fallzahl": "0"
+    },
+    "Personal_des_Krankenhauses": {
+      "Aerzte": {
+        "Aerzte_ohne_Belegaerzte": {
+          "Personalerfassung": {
+            "Anzahl_VK": "56,95",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "56,95"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "14,66"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "42,29"
+              }
+            }
+          },
+          "Fachaerzte": {
+            "Personalerfassung": {
+              "Anzahl_VK": "21,45",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "21,45"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "8,84"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "12,61"
+                }
+              }
+            }
+          },
+          "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+        },
+        "Belegaerzte": {
+          "Anzahl": "0"
+        },
+        "Aerzte_ohne_Fachabteilungszuordnung": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          },
+          "Fachaerzte": {
+            "Personalerfassung": {
+              "Anzahl_VK": "0",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Pflegekraefte": {
+        "Gesundheits_Krankenpfleger": {
+          "Personalerfassung": {
+            "Anzahl_VK": "170,82",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "170,82"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "2,77"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "168,05"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Gesundheits_Kinderkrankenpfleger": {
+          "Personalerfassung": {
+            "Anzahl_VK": "15,48",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "15,48"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "1,5"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "13,98"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Altenpfleger": {
+          "Personalerfassung": {
+            "Anzahl_VK": "16,98",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "16,98"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "16,98"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Pflegefachpersonen": {
+          "Personalerfassung": {
+            "Anzahl_VK": "14,8",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "14,8"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "14,8"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Pflegefachpersonen_BSc": {
+          "Personalerfassung": {
+            "Anzahl_VK": "1,95",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "1,95"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "1,95"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Pflegeassistenten": {
+          "Personalerfassung": {
+            "Anzahl_VK": "13,12",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "13,12"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "13,12"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Krankenpflegehelfer": {
+          "Personalerfassung": {
+            "Anzahl_VK": "4,39",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "4,39"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "4,39"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Pflegehelfer": {
+          "Personalerfassung": {
+            "Anzahl_VK": "5,45",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "5,45"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "5,45"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Medizinische_Fachangestellte": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,26",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,26"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,26"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Massgebliche_tarifliche_Wochenarbeitszeit": "38,50"
+      },
+      "Ausgewaehltes_Personal_Psych": {
+        "Ausgewaehltes_Therapeutisches_Personal": {
+          "Diplom_Psychologen": {
+            "Personalerfassung": {
+              "Anzahl_VK": "40,13",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "40,13"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "9,76"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "30,37"
+                }
+              }
+            }
+          },
+          "Psychologische_Psychotherapeuten": {
+            "Personalerfassung": {
+              "Anzahl_VK": "3,54",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "3,54"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "1,36"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "2,18"
+                }
+              }
+            }
+          },
+          "Kinder_Jugendlichenpsychotherapeuten": {
+            "Personalerfassung": {
+              "Anzahl_VK": "5,87",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "5,87"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "4,13"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "1,74"
+                }
+              }
+            }
+          },
+          "Psychotherapeuten_in_Ausbildung_waehrend_Taetigkeit": {
+            "Personalerfassung": {
+              "Anzahl_VK": "14,41",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "14,41"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "14,41"
+                }
+              }
+            }
+          },
+          "Ergotherapeuten": {
+            "Personalerfassung": {
+              "Anzahl_VK": "21,36",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "21,36"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "21,36"
+                }
+              }
+            }
+          },
+          "Physiotherapeuten": {
+            "Personalerfassung": {
+              "Anzahl_VK": "10,42",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "10,42"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "10,42"
+                }
+              }
+            }
+          },
+          "Sozialpaedagogen": {
+            "Personalerfassung": {
+              "Anzahl_VK": "26,48",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "26,48"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "5,37"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "21,11"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Umgang_mit_Risiken_in_der_Patientenversorgung": {
+      "Verantwortliche_Person_Qualitaetsmanagement": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Andrea",
+            "Nachname": "Boros",
+            "Funktion_Arbeitsschwerpunkt": "Beauftragte Qualitäts- und Risikomanagement"
+          },
+          "Telefon": {
+            "Vorwahl": "0871",
+            "Rufnummer": "6008",
+            "Durchwahl": "660"
+          },
+          "Fax": {
+            "Vorwahl": "0871",
+            "Rufnummer": "6006",
+            "Durchwahl": "614"
+          },
+          "Email": "a.boros@bkh-landshut.de"
+        }
+      },
+      "Lenkungsgremium_Qualitaetsmanagement": {
+        "Lenkungsgremium": {
+          "Beteiligte_Abteilungen_Funktionsbereiche": "Krankenhausleitung",
+          "Tagungsfrequenz": "andere Frequenz"
+        }
+      },
+      "Verantwortliche_Person_Risikomanagement": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Andrea",
+            "Nachname": "Boros",
+            "Funktion_Arbeitsschwerpunkt": "Beauftragte Qualitäts- und Risikomanagement"
+          },
+          "Telefon": {
+            "Vorwahl": "0871",
+            "Rufnummer": "6008",
+            "Durchwahl": "660"
+          },
+          "Fax": {
+            "Vorwahl": "0871",
+            "Rufnummer": "6006",
+            "Durchwahl": "614"
+          },
+          "Email": "a.boros@bkh-landshut.de"
+        }
+      },
+      "Lenkungsgremium_Risikomanagement": {
+        "Lenkungsgremium": {
+          "Beteiligte_Abteilungen_Funktionsbereiche": "Krankenhausleitung",
+          "Tagungsfrequenz": "andere Frequenz"
+        }
+      },
+      "Instrumente_Massnahmen_Risikomanagement": {
+        "Instrument_Massnahme_Risikomanagement": [
+          {
+            "RM_Schluessel": "RM07",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Standard Dekubitusprophylaxe nach EPS",
+                "Datum": "2022-06-27"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM18",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Standard Entlassmanagement EP nach § 39 Abs. 1a SGB V",
+                "Datum": "2024-07-11"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM10",
+            "Zusatzangaben_RM": {
+              "Fallbesprechungen_Konferenzen": {
+                "Fallbesprechung_Konferenz": {
+                  "Andere": "Fallbesprechung im Rahmen des klinikinternen Fortbildungscurriculums"
+                }
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM08",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Standard Freiheitsentziehende Maßnahmen/  Dienstanweisung für die Vorgehensweise bei Fixierungen",
+                "Datum": "2022-01-28"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM09",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Organisationsverfügung Umsetzung Medizinproduktegesetz",
+                "Datum": "2021-06-01"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM06",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Standard Sturzprophylaxe nach EPS",
+                "Datum": "2023-02-08"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM04",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Notfallstandard",
+                "Datum": "2024-07-25"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM12"
+          },
+          {
+            "RM_Schluessel": "RM01",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Standard zur Lenkung von unerwünschten Ereignissen",
+                "Datum": "2020-03-06"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM02"
+          }
+        ]
+      },
+      "Einrichtungsinternes_Fehlermeldesystem": {
+        "Tagungsgremium": {
+          "Tagungsfrequenz": "andere Frequenz"
+        },
+        "Massnahmen": "Maßnahmen",
+        "Fehlermeldesystem_intern": {
+          "System_intern": [
+            {
+              "IF_Schluessel": "IF03",
+              "Zusatzangaben_IF": {
+                "Frequenz": "bei Bedarf"
+              }
+            },
+            {
+              "IF_Schluessel": "IF01",
+              "Zusatzangaben_IF": {
+                "Datum": "2020-03-06"
+              }
+            },
+            {
+              "IF_Schluessel": "IF02",
+              "Zusatzangaben_IF": {
+                "Frequenz": "bei Bedarf"
+              }
+            }
+          ]
+        }
+      },
+      "Hygienepersonal": {
+        "Krankenhaushygieniker": {
+          "Anzahl": "0",
+          "Erlaeuterungen": "bedarfsweise Beratung durch den Krankenhaushygieniker des benachbarten Klinikums"
+        },
+        "Hygienebeauftragte_Aerzte": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "2"
+          },
+          "Erlaeuterungen": "eine hygienebeauftragte Ärztin/ ein hygienebeauftragter Arzt pro Klinik"
+        },
+        "Hygienefachkraefte": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "1"
+          },
+          "Erlaeuterungen": "Aufrechterhaltung und ständige Verbesserung des Systems zur Infektionsprävention (Schutzausrüstung, Aktualisierung von Dokumenten, Hygienebegehung, Geräteprüfung, Unterweisung) und Infektionsbekämpfung"
+        },
+        "Hygienebeauftragte_Pflege": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "22"
+          },
+          "Erlaeuterungen": "Neben der für beide Kliniken zuständigen Hygienefachkraft gibt es auf jeder Station im Pflege- und Erziehungsdienst mindestens eine/n Ansprechpartner/in für Hygiene, die für die Einhaltung der Vorgaben und die Information der MitarbeiterInnen in ihrem Bereich sorgt."
+        },
+        "Hygienekommission_eingerichtet": {
+          "Kontakt_Person_kurz": {
+            "Person": {
+              "Titel": "PD Dr.",
+              "Vorname": "Jürgen",
+              "Nachname": "Unger",
+              "Funktion_Arbeitsschwerpunkt": "Hygienebeauftragter Arzt"
+            },
+            "Telefon": {
+              "Vorwahl": "0871",
+              "Rufnummer": "6008",
+              "Durchwahl": "146"
+            },
+            "Fax": {
+              "Vorwahl": "0871",
+              "Rufnummer": "6008",
+              "Durchwahl": "148"
+            },
+            "Email": "j.unger@bkh-landshut.de"
+          },
+          "Tagungsfrequenz": "halbjährlich"
+        }
+      },
+      "Weitere_Informationen_Hygiene": {
+        "Kein_Einsatz_ZVK": {},
+        "Antibiotikaprophylaxe_Antibiotikatherapie": {
+          "Leitlinie_Antibiotikatherapie_liegt_nicht_vor": {},
+          "Keine_Durchfuehrung_Operationen": {}
+        },
+        "Umgang_Wunden": {
+          "Standard_Wundversorgung_Verbandwechsel_liegt_vor": {
+            "Standard_thematisiert": {
+              "Hygienische_Haendedesinfektion": "ja",
+              "Verbandwechsel_aseptische_Bedingungen": "ja",
+              "Antiseptische_Behandlung_infizierte_Wunden": "ja",
+              "Pruefung_Notwendigkeit_Wundauflage": "ja",
+              "Meldung_Wundinfektion": "ja"
+            },
+            "Standard_autorisiert": "ja"
+          }
+        },
+        "Haendedesinfektion": {
+          "Haendedesinfektionsmittelverbrauch_Allgemeinstationen_wurde_nicht_erhoben": {},
+          "Keine_Intensivstation_vorhanden": {},
+          "Erfassung_Haendedesinfektionsmittelverbrauch_stationsbezogen": "nein"
+        },
+        "Umgang_Patienten_MRE": {
+          "Standardisierte_Information_MRSA": "nein",
+          "Informationsmanagement_MRSA": "ja",
+          "Risikoadaptives_Aufnahmescreening": "teilweise",
+          "Regelmaessige_Schulungen": "ja"
+        },
+        "Hygienebezogenes_Risikomanagement": {
+          "Hygiene_Instrument_Massnahme": {
+            "HM_Schluessel": "HM09",
+            "Zusatzangaben_HM": {
+              "Frequenz": "monatlich"
+            },
+            "Erlaeuterungen": "für ärztliches und Pflegepersonal bei Arbeitsaufnahme und im Rahmen der jährlichen Pflichtfortbildung; für hygienebeauftragte Pflegende einmal jährlich zum Umgang mit von MRSA, MRE, Noro-Viren besiedelten Patientinnen und Patienten, zur Händedesinfektion und anderen Schwerpunktthemen; für technisches Personal und Funktionstherapeuten bedarfsweise."
+          }
+        }
+      },
+      "Beschwerdemanagement": {
+        "Strukturiertes_Beschwerdemanagement": {
+          "Strukturiertes_Beschwerdemanagement_Eingefuehrt": "ja",
+          "Erlaeuterungen": "In den Hinweisen und Beschwerden von Kunden liegt wichtiges Potenzial, das wir für die ständige Verbesserung nutzen."
+        },
+        "Schriftliches_Konzept": {
+          "Schriftliches_Konzept_Existiert": "ja",
+          "Erlaeuterungen": "QM-Standard zur Lenkung von Beschwerden und Hinweisen, Version 10 vom 30.11.2022; Der Standard beschreibt den Umgang mit Hinweisen und Beschwerden von Patientinnen und Patienten, Angehörigen und anderen Kundinnen und Kunden."
+        },
+        "Umgang_muendliche_Beschwerden": {
+          "Umgang_muendliche_Beschwerden_Geregelt": "ja",
+          "Erlaeuterungen": "Jede/r Beschäftigte ist zuständig! Sofern das Problem nicht sofort geklärt werden kann, wird die Beschwerde schriftlich (Formular „Erfassungsnotiz“) erfasst und an die Abteilung Qualitätsmanagement weitergegeben. Lobende Worte oder Verbesserungsvorschläge von Patientinnen und Patienten werden auf die gleiche Weise transportiert und bearbeitet. Lob, Beschwerden und Verbesserungsvorschläge sind im Intranet für alle Beschäftigten einsehbar."
+        },
+        "Umgang_schriftliche_Beschwerden": {
+          "Umgang_schriftliche_Beschwerden_Geregelt": "ja",
+          "Erlaeuterungen": "In den Eingangsbereichen des BKH Landshut und der Außenstellen der Klinik für Kinder- und Jugendpsychiatrie in Passau, Deggendorf, Zwiesel und Waldkirchen und auf den Stationen hängen an zentraler Stelle Briefkästen. Ein Plakat über dem Briefkasten ersucht die Kunden, dem Krankenhaus mitzuteilen, was ihnen im Krankenhaus gefällt und was verbessert werden könnte. Diese Briefkästen werden täglich geleert, um zu gewährleisten, dass auf jede Beschwerde/jeden Hinweis rasch reagiert werden kann."
+        },
+        "Zeitziele_fuer_Rueckmeldung": {
+          "Zeitziele_fuer_Rueckmeldung_Definiert": "nein",
+          "Erlaeuterungen": "Die zeitnahe Antwort auf eine Beschwerde ist selbstverständlich und durch entsprechende Vertretungsregelung  bei Abwesenheit der Ansprechperson auch gewährleistet."
+        },
+        "Ansprechpartner": {
+          "Ansprechpersonen": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Angela",
+                "Nachname": "Mahler",
+                "Funktion_Arbeitsschwerpunkt": "Mitarbeiterin Qualitätsmanagement"
+              },
+              "Telefon": {
+                "Vorwahl": "0871",
+                "Rufnummer": "6008",
+                "Durchwahl": "608"
+              },
+              "Fax": {
+                "Vorwahl": "0871",
+                "Rufnummer": "6008",
+                "Durchwahl": "614"
+              },
+              "Email": "a.mahler@bkh-landshut.de"
+            }
+          },
+          "Erlaeuterungen": "Die Ansprechperson ist Mitarbeiterin der Stabsstelle Qualitäts- und Risikomanagement des BKH. Die Kontaktdaten finden   Beschwerdeführerinnen und Beschwerdeführer auf der BKH-homepage."
+        },
+        "Anonyme_Eingabemoeglichkeiten": {
+          "Anonyme_Eingabemoeglichkeiten_Existieren": "ja",
+          "Erlaeuterungen": "über die homepage oder per Formular - Einer anonymen Beschwerde wird nur nachgegangen, wenn Angaben zu Bereichen und/ oder Personal gemacht werden. Pauschale Beschwerden werden nicht bearbeitet.",
+          "URL_Kontaktformular": "http://www.bkh-landshut.de/lobundkritik.html"
+        },
+        "Patientenbefragungen": {
+          "Patientenbefragungen_Durchgefuehrt": "nein"
+        },
+        "Einweiserbefragungen": {
+          "Einweiserbefragungen_Durchgefuehrt": "nein"
+        }
+      },
+      "Arzneimitteltherapiesicherheit": {
+        "Hinweis_Arzneimitteltherapiesicherheit": "AMTS ist die Gesamtheit der Maßnahmen zur Gewährleistung eines optimalen Medikationsprozesses mit dem Ziel, Medikationsfehler und damit vermeidbare Risiken für Patientinnen und Patienten bei der Arzneimitteltherapie zu verringern. Eine Voraussetzung für die erfolgreiche Umsetzung dieser Maßnahmen ist, dass AMTS als integraler Bestandteil der täglichen Routine in einem interdisziplinären und multiprofessionellen Ansatz gelebt wird.",
+        "Verantwortliches_Gremium_AMTS": {
+          "Anderes_Gremium_Arbeitsgruppe": {
+            "Name_verantwortliches_Gremium_Arbeitsgruppe": "Leitungsgremium der jeweiligen Klinik",
+            "Beteiligte_Abteilungen_Funktionsbereiche": "Chef-/ Ober-Ärztinnen und Ärzte der jeweiligen Klinik"
+          }
+        },
+        "Verantwortliche_Person_AMTS": {
+          "Verantwortliche_Person_festgelegt": {
+            "Eigenstaendige_Position_AMTS": {
+              "Kontakt_Person_lang": {
+                "Person": {
+                  "Titel": "Prof. Dr.",
+                  "Vorname": "Hermann",
+                  "Nachname": "Spießl",
+                  "Funktion_Arbeitsschwerpunkt": "Ärztlicher Direktor"
+                },
+                "Telefon": {
+                  "Vorwahl": "0871",
+                  "Rufnummer": "6008",
+                  "Durchwahl": "140"
+                },
+                "Fax": {
+                  "Vorwahl": "0871",
+                  "Rufnummer": "6008",
+                  "Durchwahl": "148"
+                },
+                "Email": "h.spiessl@bkh-landshut.de"
+              }
+            }
+          }
+        },
+        "Pharmazeutisches_Personal": {
+          "Anzahl_Apotheker": "0",
+          "Anzahl_weiteres_pharmazeutisches_Personal": "0",
+          "Erlaeuterungen": "Kooperation mit der Apotheke des benachbarten Klinikums"
+        },
+        "Instrumente_Massnahmen_AMTS": {
+          "Hinweis_Instrumente_Massnahmen_AMTS": "Die Instrumente und Maßnahmen zur Förderung der Arzneimitteltherapiesicherheit werden mit Fokus auf den typischen Ablauf des Medikationsprozesses bei der stationären Patientenversorgung dargestellt. Eine Besonderheit des Medikationsprozesses im stationären Umfeld stellt das Überleitungsmanagement bei Aufnahme und Entlassung dar. Die im Folgenden gelisteten Instrumente und Maßnahmen adressieren Strukturelemente, zum Beispiel besondere EDV-Ausstattung und Arbeitsmaterialien, sowie Prozessaspekte, wie Arbeitsbeschreibungen für besonders risikobehaftete Prozessschritte bzw. Konzepte zur Sicherung typischer Risikosituationen. Zusätzlich können bewährte Maßnahmen zur Vermeidung von bzw. zum Lernen aus Medikationsfehlern angegeben werden. Das Krankenhaus stellt hier dar, mit welchen Aspekten es sich bereits auseinandergesetzt bzw. welche Maßnahmen es konkret umgesetzt hat. Die folgenden Aspekte können, gegebenenfalls unter Verwendung von Freitextfeldern, dargestellt werden: \n\r - Aufnahme ins Krankenhaus, inklusive Anamnese \n\r Dargestellt werden können Instrumente und Maßnahmen zur Ermittlung der bisherigen Medikation (Arzneimittelanamnese), der anschließenden klinischen Bewertung und der Umstellung auf die im Krankenhaus verfügbare Medikation (Hausliste), sowie zur Dokumentation, sowohl der ursprünglichen Medikation der Patientin oder des Patienten als auch der für die Krankenhausbehandlung angepassten Medikation. \n\r - Medikationsprozess im Krankenhaus \n\r Im vorliegenden Rahmen wird beispielhaft von folgenden Teilprozessen ausgegangen: Arzneimittelanamnese – Verordnung – Patienteninformation – Arzneimittelabgabe – Arzneimittelanwendung – Dokumentation – Therapieüberwachung – Ergebnisbewertung. Dargestellt werden können hierzu Instrumente und Maßnahmen zur sicheren Arzneimittelverordnung, zum Beispiel bezüglich Leserlichkeit, Eindeutigkeit und Vollständigkeit der Dokumentation, aber auch bezüglich Anwendungsgebiet, Wirksamkeit, Nutzen-Risiko-Verhältnisses, Verträglichkeit (inklusive potenzieller Kontraindikationen, Wechselwirkungen und Ähnliches) und Ressourcenabwägungen. Außerdem können Angaben zur Unterstützung einer zuverlässigen Arzneimittelbestellung, -abgabe und -anwendung bzw. -verabreichung gemacht werden. \n\r - Entlassung \n\r Dargestellt werden können insbesondere die Maßnahmen der Krankenhäuser, die sicherstellen, dass eine strukturierte und sichere Weitergabe von Informationen zur Arzneimitteltherapie an weiterbehandelnde Ärztinnen und Ärzte sowie die angemessene Ausstattung der Patientinnen und Patienten mit Arzneimittelinformationen, Medikationsplan und Medikamenten bzw. Arzneimittelverordnungen erfolgt.",
+          "Instrument_Massnahme_AMTS": [
+            {
+              "AMTS_Schluessel": "AS03",
+              "Zusatzangaben_AMTS": {
+                "SOP": {
+                  "Name": "Entlassmanagement EP",
+                  "Datum": "2024-07-11"
+                }
+              }
+            },
+            {
+              "AMTS_Schluessel": "AS01"
+            },
+            {
+              "AMTS_Schluessel": "AS13",
+              "Zusatzangaben_AMTS": {
+                "Massnahmen_Arzneimitteltherapie_Entlassung": {
+                  "Massnahme_Arzneimitteltherapie_Entlassung": [
+                    {
+                      "Massnahme": "Aushändigung von arzneimittelbezogenen Informationen für die Weiterbehandlung und Anschlussversorgung der Patientin oder des Patienten im Rahmen eines (ggf. vorläufigen) Entlassbriefs"
+                    },
+                    {
+                      "Massnahme": "Aushändigung des Medikationsplans"
+                    },
+                    {
+                      "Massnahme": "bei Bedarf Arzneimittel-Mitgabe oder Ausstellung von Entlassrezepten"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "AMTS_Schluessel": "AS04"
+            },
+            {
+              "AMTS_Schluessel": "AS02"
+            },
+            {
+              "AMTS_Schluessel": "AS07"
+            },
+            {
+              "AMTS_Schluessel": "AS12",
+              "Zusatzangaben_AMTS": {
+                "Massnahmen_Minimierung_Medikationsfehler": {
+                  "Massnahme_Minimierung_Medikationsfehler": [
+                    {
+                      "Massnahme": "Maßnahmen zur Vermeidung von Arzneimittelverwechslung"
+                    },
+                    {
+                      "Andere_Massnahme": "Standard zur Medikamentenbewirtschaftung vom 13.03.2024 - Stellen, Kontrolle und Ausgabe von Medikamenten klar geregelt"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "AMTS_Schluessel": "AS08"
+            }
+          ]
+        }
+      },
+      "Praevention_Hilfe_Missbrauch_Gewalt": {
+        "Hinweis_Praevention_Hilfe_Missbrauch_Gewalt": "Gemäß Teil A § 4 Absatz 2 der Qualitätsmanagement-Richtlinie haben Einrichtungen die Prävention von und Intervention bei Gewalt und Missbrauch als Teil des einrichtungsinternen Qualitätsmanagements vorzusehen. Ziel ist es, Missbrauch und Gewalt insbesondere gegenüber vulnerablen Patientengruppen, wie beispielsweise Kindern und Jugendlichen oder hilfsbedürftigen Personen, vorzubeugen, zu erkennen, adäquat darauf zu reagieren und auch innerhalb der Einrichtung zu verhindern. Das jeweilige Vorgehen wird an Einrichtungsgröße, Leistungsspektrum und den Patientinnen und Patienten ausgerichtet, um so passgenaue Lösungen zur Sensibilisierung der Teams sowie weitere geeignete vorbeugende und intervenierende Maßnahmen festzulegen. Dies können unter anderem Informationsmaterialien, Kontaktadressen, Schulungen/Fortbildungen, Verhaltenskodizes, Handlungsempfehlungen/Interventionspläne oder umfassende Schutzkonzepte sein.",
+        "Praevention_Intervention_Massnahmen": "ja",
+        "Kommentar": "Verhaltenskodizes gibt es; ein für die Klinik und die Außenstellen anwendbares Schutzkonzept wird im Rahmen eines Projekts mit der FH Landshut erarbeitet.",
+        "Schutzkonzepte_Gewalt_Kinder": {
+          "Hinweis_Schutzkonzepte_Gewalt_Kinder": "Gemäß Teil A § 4 Absatz 2 in Verbindung mit Teil B Abschnitt I § 1 der Qualitätsmanagement-Richtlinie haben sich Einrichtungen, die Kinder und Jugendliche versorgen, gezielt mit der Prävention von und Intervention bei (sexueller) Gewalt und Missbrauch bei Kindern und Jugendlichen zu befassen (Risiko- und Gefährdungsanalyse) und – der Größe und Organisationsform der Einrichtung entsprechend – konkrete Schritte und Maßnahmen abzuleiten (Schutzkonzept). In diesem Abschnitt geben Krankenhäuser, die Kinder und Jugendliche versorgen, an, ob sie gemäß Teil A § 4 Absatz 2 in Verbindung mit Teil B Abschnitt I § 1 der Qualitätsmanagement-Richtlinie ein Schutzkonzept gegen (sexuelle) Gewalt bei Kindern und Jugendlichen aufweisen.",
+          "Versorgung_Kinder_Jugendliche": {
+            "Schutzkonzept_gegen_Gewalt_liegt_vor": {
+              "Schutzkonzept": [
+                {
+                  "SK_Schluessel": "SK06",
+                  "Kommentar": "Vorlage Führungszeugnis"
+                },
+                {
+                  "SK_Schluessel": "SK03",
+                  "Kommentar": "regelmäßig im Rahmen von Fortbildungen und anlassbezogen mit Eltern und Teams"
+                },
+                {
+                  "SK_Schluessel": "SK05",
+                  "Kommentar": "Gespräche mit dem Personal, schriftl. Beschwerdemöglichkeit über den QM-Briefkasten oder über die Homepage - auch anonym möglich; keine Beschwerdesystematik gezielt für (sexualisierte) Gewalt, insb. altersbezogen, und wenn jemand (noch) nicht schreiben kann."
+                },
+                {
+                  "SK_Schluessel": "SK01",
+                  "Kommentar": "im Rahmen von externen Fortbildungen"
+                },
+                {
+                  "SK_Schluessel": "SK02",
+                  "Kommentar": "interne PAIR-Basisschulung für alle Berufsgruppen; Fortbildungen zum Durchbrechen der ärztlichen Schweigepflicht regelmäßig sowie anlassbezogen"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "Apparative_Ausstattung": {
+      "Geraet": {
+        "AA_Schluessel": "AA10",
+        "Notfallverfuegbarkeit_24h": "nein",
+        "Erlaeuterungen": "EEG (24 Stunden im benachbarten Klinikum verfügbar, im eigenen Haus während des Tagdienstes).\n\n + Innovative, nicht-invasive Behandlungsverfahren: rTMS (repetitive transkranielle Magnetstimulation) und tDCS (transkranielle Gleichstromstimulation)."
+      }
+    },
+    "Teilnahme_Notfallversorgung": {
+      "Hinweis_Teilnahme_Notfallversorgung": "Alle Krankenhäuser gewährleisten Notfallversorgung und haben allgemeine Pflichten zur Hilfeleistung im Notfall. Darüber hinaus hat der Gemeinsame Bundesausschuss ein gestuftes System von Notfallstrukturen in Krankenhäusern im entgeltrechtlichen Sinne geregelt. Das bedeutet, dass Krankenhäuser, die festgelegte Anforderungen an eine von drei Notfallstufen erfüllen, durch Vergütungszuschläge finanziell unterstützt werden. Krankenhäuser, die die Anforderungen an eine der drei Stufen nicht erfüllen, erhalten keine Zuschläge. Nimmt ein Krankenhaus nicht am gestuften System von Notfallstrukturen teil und gewährleistet es nicht eine spezielle Notfallversorgung, sieht der Gesetzgeber Abschläge vor.",
+      "Teilnahme_Notfallstufe": {
+        "Keine_Teilnahme_Notfallversorgung": {}
+      },
+      "Kooperation_mit_Kassenaerztlicher_Vereinigung": {
+        "Notdienstpraxis_Existiert": "nein",
+        "Vertragsaerztlicher_Notdienst_Existiert": "nein"
+      }
+    },
+    "Organisationseinheiten_Fachabteilungen": {
+      "Organisationseinheit_Fachabteilung": [
+        {
+          "Gliederungsnummer": "1",
+          "Name": "Klinik für Kinder- und Jugendpsychiatrie, Psychotherapie und Psychosomatik",
+          "Aerztliche_Leitung_OE": {
+            "Chefarzt": {
+              "Kontakt_Person_lang": {
+                "Person": {
+                  "Titel": "Dr.",
+                  "Vorname": "Tanja",
+                  "Nachname": "Hochegger",
+                  "Funktion_Arbeitsschwerpunkt": "Chefärztin"
+                },
+                "Telefon": {
+                  "Vorwahl": "0871",
+                  "Rufnummer": "6008",
+                  "Durchwahl": "390"
+                },
+                "Fax": {
+                  "Vorwahl": "0871",
+                  "Rufnummer": "6008",
+                  "Durchwahl": "392"
+                },
+                "Email": "t.hochegger@bkh-landshut.de"
+              },
+              "Kontakt_Zugang": {
+                "Strasse": "Prof.-Buchner-Str.",
+                "Hausnummer": "22",
+                "Postleitzahl": "84034",
+                "Ort": "Landshut",
+                "URL_Zugang": "http://www.bkh-landshut.de"
+              }
+            }
+          },
+          "Zielvereinbarungen": {
+            "Keine_Zielvereinbarungen_geschlossen": {}
+          },
+          "Fachabteilungsschluessel": [
+            {
+              "FA_Schluessel": "3000"
+            },
+            {
+              "FA_Schluessel": "3060"
+            }
+          ],
+          "Medizinische_Leistungsangebote": {
+            "Medizinisches_Leistungsangebot": [
+              {
+                "Sonstiger": {
+                  "VA_VU_Sonstiger_Schluessel": "VP00",
+                  "Bezeichnung": "Liaisondienst"
+                },
+                "Erlaeuterungen": "Etablierung in unterschiedlichen Einrichtungen, in denen Kinder/ Jugendliche betreut werden."
+              },
+              {
+                "Sonstiger": {
+                  "VA_VU_Sonstiger_Schluessel": "VP00",
+                  "Bezeichnung": "Regel- und Intensivbehandlung"
+                },
+                "Erlaeuterungen": "Auf allen Stationen werden allgemein-psychiatrische, intensivpsychiatrische, psychotherapeutische, psychosomatische und störungsspezifische Behandlungsvorgaben und Milieuanforderungen realisiert."
+              },
+              {
+                "VA_VU_Schluessel": "VP07"
+              },
+              {
+                "VA_VU_Schluessel": "VP02"
+              },
+              {
+                "VA_VU_Schluessel": "VP06"
+              },
+              {
+                "VA_VU_Schluessel": "VP12",
+                "Erlaeuterungen": "In der PIA LA bieten wir Spezialsprechstunden für Suchterkrankungen, Schulabsentismus, tiefgreifende Entwicklungsstörungen sowie für komplex-traumatisierte Patienten an."
+              },
+              {
+                "VA_VU_Schluessel": "VP08"
+              },
+              {
+                "VA_VU_Schluessel": "VP01"
+              },
+              {
+                "VA_VU_Schluessel": "VP03"
+              },
+              {
+                "VA_VU_Schluessel": "VP04"
+              },
+              {
+                "VA_VU_Schluessel": "VP15",
+                "Erlaeuterungen": "Landshut: 18 Plätze; Deggendorf: 15 Plätze, Passau: 18 Plätze - alle KJP-Erkrankungen, deren Schweregrad eine vollstationäre Behandlung erfordert, aber der familiäre und soziale Rückhalt des Patienten ausreicht, eine solche Maßnahme und die damit verbundenen Trennungserfahrungen zu vermeiden."
+              },
+              {
+                "VA_VU_Schluessel": "VP11"
+              },
+              {
+                "VA_VU_Schluessel": "VP05"
+              },
+              {
+                "Sonstiger": {
+                  "VA_VU_Sonstiger_Schluessel": "VP00",
+                  "Bezeichnung": "Institut für Schulische und Psychosoziale Rehabilitation (ISPR)"
+                },
+                "Erlaeuterungen": "Einheit aus Heilpädagogischer Tagesstätte, Schule für Kranke, Institutsambulanz; die erzieherische, schulische und therapeutische Betreuung wird auf Basis eines einheitlichen Konzepts in den Alltag von 16 Kindern und Jugendlichen integriert."
+              },
+              {
+                "VA_VU_Schluessel": "VP09"
+              },
+              {
+                "Sonstiger": {
+                  "VA_VU_Sonstiger_Schluessel": "VP00",
+                  "Bezeichnung": "Gutachterliche Tätigkeiten"
+                },
+                "Erlaeuterungen": "Anfertigung von fachärztlichen Gutachten"
+              },
+              {
+                "Sonstiger": {
+                  "VA_VU_Sonstiger_Schluessel": "VP00",
+                  "Bezeichnung": "Konsildienst"
+                },
+                "Erlaeuterungen": "Konsilvereinbarung mit der Kinderklinik vor Ort"
+              }
+            ]
+          },
+          "Fallzahlen_OE": {
+            "Vollstationaere_Fallzahl": "663",
+            "Teilstationaere_Fallzahl": "111"
+          },
+          "Hauptdiagnosen": {
+            "Hauptdiagnose": [
+              {
+                "ICD_10": "F32.1",
+                "Fallzahl": "330"
+              },
+              {
+                "ICD_10": "F43.2",
+                "Fallzahl": "93"
+              },
+              {
+                "ICD_10": "F90.1",
+                "Fallzahl": "40"
+              },
+              {
+                "ICD_10": "F43.1",
+                "Fallzahl": "27"
+              },
+              {
+                "ICD_10": "F32.2",
+                "Fallzahl": "22"
+              },
+              {
+                "ICD_10": "F60.31",
+                "Fallzahl": "19"
+              },
+              {
+                "ICD_10": "F12.2",
+                "Fallzahl": "15"
+              },
+              {
+                "ICD_10": "F90.0",
+                "Fallzahl": "15"
+              },
+              {
+                "ICD_10": "F91.3",
+                "Fallzahl": "15"
+              },
+              {
+                "ICD_10": "F41.2",
+                "Fallzahl": "14"
+              },
+              {
+                "ICD_10": "F92.8",
+                "Fallzahl": "12"
+              },
+              {
+                "ICD_10": "F50.00",
+                "Fallzahl": "11"
+              },
+              {
+                "ICD_10": "F92.0",
+                "Fallzahl": "11"
+              },
+              {
+                "ICD_10": "F40.1",
+                "Fallzahl": "9"
+              },
+              {
+                "ICD_10": "F42.2",
+                "Fallzahl": "9"
+              },
+              {
+                "ICD_10": "F84.5",
+                "Fallzahl": "8"
+              },
+              {
+                "ICD_10": "F93.2",
+                "Fallzahl": "8"
+              },
+              {
+                "ICD_10": "F40.2",
+                "Fallzahl": "6"
+              },
+              {
+                "ICD_10": "F50.1",
+                "Fallzahl": "5"
+              },
+              {
+                "ICD_10": "F61",
+                "Fallzahl": "5"
+              },
+              {
+                "ICD_10": "F84.0",
+                "Fallzahl": "5"
+              },
+              {
+                "ICD_10": "F91.2",
+                "Fallzahl": "5"
+              },
+              {
+                "ICD_10": "F10.0",
+                "Fallzahl": "4"
+              },
+              {
+                "ICD_10": "F12.1",
+                "Fallzahl": "4"
+              },
+              {
+                "ICD_10": "F20.0",
+                "Fallzahl": "4"
+              },
+              {
+                "ICD_10": "F33.1",
+                "Fallzahl": "4"
+              },
+              {
+                "ICD_10": "F91.1",
+                "Fallzahl": "4"
+              },
+              {
+                "ICD_10": "F10.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F11.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F12.5",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F15.5",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F19.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F19.5",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F20.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F20.5",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F20.9",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F23.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F25.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F25.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F31.6",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F32.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F32.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F33.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F40.01",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F41.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F41.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F42.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F43.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F44.5",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F50.01",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F50.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F60.6",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F63.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F63.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F64.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F70.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F84.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F91.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F91.9",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F93.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F93.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F93.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F93.9",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F94.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F94.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F94.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F95.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F98.1",
+                "Fallzahl_Datenschutz": {}
+              }
+            ]
+          },
+          "Prozeduren": {
+            "Freiwillige_Angabe": {
+              "Prozedur": [
+                {
+                  "OPS_301": "9-696.40",
+                  "Anzahl": "1146"
+                },
+                {
+                  "OPS_301": "9-696.53",
+                  "Anzahl": "984"
+                },
+                {
+                  "OPS_301": "9-696.10",
+                  "Anzahl": "739"
+                },
+                {
+                  "OPS_301": "9-672",
+                  "Anzahl": "703"
+                },
+                {
+                  "OPS_301": "9-656",
+                  "Anzahl": "660"
+                },
+                {
+                  "OPS_301": "9-696.33",
+                  "Anzahl": "385"
+                },
+                {
+                  "OPS_301": "9-696.41",
+                  "Anzahl": "324"
+                },
+                {
+                  "OPS_301": "9-696.32",
+                  "Anzahl": "309"
+                },
+                {
+                  "OPS_301": "9-696.34",
+                  "Anzahl": "304"
+                },
+                {
+                  "OPS_301": "9-696.11",
+                  "Anzahl": "290"
+                },
+                {
+                  "OPS_301": "9-696.30",
+                  "Anzahl": "272"
+                },
+                {
+                  "OPS_301": "9-696.12",
+                  "Anzahl": "262"
+                },
+                {
+                  "OPS_301": "9-696.35",
+                  "Anzahl": "252"
+                },
+                {
+                  "OPS_301": "9-696.13",
+                  "Anzahl": "245"
+                },
+                {
+                  "OPS_301": "9-696.36",
+                  "Anzahl": "224"
+                },
+                {
+                  "OPS_301": "9-696.31",
+                  "Anzahl": "217"
+                },
+                {
+                  "OPS_301": "9-696.51",
+                  "Anzahl": "213"
+                },
+                {
+                  "OPS_301": "9-696.37",
+                  "Anzahl": "195"
+                },
+                {
+                  "OPS_301": "9-696.14",
+                  "Anzahl": "191"
+                },
+                {
+                  "OPS_301": "9-696.57",
+                  "Anzahl": "158"
+                },
+                {
+                  "OPS_301": "9-696.52",
+                  "Anzahl": "151"
+                },
+                {
+                  "OPS_301": "9-696.15",
+                  "Anzahl": "147"
+                },
+                {
+                  "OPS_301": "9-696.20",
+                  "Anzahl": "141"
+                },
+                {
+                  "OPS_301": "9-696.38",
+                  "Anzahl": "133"
+                },
+                {
+                  "OPS_301": "9-696.16",
+                  "Anzahl": "119"
+                },
+                {
+                  "OPS_301": "9-696.39",
+                  "Anzahl": "118"
+                },
+                {
+                  "OPS_301": "9-696.42",
+                  "Anzahl": "115"
+                },
+                {
+                  "OPS_301": "9-696.50",
+                  "Anzahl": "115"
+                },
+                {
+                  "OPS_301": "9-696.17",
+                  "Anzahl": "104"
+                },
+                {
+                  "OPS_301": "9-696.18",
+                  "Anzahl": "97"
+                },
+                {
+                  "OPS_301": "9-696.0",
+                  "Anzahl": "83"
+                },
+                {
+                  "OPS_301": "9-696.56",
+                  "Anzahl": "78"
+                },
+                {
+                  "OPS_301": "9-696.3a",
+                  "Anzahl": "74"
+                },
+                {
+                  "OPS_301": "1-207.0",
+                  "Anzahl": "67"
+                },
+                {
+                  "OPS_301": "9-696.1g",
+                  "Anzahl": "67"
+                },
+                {
+                  "OPS_301": "9-696.19",
+                  "Anzahl": "66"
+                },
+                {
+                  "OPS_301": "9-696.55",
+                  "Anzahl": "64"
+                },
+                {
+                  "OPS_301": "9-696.3b",
+                  "Anzahl": "60"
+                },
+                {
+                  "OPS_301": "9-696.43",
+                  "Anzahl": "57"
+                },
+                {
+                  "OPS_301": "9-696.54",
+                  "Anzahl": "56"
+                },
+                {
+                  "OPS_301": "9-984.7",
+                  "Anzahl": "48"
+                },
+                {
+                  "OPS_301": "9-696.1a",
+                  "Anzahl": "44"
+                },
+                {
+                  "OPS_301": "9-696.44",
+                  "Anzahl": "40"
+                },
+                {
+                  "OPS_301": "9-696.3c",
+                  "Anzahl": "39"
+                },
+                {
+                  "OPS_301": "9-696.1b",
+                  "Anzahl": "35"
+                },
+                {
+                  "OPS_301": "9-696.21",
+                  "Anzahl": "30"
+                },
+                {
+                  "OPS_301": "9-696.3g",
+                  "Anzahl": "30"
+                },
+                {
+                  "OPS_301": "9-696.1c",
+                  "Anzahl": "29"
+                },
+                {
+                  "OPS_301": "9-696.3d",
+                  "Anzahl": "25"
+                },
+                {
+                  "OPS_301": "9-696.3e",
+                  "Anzahl": "25"
+                },
+                {
+                  "OPS_301": "9-696.45",
+                  "Anzahl": "23"
+                },
+                {
+                  "OPS_301": "9-696.1e",
+                  "Anzahl": "19"
+                },
+                {
+                  "OPS_301": "9-696.59",
+                  "Anzahl": "19"
+                },
+                {
+                  "OPS_301": "9-984.b",
+                  "Anzahl": "19"
+                },
+                {
+                  "OPS_301": "9-696.3f",
+                  "Anzahl": "18"
+                },
+                {
+                  "OPS_301": "9-696.58",
+                  "Anzahl": "18"
+                },
+                {
+                  "OPS_301": "9-696.5a",
+                  "Anzahl": "18"
+                },
+                {
+                  "OPS_301": "9-696.5b",
+                  "Anzahl": "18"
+                },
+                {
+                  "OPS_301": "9-696.46",
+                  "Anzahl": "17"
+                },
+                {
+                  "OPS_301": "9-696.1d",
+                  "Anzahl": "14"
+                },
+                {
+                  "OPS_301": "9-696.1f",
+                  "Anzahl": "12"
+                },
+                {
+                  "OPS_301": "9-984.8",
+                  "Anzahl": "12"
+                },
+                {
+                  "OPS_301": "9-984.6",
+                  "Anzahl": "11"
+                },
+                {
+                  "OPS_301": "3-800",
+                  "Anzahl": "7"
+                },
+                {
+                  "OPS_301": "9-696.5c",
+                  "Anzahl": "6"
+                },
+                {
+                  "OPS_301": "8-125.0",
+                  "Anzahl": "5"
+                },
+                {
+                  "OPS_301": "9-696.47",
+                  "Anzahl": "5"
+                },
+                {
+                  "OPS_301": "9-696.48",
+                  "Anzahl": "5"
+                },
+                {
+                  "OPS_301": "9-696.5f",
+                  "Anzahl": "5"
+                },
+                {
+                  "OPS_301": "5-900.0f",
+                  "Anzahl": "4"
+                },
+                {
+                  "OPS_301": "9-696.5d",
+                  "Anzahl": "4"
+                },
+                {
+                  "OPS_301": "9-696.5e",
+                  "Anzahl": "4"
+                },
+                {
+                  "OPS_301": "3-200",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "5-237.0",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "5-900.08",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-100.8",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-693.10",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-693.11",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-693.12",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-694.1",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-696.22",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-696.23",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-696.49",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-696.4a",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-696.4b",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-696.5g",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-696.5j",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-696.5q",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-696.5r",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-696.5t",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-696.5u",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-696.5v",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-984.9",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-984.a",
+                  "Anzahl_Datenschutz": {}
+                }
+              ]
+            }
+          },
+          "Ambulante_Behandlungsmoeglichkeiten": {
+            "Ambulante_Behandlungsmoeglichkeit": [
+              {
+                "Ambulanz": {
+                  "AM_Schluessel": "AM07",
+                  "Bezeichnung": "Chefarztambulanz",
+                  "Leistungen_Ambulanz": {
+                    "Medizinisches_Leistungsangebot": [
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP01"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP02"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP03"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP04"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP05"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP06"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP07"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP08"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP09"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP11"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "Ambulanz": {
+                  "AM_Schluessel": "AM02",
+                  "Bezeichnung": "Kinder- und Jugendpsychiatrische Institutsambulanz",
+                  "Leistungen_Ambulanz": {
+                    "Medizinisches_Leistungsangebot": [
+                      {
+                        "Sonstiger": {
+                          "VA_VU_Sonstiger_Schluessel_Ambulanz": "VP00",
+                          "Bezeichnung": "Aufsuchende ambulante Betreuung durch Pflegepersonal"
+                        }
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP01"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP02"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP03"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP04"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP05"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP06"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP07"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP08"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP09"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP11"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP12"
+                      }
+                    ]
+                  },
+                  "Erlaeuterungen": "Gesetzl. Auftrag: Versorgung von Patienten mit intensivem, „kliniknahen“ Betreuungsbedarf; Prävention: Beschränkung von Häufigkeit/ Dauer stationärer Behandlung auf das unbedingt notwendige Maß. Ambulante Behandlung von Kindern/ Jugendlichen in Landshut, Passau, Deggendorf , Zwiesel und Waldkirchen."
+                }
+              }
+            ]
+          },
+          "Ambulante_Operationen": {
+            "Keine_Erbracht": {}
+          },
+          "Personelle_Ausstattung": {
+            "Aerztliches_Personal": {
+              "Hauptabteilung": {
+                "Aerzte_ohne_Belegaerzte": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "21,10",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "21,10"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "9,09"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "12,01",
+                        "Fall_je_Anzahl": "55,20399"
+                      }
+                    }
+                  },
+                  "Fachaerzte": {
+                    "Personalerfassung": {
+                      "Anzahl_VK": "9,97",
+                      "Beschaeftigungsverhaeltnis": {
+                        "Personal_mit_direktem_BV": {
+                          "Anzahl_VK": "9,97"
+                        },
+                        "Personal_ohne_direktem_BV": {
+                          "Anzahl_VK": "0,00"
+                        }
+                      },
+                      "Versorgungsform": {
+                        "Ambulante_Versorgung": {
+                          "Anzahl_VK": "5,09"
+                        },
+                        "Stationaere_Versorgung": {
+                          "Anzahl_VK": "4,88",
+                          "Fall_je_Anzahl": "135,86065"
+                        }
+                      }
+                    }
+                  },
+                  "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+                }
+              }
+            },
+            "Aerztliche_Fachexpertisen": {
+              "Fachexpertise": [
+                {
+                  "AQ_ZF_Schluessel": "AQ37"
+                },
+                {
+                  "AQ_ZF_Schluessel": "AQ32"
+                },
+                {
+                  "AQ_ZF_Schluessel": "AQ63"
+                }
+              ]
+            },
+            "Pflegekraefte": {
+              "Gesundheits_Krankenpfleger": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "62,35",
+                  "Erlaeuterungen": "30,45 GuK, 2,54 Sozialpädagoge, 22,59 Erzieher/innen, 6,77 HEP",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "62,35"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,00"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "62,35",
+                      "Fall_je_Anzahl": "10,63352"
+                    }
+                  }
+                }
+              },
+              "Gesundheits_Kinderkrankenpfleger": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "9,57",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "9,57"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,52"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "9,05",
+                      "Fall_je_Anzahl": "73,25966"
+                    }
+                  }
+                }
+              },
+              "Pflegefachpersonen": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "2,00",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "2,00"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,00"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "2,00",
+                      "Fall_je_Anzahl": "331,50000"
+                    }
+                  }
+                }
+              },
+              "Pflegefachpersonen_BSc": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "0,12",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "0,12"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,00"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "0,12",
+                      "Fall_je_Anzahl": "5525,00000"
+                    }
+                  }
+                }
+              },
+              "Krankenpflegehelfer": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "2,00",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "2,00"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,00"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "2,00",
+                      "Fall_je_Anzahl": "331,50000"
+                    }
+                  }
+                }
+              },
+              "Pflegehelfer": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "3,45",
+                  "Erlaeuterungen": "Kinderpfleger",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "3,45"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,00"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "3,45",
+                      "Fall_je_Anzahl": "192,17391"
+                    }
+                  }
+                }
+              },
+              "Massgebliche_tarifliche_Wochenarbeitszeit": "38,50"
+            },
+            "Pflegerische_Fachexpertisen": {
+              "Fachexpertise_Pflege": [
+                {
+                  "PQ_ZP_Schluessel": "PQ05"
+                },
+                {
+                  "PQ_ZP_Schluessel": "PQ10"
+                },
+                {
+                  "PQ_ZP_Schluessel": "PQ20"
+                }
+              ]
+            },
+            "Ausgewaehltes_Personal_Psych": {
+              "Ausgewaehltes_Therapeutisches_Personal": {
+                "Diplom_Psychologen": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "35,21",
+                    "Erlaeuterungen": "19,02 Psychologen/innen, 16,19 Pädagoginnen",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "35,21"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "9,76"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "25,45",
+                        "Fall_je_Anzahl": "26,05108"
+                      }
+                    }
+                  }
+                },
+                "Psychologische_Psychotherapeuten": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "1,67",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "1,67"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0,76"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "0,91",
+                        "Fall_je_Anzahl": "728,57142"
+                      }
+                    }
+                  }
+                },
+                "Kinder_Jugendlichenpsychotherapeuten": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "5,87",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "5,87"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "4,13"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "1,74",
+                        "Fall_je_Anzahl": "381,03448"
+                      }
+                    }
+                  }
+                },
+                "Psychotherapeuten_in_Ausbildung_waehrend_Taetigkeit": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "5,71",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "5,71"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0,00"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "5,71",
+                        "Fall_je_Anzahl": "116,11208"
+                      }
+                    }
+                  }
+                },
+                "Ergotherapeuten": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "12,10",
+                    "Erlaeuterungen": "7,04 Ergotherapie, 1,59 Musiktherapie, 0,31 Bibliotherapeutin, 1,20 Heilpädagogogin, 1,96 Logopädin",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "12,10"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0,00"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "12,10",
+                        "Fall_je_Anzahl": "54,79338"
+                      }
+                    }
+                  }
+                },
+                "Physiotherapeuten": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "4,83",
+                    "Erlaeuterungen": "4,83 Sport- und Bewegungstherapie",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "4,83"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0,00"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "4,83",
+                        "Fall_je_Anzahl": "137,26708"
+                      }
+                    }
+                  }
+                },
+                "Sozialpaedagogen": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "17,56",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "17,56"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "5,37"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "12,19",
+                        "Fall_je_Anzahl": "54,38884"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "Gliederungsnummer": "2",
+          "Name": "Klinik für Psychiatrie, Psychotherapie und Psychosomatik",
+          "Aerztliche_Leitung_OE": {
+            "Chefarzt": {
+              "Kontakt_Person_lang": {
+                "Person": {
+                  "Titel": "Prof. Dr.",
+                  "Vorname": "Hermann",
+                  "Nachname": "Spießl",
+                  "Funktion_Arbeitsschwerpunkt": "Ärztlicher Direktor/ Chefarzt"
+                },
+                "Telefon": {
+                  "Vorwahl": "0871",
+                  "Rufnummer": "6008",
+                  "Durchwahl": "140"
+                },
+                "Fax": {
+                  "Vorwahl": "0871",
+                  "Rufnummer": "6008",
+                  "Durchwahl": "148"
+                },
+                "Email": "h.spiessl@bkh-landshut.de"
+              },
+              "Kontakt_Zugang": {
+                "Strasse": "Prof.-Buchner-Str.",
+                "Hausnummer": "22",
+                "Postleitzahl": "84034",
+                "Ort": "Landshut",
+                "URL_Zugang": "http://www.bkh-landshut.de"
+              }
+            }
+          },
+          "Zielvereinbarungen": {
+            "Keine_Zielvereinbarungen_geschlossen": {}
+          },
+          "Fachabteilungsschluessel": [
+            {
+              "FA_Schluessel": "2900"
+            },
+            {
+              "FA_Schluessel": "2960"
+            }
+          ],
+          "Medizinische_Leistungsangebote": {
+            "Medizinisches_Leistungsangebot": [
+              {
+                "VA_VU_Schluessel": "VP06"
+              },
+              {
+                "VA_VU_Schluessel": "VP03"
+              },
+              {
+                "Sonstiger": {
+                  "VA_VU_Sonstiger_Schluessel": "VP00",
+                  "Bezeichnung": "Gutachterliche Tätigkeiten"
+                },
+                "Erlaeuterungen": "Anfertigung von fachärztlichen Gutachten"
+              },
+              {
+                "VA_VU_Schluessel": "VP02"
+              },
+              {
+                "VA_VU_Schluessel": "VP01"
+              },
+              {
+                "Sonstiger": {
+                  "VA_VU_Sonstiger_Schluessel": "VP00",
+                  "Bezeichnung": "Konsildienst"
+                },
+                "Erlaeuterungen": "Konsilangebot für das Klinikum Landshut und das Krankenhaus Achdorf"
+              },
+              {
+                "VA_VU_Schluessel": "VP04"
+              },
+              {
+                "VA_VU_Schluessel": "VP05"
+              },
+              {
+                "VA_VU_Schluessel": "VP08"
+              },
+              {
+                "VA_VU_Schluessel": "VP10"
+              },
+              {
+                "Sonstiger": {
+                  "VA_VU_Sonstiger_Schluessel": "VP00",
+                  "Bezeichnung": "Regel- und Intensivbehandlung"
+                },
+                "Erlaeuterungen": "Auf allen Stationen werden allgemeinpsychiatrische, intensivpsychiatrische, psychotherapeutische, psychosomatische und störungsspezifische Behandlungsvorgaben und Milieuanforderungen realisiert."
+              },
+              {
+                "VA_VU_Schluessel": "VP07"
+              },
+              {
+                "VA_VU_Schluessel": "VP15",
+                "Erlaeuterungen": "Die TK bereitet die Patientinnen und Patienten auf das soziale und berufliche Leben vor. Wieder- und/oder neu erlernte Fähigkeiten erfahren eine tägliche Überprüfung in der Realität.  Therapieprogramm: individuelle psychiatrische-psychotherapeutische und soziotherapeutische Maßnahmen"
+              },
+              {
+                "VA_VU_Schluessel": "VP12",
+                "Erlaeuterungen": "In der Institutsambulanz gibt es Spezialsprechstunden für gerontopsychiatrische Patientinnen und Patienten und Suchtpatientinnen und -patienten"
+              },
+              {
+                "VA_VU_Schluessel": "VP09"
+              }
+            ]
+          },
+          "Fallzahlen_OE": {
+            "Vollstationaere_Fallzahl": "2571",
+            "Teilstationaere_Fallzahl": "406"
+          },
+          "Hauptdiagnosen": {
+            "Hauptdiagnose": [
+              {
+                "ICD_10": "F10.2",
+                "Fallzahl": "491"
+              },
+              {
+                "ICD_10": "F43.2",
+                "Fallzahl": "481"
+              },
+              {
+                "ICD_10": "F60.31",
+                "Fallzahl": "234"
+              },
+              {
+                "ICD_10": "F20.0",
+                "Fallzahl": "173"
+              },
+              {
+                "ICD_10": "F33.2",
+                "Fallzahl": "162"
+              },
+              {
+                "ICD_10": "G30.8",
+                "Fallzahl": "143"
+              },
+              {
+                "ICD_10": "F33.1",
+                "Fallzahl": "129"
+              },
+              {
+                "ICD_10": "G30.1",
+                "Fallzahl": "84"
+              },
+              {
+                "ICD_10": "F32.1",
+                "Fallzahl": "74"
+              },
+              {
+                "ICD_10": "F32.2",
+                "Fallzahl": "73"
+              },
+              {
+                "ICD_10": "F19.2",
+                "Fallzahl": "51"
+              },
+              {
+                "ICD_10": "F25.1",
+                "Fallzahl": "46"
+              },
+              {
+                "ICD_10": "F10.1",
+                "Fallzahl": "39"
+              },
+              {
+                "ICD_10": "F61",
+                "Fallzahl": "37"
+              },
+              {
+                "ICD_10": "F01.2",
+                "Fallzahl": "35"
+              },
+              {
+                "ICD_10": "F41.0",
+                "Fallzahl": "35"
+              },
+              {
+                "ICD_10": "F05.8",
+                "Fallzahl": "29"
+              },
+              {
+                "ICD_10": "F25.0",
+                "Fallzahl": "26"
+              },
+              {
+                "ICD_10": "F13.2",
+                "Fallzahl": "23"
+              },
+              {
+                "ICD_10": "F31.4",
+                "Fallzahl": "22"
+              },
+              {
+                "ICD_10": "F07.8",
+                "Fallzahl": "21"
+              },
+              {
+                "ICD_10": "F20.1",
+                "Fallzahl": "21"
+              },
+              {
+                "ICD_10": "F33.3",
+                "Fallzahl": "21"
+              },
+              {
+                "ICD_10": "F70.1",
+                "Fallzahl": "21"
+              },
+              {
+                "ICD_10": "F12.2",
+                "Fallzahl": "19"
+              },
+              {
+                "ICD_10": "F10.4",
+                "Fallzahl": "17"
+              },
+              {
+                "ICD_10": "F12.5",
+                "Fallzahl": "17"
+              },
+              {
+                "ICD_10": "F31.1",
+                "Fallzahl": "17"
+              },
+              {
+                "ICD_10": "F20.5",
+                "Fallzahl": "16"
+              },
+              {
+                "ICD_10": "F01.3",
+                "Fallzahl": "14"
+              },
+              {
+                "ICD_10": "F25.2",
+                "Fallzahl": "14"
+              },
+              {
+                "ICD_10": "F23.0",
+                "Fallzahl": "13"
+              },
+              {
+                "ICD_10": "F31.2",
+                "Fallzahl": "13"
+              },
+              {
+                "ICD_10": "F31.3",
+                "Fallzahl": "13"
+              },
+              {
+                "ICD_10": "F11.2",
+                "Fallzahl": "12"
+              },
+              {
+                "ICD_10": "F41.1",
+                "Fallzahl": "11"
+              },
+              {
+                "ICD_10": "F45.41",
+                "Fallzahl": "11"
+              },
+              {
+                "ICD_10": "F71.1",
+                "Fallzahl": "11"
+              },
+              {
+                "ICD_10": "F15.5",
+                "Fallzahl": "10"
+              },
+              {
+                "ICD_10": "F23.1",
+                "Fallzahl": "10"
+              },
+              {
+                "ICD_10": "F43.1",
+                "Fallzahl": "10"
+              },
+              {
+                "ICD_10": "F15.2",
+                "Fallzahl": "9"
+              },
+              {
+                "ICD_10": "F22.0",
+                "Fallzahl": "9"
+              },
+              {
+                "ICD_10": "F31.0",
+                "Fallzahl": "9"
+              },
+              {
+                "ICD_10": "F31.6",
+                "Fallzahl": "9"
+              },
+              {
+                "ICD_10": "F31.8",
+                "Fallzahl": "9"
+              },
+              {
+                "ICD_10": "F42.2",
+                "Fallzahl": "9"
+              },
+              {
+                "ICD_10": "F60.30",
+                "Fallzahl": "8"
+              },
+              {
+                "ICD_10": "F10.6",
+                "Fallzahl": "7"
+              },
+              {
+                "ICD_10": "F19.1",
+                "Fallzahl": "7"
+              },
+              {
+                "ICD_10": "F19.7",
+                "Fallzahl": "7"
+              },
+              {
+                "ICD_10": "F31.5",
+                "Fallzahl": "7"
+              },
+              {
+                "ICD_10": "F32.3",
+                "Fallzahl": "7"
+              },
+              {
+                "ICD_10": "G20.10",
+                "Fallzahl": "7"
+              },
+              {
+                "ICD_10": "G30.0",
+                "Fallzahl": "7"
+              },
+              {
+                "ICD_10": "F07.0",
+                "Fallzahl": "6"
+              },
+              {
+                "ICD_10": "F45.2",
+                "Fallzahl": "6"
+              },
+              {
+                "ICD_10": "F01.1",
+                "Fallzahl": "5"
+              },
+              {
+                "ICD_10": "F05.1",
+                "Fallzahl": "5"
+              },
+              {
+                "ICD_10": "F15.0",
+                "Fallzahl": "5"
+              },
+              {
+                "ICD_10": "F19.0",
+                "Fallzahl": "5"
+              },
+              {
+                "ICD_10": "F19.5",
+                "Fallzahl": "5"
+              },
+              {
+                "ICD_10": "F43.0",
+                "Fallzahl": "5"
+              },
+              {
+                "ICD_10": "G31.0",
+                "Fallzahl": "5"
+              },
+              {
+                "ICD_10": "F06.2",
+                "Fallzahl": "4"
+              },
+              {
+                "ICD_10": "F10.0",
+                "Fallzahl": "4"
+              },
+              {
+                "ICD_10": "F10.3",
+                "Fallzahl": "4"
+              },
+              {
+                "ICD_10": "F10.7",
+                "Fallzahl": "4"
+              },
+              {
+                "ICD_10": "F90.0",
+                "Fallzahl": "4"
+              },
+              {
+                "ICD_10": "Z03.2",
+                "Fallzahl": "4"
+              },
+              {
+                "ICD_10": "A81.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F01.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F05.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F06.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F06.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F07.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F07.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F10.5",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F12.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F12.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F12.7",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F13.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F13.4",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F13.7",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F13.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F14.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F14.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F14.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F14.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F14.5",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F15.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F16.5",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F19.4",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F20.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F20.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F21",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F22.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F30.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F40.01",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F40.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F40.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F42.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F42.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F44.4",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F44.7",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F44.81",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F45.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F45.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F45.32",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F45.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F50.01",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F53.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F60.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F60.4",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F60.6",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F60.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F63.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F63.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F65.4",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F72.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F84.5",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F90.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G20.00",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G20.11",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G20.90",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G31.82",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G91.20",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "T90.5",
+                "Fallzahl_Datenschutz": {}
+              }
+            ]
+          },
+          "Prozeduren": {
+            "Freiwillige_Angabe": {
+              "Prozedur": [
+                {
+                  "OPS_301": "9-649.0",
+                  "Anzahl": "9260"
+                },
+                {
+                  "OPS_301": "9-607",
+                  "Anzahl": "3006"
+                },
+                {
+                  "OPS_301": "9-649.40",
+                  "Anzahl": "1921"
+                },
+                {
+                  "OPS_301": "9-617",
+                  "Anzahl": "1628"
+                },
+                {
+                  "OPS_301": "9-618",
+                  "Anzahl": "886"
+                },
+                {
+                  "OPS_301": "9-649.31",
+                  "Anzahl": "652"
+                },
+                {
+                  "OPS_301": "9-649.30",
+                  "Anzahl": "518"
+                },
+                {
+                  "OPS_301": "9-649.20",
+                  "Anzahl": "446"
+                },
+                {
+                  "OPS_301": "1-207.0",
+                  "Anzahl": "375"
+                },
+                {
+                  "OPS_301": "9-649.10",
+                  "Anzahl": "366"
+                },
+                {
+                  "OPS_301": "9-649.11",
+                  "Anzahl": "356"
+                },
+                {
+                  "OPS_301": "1-770",
+                  "Anzahl": "317"
+                },
+                {
+                  "OPS_301": "9-649.50",
+                  "Anzahl": "245"
+                },
+                {
+                  "OPS_301": "9-649.51",
+                  "Anzahl": "217"
+                },
+                {
+                  "OPS_301": "9-984.8",
+                  "Anzahl": "205"
+                },
+                {
+                  "OPS_301": "9-984.7",
+                  "Anzahl": "204"
+                },
+                {
+                  "OPS_301": "9-984.b",
+                  "Anzahl": "202"
+                },
+                {
+                  "OPS_301": "3-800",
+                  "Anzahl": "180"
+                },
+                {
+                  "OPS_301": "8-632.1",
+                  "Anzahl": "180"
+                },
+                {
+                  "OPS_301": "3-200",
+                  "Anzahl": "150"
+                },
+                {
+                  "OPS_301": "9-649.52",
+                  "Anzahl": "145"
+                },
+                {
+                  "OPS_301": "9-649.32",
+                  "Anzahl": "116"
+                },
+                {
+                  "OPS_301": "9-619",
+                  "Anzahl": "114"
+                },
+                {
+                  "OPS_301": "9-984.6",
+                  "Anzahl": "101"
+                },
+                {
+                  "OPS_301": "9-984.9",
+                  "Anzahl": "85"
+                },
+                {
+                  "OPS_301": "9-649.21",
+                  "Anzahl": "62"
+                },
+                {
+                  "OPS_301": "9-649.41",
+                  "Anzahl": "58"
+                },
+                {
+                  "OPS_301": "9-649.12",
+                  "Anzahl": "55"
+                },
+                {
+                  "OPS_301": "9-649.33",
+                  "Anzahl": "55"
+                },
+                {
+                  "OPS_301": "9-649.53",
+                  "Anzahl": "54"
+                },
+                {
+                  "OPS_301": "9-647.4",
+                  "Anzahl": "39"
+                },
+                {
+                  "OPS_301": "9-647.d",
+                  "Anzahl": "38"
+                },
+                {
+                  "OPS_301": "9-647.9",
+                  "Anzahl": "36"
+                },
+                {
+                  "OPS_301": "9-647.2",
+                  "Anzahl": "33"
+                },
+                {
+                  "OPS_301": "9-647.a",
+                  "Anzahl": "33"
+                },
+                {
+                  "OPS_301": "9-647.3",
+                  "Anzahl": "27"
+                },
+                {
+                  "OPS_301": "9-647.8",
+                  "Anzahl": "27"
+                },
+                {
+                  "OPS_301": "9-647.1",
+                  "Anzahl": "23"
+                },
+                {
+                  "OPS_301": "9-647.7",
+                  "Anzahl": "22"
+                },
+                {
+                  "OPS_301": "9-647.c",
+                  "Anzahl": "17"
+                },
+                {
+                  "OPS_301": "3-201",
+                  "Anzahl": "16"
+                },
+                {
+                  "OPS_301": "1-204.2",
+                  "Anzahl": "15"
+                },
+                {
+                  "OPS_301": "1-631.0",
+                  "Anzahl": "15"
+                },
+                {
+                  "OPS_301": "9-647.6",
+                  "Anzahl": "15"
+                },
+                {
+                  "OPS_301": "9-647.b",
+                  "Anzahl": "15"
+                },
+                {
+                  "OPS_301": "9-647.f",
+                  "Anzahl": "15"
+                },
+                {
+                  "OPS_301": "9-649.34",
+                  "Anzahl": "14"
+                },
+                {
+                  "OPS_301": "9-647.5",
+                  "Anzahl": "12"
+                },
+                {
+                  "OPS_301": "9-984.a",
+                  "Anzahl": "12"
+                },
+                {
+                  "OPS_301": "9-647.u",
+                  "Anzahl": "11"
+                },
+                {
+                  "OPS_301": "8-632.0",
+                  "Anzahl": "10"
+                },
+                {
+                  "OPS_301": "9-647.n",
+                  "Anzahl": "10"
+                },
+                {
+                  "OPS_301": "9-647.m",
+                  "Anzahl": "9"
+                },
+                {
+                  "OPS_301": "3-750",
+                  "Anzahl": "8"
+                },
+                {
+                  "OPS_301": "9-649.13",
+                  "Anzahl": "8"
+                },
+                {
+                  "OPS_301": "1-632.0",
+                  "Anzahl": "7"
+                },
+                {
+                  "OPS_301": "9-647.0",
+                  "Anzahl": "7"
+                },
+                {
+                  "OPS_301": "9-647.k",
+                  "Anzahl": "7"
+                },
+                {
+                  "OPS_301": "9-649.35",
+                  "Anzahl": "7"
+                },
+                {
+                  "OPS_301": "9-649.54",
+                  "Anzahl": "7"
+                },
+                {
+                  "OPS_301": "3-802",
+                  "Anzahl": "6"
+                },
+                {
+                  "OPS_301": "3-806",
+                  "Anzahl": "6"
+                },
+                {
+                  "OPS_301": "3-820",
+                  "Anzahl": "6"
+                },
+                {
+                  "OPS_301": "8-100.8",
+                  "Anzahl": "6"
+                },
+                {
+                  "OPS_301": "3-801",
+                  "Anzahl": "5"
+                },
+                {
+                  "OPS_301": "6-006.a0",
+                  "Anzahl": "5"
+                },
+                {
+                  "OPS_301": "6-006.a3",
+                  "Anzahl": "5"
+                },
+                {
+                  "OPS_301": "6-006.a4",
+                  "Anzahl": "5"
+                },
+                {
+                  "OPS_301": "9-647.e",
+                  "Anzahl": "5"
+                },
+                {
+                  "OPS_301": "5-230.0",
+                  "Anzahl": "4"
+                },
+                {
+                  "OPS_301": "5-230.1",
+                  "Anzahl": "4"
+                },
+                {
+                  "OPS_301": "9-647.h",
+                  "Anzahl": "4"
+                },
+                {
+                  "OPS_301": "9-647.j",
+                  "Anzahl": "4"
+                },
+                {
+                  "OPS_301": "9-647.p",
+                  "Anzahl": "4"
+                },
+                {
+                  "OPS_301": "9-649.36",
+                  "Anzahl": "4"
+                },
+                {
+                  "OPS_301": "1-650.y",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "1-854.7",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-139",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-202",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-203",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-205",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-206",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-207",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-221",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-225",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-720.10",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-82x",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "5-230.2",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "5-232.y",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "5-237.0",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "5-572.1",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "5-790.2c",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "5-881.1",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "5-892.08",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "5-898.6",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "5-900.08",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "6-006.a1",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "6-006.a5",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "6-006.a6",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "6-006.a9",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "6-006.aa",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-133.0",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-171.0",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-560.x",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-771",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-800.0",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-61a",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-647.g",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-647.q",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-647.s",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-649.14",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-649.15",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-649.1g",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-649.37",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-649.38",
+                  "Anzahl_Datenschutz": {}
+                }
+              ]
+            }
+          },
+          "Ambulante_Behandlungsmoeglichkeiten": {
+            "Ambulante_Behandlungsmoeglichkeit": [
+              {
+                "Ambulanz": {
+                  "AM_Schluessel": "AM02",
+                  "Bezeichnung": "Institutsambulanz für Erwachsene",
+                  "Leistungen_Ambulanz": {
+                    "Medizinisches_Leistungsangebot": [
+                      {
+                        "Sonstiger": {
+                          "VA_VU_Sonstiger_Schluessel_Ambulanz": "VP00",
+                          "Bezeichnung": "Aufsuchende Ambulanz bei Patienten mit gerontopsychiatrischen oder Abhängigkeitserkrankungen"
+                        }
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP01"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP02"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP03"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP04"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP05"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP06"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP07"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP08"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP09"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP10"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP12"
+                      }
+                    ]
+                  },
+                  "Erlaeuterungen": "Die Ambulanz erfüllt einen spezif. Versorgungsauftrag. Hier finden Kranke Hilfe, die wegen Art, Schwere und Dauer der Erkrankung eines besonderen krankenhausnahen Versorgungsangebotes bedürfen. Der Schwerpunkt liegt auf der differenzierten diagnost. Abklärung und Therapie komplexer Störungsbilder."
+                }
+              },
+              {
+                "Ambulanz": {
+                  "AM_Schluessel": "AM07",
+                  "Bezeichnung": "Chefarztambulanz",
+                  "Leistungen_Ambulanz": {
+                    "Medizinisches_Leistungsangebot": [
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP01"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP02"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP03"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP04"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP05"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP06"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP07"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP08"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP09"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VP10"
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          "Ambulante_Operationen": {
+            "Keine_Erbracht": {}
+          },
+          "Personelle_Ausstattung": {
+            "Aerztliches_Personal": {
+              "Hauptabteilung": {
+                "Aerzte_ohne_Belegaerzte": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "35,85",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "35,85"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "5,57"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "30,28",
+                        "Fall_je_Anzahl": "84,90752"
+                      }
+                    }
+                  },
+                  "Fachaerzte": {
+                    "Personalerfassung": {
+                      "Anzahl_VK": "11,48",
+                      "Beschaeftigungsverhaeltnis": {
+                        "Personal_mit_direktem_BV": {
+                          "Anzahl_VK": "11,48"
+                        },
+                        "Personal_ohne_direktem_BV": {
+                          "Anzahl_VK": "0,00"
+                        }
+                      },
+                      "Versorgungsform": {
+                        "Ambulante_Versorgung": {
+                          "Anzahl_VK": "3,75"
+                        },
+                        "Stationaere_Versorgung": {
+                          "Anzahl_VK": "7,73",
+                          "Fall_je_Anzahl": "332,60025"
+                        }
+                      }
+                    }
+                  },
+                  "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+                }
+              }
+            },
+            "Aerztliche_Fachexpertisen": {
+              "Fachexpertise": [
+                {
+                  "AQ_ZF_Schluessel": "AQ42"
+                },
+                {
+                  "AQ_ZF_Schluessel": "AQ54"
+                },
+                {
+                  "AQ_ZF_Schluessel": "AQ51"
+                },
+                {
+                  "AQ_ZF_Schluessel": "ZF26"
+                },
+                {
+                  "AQ_ZF_Schluessel": "ZF09"
+                }
+              ]
+            },
+            "Pflegekraefte": {
+              "Gesundheits_Krankenpfleger": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "108,47",
+                  "Erlaeuterungen": "GuK: 107,08 ; HEP: 1,39",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "108,47"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "2,77"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "105,70",
+                      "Fall_je_Anzahl": "24,32355"
+                    }
+                  }
+                }
+              },
+              "Gesundheits_Kinderkrankenpfleger": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "5,91",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "5,91"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,98"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "4,93",
+                      "Fall_je_Anzahl": "521,50101"
+                    }
+                  }
+                }
+              },
+              "Altenpfleger": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "16,98",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "16,98"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,00"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "16,98",
+                      "Fall_je_Anzahl": "151,41342"
+                    }
+                  }
+                }
+              },
+              "Pflegefachpersonen": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "12,80",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "12,80"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,00"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "12,80",
+                      "Fall_je_Anzahl": "200,85937"
+                    }
+                  }
+                }
+              },
+              "Pflegefachpersonen_BSc": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "1,83",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "1,83"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,00"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "1,83",
+                      "Fall_je_Anzahl": "1404,91803"
+                    }
+                  }
+                }
+              },
+              "Pflegeassistenten": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "13,12",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "13,12"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,00"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "13,12",
+                      "Fall_je_Anzahl": "195,96036"
+                    }
+                  }
+                }
+              },
+              "Krankenpflegehelfer": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "2,39",
+                  "Erlaeuterungen": "1,41 Krankenpflegehelfer/innen, 0,98 Altenpflegehelferinnen",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "2,39"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,00"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "2,39",
+                      "Fall_je_Anzahl": "1075,73221"
+                    }
+                  }
+                }
+              },
+              "Pflegehelfer": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "2,00",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "2,00"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,00"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "2,00",
+                      "Fall_je_Anzahl": "1285,50000"
+                    }
+                  }
+                }
+              },
+              "Medizinische_Fachangestellte": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "0,26",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "0,26"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,00"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "0,26",
+                      "Fall_je_Anzahl": "9888,46153"
+                    }
+                  }
+                }
+              },
+              "Massgebliche_tarifliche_Wochenarbeitszeit": "38,50"
+            },
+            "Pflegerische_Fachexpertisen": {
+              "Fachexpertise_Pflege": [
+                {
+                  "PQ_ZP_Schluessel": "PQ05"
+                },
+                {
+                  "PQ_ZP_Schluessel": "PQ20"
+                },
+                {
+                  "PQ_ZP_Schluessel": "PQ04"
+                },
+                {
+                  "PQ_ZP_Schluessel": "PQ01"
+                },
+                {
+                  "PQ_ZP_Schluessel": "PQ13"
+                },
+                {
+                  "PQ_ZP_Schluessel": "PQ10"
+                },
+                {
+                  "PQ_ZP_Schluessel": "PQ06",
+                  "Erlaeuterungen": "MAS"
+                },
+                {
+                  "PQ_ZP_Schluessel": "ZP14"
+                },
+                {
+                  "PQ_ZP_Schluessel": "ZP01"
+                },
+                {
+                  "PQ_ZP_Schluessel": "ZP24"
+                },
+                {
+                  "PQ_ZP_Schluessel": "ZP16"
+                },
+                {
+                  "PQ_ZP_Schluessel": "ZP25"
+                },
+                {
+                  "PQ_ZP_Schluessel": "ZP08"
+                }
+              ]
+            },
+            "Ausgewaehltes_Personal_Psych": {
+              "Ausgewaehltes_Therapeutisches_Personal": {
+                "Diplom_Psychologen": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "4,92",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "4,92"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0,00"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "4,92",
+                        "Fall_je_Anzahl": "522,56097"
+                      }
+                    }
+                  }
+                },
+                "Psychologische_Psychotherapeuten": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "1,87",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "1,87"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0,60"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "1,27",
+                        "Fall_je_Anzahl": "2024,40944"
+                      }
+                    }
+                  }
+                },
+                "Psychotherapeuten_in_Ausbildung_waehrend_Taetigkeit": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "8,70",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "8,70"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0,00"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "8,70",
+                        "Fall_je_Anzahl": "295,51724"
+                      }
+                    }
+                  }
+                },
+                "Ergotherapeuten": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "9,26",
+                    "Erlaeuterungen": "4,16 Ergotherapeuten, 1,98 Kunsttherapeuten, 0,16 Musiktherapeut, 2,96 Betreuungsassistenten",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "9,26"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0,00"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "9,26",
+                        "Fall_je_Anzahl": "277,64578"
+                      }
+                    }
+                  }
+                },
+                "Physiotherapeuten": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "5,59",
+                    "Erlaeuterungen": "1,00 Physiotherapeut, 3,88 Sport- und Bewegungstherapeuten, 0,71 Med. Bademeister",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "5,59"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0,00"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "5,59",
+                        "Fall_je_Anzahl": "459,92844"
+                      }
+                    }
+                  }
+                },
+                "Sozialpaedagogen": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "8,92",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "8,92"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0,00"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "8,92",
+                        "Fall_je_Anzahl": "288,22869"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "Qualitaetssicherung": {
+      "QS_nach_Landesrecht": {
+        "Keine_Teilnahme_landesspezifische_Qualitaetssicherungsmassnahme": {}
+      },
+      "Fortbildung": {
+        "Fortbildungspflichtige": "45",
+        "Nachweispflichtige": "23",
+        "Fortbildungsnachweis_Erbracht_Habende": "23"
+      },
+      "ATMP-QS-RL": {
+        "Hinweis_ATMP-QS-RL": "Krankenhausstandorte, an denen neue Therapien gemäß den Anlagen der ATMP-QS-RL angewendet werden, müssen die dort vorgegebenen Mindestanforderungen an die Struktur-, Prozess- oder Ergebnisqualität erfüllen. Der Medizinische Dienst überprüft die Umsetzung der relevanten Qualitätsanforderungen und stellt dem Krankenhaus eine Bescheinigung aus, wenn diese vollumfänglich erfüllt werden. ATMP nach dieser Richtlinie dürfen ausschließlich von Leistungserbringern angewendet werden, die die Mindestanforderungen erfüllen.",
+        "Keine_Anwendung_Arzneimittel_neuartige_Therapien": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,1576 @@
+{
+  "Qualitaetsbericht": {
+    "Einleitung": {
+      "Datensatz": {
+        "Datum": "2024-11-12",
+        "Uhrzeit": "11:10:35",
+        "Sprache": "deutsch"
+      },
+      "Software": {
+        "Hersteller": "netfutura GmbH",
+        "Produktname": "promato QBM",
+        "Version": "2.12"
+      },
+      "Verantwortlicher_Erstellung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Gabriele",
+            "Nachname": "Kachel",
+            "Funktion_Arbeitsschwerpunkt": "Verwaltungsleiterin"
+          },
+          "Telefon": {
+            "Vorwahl": "07131",
+            "Rufnummer": "156642"
+          },
+          "Email": "verwaltung@klinik-lerchenberg.de"
+        }
+      },
+      "Verantwortlicher_Krankenhausleitung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Titel": "Dr. med.",
+            "Vorname": "Martin",
+            "Nachname": "Soder",
+            "Funktion_Arbeitsschwerpunkt": "Geschäftsführer"
+          },
+          "Telefon": {
+            "Vorwahl": "07131",
+            "Rufnummer": "15660"
+          },
+          "Email": "info@klinik-lerchenberg.de"
+        }
+      },
+      "URL_Internetseite_Krankenhaus": "http://www.klinik-lerchenberg.de"
+    },
+    "Krankenhaus": {
+      "Ein_Standort": {
+        "Krankenhauskontaktdaten": {
+          "Name": "Urologische Klinik am Lerchenberg",
+          "IK": "260810807",
+          "Standortnummer": "771060000",
+          "Standortnummer_alt": "00",
+          "Kontakt_Zugang": {
+            "Strasse": "Lerchenstr.",
+            "Hausnummer": "81",
+            "Postleitzahl": "74074",
+            "Ort": "Heilbronn",
+            "URL_Zugang": "http://www.klinik-lerchenberg.de"
+          },
+          "Kontakt_Adresse": {
+            "Adresse": {
+              "Strasse": "Lerchenstr.",
+              "Adresszusatz": "81"
+            },
+            "Postleitzahl": "74074",
+            "Ort": "Heilbronn"
+          },
+          "Telefon": {
+            "Vorwahl": "07131",
+            "Rufnummer": "15660"
+          },
+          "Email": "info@klinik-lerchenberg.de",
+          "Aerztliche_Leitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Titel": "Dr. med.",
+                "Vorname": "Martin",
+                "Nachname": "Soder",
+                "Funktion_Arbeitsschwerpunkt": "Geschäftsführer"
+              },
+              "Telefon": {
+                "Vorwahl": "07131",
+                "Rufnummer": "15660"
+              },
+              "Email": "info@klinik-lerchenberg.de"
+            }
+          },
+          "Pflegedienstleitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Sven",
+                "Nachname": "Brengel",
+                "Funktion_Arbeitsschwerpunkt": "Stationsleitung"
+              },
+              "Telefon": {
+                "Vorwahl": "07131",
+                "Rufnummer": "15660"
+              },
+              "Email": "info@klinik-lerchenberg.de"
+            }
+          },
+          "Verwaltungsleitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Gabriele",
+                "Nachname": "Kachel",
+                "Funktion_Arbeitsschwerpunkt": "Prokuristin / Verwaltung"
+              },
+              "Telefon": {
+                "Vorwahl": "07131",
+                "Rufnummer": "156642"
+              },
+              "Fax": {
+                "Vorwahl": "07131",
+                "Rufnummer": "156680"
+              },
+              "Email": "verwaltung@klinik-lerchenberg.de"
+            }
+          }
+        }
+      }
+    },
+    "Krankenhaustraeger": {
+      "Name": "Urologische Klinik Dr. med. Eberhard Klein GmbH",
+      "Krankenhaustraeger_Art": {
+        "Art": "privat"
+      }
+    },
+    "Medizinisch_Pflegerische_Leistungsangebote": {
+      "MP_Leistungsangebot": {
+        "MP_Schluessel": "MP15"
+      }
+    },
+    "Nicht_Medizinische_Leistungsangebote": {
+      "NM_Leistungsangebot": [
+        {
+          "NM_Schluessel": "NM69"
+        },
+        {
+          "NM_Schluessel": "NM03"
+        },
+        {
+          "NM_Schluessel": "NM09"
+        },
+        {
+          "NM_Schluessel": "NM11"
+        },
+        {
+          "NM_Schluessel": "NM66"
+        }
+      ]
+    },
+    "Barrierefreiheit": {
+      "Ansprechpartner_Menschen_mit_Beeintraechtigung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Sven",
+            "Nachname": "Brengel",
+            "Funktion_Arbeitsschwerpunkt": "Stationsleitung/Pflegefachkraft"
+          },
+          "Telefon": {
+            "Vorwahl": "07131",
+            "Rufnummer": "15660"
+          },
+          "Email": "info@klinik-lerchenberg.de"
+        }
+      },
+      "Barrierefreiheit_Aspekt": [
+        {
+          "BF_Schluessel": "BF26"
+        },
+        {
+          "BF_Schluessel": "BF09"
+        },
+        {
+          "BF_Schluessel": "BF08"
+        },
+        {
+          "BF_Schluessel": "BF24"
+        },
+        {
+          "BF_Schluessel": "BF25"
+        }
+      ]
+    },
+    "Anzahl_Betten": "17",
+    "Fallzahlen": {
+      "Vollstationaere_Fallzahl": "636",
+      "Teilstationaere_Fallzahl": "0",
+      "Ambulante_Fallzahl": "0",
+      "StaeB_Fallzahl": "0"
+    },
+    "Personal_des_Krankenhauses": {
+      "Aerzte": {
+        "Aerzte_ohne_Belegaerzte": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          },
+          "Fachaerzte": {
+            "Personalerfassung": {
+              "Anzahl_VK": "0",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0"
+                }
+              }
+            }
+          },
+          "Massgebliche_tarifliche_Wochenarbeitszeit": "39,50"
+        },
+        "Belegaerzte": {
+          "Anzahl": "6",
+          "Erlaeuterungen": "8 Fachärzte für Urologie"
+        },
+        "Aerzte_ohne_Fachabteilungszuordnung": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          },
+          "Fachaerzte": {
+            "Personalerfassung": {
+              "Anzahl_VK": "0,00",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Pflegekraefte": {
+        "Gesundheits_Krankenpfleger": {
+          "Personalerfassung": {
+            "Anzahl_VK": "8,5",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "8,5"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "8,5"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Massgebliche_tarifliche_Wochenarbeitszeit": "39,00"
+      }
+    },
+    "Umgang_mit_Risiken_in_der_Patientenversorgung": {
+      "Verantwortliche_Person_Qualitaetsmanagement": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Gabriele",
+            "Nachname": "Kachel",
+            "Funktion_Arbeitsschwerpunkt": "Prokuristin / Verwaltung"
+          },
+          "Telefon": {
+            "Vorwahl": "07131",
+            "Rufnummer": "156642"
+          },
+          "Email": "verwaltung@klinik-lerchenberg.de"
+        }
+      },
+      "Lenkungsgremium_Qualitaetsmanagement": {
+        "Lenkungsgremium": {
+          "Beteiligte_Abteilungen_Funktionsbereiche": "Alle Abteilungen der Urologischen Klinik",
+          "Tagungsfrequenz": "jährlich"
+        }
+      },
+      "Verantwortliche_Person_Risikomanagement": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Gabriele",
+            "Nachname": "Kachel",
+            "Funktion_Arbeitsschwerpunkt": "Prokuristin / Verwaltung"
+          },
+          "Telefon": {
+            "Vorwahl": "07131",
+            "Rufnummer": "156642"
+          },
+          "Email": "verwaltung@klinik-lerchenberg.de"
+        }
+      },
+      "Lenkungsgremium_Risikomanagement": {
+        "Lenkungsgremium": {
+          "Beteiligte_Abteilungen_Funktionsbereiche": "Alle Abteilungen der Urologischen Klinik",
+          "Tagungsfrequenz": "jährlich"
+        }
+      },
+      "Instrumente_Massnahmen_Risikomanagement": {
+        "Instrument_Massnahme_Risikomanagement": [
+          {
+            "RM_Schluessel": "RM02"
+          },
+          {
+            "RM_Schluessel": "RM13"
+          },
+          {
+            "RM_Schluessel": "RM12"
+          }
+        ]
+      },
+      "Einrichtungsinternes_Fehlermeldesystem": {
+        "Tagungsgremium": {
+          "Tagungsfrequenz": "bei Bedarf"
+        },
+        "Massnahmen": "Checklisten",
+        "Fehlermeldesystem_intern": {
+          "System_intern": {
+            "IF_Schluessel": "IF03",
+            "Zusatzangaben_IF": {
+              "Frequenz": "bei Bedarf"
+            }
+          }
+        }
+      },
+      "Hygienepersonal": {
+        "Krankenhaushygieniker": {
+          "Anzahl": "1",
+          "Erlaeuterungen": "Krankenhaushygienische Dauerbetreuung durch das Deutsche Beratungszentrum für Hygiene, Freiburg"
+        },
+        "Hygienebeauftragte_Aerzte": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "1"
+          }
+        },
+        "Hygienefachkraefte": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "1"
+          },
+          "Erlaeuterungen": "Unsere Hygienefachkraft ist für alle Abteilungen der Urologischen Klinik zuständig."
+        },
+        "Hygienebeauftragte_Pflege": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "0"
+          }
+        },
+        "Hygienekommission_eingerichtet": {
+          "Kontakt_Person_kurz": {
+            "Person": {
+              "Titel": "Dr. med.",
+              "Vorname": "Martin",
+              "Nachname": "Soder",
+              "Funktion_Arbeitsschwerpunkt": "Geschäftsführer"
+            },
+            "Telefon": {
+              "Vorwahl": "07131",
+              "Rufnummer": "15660"
+            },
+            "Email": "verwaltung@klinik-lerchenberg.de"
+          },
+          "Tagungsfrequenz": "jährlich"
+        }
+      },
+      "Weitere_Informationen_Hygiene": {
+        "Kein_Einsatz_ZVK": {},
+        "Antibiotikaprophylaxe_Antibiotikatherapie": {
+          "Leitlinie_Antibiotikatherapie_liegt_vor": {
+            "Leitlinie_Resistenzlage_angepasst": "ja",
+            "Leitlinie_autorisiert": "ja"
+          },
+          "Standard_perioperative_Antibiotikaprophylaxe_liegt_vor": {
+            "Standard_thematisiert": {
+              "Indikationsstellung_Antibiotikaprophylaxe": "ja",
+              "Zu_Verwendende_Antibiotika": "ja",
+              "Dauer_Antibiotikaprophylaxe": "ja"
+            },
+            "Standard_autorisiert": "ja",
+            "Ueberpruefung_durch_Checkliste": "ja"
+          }
+        },
+        "Umgang_Wunden": {
+          "Standard_Wundversorgung_Verbandwechsel_liegt_vor": {
+            "Standard_thematisiert": {
+              "Hygienische_Haendedesinfektion": "ja",
+              "Verbandwechsel_aseptische_Bedingungen": "ja",
+              "Antiseptische_Behandlung_infizierte_Wunden": "ja",
+              "Pruefung_Notwendigkeit_Wundauflage": "ja",
+              "Meldung_Wundinfektion": "ja"
+            },
+            "Standard_autorisiert": "ja"
+          }
+        },
+        "Haendedesinfektion": {
+          "Haendedesinfektionsmittelverbrauch_Allgemeinstationen_wurde_erhoben": {
+            "Haendedesinfektionsmittelverbrauch_Allgemeinstationen": "15"
+          },
+          "Keine_Intensivstation_vorhanden": {},
+          "Erfassung_Haendedesinfektionsmittelverbrauch_stationsbezogen": "ja"
+        },
+        "Umgang_Patienten_MRE": {
+          "Standardisierte_Information_MRSA": "ja",
+          "Informationsmanagement_MRSA": "ja",
+          "Risikoadaptives_Aufnahmescreening": "ja",
+          "Regelmaessige_Schulungen": "ja"
+        },
+        "Hygienebezogenes_Risikomanagement": {
+          "Hygiene_Instrument_Massnahme": [
+            {
+              "HM_Schluessel": "HM05",
+              "Zusatzangaben_HM": {
+                "Frequenz": "halbjährlich"
+              }
+            },
+            {
+              "HM_Schluessel": "HM09",
+              "Zusatzangaben_HM": {
+                "Frequenz": "quartalsweise"
+              }
+            },
+            {
+              "HM_Schluessel": "HM03",
+              "Zusatzangaben_HM": {
+                "Name": "Netzwerk Gesundheitsamt Heilbronn"
+              }
+            }
+          ]
+        }
+      },
+      "Beschwerdemanagement": {
+        "Strukturiertes_Beschwerdemanagement": {
+          "Strukturiertes_Beschwerdemanagement_Eingefuehrt": "nein"
+        },
+        "Schriftliches_Konzept": {
+          "Schriftliches_Konzept_Existiert": "nein"
+        },
+        "Umgang_muendliche_Beschwerden": {
+          "Umgang_muendliche_Beschwerden_Geregelt": "ja",
+          "Erlaeuterungen": "Die Beschwerden werden notiert und in den 3-6-monatlich stattfindenden Abteilungsbesprechungen oder im Qualitätszirkel besprochen und Möglichkeiten der Abhilfe diskutiert. Bei Bedarf auch frühere Rücksprachen."
+        },
+        "Umgang_schriftliche_Beschwerden": {
+          "Umgang_schriftliche_Beschwerden_Geregelt": "ja",
+          "Erlaeuterungen": "Siehe oben."
+        },
+        "Zeitziele_fuer_Rueckmeldung": {
+          "Zeitziele_fuer_Rueckmeldung_Definiert": "nein"
+        },
+        "Anonyme_Eingabemoeglichkeiten": {
+          "Anonyme_Eingabemoeglichkeiten_Existieren": "ja"
+        },
+        "Patientenbefragungen": {
+          "Patientenbefragungen_Durchgefuehrt": "ja",
+          "Erlaeuterungen": "Jährliche Befragungen über einen definierten Fragebogen"
+        },
+        "Einweiserbefragungen": {
+          "Einweiserbefragungen_Durchgefuehrt": "nein"
+        }
+      },
+      "Arzneimitteltherapiesicherheit": {
+        "Hinweis_Arzneimitteltherapiesicherheit": "AMTS ist die Gesamtheit der Maßnahmen zur Gewährleistung eines optimalen Medikationsprozesses mit dem Ziel, Medikationsfehler und damit vermeidbare Risiken für Patientinnen und Patienten bei der Arzneimitteltherapie zu verringern. Eine Voraussetzung für die erfolgreiche Umsetzung dieser Maßnahmen ist, dass AMTS als integraler Bestandteil der täglichen Routine in einem interdisziplinären und multiprofessionellen Ansatz gelebt wird.",
+        "Verantwortliches_Gremium_AMTS": {
+          "Arbeitsgruppe_Qualitaetsmanagement": {
+            "Lenkungsgremium_Qualitaetsmanagement": {
+              "Lenkungsgremium": {
+                "Beteiligte_Abteilungen_Funktionsbereiche": "Alle Abteilungen der Urologischen Klinik",
+                "Tagungsfrequenz": "jährlich"
+              }
+            }
+          }
+        },
+        "Verantwortliche_Person_AMTS": {
+          "Verantwortliche_Person_festgelegt": {
+            "Person_Entspricht_Angaben_Qualitaetsmanagement": {
+              "Verantwortliche_Person_Qualitaetsmanagement": {
+                "Kontakt_Person_lang": {
+                  "Person": {
+                    "Vorname": "Gabriele",
+                    "Nachname": "Kachel",
+                    "Funktion_Arbeitsschwerpunkt": "Prokuristin / Verwaltung"
+                  },
+                  "Telefon": {
+                    "Vorwahl": "07131",
+                    "Rufnummer": "156642"
+                  },
+                  "Email": "verwaltung@klinik-lerchenberg.de"
+                }
+              }
+            }
+          }
+        },
+        "Pharmazeutisches_Personal": {
+          "Anzahl_Apotheker": "1",
+          "Anzahl_weiteres_pharmazeutisches_Personal": "0",
+          "Erlaeuterungen": "Externe Krankenhausapotheke der SLK-Kliniken Heilbronn"
+        },
+        "Instrumente_Massnahmen_AMTS": {
+          "Hinweis_Instrumente_Massnahmen_AMTS": "Die Instrumente und Maßnahmen zur Förderung der Arzneimitteltherapiesicherheit werden mit Fokus auf den typischen Ablauf des Medikationsprozesses bei der stationären Patientenversorgung dargestellt. Eine Besonderheit des Medikationsprozesses im stationären Umfeld stellt das Überleitungsmanagement bei Aufnahme und Entlassung dar. Die im Folgenden gelisteten Instrumente und Maßnahmen adressieren Strukturelemente, z.B. besondere EDV-Ausstattung und Arbeitsmaterialien, sowie Prozessaspekte, wie Arbeitsbeschreibungen für besonders risikobehaftete Prozessschritte bzw. Konzepte zur Sicherung typischer Risikosituationen. Zusätzlich können bewährte Maßnahmen zur Vermeidung von bzw. zum Lernen aus Medikationsfehlern angegeben werden. Das Krankenhaus stellt hier dar, mit welchen Aspekten es sich bereits auseinandergesetzt bzw. welche Maßnahmen es konkret umgesetzt hat. Die folgenden Aspekte können, gegebenenfalls unter Verwendung von Freitextfeldern, dargestellt werden: \n\r - Aufnahme ins Krankenhaus, inklusive Anamnese \n\r Dargestellt werden können Instrumente und Maßnahmen zur Ermittlung der bisherigen Medikation (Arzneimittelanamnese), der anschließenden klinischen Bewertung und der Umstellung auf die im Krankenhaus verfügbare Medikation (Hausliste), sowie zur Dokumentation, sowohl der ursprünglichen Medikation der Patientin oder des Patienten als auch der für die Krankenhausbehandlung angepassten Medikation. \n\r - Medikationsprozess im Krankenhaus \n\r Im vorliegenden Rahmen wird beispielhaft von folgenden Teilprozessen ausgegangen: Arzneimittelanamnese – Verordnung – Patienteninformation – Arzneimittelabgabe – Arzneimittelanwendung – Dokumentation – Therapieüberwachung – Ergebnisbewertung. Dargestellt werden können hierzu Instrumente und Maßnahmen zur sicheren Arzneimittelverordnung, z. B. bezüglich Leserlichkeit, Eindeutigkeit und Vollständigkeit der Dokumentation, aber auch bezüglich Anwendungsgebiet, Wirksamkeit, Nutzen-Risiko-Verhältnis, Verträglichkeit (inklusive potentieller Kontraindikationen, Wechselwirkungen und Ähnliches) und Ressourcenabwägungen. Außerdem können Angaben zur Unterstützung einer zuverlässigen Arzneimittelbestellung, -abgabe und -anwendung bzw. -verabreichung gemacht werden. \n\r - Entlassung \n\r Dargestellt werden können insbesondere die Maßnahmen der Krankenhäuser, die sicherstellen, dass eine strukturierte und sichere Weitergabe von Informationen zur Arzneimitteltherapie an weiterbehandelnde Ärztinnen und Ärzte sowie die angemessene Ausstattung der Patientinnen und Patienten mit Arzneimittelinformationen, Medikationsplan und Medikamenten bzw. Arzneimittelverordnungen erfolgt.",
+          "Instrument_Massnahme_AMTS": [
+            {
+              "AMTS_Schluessel": "AS12",
+              "Zusatzangaben_AMTS": {
+                "Massnahmen_Minimierung_Medikationsfehler": {
+                  "Massnahme_Minimierung_Medikationsfehler": {
+                    "Massnahme": "Fallbesprechungen"
+                  }
+                }
+              }
+            },
+            {
+              "AMTS_Schluessel": "AS08"
+            },
+            {
+              "AMTS_Schluessel": "AS13",
+              "Zusatzangaben_AMTS": {
+                "Massnahmen_Arzneimitteltherapie_Entlassung": {
+                  "Massnahme_Arzneimitteltherapie_Entlassung": [
+                    {
+                      "Massnahme": "Aushändigung von arzneimittelbezogenen Informationen für die Weiterbehandlung und Anschlussversorgung der Patientin oder des Patienten im Rahmen eines (ggf. vorläufigen) Entlassbriefs"
+                    },
+                    {
+                      "Massnahme": "Aushändigung des Medikationsplans"
+                    },
+                    {
+                      "Massnahme": "bei Bedarf Arzneimittel-Mitgabe oder Ausstellung von Entlassrezepten"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Praevention_Hilfe_Missbrauch_Gewalt": {
+        "Hinweis_Praevention_Hilfe_Missbrauch_Gewalt": "Gemäß § 4 Absatz 2 der Qualitätsmanagement-Richtlinie haben Einrichtungen die Prävention von und Intervention bei Gewalt und Missbrauch als Teil des einrichtungsinternen Qualitätsmanagements vorzusehen. Ziel ist es, Missbrauch und Gewalt insbesondere gegenüber vulnerablen Patientengruppen, wie beispielsweise Kindern und Jugendlichen oder hilfsbedürftigen Personen, vorzubeugen, zu erkennen, adäquat darauf zu reagieren und auch innerhalb der Einrichtung zu verhindern. Das jeweilige Vorgehen wird an Einrichtungsgröße, Leistungsspektrum und den Patientinnen und Patienten ausgerichtet, um so passgenaue Lösungen zur Sensibilisierung der Teams sowie weitere geeignete vorbeugende und intervenierende Maßnahmen festzulegen. Dies können unter anderem Informationsmaterialien, Kontaktadressen, Schulungen/Fortbildungen, Verhaltenskodizes, Handlungsempfehlungen/Interventionspläne oder umfassende Schutzkonzepte sein.",
+        "Praevention_Intervention_Massnahmen": "nein",
+        "Schutzkonzepte_Gewalt_Kinder": {
+          "Hinweis_Schutzkonzepte_Gewalt_Kinder": "Gemäß § 4 Absatz 2 in Verbindung mit Teil B Abschnitt I § 1 der Qualitätsmanagement-Richtlinie haben sich Einrichtungen, die Kinder und Jugendliche versorgen, gezielt mit der Prävention von und Intervention bei (sexueller) Gewalt und Missbrauch bei Kindern und Jugendlichen zu befassen (Risiko- und Gefährdungsanalyse) und – der Größe und Organisationsform der Einrichtung entsprechend – konkrete Schritte und Maßnahmen abzuleiten (Schutzkonzept). In diesem Abschnitt geben Krankenhäuser, die Kinder und Jugendliche versorgen, an, ob sie gemäß § 4 Absatz 2 in Verbindung mit Teil B Abschnitt I § 1 der Qualitätsmanagement-Richtlinie ein Schutzkonzept gegen (sexuelle) Gewalt bei Kindern und Jugendlichen aufweisen.",
+          "Keine_Versorgung_Kinder_Jugendliche": {}
+        }
+      }
+    },
+    "Apparative_Ausstattung": {
+      "Geraet": [
+        {
+          "AA_Schluessel": "AA21",
+          "Notfallverfuegbarkeit_24h": "keine_Angabe_erforderlich"
+        },
+        {
+          "AA_Schluessel": "AA33",
+          "Notfallverfuegbarkeit_24h": "keine_Angabe_erforderlich"
+        }
+      ]
+    },
+    "Teilnahme_Notfallversorgung": {
+      "Hinweis_Teilnahme_Notfallversorgung": "Alle Krankenhäuser gewährleisten Notfallversorgung und haben allgemeine Pflichten zur Hilfeleistung im Notfall. Darüber hinaus hat der Gemeinsame Bundesausschuss ein gestuftes System von Notfallstrukturen in Krankenhäusern im entgeltrechtlichen Sinne geregelt. Das bedeutet, dass Krankenhäuser, die festgelegte Anforderungen an eine von drei Notfallstufen erfüllen, durch Vergütungszuschläge finanziell unterstützt werden. Krankenhäuser, die die Anforderungen an eine der drei Stufen nicht erfüllen, erhalten keine Zuschläge. Nimmt ein Krankenhaus nicht am gestuften System von Notfallstrukturen teil und gewährleistet es nicht eine spezielle Notfallversorgung, sieht der Gesetzgeber Abschläge vor.",
+      "Teilnahme_Notfallstufe": {
+        "Keine_Teilnahme_Notfallversorgung": {}
+      },
+      "Kooperation_mit_Kassenaerztlicher_Vereinigung": {
+        "Notdienstpraxis_Existiert": "nein",
+        "Vertragsaerztlicher_Notdienst_Existiert": "nein"
+      }
+    },
+    "Organisationseinheiten_Fachabteilungen": {
+      "Organisationseinheit_Fachabteilung": {
+        "Gliederungsnummer": "1",
+        "Name": "Urologie",
+        "Aerztliche_Leitung_OE": {
+          "Leitender_Arzt": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Titel": "Dr. med.",
+                "Vorname": "Hagen",
+                "Nachname": "Weiß",
+                "Funktion_Arbeitsschwerpunkt": "Leitender Belegarzt"
+              },
+              "Telefon": {
+                "Vorwahl": "07131",
+                "Rufnummer": "15660"
+              },
+              "Fax": {
+                "Vorwahl": "07131",
+                "Rufnummer": "156680"
+              },
+              "Email": "info@klinik-lerchenberg.de"
+            },
+            "Kontakt_Zugang": {
+              "Strasse": "Lerchenstr.",
+              "Hausnummer": "81",
+              "Postleitzahl": "74074",
+              "Ort": "Heilbronn"
+            }
+          }
+        },
+        "Zielvereinbarungen": {
+          "Keine_Zielvereinbarungen_geschlossen": {},
+          "Erlaeuterungen": "Belegärzte"
+        },
+        "Fachabteilungsschluessel": {
+          "FA_Schluessel": "2200"
+        },
+        "Medizinische_Leistungsangebote": {
+          "Medizinisches_Leistungsangebot": [
+            {
+              "VA_VU_Schluessel": "VI37"
+            },
+            {
+              "VA_VU_Schluessel": "VR09"
+            },
+            {
+              "VA_VU_Schluessel": "VU19"
+            },
+            {
+              "VA_VU_Schluessel": "VR01",
+              "Erlaeuterungen": "Digitales Röntgen"
+            },
+            {
+              "VA_VU_Schluessel": "VU13"
+            },
+            {
+              "VA_VU_Schluessel": "VU10"
+            },
+            {
+              "VA_VU_Schluessel": "VU05"
+            },
+            {
+              "VA_VU_Schluessel": "VU07"
+            },
+            {
+              "VA_VU_Schluessel": "VU06"
+            },
+            {
+              "VA_VU_Schluessel": "VU03"
+            },
+            {
+              "VA_VU_Schluessel": "VU04"
+            },
+            {
+              "VA_VU_Schluessel": "VR14",
+              "Erlaeuterungen": "Thulium-Laserung bei gutartiger Prostatavergrößerung; Holmium-Laserung von Nieren- und Harnleitersteinen."
+            },
+            {
+              "VA_VU_Schluessel": "VU12"
+            },
+            {
+              "VA_VU_Schluessel": "VG16"
+            },
+            {
+              "VA_VU_Schluessel": "VR06"
+            },
+            {
+              "VA_VU_Schluessel": "VR04"
+            },
+            {
+              "VA_VU_Schluessel": "VG07"
+            },
+            {
+              "VA_VU_Schluessel": "VU01"
+            }
+          ]
+        },
+        "Fallzahlen_OE": {
+          "Vollstationaere_Fallzahl": "636",
+          "Teilstationaere_Fallzahl": "0"
+        },
+        "Hauptdiagnosen": {
+          "Hauptdiagnose": [
+            {
+              "ICD_10": "C67.8",
+              "Fallzahl": "206"
+            },
+            {
+              "ICD_10": "N40",
+              "Fallzahl": "189"
+            },
+            {
+              "ICD_10": "C61",
+              "Fallzahl": "60"
+            },
+            {
+              "ICD_10": "N20.1",
+              "Fallzahl": "52"
+            },
+            {
+              "ICD_10": "N20.0",
+              "Fallzahl": "24"
+            },
+            {
+              "ICD_10": "D30.3",
+              "Fallzahl": "10"
+            },
+            {
+              "ICD_10": "N13.5",
+              "Fallzahl": "8"
+            },
+            {
+              "ICD_10": "D41.4",
+              "Fallzahl": "6"
+            },
+            {
+              "ICD_10": "N13.3",
+              "Fallzahl": "6"
+            },
+            {
+              "ICD_10": "N20.2",
+              "Fallzahl": "6"
+            },
+            {
+              "ICD_10": "N21.0",
+              "Fallzahl": "6"
+            },
+            {
+              "ICD_10": "N30.8",
+              "Fallzahl": "6"
+            },
+            {
+              "ICD_10": "R31",
+              "Fallzahl": "6"
+            },
+            {
+              "ICD_10": "C62.9",
+              "Fallzahl": "5"
+            },
+            {
+              "ICD_10": "N32.0",
+              "Fallzahl": "5"
+            },
+            {
+              "ICD_10": "N35.8",
+              "Fallzahl": "5"
+            },
+            {
+              "ICD_10": "A41.9",
+              "Fallzahl": "4"
+            },
+            {
+              "ICD_10": "N23",
+              "Fallzahl": "4"
+            },
+            {
+              "ICD_10": "C65",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "C66",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "C67.9",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "C68.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "D30.9",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "D41.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "D41.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "D69.80",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I89.8",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "N10",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "N26",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "N30.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "N31.9",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "N32.8",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "N35.9",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "N39.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "N39.3",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "N43.3",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "N45.9",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "T81.0",
+              "Fallzahl_Datenschutz": {}
+            }
+          ]
+        },
+        "Prozeduren": {
+          "Verpflichtende_Angabe": {
+            "Prozedur": [
+              {
+                "OPS_301": "8-132.3",
+                "Anzahl": "502"
+              },
+              {
+                "OPS_301": "5-573.41",
+                "Anzahl": "232"
+              },
+              {
+                "OPS_301": "5-601.73",
+                "Anzahl": "124"
+              },
+              {
+                "OPS_301": "5-601.72",
+                "Anzahl": "120"
+              },
+              {
+                "OPS_301": "8-137.00",
+                "Anzahl": "85"
+              },
+              {
+                "OPS_301": "5-985.9",
+                "Anzahl": "68"
+              },
+              {
+                "OPS_301": "5-562.5",
+                "Anzahl": "54"
+              },
+              {
+                "OPS_301": "8-541.4",
+                "Anzahl": "48"
+              },
+              {
+                "OPS_301": "8-110.2",
+                "Anzahl": "45"
+              },
+              {
+                "OPS_301": "8-137.10",
+                "Anzahl": "28"
+              },
+              {
+                "OPS_301": "1-665",
+                "Anzahl": "26"
+              },
+              {
+                "OPS_301": "5-550.31",
+                "Anzahl": "24"
+              },
+              {
+                "OPS_301": "5-570.0",
+                "Anzahl": "21"
+              },
+              {
+                "OPS_301": "5-573.1",
+                "Anzahl": "20"
+              },
+              {
+                "OPS_301": "5-601.0",
+                "Anzahl": "19"
+              },
+              {
+                "OPS_301": "9-984.7",
+                "Anzahl": "19"
+              },
+              {
+                "OPS_301": "5-573.40",
+                "Anzahl": "17"
+              },
+              {
+                "OPS_301": "3-13d.5",
+                "Anzahl": "16"
+              },
+              {
+                "OPS_301": "8-137.20",
+                "Anzahl": "13"
+              },
+              {
+                "OPS_301": "5-570.4",
+                "Anzahl": "12"
+              },
+              {
+                "OPS_301": "5-585.1",
+                "Anzahl": "12"
+              },
+              {
+                "OPS_301": "5-562.9",
+                "Anzahl": "8"
+              },
+              {
+                "OPS_301": "5-560.0",
+                "Anzahl": "7"
+              },
+              {
+                "OPS_301": "9-984.6",
+                "Anzahl": "7"
+              },
+              {
+                "OPS_301": "5-561.5",
+                "Anzahl": "6"
+              },
+              {
+                "OPS_301": "5-622.5",
+                "Anzahl": "6"
+              },
+              {
+                "OPS_301": "5-572.1",
+                "Anzahl": "5"
+              },
+              {
+                "OPS_301": "5-98k.0",
+                "Anzahl": "5"
+              },
+              {
+                "OPS_301": "1-661",
+                "Anzahl": "4"
+              },
+              {
+                "OPS_301": "5-98k.1",
+                "Anzahl": "4"
+              },
+              {
+                "OPS_301": "8-800.c0",
+                "Anzahl": "4"
+              },
+              {
+                "OPS_301": "1-460.0",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "1-460.1",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "1-460.2",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "1-464.00",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "1-466.00",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "1-999.40",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-550.1",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-552.6",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-560.6",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-561.2",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-562.4",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-562.8",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-563.4",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-573.3x",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-579.42",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-581.0",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-582.1",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-585.0",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-585.2",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-593.20",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-600.0",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-601.32",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-609.0",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-611",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-622.0",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-622.1",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-640.0",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-640.2",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-894.00",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-894.1c",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-894.1e",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-985.8",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-995",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-110.1",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-133.0",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-137.01",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-137.12",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-139.00",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-159.2",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "9-984.8",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "9-984.9",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "9-984.b",
+                "Anzahl_Datenschutz": {}
+              }
+            ]
+          }
+        },
+        "Ambulante_Behandlungsmoeglichkeiten": {
+          "Ambulante_Behandlungsmoeglichkeit": {
+            "Ambulanz": {
+              "AM_Schluessel": "AM15",
+              "Bezeichnung": "Urologische Praxis am Lerchenberg",
+              "Leistungen_Ambulanz": {
+                "Medizinisches_Leistungsangebot": [
+                  {
+                    "VA_VU_Schluessel_Ambulanz": "VU19"
+                  },
+                  {
+                    "VA_VU_Schluessel_Ambulanz": "VR01"
+                  },
+                  {
+                    "VA_VU_Schluessel_Ambulanz": "VG16"
+                  },
+                  {
+                    "VA_VU_Schluessel_Ambulanz": "VU04"
+                  },
+                  {
+                    "VA_VU_Schluessel_Ambulanz": "VU03"
+                  },
+                  {
+                    "VA_VU_Schluessel_Ambulanz": "VU01"
+                  },
+                  {
+                    "VA_VU_Schluessel_Ambulanz": "VR09"
+                  },
+                  {
+                    "VA_VU_Schluessel_Ambulanz": "VR06"
+                  },
+                  {
+                    "VA_VU_Schluessel_Ambulanz": "VR04"
+                  },
+                  {
+                    "VA_VU_Schluessel_Ambulanz": "VR03"
+                  },
+                  {
+                    "VA_VU_Schluessel_Ambulanz": "VU06"
+                  },
+                  {
+                    "VA_VU_Schluessel_Ambulanz": "VU05"
+                  },
+                  {
+                    "VA_VU_Schluessel_Ambulanz": "VU08"
+                  },
+                  {
+                    "VA_VU_Schluessel_Ambulanz": "VU07"
+                  },
+                  {
+                    "VA_VU_Schluessel_Ambulanz": "VU14"
+                  },
+                  {
+                    "VA_VU_Schluessel_Ambulanz": "VU12"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "Ambulante_Operationen": {
+          "Keine_Erbracht": {}
+        },
+        "Personelle_Ausstattung": {
+          "Aerztliches_Personal": {
+            "Belegabteilung": {
+              "Belegaerzte": {
+                "Anzahl": "6",
+                "Fall_je_Anzahl": "106,00000",
+                "Erlaeuterungen": "6 Fachärzte für Urologie"
+              }
+            }
+          },
+          "Aerztliche_Fachexpertisen": {
+            "Fachexpertise": [
+              {
+                "AQ_ZF_Schluessel": "AQ59"
+              },
+              {
+                "AQ_ZF_Schluessel": "AQ01"
+              },
+              {
+                "AQ_ZF_Schluessel": "AQ54"
+              },
+              {
+                "AQ_ZF_Schluessel": "AQ46"
+              },
+              {
+                "AQ_ZF_Schluessel": "AQ60"
+              },
+              {
+                "AQ_ZF_Schluessel": "ZF30"
+              },
+              {
+                "AQ_ZF_Schluessel": "ZF36"
+              },
+              {
+                "AQ_ZF_Schluessel": "ZF25"
+              }
+            ]
+          },
+          "Pflegekraefte": {
+            "Gesundheits_Krankenpfleger": {
+              "Personalerfassung": {
+                "Anzahl_VK": "8,50",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "8,50"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0,00"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0,00"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "8,50",
+                    "Fall_je_Anzahl": "74,82352"
+                  }
+                }
+              }
+            },
+            "Gesundheits_Kinderkrankenpfleger": {
+              "Personalerfassung": {
+                "Anzahl_VK": "0",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "0"
+                  }
+                }
+              }
+            },
+            "Altenpfleger": {
+              "Personalerfassung": {
+                "Anzahl_VK": "0",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "0"
+                  }
+                }
+              }
+            },
+            "Pflegefachpersonen": {
+              "Personalerfassung": {
+                "Anzahl_VK": "0",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "0"
+                  }
+                }
+              }
+            },
+            "Pflegefachpersonen_BSc": {
+              "Personalerfassung": {
+                "Anzahl_VK": "0",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "0"
+                  }
+                }
+              }
+            },
+            "Pflegeassistenten": {
+              "Personalerfassung": {
+                "Anzahl_VK": "0",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "0"
+                  }
+                }
+              }
+            },
+            "Krankenpflegehelfer": {
+              "Personalerfassung": {
+                "Anzahl_VK": "0",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "0"
+                  }
+                }
+              }
+            },
+            "Pflegehelfer": {
+              "Personalerfassung": {
+                "Anzahl_VK": "0",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "0"
+                  }
+                }
+              }
+            },
+            "Hebammen_Entbindungspfleger": {
+              "Personalerfassung": {
+                "Anzahl_VK": "0",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "0"
+                  }
+                }
+              }
+            },
+            "Medizinische_Fachangestellte": {
+              "Personalerfassung": {
+                "Anzahl_VK": "0",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "0"
+                  }
+                }
+              }
+            },
+            "Massgebliche_tarifliche_Wochenarbeitszeit": "39,50"
+          }
+        }
+      }
+    },
+    "Qualitaetssicherung": {
+      "QS_nach_Landesrecht": {
+        "Keine_Teilnahme_landesspezifische_Qualitaetssicherungsmassnahme": {}
+      },
+      "Sonstige_Verfahren_Externe_QS": {
+        "Sonstiges_Verfahren_Externe_QS": [
+          {
+            "Bezeichnung_Qualitaetsindikator": "Dekubitusprophylaxe",
+            "Ergebnis": "Keine Patienten mit Dekubitus prä- und poststationär",
+            "Messzeitraum": "01.01. - 31.12.2023",
+            "Datenerhebung": "Standardisierte Checkliste"
+          },
+          {
+            "Leistungsbereich": "MRE",
+            "Bezeichnung_Qualitaetsindikator": "MRGN und MRE Abstriche",
+            "Ergebnis": "Keine nosokomialen Befunde.",
+            "Messzeitraum": "01.01. - 31.12.2023",
+            "Datenerhebung": "Standardisierte Checkliste.",
+            "Quellenangabe_Dokumentation": "1/2-jährliche Datenerhebung über QiG BW."
+          }
+        ]
+      },
+      "Fortbildung": {
+        "Fortbildungspflichtige": "8",
+        "Nachweispflichtige": "8",
+        "Fortbildungsnachweis_Erbracht_Habende": "8"
+      },
+      "Pflegepersonaluntergrenzen": {
+        "Monatsbezogener_Erfuellungsgrad_PpUG": [
+          {
+            "Pflegesensitiver_Bereich": "Urologie",
+            "Station": "Uro",
+            "Schicht": "Nachtschicht",
+            "Monatsbezogener_Erfuellungsgrad": "100,00",
+            "Ausnahmetatbestaende": "0",
+            "Erlaeuterungen": "teilweise an Sam und/oder Sonntags Klinik geschlossen; 9 Tage  (WE) samstags und/oder sonntags geschlossen; 10 Tage (WE) samstags und/oder sonntags geschlossen; 9 Tage (WE) samstags und/oder sonntags geschlossen.; s.o.; Station an 2 Sonntagen und zusätzlich an 4 Nächten geschlossen"
+          },
+          {
+            "Pflegesensitiver_Bereich": "Urologie",
+            "Station": "Uro",
+            "Schicht": "Tagschicht",
+            "Monatsbezogener_Erfuellungsgrad": "100,00",
+            "Ausnahmetatbestaende": "0",
+            "Erlaeuterungen": "an 11 Tagen Station geschlossen; teilweise an Sam und/oder Sonntags Klinik geschlossen; 9 Tage (WE) samstags und/oder sonntags geschlossen; 10 Tage (WE) samstags und/oder sonntags geschlossen; 9 Tage (WE) samstags und/oder sonntags geschlossen.1 Tag nur Frühschicht, da kein OP-Personal"
+          }
+        ],
+        "Schichtbezogener_Erfuellungsgrad_PpUG": [
+          {
+            "Pflegesensitiver_Bereich": "Urologie",
+            "Station": "Uro",
+            "Schicht": "Nachtschicht",
+            "Schichtbezogener_Erfuellungsgrad": "100,00",
+            "Erlaeuterungen": "teilweise an Sam und/oder Sonntags Klinik geschlossen; 9 Tage  (WE) samstags und/oder sonntags geschlossen; 10 Tage (WE) samstags und/oder sonntags geschlossen; 9 Tage (WE) samstags und/oder sonntags geschlossen.; s.o.; Station an 2 Sonntagen und zusätzlich an 4 Nächten geschlossen"
+          },
+          {
+            "Pflegesensitiver_Bereich": "Urologie",
+            "Station": "Uro",
+            "Schicht": "Tagschicht",
+            "Schichtbezogener_Erfuellungsgrad": "100,00",
+            "Erlaeuterungen": "an 11 Tagen Station geschlossen; teilweise an Sam und/oder Sonntags Klinik geschlossen; 9 Tage (WE) samstags und/oder sonntags geschlossen; 10 Tage (WE) samstags und/oder sonntags geschlossen; 9 Tage (WE) samstags und/oder sonntags geschlossen.1 Tag nur Frühschicht, da kein OP-Personal"
+          }
+        ]
+      },
+      "ATMP-QS-RL": {
+        "Hinweis_ATMP-QS-RL": "Krankenhausstandorte, an denen neue Therapien gemäß den Anlagen der ATMP-QS-RL angewendet werden, müssen die dort vorgegebenen Mindestanforderungen an die Struktur-, Prozess- oder Ergebnisqualität erfüllen. Der Medizinische Dienst überprüft die Umsetzung der relevanten Qualitätsanforderungen und stellt dem Krankenhaus eine Bescheinigung aus, wenn diese vollumfänglich erfüllt werden. ATMP nach dieser Richtlinie dürfen ausschließlich von Leistungserbringern angewendet werden, die die Mindestanforderungen erfüllen.",
+        "Keine_Anwendung_Arzneimittel_neuartige_Therapien": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,2074 @@
+{
+  "Qualitaetsbericht": {
+    "Einleitung": {
+      "Datensatz": {
+        "Datum": "2025-11-13",
+        "Uhrzeit": "08:10:03",
+        "Sprache": "deutsch"
+      },
+      "Software": {
+        "Hersteller": "Solventum Germany GmbH",
+        "Produktname": "Solventum™ QM-Portal Modul Qualitätsbericht",
+        "Version": "2025.3.0.3"
+      },
+      "Verantwortlicher_Erstellung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Lars Marcel",
+            "Nachname": "Winter",
+            "Funktion_Arbeitsschwerpunkt": "Koordinator für Datenschutz und Qualitätsmanagement der Kliniken des Landkreises Lörrach GmbH"
+          },
+          "Telefon": {
+            "Vorwahl": "07621",
+            "Rufnummer": "416",
+            "Durchwahl": "8201"
+          },
+          "Fax": {
+            "Vorwahl": "07621",
+            "Rufnummer": "416",
+            "Durchwahl": "8631"
+          },
+          "Email": "winter.lars@klinloe.de"
+        }
+      },
+      "Verantwortlicher_Krankenhausleitung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Udo",
+            "Nachname": "Lavendel",
+            "Funktion_Arbeitsschwerpunkt": "Vorsitzender Geschäftsführer"
+          },
+          "Telefon": {
+            "Vorwahl": "07621",
+            "Rufnummer": "416",
+            "Durchwahl": "8800"
+          },
+          "Fax": {
+            "Vorwahl": "07621",
+            "Rufnummer": "416",
+            "Durchwahl": "8823"
+          },
+          "Email": "lavendel.udo@klinloe.de"
+        }
+      },
+      "URL_Internetseite_Krankenhaus": "https://klinloe.de"
+    },
+    "Krankenhaus": {
+      "Mehrere_Standorte": {
+        "Krankenhauskontaktdaten": {
+          "Name": "KIiniken des Landkreises Lörrach GmbH",
+          "IK": "260831619",
+          "Kontakt_Zugang": {
+            "Strasse": "Spitalstraße",
+            "Hausnummer": "25",
+            "Postleitzahl": "79539",
+            "Ort": "Lörrach",
+            "URL_Zugang": "http://www.klinloe.de"
+          },
+          "Telefon": {
+            "Vorwahl": "07621",
+            "Rufnummer": "1710"
+          },
+          "Email": "info@klinloe.de",
+          "Aerztliche_Leitung": {
+            "Kontakt_Person_lang": [
+              {
+                "Person": {
+                  "Titel": "Prof. Dr. med",
+                  "Vorname": "Tilman",
+                  "Nachname": "Humpl",
+                  "Funktion_Arbeitsschwerpunkt": "Ärztlicher Direktor"
+                },
+                "Telefon": {
+                  "Vorwahl": "07621",
+                  "Rufnummer": "171",
+                  "Durchwahl": "4044"
+                },
+                "Fax": {
+                  "Vorwahl": "07621",
+                  "Rufnummer": "171",
+                  "Durchwahl": "4000"
+                },
+                "Email": "t.humpl@elikh.de"
+              },
+              {
+                "Person": {
+                  "Titel": "Dr. med.",
+                  "Vorname": "Clemens",
+                  "Nachname": "Keutler",
+                  "Funktion_Arbeitsschwerpunkt": "Chefarzt KJPP Lörrach und Lauchringen"
+                },
+                "Telefon": {
+                  "Vorwahl": "07621",
+                  "Rufnummer": "171",
+                  "Durchwahl": "4802"
+                },
+                "Fax": {
+                  "Vorwahl": "07621",
+                  "Rufnummer": "171",
+                  "Durchwahl": "4899"
+                },
+                "Email": "c.keutler@elikh.de"
+              },
+              {
+                "Person": {
+                  "Vorname": "Miguel",
+                  "Nachname": "Hoffmann",
+                  "Funktion_Arbeitsschwerpunkt": "Leitender Oberarzt KJP Lauchringen"
+                },
+                "Telefon": {
+                  "Vorwahl": "07621",
+                  "Rufnummer": "80915",
+                  "Durchwahl": "0"
+                },
+                "Fax": {
+                  "Vorwahl": "07621",
+                  "Rufnummer": "80915",
+                  "Durchwahl": "299"
+                },
+                "Email": "kjo-pialau@elikh.de"
+              }
+            ]
+          },
+          "Pflegedienstleitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Dubravka",
+                "Nachname": "Kavur",
+                "Funktion_Arbeitsschwerpunkt": "Pflegedirektorin"
+              },
+              "Telefon": {
+                "Vorwahl": "07621",
+                "Rufnummer": "416",
+                "Durchwahl": "8715"
+              },
+              "Fax": {
+                "Vorwahl": "07621",
+                "Rufnummer": "416",
+                "Durchwahl": "8823"
+              },
+              "Email": "kavur.dubravka@klinloe.de"
+            }
+          },
+          "Verwaltungsleitung": {
+            "Kontakt_Person_lang": [
+              {
+                "Person": {
+                  "Vorname": "Udo",
+                  "Nachname": "Lavendel",
+                  "Funktion_Arbeitsschwerpunkt": "Geschäftsführer CEO"
+                },
+                "Telefon": {
+                  "Vorwahl": "07621",
+                  "Rufnummer": "416",
+                  "Durchwahl": "8815"
+                },
+                "Fax": {
+                  "Vorwahl": "07621",
+                  "Rufnummer": "416",
+                  "Durchwahl": "8823"
+                },
+                "Email": "lavendel.udo@klinloe.de"
+              },
+              {
+                "Person": {
+                  "Vorname": "Monika",
+                  "Nachname": "Röther",
+                  "Funktion_Arbeitsschwerpunkt": "Geschäftsführerin COO"
+                },
+                "Telefon": {
+                  "Vorwahl": "07621",
+                  "Rufnummer": "416",
+                  "Durchwahl": "8796"
+                },
+                "Fax": {
+                  "Vorwahl": "07621",
+                  "Rufnummer": "416",
+                  "Durchwahl": "8823"
+                },
+                "Email": "roether.monika@klinloe.de"
+              }
+            ]
+          }
+        },
+        "Standortkontaktdaten": {
+          "Name": "St. Elisabethen-Krankenhaus, Tagesklinik Lauchringen",
+          "IK": "260831619",
+          "Standortnummer": "772153000",
+          "Kontakt_Zugang": {
+            "Strasse": "Hauptstrasse",
+            "Hausnummer": "42",
+            "Postleitzahl": "79787",
+            "Ort": "Lauchringen",
+            "URL_Zugang": "https://www.elikh.de/zentrum-fuer-kinder-und-jugendmedizin.html"
+          },
+          "Aerztliche_Leitung": {
+            "Kontakt_Person_lang": [
+              {
+                "Person": {
+                  "Titel": "Prof. Dr. med",
+                  "Vorname": "Tilman",
+                  "Nachname": "Humpl",
+                  "Funktion_Arbeitsschwerpunkt": "Ärztlicher Direktor"
+                },
+                "Telefon": {
+                  "Vorwahl": "07621",
+                  "Rufnummer": "171",
+                  "Durchwahl": "4044"
+                },
+                "Fax": {
+                  "Vorwahl": "07621",
+                  "Rufnummer": "171",
+                  "Durchwahl": "4000"
+                },
+                "Email": "t.humpl@elikh.de"
+              },
+              {
+                "Person": {
+                  "Titel": "Dr. med.",
+                  "Vorname": "Clemens",
+                  "Nachname": "Keutler",
+                  "Funktion_Arbeitsschwerpunkt": "Chefarzt KJPP Lörrach und Lauchringen"
+                },
+                "Telefon": {
+                  "Vorwahl": "07621",
+                  "Rufnummer": "171",
+                  "Durchwahl": "4802"
+                },
+                "Fax": {
+                  "Vorwahl": "07621",
+                  "Rufnummer": "171",
+                  "Durchwahl": "4899"
+                },
+                "Email": "c.keutler@elikh.de"
+              },
+              {
+                "Person": {
+                  "Vorname": "Miguel",
+                  "Nachname": "Hoffmann",
+                  "Funktion_Arbeitsschwerpunkt": "Leitender Oberarzt KJP Lauchringen"
+                },
+                "Telefon": {
+                  "Vorwahl": "07621",
+                  "Rufnummer": "80915",
+                  "Durchwahl": "0"
+                },
+                "Fax": {
+                  "Vorwahl": "07621",
+                  "Rufnummer": "80915",
+                  "Durchwahl": "299"
+                },
+                "Email": "kjo-pialau@elikh.de"
+              }
+            ]
+          },
+          "Pflegedienstleitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Dubravka",
+                "Nachname": "Kavur",
+                "Funktion_Arbeitsschwerpunkt": "Pflegedirektorin"
+              },
+              "Telefon": {
+                "Vorwahl": "07621",
+                "Rufnummer": "416",
+                "Durchwahl": "8715"
+              },
+              "Fax": {
+                "Vorwahl": "07621",
+                "Rufnummer": "416",
+                "Durchwahl": "8823"
+              },
+              "Email": "kavur.dubravka@klinloe.de"
+            }
+          },
+          "Verwaltungsleitung": {
+            "Kontakt_Person_lang": [
+              {
+                "Person": {
+                  "Vorname": "Udo",
+                  "Nachname": "Lavendel",
+                  "Funktion_Arbeitsschwerpunkt": "Geschäftsführer CEO"
+                },
+                "Telefon": {
+                  "Vorwahl": "07621",
+                  "Rufnummer": "416",
+                  "Durchwahl": "8815"
+                },
+                "Fax": {
+                  "Vorwahl": "07621",
+                  "Rufnummer": "416",
+                  "Durchwahl": "8823"
+                },
+                "Email": "lavendel.udo@klinloe.de"
+              },
+              {
+                "Person": {
+                  "Vorname": "Monika",
+                  "Nachname": "Röther",
+                  "Funktion_Arbeitsschwerpunkt": "Geschäftsführerin COO"
+                },
+                "Telefon": {
+                  "Vorwahl": "07621",
+                  "Rufnummer": "416",
+                  "Durchwahl": "8796"
+                },
+                "Fax": {
+                  "Vorwahl": "07621",
+                  "Rufnummer": "416",
+                  "Durchwahl": "8823"
+                },
+                "Email": "roether.monika@klinloe.de"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Krankenhaustraeger": {
+      "Name": "Landkreis Lörrach",
+      "Krankenhaustraeger_Art": {
+        "Art": "öffentlich"
+      }
+    },
+    "Krankenhaus_Art": {
+      "Akademisches_Lehrkrankenhaus": {
+        "Name_Universitaet": "Albert-Ludwigs-Universität Freiburg i. Brsg."
+      }
+    },
+    "Medizinisch_Pflegerische_Leistungsangebote": {
+      "MP_Leistungsangebot": [
+        {
+          "MP_Schluessel": "MP08",
+          "Erlaeuterungen": "durch den Sozialdienst"
+        },
+        {
+          "MP_Schluessel": "MP11"
+        },
+        {
+          "MP_Schluessel": "MP03",
+          "Erlaeuterungen": "Multifamilientherapie und Beratung durch Sozialdienst"
+        },
+        {
+          "MP_Schluessel": "MP14"
+        },
+        {
+          "MP_Schluessel": "MP15",
+          "Erlaeuterungen": "nur Entlassmanagement"
+        },
+        {
+          "MP_Schluessel": "MP16",
+          "Erlaeuterungen": "incl. Motopädie und Kinder-Yoga (Qualifikation im PED)"
+        },
+        {
+          "MP_Schluessel": "MP17"
+        },
+        {
+          "MP_Schluessel": "MP20",
+          "Erlaeuterungen": "über Kooperationspartner"
+        },
+        {
+          "MP_Schluessel": "MP22"
+        },
+        {
+          "MP_Schluessel": "MP23",
+          "Erlaeuterungen": "durch Ergotherapeuten"
+        },
+        {
+          "MP_Schluessel": "MP27"
+        },
+        {
+          "MP_Schluessel": "MP30",
+          "Erlaeuterungen": "Lauchringen: Langensteinschule\nKJP Lörrach: Erich-Kästerner-Schule, Schule für kranke Kinder"
+        },
+        {
+          "MP_Schluessel": "MP32"
+        },
+        {
+          "MP_Schluessel": "MP34"
+        },
+        {
+          "MP_Schluessel": "MP40",
+          "Erlaeuterungen": "Yoga"
+        },
+        {
+          "MP_Schluessel": "MP42"
+        },
+        {
+          "MP_Schluessel": "MP44",
+          "Erlaeuterungen": "Lauchringen: bei Bedarf über Konsil bei niedergelassenen Logopäden oder SPZ Lörrach"
+        },
+        {
+          "MP_Schluessel": "MP52"
+        },
+        {
+          "MP_Schluessel": "MP53",
+          "Erlaeuterungen": "(PED)"
+        },
+        {
+          "MP_Schluessel": "MP56"
+        },
+        {
+          "MP_Schluessel": "MP59"
+        },
+        {
+          "MP_Schluessel": "MP62",
+          "Erlaeuterungen": "in speziell eingerichtetem Raum"
+        },
+        {
+          "MP_Schluessel": "MP63",
+          "Erlaeuterungen": "umfassende, professionelle Beratung und Unterstützung durch unsere Sozialarbeiter"
+        },
+        {
+          "MP_Schluessel": "MP65",
+          "Erlaeuterungen": "Multi-Familien-Therapie und Monofamilientherapie; Angebot für PatientInnen und deren Eltern"
+        },
+        {
+          "MP_Schluessel": "MP68",
+          "Erlaeuterungen": "durch regelmäßigen Austausch"
+        }
+      ]
+    },
+    "Nicht_Medizinische_Leistungsangebote": {
+      "NM_Leistungsangebot": [
+        {
+          "NM_Schluessel": "NM42"
+        },
+        {
+          "NM_Schluessel": "NM49"
+        },
+        {
+          "NM_Schluessel": "NM60"
+        },
+        {
+          "NM_Schluessel": "NM62"
+        },
+        {
+          "NM_Schluessel": "NM64"
+        },
+        {
+          "NM_Schluessel": "NM66",
+          "Erlaeuterungen": "Laktose- und glutenfreie Mahlzeiten. Nahrungsmittel im Rahmen der Kultursensibilität werden berücksichtigt."
+        },
+        {
+          "NM_Schluessel": "NM69"
+        }
+      ]
+    },
+    "Barrierefreiheit": {
+      "Ansprechpartner_Menschen_mit_Beeintraechtigung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Ilona",
+            "Nachname": "Hülsmann",
+            "Funktion_Arbeitsschwerpunkt": "Heilpädagogin, Inklusionsbeauftragte"
+          },
+          "Telefon": {
+            "Vorwahl": "0151",
+            "Rufnummer": "41419851"
+          },
+          "Fax": {
+            "Vorwahl": "07621",
+            "Rufnummer": "416",
+            "Durchwahl": "8823"
+          },
+          "Email": "huelsmann.ilona@klinloe.de"
+        }
+      },
+      "Barrierefreiheit_Aspekt": [
+        {
+          "BF_Schluessel": "BF04"
+        },
+        {
+          "BF_Schluessel": "BF08"
+        },
+        {
+          "BF_Schluessel": "BF09"
+        },
+        {
+          "BF_Schluessel": "BF10"
+        },
+        {
+          "BF_Schluessel": "BF11"
+        },
+        {
+          "BF_Schluessel": "BF02"
+        },
+        {
+          "BF_Schluessel": "BF15"
+        },
+        {
+          "BF_Schluessel": "BF16",
+          "Erlaeuterungen": "Unsere Inklusionsbeauftragte steht allen Patienten mit Beeinträchtigungen an allen Standorten zur Verfügung."
+        },
+        {
+          "BF_Schluessel": "BF20"
+        },
+        {
+          "BF_Schluessel": "BF24"
+        },
+        {
+          "BF_Schluessel": "BF25"
+        },
+        {
+          "BF_Schluessel": "BF26",
+          "Erlaeuterungen": "russisch, kroatisch"
+        },
+        {
+          "BF_Schluessel": "BF33",
+          "Erlaeuterungen": "2 Behindertenparkplätze"
+        },
+        {
+          "BF_Schluessel": "BF34"
+        },
+        {
+          "BF_Schluessel": "BF37"
+        }
+      ]
+    },
+    "Anzahl_Betten": "0",
+    "Fallzahlen": {
+      "Vollstationaere_Fallzahl": "0",
+      "Teilstationaere_Fallzahl": "59",
+      "Ambulante_Fallzahl": "1964",
+      "StaeB_Fallzahl": "0"
+    },
+    "Personal_des_Krankenhauses": {
+      "Aerzte": {
+        "Aerzte_ohne_Belegaerzte": {
+          "Personalerfassung": {
+            "Anzahl_VK": "2,56",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "2,56"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "1,65"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,91"
+              }
+            }
+          },
+          "Fachaerzte": {
+            "Personalerfassung": {
+              "Anzahl_VK": "1,00",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "1,00"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,64"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,36"
+                }
+              }
+            }
+          },
+          "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+        },
+        "Belegaerzte": {
+          "Anzahl": "0"
+        }
+      },
+      "Pflegekraefte": {
+        "Gesundheits_Krankenpfleger": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,26",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,26"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,26"
+              }
+            }
+          }
+        },
+        "Gesundheits_Kinderkrankenpfleger": {
+          "Personalerfassung": {
+            "Anzahl_VK": "1,39",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "1,39"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "1,39"
+              }
+            }
+          }
+        },
+        "Altenpfleger": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          }
+        },
+        "Pflegefachpersonen": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          }
+        },
+        "Pflegefachpersonen_BSc": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          }
+        },
+        "Pflegeassistenten": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          }
+        },
+        "Krankenpflegehelfer": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          }
+        },
+        "Pflegehelfer": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          }
+        },
+        "Hebammen_Entbindungspfleger": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          }
+        },
+        "Beleghebammen_Belegentbindungspfleger": {
+          "Anzahl": "0"
+        },
+        "Operationstechnische_Assistenz": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          }
+        },
+        "Anaesthesietechnische_Assistenz": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          }
+        },
+        "Medizinische_Fachangestellte": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          }
+        },
+        "Massgebliche_tarifliche_Wochenarbeitszeit": "39,00"
+      },
+      "Ausgewaehltes_Personal_Psych": {
+        "Ausgewaehltes_Therapeutisches_Personal": {
+          "Diplom_Psychologen": {
+            "Personalerfassung": {
+              "Anzahl_VK": "0,25",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,25"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,08"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,17"
+                }
+              }
+            }
+          },
+          "Klinische_Neuropsychologen": {
+            "Personalerfassung": {
+              "Anzahl_VK": "0,00",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                }
+              }
+            }
+          },
+          "Psychologische_Psychotherapeuten": {
+            "Personalerfassung": {
+              "Anzahl_VK": "0,00",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                }
+              }
+            }
+          },
+          "Kinder_Jugendlichenpsychotherapeuten": {
+            "Personalerfassung": {
+              "Anzahl_VK": "1,93",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "1,93"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,58"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "1,35"
+                }
+              }
+            }
+          },
+          "Psychotherapeuten_in_Ausbildung_waehrend_Taetigkeit": {
+            "Personalerfassung": {
+              "Anzahl_VK": "0,00",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                }
+              }
+            }
+          },
+          "Ergotherapeuten": {
+            "Personalerfassung": {
+              "Anzahl_VK": "0,60",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,60"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,18"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,42"
+                }
+              }
+            }
+          },
+          "Physiotherapeuten": {
+            "Personalerfassung": {
+              "Anzahl_VK": "0,00",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                }
+              }
+            }
+          },
+          "Sozialpaedagogen": {
+            "Personalerfassung": {
+              "Anzahl_VK": "1,00",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "1,00"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "1,00"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Spezielles_Therapeutisches_Personal": {
+        "Therapeutisches_Personal": [
+          {
+            "SP_Schluessel": "SP05",
+            "Personalerfassung": {
+              "Anzahl_VK": "0,60",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,60"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,18"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,42"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP06",
+            "Personalerfassung": {
+              "Anzahl_VK": "1,64",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "1,64"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "1,64"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP08",
+            "Personalerfassung": {
+              "Anzahl_VK": "1,20",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "1,20"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "1,20"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP54",
+            "Personalerfassung": {
+              "Anzahl_VK": "1,93",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "1,93"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,58"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "1,35"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP16",
+            "Personalerfassung": {
+              "Anzahl_VK": "0,23",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,23"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,07"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,16"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP23",
+            "Personalerfassung": {
+              "Anzahl_VK": "0,25",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,25"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,08"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,17"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP25",
+            "Personalerfassung": {
+              "Anzahl_VK": "1,00",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "1,00"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "1,00"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP58",
+            "Personalerfassung": {
+              "Anzahl_VK": "0,80",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,80"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,80"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "Umgang_mit_Risiken_in_der_Patientenversorgung": {
+      "Verantwortliche_Person_Qualitaetsmanagement": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Lars Marcel",
+            "Nachname": "Winter",
+            "Funktion_Arbeitsschwerpunkt": "Koordinator für Datenschutz und Qualitätsmanagement der Kliniken des Landkreises Lörrach GmbH"
+          },
+          "Telefon": {
+            "Vorwahl": "07621",
+            "Rufnummer": "416",
+            "Durchwahl": "8201"
+          },
+          "Fax": {
+            "Vorwahl": "07621",
+            "Rufnummer": "416",
+            "Durchwahl": "8631"
+          },
+          "Email": "qm@klinloe.de"
+        }
+      },
+      "Instrumente_Massnahmen_Risikomanagement": {
+        "Instrument_Massnahme_Risikomanagement": [
+          {
+            "RM_Schluessel": "RM08",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "VA Freiheitsentziehende Maßnahmen",
+                "Datum": "2024-06-01"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM09",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "VA MPG",
+                "Datum": "2021-11-16"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM10",
+            "Zusatzangaben_RM": {
+              "Fallbesprechungen_Konferenzen": {
+                "Fallbesprechung_Konferenz": [
+                  {
+                    "Art": "Qualitätszirkel"
+                  },
+                  {
+                    "Andere": "Supervision monatlich und Multiprofessionelle Visite wöchentlich"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM12"
+          },
+          {
+            "RM_Schluessel": "RM18",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "die gesamte Dokumentation ist über das KIS iMedOne abgebildet",
+                "Datum": "2023-01-01"
+              }
+            }
+          }
+        ]
+      },
+      "Einrichtungsinternes_Fehlermeldesystem": {
+        "Tagungsgremium": {
+          "Tagungsfrequenz": "monatlich"
+        },
+        "Massnahmen": "bei Kindern werden Medikamente nach Körpergewicht dosiert;",
+        "Fehlermeldesystem_intern": {
+          "System_intern": [
+            {
+              "IF_Schluessel": "IF01",
+              "Zusatzangaben_IF": {
+                "Datum": "2023-12-11"
+              }
+            },
+            {
+              "IF_Schluessel": "IF02",
+              "Zusatzangaben_IF": {
+                "Frequenz": "quartalsweise"
+              }
+            },
+            {
+              "IF_Schluessel": "IF03",
+              "Zusatzangaben_IF": {
+                "Frequenz": "bei Bedarf"
+              }
+            }
+          ]
+        }
+      },
+      "Einrichtungsuebergreifendes_Fehlermeldesystem": {
+        "Fehlermeldesystem_uebergreifend": {
+          "System_uebergreifend": {
+            "EF_Sonstiges": {
+              "EF_Sonstiges_Schluessel": "EF00",
+              "Erlaeuterungen": "üfms der Fa. kubicum GmbH, Dynamostraße 13, 68165 Mannheim"
+            }
+          }
+        },
+        "Tagungsgremium": {
+          "Tagungsfrequenz": "monatlich"
+        }
+      },
+      "Hygienepersonal": {
+        "Krankenhaushygieniker": {
+          "Anzahl": "1",
+          "Erlaeuterungen": "Externer Klinikhygieniker"
+        },
+        "Hygienebeauftragte_Aerzte": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "1"
+          }
+        },
+        "Hygienefachkraefte": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "4"
+          },
+          "Erlaeuterungen": "seit 2020 ist das Hygiene-Team der Kliniken des Landkreises Lörrach zuständig"
+        },
+        "Hygienebeauftragte_Pflege": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "1"
+          },
+          "Erlaeuterungen": "am Standort der KJPP in Lörrach"
+        },
+        "Hygienekommission_eingerichtet": {
+          "Kontakt_Person_kurz": {
+            "Person": {
+              "Titel": "Prof. Dr.  med",
+              "Vorname": "Tilman",
+              "Nachname": "Humpl",
+              "Funktion_Arbeitsschwerpunkt": "Ärztlicher Direktor"
+            },
+            "Telefon": {
+              "Vorwahl": "07621",
+              "Rufnummer": "171",
+              "Durchwahl": "4044"
+            },
+            "Fax": {
+              "Vorwahl": "07621",
+              "Rufnummer": "171",
+              "Durchwahl": "4099"
+            },
+            "Email": "t.humpl@elikh.de"
+          },
+          "Tagungsfrequenz": "halbjährlich"
+        }
+      },
+      "Weitere_Informationen_Hygiene": {
+        "Hygienestandard_ZVK": {
+          "Standard_Hygiene_ZVK_liegt_nicht_vor": {},
+          "Standard_Liegedauer_ZVK_liegt_nicht_vor": {}
+        },
+        "Antibiotikaprophylaxe_Antibiotikatherapie": {
+          "Leitlinie_Antibiotikatherapie_liegt_nicht_vor": {},
+          "Standard_perioperative_Antibiotikaprophylaxe_liegt_nicht_vor": {}
+        },
+        "Umgang_Wunden": {
+          "Standard_Wundversorgung_Verbandwechsel_liegt_vor": {
+            "Standard_thematisiert": {
+              "Hygienische_Haendedesinfektion": "ja",
+              "Verbandwechsel_aseptische_Bedingungen": "ja",
+              "Antiseptische_Behandlung_infizierte_Wunden": "ja",
+              "Pruefung_Notwendigkeit_Wundauflage": "ja",
+              "Meldung_Wundinfektion": "ja"
+            },
+            "Standard_autorisiert": "ja"
+          }
+        },
+        "Haendedesinfektion": {
+          "Haendedesinfektionsmittelverbrauch_Allgemeinstationen_wurde_nicht_erhoben": {},
+          "Haendedesinfektionsmittelverbrauch_Intensivstationen_wurde_nicht_erhoben": {},
+          "Erfassung_Haendedesinfektionsmittelverbrauch_stationsbezogen": "ja"
+        },
+        "Umgang_Patienten_MRE": {
+          "Standardisierte_Information_MRSA": "ja",
+          "Informationsmanagement_MRSA": "ja",
+          "Risikoadaptives_Aufnahmescreening": "ja",
+          "Regelmaessige_Schulungen": "ja"
+        },
+        "Hygienebezogenes_Risikomanagement": {
+          "Hygiene_Instrument_Massnahme": {
+            "HM_Schluessel": "HM09",
+            "Zusatzangaben_HM": {
+              "Frequenz": "bei Bedarf"
+            },
+            "Erlaeuterungen": "Verpflichtende E-Learning Module zu verschiedenen Hygienethemen"
+          }
+        }
+      },
+      "Beschwerdemanagement": {
+        "Strukturiertes_Beschwerdemanagement": {
+          "Strukturiertes_Beschwerdemanagement_Eingefuehrt": "ja"
+        },
+        "Schriftliches_Konzept": {
+          "Schriftliches_Konzept_Existiert": "ja"
+        },
+        "Umgang_muendliche_Beschwerden": {
+          "Umgang_muendliche_Beschwerden_Geregelt": "ja"
+        },
+        "Umgang_schriftliche_Beschwerden": {
+          "Umgang_schriftliche_Beschwerden_Geregelt": "ja"
+        },
+        "Zeitziele_fuer_Rueckmeldung": {
+          "Zeitziele_fuer_Rueckmeldung_Definiert": "ja"
+        },
+        "Ansprechpartner": {
+          "Ansprechpersonen": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Titel": "Frau",
+                "Vorname": "Viola",
+                "Nachname": "Proft",
+                "Funktion_Arbeitsschwerpunkt": "Rückmeldemanagement"
+              },
+              "Telefon": {
+                "Vorwahl": "07621",
+                "Rufnummer": "416",
+                "Durchwahl": "8804"
+              },
+              "Fax": {
+                "Vorwahl": "07621",
+                "Rufnummer": "416",
+                "Durchwahl": "8432"
+              },
+              "Email": "Proft.ViolaSusanne@klinloe.de"
+            }
+          }
+        },
+        "Anonyme_Eingabemoeglichkeiten": {
+          "Anonyme_Eingabemoeglichkeiten_Existieren": "ja"
+        },
+        "Patientenbefragungen": {
+          "Patientenbefragungen_Durchgefuehrt": "nein"
+        },
+        "Einweiserbefragungen": {
+          "Einweiserbefragungen_Durchgefuehrt": "nein"
+        }
+      },
+      "Arzneimitteltherapiesicherheit": {
+        "Hinweis_Arzneimitteltherapiesicherheit": "AMTS ist die Gesamtheit der Maßnahmen zur Gewährleistung eines optimalen Medikationsprozesses mit dem Ziel, Medikationsfehler und damit vermeidbare Risiken für Patientinnen und Patienten bei der Arzneimitteltherapie zu verringern. Eine Voraussetzung für die erfolgreiche Umsetzung dieser Maßnahmen ist, dass AMTS als integraler Bestandteil der täglichen Routine in einem interdisziplinären und multiprofessionellen Ansatz gelebt wird.",
+        "Verantwortliches_Gremium_AMTS": {
+          "Arzneimittelkommission": {}
+        },
+        "Verantwortliche_Person_AMTS": {
+          "Verantwortliche_Person_festgelegt": {
+            "Eigenstaendige_Position_AMTS": {
+              "Kontakt_Person_lang": {
+                "Person": {
+                  "Vorname": "Ulrike",
+                  "Nachname": "Bruns",
+                  "Funktion_Arbeitsschwerpunkt": "Leiterin Apotheke Ansprechpartnerin AMTS als Leiterin der AMK"
+                },
+                "Telefon": {
+                  "Vorwahl": "07621",
+                  "Rufnummer": "416",
+                  "Durchwahl": "8759"
+                },
+                "Fax": {
+                  "Vorwahl": "07621",
+                  "Rufnummer": "416",
+                  "Durchwahl": "8398"
+                },
+                "Email": "bruns.ulrike@klinloe.de"
+              }
+            }
+          }
+        },
+        "Pharmazeutisches_Personal": {
+          "Anzahl_Apotheker": "0",
+          "Anzahl_weiteres_pharmazeutisches_Personal": "0",
+          "Erlaeuterungen": "Die Kinder- und Jugendpsychiatrie wird von einer Apotheke in Waldshut beliefert."
+        },
+        "Instrumente_Massnahmen_AMTS": {
+          "Hinweis_Instrumente_Massnahmen_AMTS": "Die Instrumente und Maßnahmen zur Förderung der Arzneimitteltherapiesicherheit werden mit Fokus auf den typischen Ablauf des Medikationsprozesses bei der stationären Patientenversorgung dargestellt. Eine Besonderheit des Medikationsprozesses im stationären Umfeld stellt das Überleitungsmanagement bei Aufnahme und Entlassung dar. Die im Folgenden gelisteten Instrumente und Maßnahmen adressieren Strukturelemente, zum Beispiel besondere EDV-Ausstattung und Arbeitsmaterialien, sowie Prozessaspekte, wie Arbeitsbeschreibungen für besonders risikobehaftete Prozessschritte bzw. Konzepte zur Sicherung typischer Risikosituationen. Zusätzlich können bewährte Maßnahmen zur Vermeidung von bzw. zum Lernen aus Medikationsfehlern angegeben werden. Das Krankenhaus stellt hier dar, mit welchen Aspekten es sich bereits auseinandergesetzt bzw. welche Maßnahmen es konkret umgesetzt hat. Die folgenden Aspekte können, gegebenenfalls unter Verwendung von Freitextfeldern, dargestellt werden: \n\r - Aufnahme ins Krankenhaus, inklusive Anamnese \n\r Dargestellt werden können Instrumente und Maßnahmen zur Ermittlung der bisherigen Medikation (Arzneimittelanamnese), der anschließenden klinischen Bewertung und der Umstellung auf die im Krankenhaus verfügbare Medikation (Hausliste), sowie zur Dokumentation, sowohl der ursprünglichen Medikation der Patientin oder des Patienten als auch der für die Krankenhausbehandlung angepassten Medikation. \n\r - Medikationsprozess im Krankenhaus \n\r Im vorliegenden Rahmen wird beispielhaft von folgenden Teilprozessen ausgegangen: Arzneimittelanamnese – Verordnung – Patienteninformation – Arzneimittelabgabe – Arzneimittelanwendung – Dokumentation – Therapieüberwachung – Ergebnisbewertung. Dargestellt werden können hierzu Instrumente und Maßnahmen zur sicheren Arzneimittelverordnung, zum Beispiel bezüglich Leserlichkeit, Eindeutigkeit und Vollständigkeit der Dokumentation, aber auch bezüglich Anwendungsgebiet, Wirksamkeit, Nutzen-Risiko-Verhältnisses, Verträglichkeit (inklusive potenzieller Kontraindikationen, Wechselwirkungen und Ähnliches) und Ressourcenabwägungen. Außerdem können Angaben zur Unterstützung einer zuverlässigen Arzneimittelbestellung, -abgabe und -anwendung bzw. -verabreichung gemacht werden. \n\r - Entlassung \n\r Dargestellt werden können insbesondere die Maßnahmen der Krankenhäuser, die sicherstellen, dass eine strukturierte und sichere Weitergabe von Informationen zur Arzneimitteltherapie an weiterbehandelnde Ärztinnen und Ärzte sowie die angemessene Ausstattung der Patientinnen und Patienten mit Arzneimittelinformationen, Medikationsplan und Medikamenten bzw. Arzneimittelverordnungen erfolgt.",
+          "Instrument_Massnahme_AMTS": [
+            {
+              "AMTS_Schluessel": "AS01"
+            },
+            {
+              "AMTS_Schluessel": "AS02"
+            },
+            {
+              "AMTS_Schluessel": "AS04"
+            },
+            {
+              "AMTS_Schluessel": "AS07"
+            },
+            {
+              "AMTS_Schluessel": "AS08"
+            },
+            {
+              "AMTS_Schluessel": "AS11"
+            },
+            {
+              "AMTS_Schluessel": "AS12",
+              "Zusatzangaben_AMTS": {
+                "Massnahmen_Minimierung_Medikationsfehler": {
+                  "Massnahme_Minimierung_Medikationsfehler": [
+                    {
+                      "Massnahme": "Fallbesprechungen"
+                    },
+                    {
+                      "Massnahme": "Teilnahme an einem einrichtungsübergreifenden Fehlermeldesystem (siehe Kapitel 12.2.3.2)"
+                    },
+                    {
+                      "Andere_Massnahme": "4-Augen-Prinzip"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "AMTS_Schluessel": "AS13",
+              "Zusatzangaben_AMTS": {
+                "Massnahmen_Arzneimitteltherapie_Entlassung": {
+                  "Massnahme_Arzneimitteltherapie_Entlassung": [
+                    {
+                      "Massnahme": "Aushändigung von Patienteninformationen zur Umsetzung von Therapieempfehlungen"
+                    },
+                    {
+                      "Massnahme": "Aushändigung des Medikationsplans"
+                    },
+                    {
+                      "Massnahme": "bei Bedarf Arzneimittel-Mitgabe oder Ausstellung von Entlassrezepten"
+                    }
+                  ]
+                },
+                "Erlaeuterungen": "Medikationsplan mit Kurzbrief"
+              }
+            }
+          ]
+        }
+      },
+      "Praevention_Hilfe_Missbrauch_Gewalt": {
+        "Hinweis_Praevention_Hilfe_Missbrauch_Gewalt": "Gemäß Teil A § 4 Absatz 2 der Qualitätsmanagement-Richtlinie haben Einrichtungen die Prävention von und Intervention bei Gewalt und Missbrauch als Teil des einrichtungsinternen Qualitätsmanagements vorzusehen. Ziel ist es, Missbrauch und Gewalt insbesondere gegenüber vulnerablen Patientengruppen, wie beispielsweise Kindern und Jugendlichen oder hilfsbedürftigen Personen, vorzubeugen, zu erkennen, adäquat darauf zu reagieren und auch innerhalb der Einrichtung zu verhindern. Das jeweilige Vorgehen wird an Einrichtungsgröße, Leistungsspektrum und den Patientinnen und Patienten ausgerichtet, um so passgenaue Lösungen zur Sensibilisierung der Teams sowie weitere geeignete vorbeugende und intervenierende Maßnahmen festzulegen. Dies können unter anderem Informationsmaterialien, Kontaktadressen, Schulungen/Fortbildungen, Verhaltenskodizes, Handlungsempfehlungen/Interventionspläne oder umfassende Schutzkonzepte sein.",
+        "Praevention_Intervention_Massnahmen": "ja",
+        "Kommentar": "ein interdisziplinäres Team von Kollegen aus der Klinik für Pädiatrie sowie der Kinder- und Jugendpsychiatrie & -psychotherapie (KJPP) erarbeitet ein institutionelles Schutzkonzept für die Abteilungen. Unterstützung gibt es durch die Deutsche Liga für das Kind.  Aus diesem Konzept werden Schutzprozesse entwickelt, die stetig angepasst und optimiert werden.",
+        "Schutzkonzepte_Gewalt_Kinder": {
+          "Hinweis_Schutzkonzepte_Gewalt_Kinder": "Gemäß Teil A § 4 Absatz 2 in Verbindung mit Teil B Abschnitt I § 1 der Qualitätsmanagement-Richtlinie haben sich Einrichtungen, die Kinder und Jugendliche versorgen, gezielt mit der Prävention von und Intervention bei (sexueller) Gewalt und Missbrauch bei Kindern und Jugendlichen zu befassen (Risiko- und Gefährdungsanalyse) und – der Größe und Organisationsform der Einrichtung entsprechend – konkrete Schritte und Maßnahmen abzuleiten (Schutzkonzept). In diesem Abschnitt geben Krankenhäuser, die Kinder und Jugendliche versorgen, an, ob sie gemäß Teil A § 4 Absatz 2 in Verbindung mit Teil B Abschnitt I § 1 der Qualitätsmanagement-Richtlinie ein Schutzkonzept gegen (sexuelle) Gewalt bei Kindern und Jugendlichen aufweisen.",
+          "Versorgung_Kinder_Jugendliche": {
+            "Schutzkonzept_gegen_Gewalt_liegt_vor": {
+              "Schutzkonzept": [
+                {
+                  "SK_Schluessel": "SK01",
+                  "Kommentar": "Erhebung der erforderlichen Daten abgeschlossen"
+                },
+                {
+                  "SK_Schluessel": "SK02",
+                  "Kommentar": "Konzept ist in Arbeit"
+                },
+                {
+                  "SK_Schluessel": "SK03",
+                  "Kommentar": "Konzept ist in Arbeit"
+                },
+                {
+                  "SK_Schluessel": "SK04",
+                  "Kommentar": "Konzept ist in Arbeit",
+                  "Datum_letzte_Ueberpruefung": "2023-09-07"
+                },
+                {
+                  "SK_Schluessel": "SK05",
+                  "Kommentar": "Es besteht die Möglichkeit mit dem Patientenfürsprecher sowie der Informations- Beratungs- und Beschwerdestelle für psychisch Erkrankte und psychjsch behinderte Menschen und Angehörige in Lörrach Kontakt aufzunehmen (Flyer liegen aus). Es gibt einen Briefkasten für Beschwerden auf Station. Das Konzept wird weiter entwickelt"
+                },
+                {
+                  "SK_Schluessel": "SK06",
+                  "Kommentar": "Konzept ist in Arbeit"
+                },
+                {
+                  "SK_Schluessel": "SK08",
+                  "Kommentar": "Konzept ist in Arbeit",
+                  "Datum_letzte_Ueberpruefung": "2023-09-07"
+                },
+                {
+                  "SK_Schluessel": "SK10",
+                  "Kommentar": "Konzept ist in Arbeit",
+                  "Datum_letzte_Ueberpruefung": "2023-09-07"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "Teilnahme_Notfallversorgung": {
+      "Hinweis_Teilnahme_Notfallversorgung": "Alle Krankenhäuser gewährleisten Notfallversorgung und haben allgemeine Pflichten zur Hilfeleistung im Notfall. Darüber hinaus hat der Gemeinsame Bundesausschuss ein gestuftes System von Notfallstrukturen in Krankenhäusern im entgeltrechtlichen Sinne geregelt. Das bedeutet, dass Krankenhäuser, die festgelegte Anforderungen an eine von drei Notfallstufen erfüllen, durch Vergütungszuschläge finanziell unterstützt werden. Krankenhäuser, die die Anforderungen an eine der drei Stufen nicht erfüllen, erhalten keine Zuschläge. Nimmt ein Krankenhaus nicht am gestuften System von Notfallstrukturen teil und gewährleistet es nicht eine spezielle Notfallversorgung, sieht der Gesetzgeber Abschläge vor.",
+      "Teilnahme_Notfallstufe": {
+        "Keine_Teilnahme_Notfallversorgung": {}
+      },
+      "Kooperation_mit_Kassenaerztlicher_Vereinigung": {
+        "Notdienstpraxis_Existiert": "nein",
+        "Vertragsaerztlicher_Notdienst_Existiert": "nein"
+      }
+    },
+    "Organisationseinheiten_Fachabteilungen": {
+      "Organisationseinheit_Fachabteilung": {
+        "Gliederungsnummer": "1",
+        "Name": "Kinder- und Jugendpsychiatrie/Tagesklinik (für teilstationäre Pflegesätze)",
+        "Aerztliche_Leitung_OE": {
+          "Chefarzt": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Titel": "Dr. med.",
+                "Vorname": "Clemens",
+                "Nachname": "Keutler",
+                "Funktion_Arbeitsschwerpunkt": "Chefarzt"
+              },
+              "Telefon": {
+                "Vorwahl": "07741",
+                "Rufnummer": "809150"
+              },
+              "Fax": {
+                "Vorwahl": "07741",
+                "Rufnummer": "80915299"
+              },
+              "Email": "kjp-pialau@elikh.de"
+            },
+            "Kontakt_Zugang": {
+              "Strasse": "Hauptstr.",
+              "Hausnummer": "42",
+              "Postleitzahl": "79787",
+              "Ort": "Lauchringen",
+              "URL_Zugang": "https://www.elikh.de/zentrum-fuer-kinder-und-Jugendmedizin.html"
+            }
+          }
+        },
+        "Zielvereinbarungen": {
+          "Keine_Zielvereinbarungen_geschlossen": {}
+        },
+        "Fachabteilungsschluessel": {
+          "FA_Schluessel": "3090"
+        },
+        "Medizinische_Leistungsangebote": {
+          "Medizinisches_Leistungsangebot": [
+            {
+              "VA_VU_Schluessel": "VP01"
+            },
+            {
+              "VA_VU_Schluessel": "VP02"
+            },
+            {
+              "VA_VU_Schluessel": "VP03"
+            },
+            {
+              "VA_VU_Schluessel": "VP04"
+            },
+            {
+              "VA_VU_Schluessel": "VP05"
+            },
+            {
+              "VA_VU_Schluessel": "VP06"
+            },
+            {
+              "VA_VU_Schluessel": "VP07"
+            },
+            {
+              "VA_VU_Schluessel": "VP08"
+            },
+            {
+              "VA_VU_Schluessel": "VP09"
+            },
+            {
+              "VA_VU_Schluessel": "VP11"
+            },
+            {
+              "VA_VU_Schluessel": "VP13"
+            },
+            {
+              "VA_VU_Schluessel": "VP15"
+            },
+            {
+              "VA_VU_Schluessel": "VK27"
+            }
+          ]
+        },
+        "Fallzahlen_OE": {
+          "Vollstationaere_Fallzahl": "0",
+          "Teilstationaere_Fallzahl": "59"
+        },
+        "Hauptdiagnosen": {
+          "Keine_Erbracht": {}
+        },
+        "Prozeduren": {
+          "Keine_Erbracht": {}
+        },
+        "Ambulante_Behandlungsmoeglichkeiten": {
+          "Ambulante_Behandlungsmoeglichkeit": [
+            {
+              "Ambulanz": {
+                "AM_Schluessel": "AM02",
+                "Bezeichnung": "PIA",
+                "Leistungen_Ambulanz": {
+                  "Medizinisches_Leistungsangebot": [
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP07"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP05"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP06"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP09"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP11"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP08"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP01"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VK27"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP04"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP02"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP03"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "Ambulanz": {
+                "AM_Schluessel": "AM07",
+                "Bezeichnung": "Privatambulanz Dr. Clemens Keutler",
+                "Leistungen_Ambulanz": {
+                  "Medizinisches_Leistungsangebot": [
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP07"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP06"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP11"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP08"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP09"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP05"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP01"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP02"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VK27"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP04"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP03"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "Ambulanz": {
+                "AM_Schluessel": "AM05",
+                "Bezeichnung": "Ermächtigungsambulanz Miguel Hoffmann",
+                "Leistungen_Ambulanz": {
+                  "Medizinisches_Leistungsangebot": [
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP07"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP08"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP06"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP11"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP09"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP02"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VK27"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP01"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP04"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP05"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP03"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "Ambulante_Operationen": {
+          "Keine_Erbracht": {}
+        },
+        "Personelle_Ausstattung": {
+          "Aerztliches_Personal": {
+            "Hauptabteilung": {
+              "Aerzte_ohne_Belegaerzte": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "2,56",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "2,56"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "1,65"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "0,91",
+                      "Fall_je_Anzahl": "0,00000"
+                    }
+                  }
+                },
+                "Fachaerzte": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "1,00",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "1,00"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0,64"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "0,36",
+                        "Fall_je_Anzahl": "0,00000"
+                      }
+                    }
+                  }
+                },
+                "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+              }
+            }
+          },
+          "Aerztliche_Fachexpertisen": {
+            "Fachexpertise": [
+              {
+                "AQ_ZF_Schluessel": "AQ37",
+                "Erlaeuterungen": "Psychotraumatologie"
+              },
+              {
+                "AQ_ZF_Schluessel": "AQ35"
+              },
+              {
+                "AQ_ZF_Schluessel": "ZF36"
+              },
+              {
+                "AQ_ZF_Schluessel": "ZF45"
+              }
+            ]
+          },
+          "Pflegekraefte": {
+            "Gesundheits_Krankenpfleger": {
+              "Personalerfassung": {
+                "Anzahl_VK": "0,26",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "0,26"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0,00"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0,00"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "0,26",
+                    "Fall_je_Anzahl": "0,00000"
+                  }
+                }
+              }
+            },
+            "Gesundheits_Kinderkrankenpfleger": {
+              "Personalerfassung": {
+                "Anzahl_VK": "1,39",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "1,39"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0,00"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0,00"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "1,39",
+                    "Fall_je_Anzahl": "0,00000"
+                  }
+                }
+              }
+            },
+            "Massgebliche_tarifliche_Wochenarbeitszeit": "39,00"
+          },
+          "Pflegerische_Fachexpertisen": {
+            "Fachexpertise_Pflege": [
+              {
+                "PQ_ZP_Schluessel": "PQ01"
+              },
+              {
+                "PQ_ZP_Schluessel": "PQ05"
+              },
+              {
+                "PQ_ZP_Schluessel": "PQ06"
+              },
+              {
+                "PQ_ZP_Schluessel": "PQ13"
+              },
+              {
+                "PQ_ZP_Schluessel": "PQ20"
+              },
+              {
+                "PQ_ZP_Schluessel": "ZP24"
+              },
+              {
+                "PQ_ZP_Schluessel": "ZP13"
+              }
+            ]
+          },
+          "Ausgewaehltes_Personal_Psych": {
+            "Ausgewaehltes_Therapeutisches_Personal": {
+              "Diplom_Psychologen": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "0,25",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "0,25"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,08"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "0,17",
+                      "Fall_je_Anzahl": "0,00000"
+                    }
+                  }
+                }
+              },
+              "Kinder_Jugendlichenpsychotherapeuten": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "1,93",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "1,93"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,58"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "1,35",
+                      "Fall_je_Anzahl": "0,00000"
+                    }
+                  }
+                }
+              },
+              "Ergotherapeuten": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "0,60",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "0,60"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,18"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "0,42",
+                      "Fall_je_Anzahl": "0,00000"
+                    }
+                  }
+                }
+              },
+              "Sozialpaedagogen": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "1,00",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "1,00"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,00"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "1,00",
+                      "Fall_je_Anzahl": "0,00000"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Qualitaetssicherung": {
+      "QS_nach_Landesrecht": {
+        "Keine_Teilnahme_landesspezifische_Qualitaetssicherungsmassnahme": {}
+      },
+      "Fortbildung": {
+        "Fortbildungspflichtige": "1",
+        "Nachweispflichtige": "1",
+        "Fortbildungsnachweis_Erbracht_Habende": "1"
+      },
+      "ATMP-QS-RL": {
+        "Hinweis_ATMP-QS-RL": "Krankenhausstandorte, an denen neue Therapien gemäß den Anlagen der ATMP-QS-RL angewendet werden, müssen die dort vorgegebenen Mindestanforderungen an die Struktur-, Prozess- oder Ergebnisqualität erfüllen. Der Medizinische Dienst überprüft die Umsetzung der relevanten Qualitätsanforderungen und stellt dem Krankenhaus eine Bescheinigung aus, wenn diese vollumfänglich erfüllt werden. ATMP nach dieser Richtlinie dürfen ausschließlich von Leistungserbringern angewendet werden, die die Mindestanforderungen erfüllen.",
+        "Keine_Anwendung_Arzneimittel_neuartige_Therapien": {}
+      }
+    }
+  }
+}

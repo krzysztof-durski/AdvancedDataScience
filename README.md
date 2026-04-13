@@ -15,7 +15,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 # 3) Ensure input files exist
-ls DATA/ICD-diagnoses.txt DATA/OPS-procedures.txt DATA/json_output
+ls DATA/ICD-diagnoses.txt DATA/OPS-procedures.txt DATA
 
 # 4) Run ingestion
 python ingest/run_ingest.py --batch-size 1000
@@ -89,9 +89,11 @@ Dependencies include parser/DB/testing packages such as `lxml`, `psycopg2-binary
 
 - `DATA/ICD-diagnoses.txt`
 - `DATA/OPS-procedures.txt`
-- `DATA/json_output/*.json`
+- `DATA/**/*.json` with filename format `ik-standortnummer-year.json`
 
 If either file is missing, the script exits with a clear error message.
+
+Current repository layout stores hospital JSON under year folders (for example `DATA/json_2023/` and `DATA/json_2024/`). The runner scans recursively under `--hospital-dir`.
 
 ## Run Ingestion
 
@@ -99,7 +101,9 @@ If either file is missing, the script exits with a clear error message.
 python ingest/run_ingest.py \
   --icd-path DATA/ICD-diagnoses.txt \
   --ops-path DATA/OPS-procedures.txt \
-  --hospital-dir DATA/json_output \
+  --hospital-dir DATA \
+  --icd-version-year 2025 \
+  --ops-version-year 2025 \
   --batch-size 1000
 ```
 
@@ -124,6 +128,9 @@ python ingest/run_ingest.py --exclude-years 2008,2010
 
 # Disable processed-file tracking
 python ingest/run_ingest.py --no-track-files
+
+# Override inferred ICD/OPS version year (recommended when filename has no year)
+python ingest/run_ingest.py --icd-version-year 2025 --ops-version-year 2025
 
 # Continue mode (skip immediate exit on top-level error)
 python ingest/run_ingest.py --continue-on-error
@@ -185,6 +192,8 @@ Current status:
   - If database state is corrupted, reset: `docker compose down -v && docker compose up -d`.
 
 - Hospital files are unexpectedly skipped:
+  - Ensure JSON filenames follow `ik-standortnummer-year.json`.
+  - Use `--hospital-dir DATA` for nested layouts like `DATA/json_2023` and `DATA/json_2024`.
   - Remove tracking entries for a clean rerun:
     `docker compose exec -T postgres psql -U postgres -d hospital_db -c "TRUNCATE ingest_files;"`
   - Or run once with `--no-track-files`.

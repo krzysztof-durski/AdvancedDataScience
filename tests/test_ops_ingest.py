@@ -113,7 +113,9 @@ class TestIngestOpsToDb:
     def test_ingest_creates_records(self, ops_sample_path, db_conn):
         try:
             stats = ingest_ops_to_db(ops_sample_path, db_conn)
-            assert stats.inserted >= 8
+            # In shared/local DBs the same sample may already exist, so upsert may
+            # report updates instead of fresh inserts.
+            assert (stats.inserted + stats.updated) >= 8
             assert stats.accepted >= 8
         finally:
             db_conn.rollback()

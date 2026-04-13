@@ -1,0 +1,2414 @@
+{
+  "Qualitaetsbericht": {
+    "Einleitung": {
+      "Datensatz": {
+        "Datum": "2024-12-13",
+        "Uhrzeit": "13:30:30",
+        "Sprache": "deutsch"
+      },
+      "Software": {
+        "Hersteller": "netfutura GmbH",
+        "Produktname": "promato QBM",
+        "Version": "2.12"
+      },
+      "Verantwortlicher_Erstellung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Marcel",
+            "Nachname": "Blaeschke",
+            "Funktion_Arbeitsschwerpunkt": "Leiter Patientenverwaltung"
+          },
+          "Telefon": {
+            "Vorwahl": "06174",
+            "Rufnummer": "208",
+            "Durchwahl": "120"
+          },
+          "Fax": {
+            "Vorwahl": "06174",
+            "Rufnummer": "208",
+            "Durchwahl": "155"
+          },
+          "Email": "patientenverwaltung@st-josef-koenigstein.de"
+        }
+      },
+      "Verantwortlicher_Krankenhausleitung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Titel": "Dr.",
+            "Vorname": "Julia",
+            "Nachname": "Hefty",
+            "Funktion_Arbeitsschwerpunkt": "Geschäftsleitung, kaufmännische Direktorin"
+          },
+          "Telefon": {
+            "Vorwahl": "06172",
+            "Rufnummer": "14",
+            "Durchwahl": "3300"
+          },
+          "Fax": {
+            "Vorwahl": "06172",
+            "Rufnummer": "14",
+            "Durchwahl": "103300"
+          },
+          "Email": "julia.hefty@hochtaunus-kliniken.de"
+        }
+      },
+      "URL_Internetseite_Krankenhaus": "https://www.hochtaunus-kliniken.de/medizinische-fachabteilungen/koenigstein",
+      "Weiterfuehrende_Links": {
+        "Link": {
+          "URL": "https://www.hochtaunus-kliniken.de/medizinische-fachabteilungen/koenigstein"
+        }
+      }
+    },
+    "Krankenhaus": {
+      "Ein_Standort": {
+        "Krankenhauskontaktdaten": {
+          "Name": "St. Josef-Krankenhaus Königstein",
+          "IK": "260640413",
+          "Standortnummer": "773401000",
+          "Standortnummer_alt": "00",
+          "Kontakt_Zugang": {
+            "Strasse": "Woogtal Str.",
+            "Hausnummer": "7",
+            "Postleitzahl": "61462",
+            "Ort": "Königstein im Taunus",
+            "URL_Zugang": "https://www.hochtaunus-kliniken.de/medizinische-fachabteilungen/koenigstein"
+          },
+          "Kontakt_Adresse": {
+            "Adresse": {
+              "Strasse": "Woogtal Str.",
+              "Hausnummer": "7"
+            },
+            "Postleitzahl": "61462",
+            "Ort": "Königstein im Taunus"
+          },
+          "Telefon": {
+            "Vorwahl": "06174",
+            "Rufnummer": "208",
+            "Durchwahl": "0"
+          },
+          "Email": "info@st-josef-koenigstein.de",
+          "Aerztliche_Leitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Titel": "Dr.med.",
+                "Vorname": "Cornelius",
+                "Nachname": "Gurlitt",
+                "Funktion_Arbeitsschwerpunkt": "Ärztlicher Direktor/Chefarzt"
+              },
+              "Telefon": {
+                "Vorwahl": "06174",
+                "Rufnummer": "208",
+                "Durchwahl": "111"
+              },
+              "Fax": {
+                "Vorwahl": "06174",
+                "Rufnummer": "208",
+                "Durchwahl": "155"
+              },
+              "Email": "cornelius.gurlitt@hochtaunus-kliniken.de"
+            }
+          },
+          "Pflegedienstleitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Kathrin",
+                "Nachname": "Seefeldt",
+                "Funktion_Arbeitsschwerpunkt": "Pflegedirektorin"
+              },
+              "Telefon": {
+                "Vorwahl": "06174",
+                "Rufnummer": "208",
+                "Durchwahl": "0"
+              },
+              "Fax": {
+                "Vorwahl": "06174",
+                "Rufnummer": "208",
+                "Durchwahl": "155"
+              },
+              "Email": "kathrin.seefeldt@hochtaunus-kliniken.de"
+            }
+          },
+          "Verwaltungsleitung": {
+            "Kontakt_Person_lang": [
+              {
+                "Person": {
+                  "Titel": "Dr.",
+                  "Vorname": "Julia",
+                  "Nachname": "Hefty",
+                  "Funktion_Arbeitsschwerpunkt": "Geschäftsführerin, kaufmännische Direktorin"
+                },
+                "Telefon": {
+                  "Vorwahl": "06172",
+                  "Rufnummer": "14",
+                  "Durchwahl": "3300"
+                },
+                "Fax": {
+                  "Vorwahl": "06172",
+                  "Rufnummer": "14",
+                  "Durchwahl": "103300"
+                },
+                "Email": "julia.hefty@hochtaunus-kliniken.de"
+              },
+              {
+                "Person": {
+                  "Vorname": "Eckard",
+                  "Nachname": "Steffin",
+                  "Funktion_Arbeitsschwerpunkt": "Geschäftsführer"
+                },
+                "Telefon": {
+                  "Vorwahl": "06174",
+                  "Rufnummer": "208",
+                  "Durchwahl": "100"
+                },
+                "Fax": {
+                  "Vorwahl": "06174",
+                  "Rufnummer": "208",
+                  "Durchwahl": "155"
+                },
+                "Email": "eckard.steffin@hochtaunus-kliniken.de"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Krankenhaustraeger": {
+      "Name": "St.Josef Krankenhaus-Betriebs GmbH",
+      "Krankenhaustraeger_Art": {
+        "Art": "öffentlich"
+      }
+    },
+    "Medizinisch_Pflegerische_Leistungsangebote": {
+      "MP_Leistungsangebot": [
+        {
+          "MP_Schluessel": "MP64",
+          "Erlaeuterungen": "https://www.hochtaunus-kliniken.de/die-hochtaunus-kliniken/veranstaltungen/gesundheitsforum-st-josef-koenigstein"
+        },
+        {
+          "MP_Schluessel": "MP15"
+        },
+        {
+          "MP_Schluessel": "MP34"
+        },
+        {
+          "MP_Schluessel": "MP47",
+          "Erlaeuterungen": "Es besteht eine enge Zusammenarbeit mit umliegenden Sanitätshäusern"
+        },
+        {
+          "MP_Schluessel": "MP68",
+          "Erlaeuterungen": "Es besteht eine enge Zusammenarbeit zwischen unserem Entlassungsmanagement und den umliegenden Einrichtungen."
+        },
+        {
+          "MP_Schluessel": "MP04"
+        },
+        {
+          "MP_Schluessel": "MP13"
+        },
+        {
+          "MP_Schluessel": "MP06"
+        },
+        {
+          "MP_Schluessel": "MP24"
+        },
+        {
+          "MP_Schluessel": "MP63",
+          "Erlaeuterungen": "Sozialarbeiter & speziell weitergebildete Pflegekräfte arbeiten zusammen im Entlassungsmanagement"
+        },
+        {
+          "MP_Schluessel": "MP03"
+        },
+        {
+          "MP_Schluessel": "MP37"
+        },
+        {
+          "MP_Schluessel": "MP21"
+        },
+        {
+          "MP_Schluessel": "MP12"
+        },
+        {
+          "MP_Schluessel": "MP26",
+          "Erlaeuterungen": "Bei Kostenübernahme durch den Patient / Angehörige  kann eine professionelle Fußpflege organisiert werden"
+        },
+        {
+          "MP_Schluessel": "MP25"
+        },
+        {
+          "MP_Schluessel": "MP32"
+        },
+        {
+          "MP_Schluessel": "MP51"
+        },
+        {
+          "MP_Schluessel": "MP09",
+          "Erlaeuterungen": "Es besteht eine enge Kooperation mit Hospiz-Einrichtungen sowie SAPV-Teams"
+        },
+        {
+          "MP_Schluessel": "MP14"
+        },
+        {
+          "MP_Schluessel": "MP44"
+        },
+        {
+          "MP_Schluessel": "MP16"
+        }
+      ]
+    },
+    "Nicht_Medizinische_Leistungsangebote": {
+      "NM_Leistungsangebot": [
+        {
+          "NM_Schluessel": "NM49",
+          "Erlaeuterungen": "https://www.hochtaunus-kliniken.de/die-hochtaunus-kliniken/veranstaltungen/gesundheitsforum-st-josef-koenigstein"
+        },
+        {
+          "NM_Schluessel": "NM03"
+        },
+        {
+          "NM_Schluessel": "NM10"
+        },
+        {
+          "NM_Schluessel": "NM09",
+          "Erlaeuterungen": "Kostenübernahme, soweit möglich, im Vorfeld mit Kostenträger (Krankenkasse) abklären Im Falle einer attestierten \"medizinischen Indikation\"  übernimmt die Krankenkasse die Kosten"
+        },
+        {
+          "NM_Schluessel": "NM40"
+        },
+        {
+          "NM_Schluessel": "NM68"
+        },
+        {
+          "NM_Schluessel": "NM02"
+        },
+        {
+          "NM_Schluessel": "NM11"
+        },
+        {
+          "NM_Schluessel": "NM66"
+        },
+        {
+          "NM_Schluessel": "NM42",
+          "Erlaeuterungen": "Gottesdienste finden im Haus statt"
+        }
+      ]
+    },
+    "Barrierefreiheit": {
+      "Ansprechpartner_Menschen_mit_Beeintraechtigung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Lutz",
+            "Nachname": "Trepte",
+            "Funktion_Arbeitsschwerpunkt": "Technischer Leiter"
+          },
+          "Telefon": {
+            "Vorwahl": "06174",
+            "Rufnummer": "208",
+            "Durchwahl": "0"
+          },
+          "Fax": {
+            "Vorwahl": "06174",
+            "Rufnummer": "208",
+            "Durchwahl": "155"
+          },
+          "Email": "lutz.trepte@hochtaunus-kliniken.de"
+        }
+      },
+      "Barrierefreiheit_Aspekt": [
+        {
+          "BF_Schluessel": "BF08"
+        },
+        {
+          "BF_Schluessel": "BF04"
+        },
+        {
+          "BF_Schluessel": "BF05",
+          "Erlaeuterungen": "Nur personelle Unterstützung"
+        },
+        {
+          "BF_Schluessel": "BF10"
+        },
+        {
+          "BF_Schluessel": "BF06"
+        },
+        {
+          "BF_Schluessel": "BF17"
+        },
+        {
+          "BF_Schluessel": "BF21"
+        },
+        {
+          "BF_Schluessel": "BF22"
+        },
+        {
+          "BF_Schluessel": "BF24"
+        },
+        {
+          "BF_Schluessel": "BF11"
+        },
+        {
+          "BF_Schluessel": "BF25"
+        },
+        {
+          "BF_Schluessel": "BF26"
+        },
+        {
+          "BF_Schluessel": "BF32",
+          "Erlaeuterungen": "Andachtsraum für Glaubensrichtung RK bzw. EV"
+        },
+        {
+          "BF_Schluessel": "BF33"
+        }
+      ]
+    },
+    "Anzahl_Betten": "21",
+    "Fallzahlen": {
+      "Vollstationaere_Fallzahl": "280",
+      "Teilstationaere_Fallzahl": "0",
+      "Ambulante_Fallzahl": "0",
+      "StaeB_Fallzahl": "0"
+    },
+    "Personal_des_Krankenhauses": {
+      "Aerzte": {
+        "Aerzte_ohne_Belegaerzte": {
+          "Personalerfassung": {
+            "Anzahl_VK": "5,82",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "5,77"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,05"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "5,82"
+              }
+            }
+          },
+          "Fachaerzte": {
+            "Personalerfassung": {
+              "Anzahl_VK": "3,61",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "3,56"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,05"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "3,61"
+                }
+              }
+            }
+          },
+          "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+        },
+        "Belegaerzte": {
+          "Anzahl": "1",
+          "Erlaeuterungen": "In Teilen Belegkrankenhaus"
+        },
+        "Aerzte_ohne_Fachabteilungszuordnung": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          },
+          "Fachaerzte": {
+            "Personalerfassung": {
+              "Anzahl_VK": "0",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Pflegekraefte": {
+        "Gesundheits_Krankenpfleger": {
+          "Personalerfassung": {
+            "Anzahl_VK": "9,21",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "9,21"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "9,21"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Altenpfleger": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,95",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,95"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,95"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Massgebliche_tarifliche_Wochenarbeitszeit": "38,50"
+      }
+    },
+    "Umgang_mit_Risiken_in_der_Patientenversorgung": {
+      "Verantwortliche_Person_Qualitaetsmanagement": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Marcel",
+            "Nachname": "Blaeschke",
+            "Funktion_Arbeitsschwerpunkt": "Leiter Patientenverwaltung/QM-Beauftragter"
+          },
+          "Telefon": {
+            "Vorwahl": "06174",
+            "Rufnummer": "208",
+            "Durchwahl": "120"
+          },
+          "Fax": {
+            "Vorwahl": "06174",
+            "Rufnummer": "208",
+            "Durchwahl": "155"
+          },
+          "Email": "patientenverwaltung@st-josef-koenigstein.de"
+        }
+      },
+      "Lenkungsgremium_Qualitaetsmanagement": {
+        "Lenkungsgremium": {
+          "Beteiligte_Abteilungen_Funktionsbereiche": "Geschäftsführung, ärztlicher Direktor, Pflegedienstleitung, Hygiene",
+          "Tagungsfrequenz": "halbjährlich"
+        }
+      },
+      "Verantwortliche_Person_Risikomanagement": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Marcel",
+            "Nachname": "Blaeschke",
+            "Funktion_Arbeitsschwerpunkt": "Leiter Patientenverwaltung/QM-Beauftragter"
+          },
+          "Telefon": {
+            "Vorwahl": "06174",
+            "Rufnummer": "208",
+            "Durchwahl": "120"
+          },
+          "Fax": {
+            "Vorwahl": "06174",
+            "Rufnummer": "208",
+            "Durchwahl": "155"
+          },
+          "Email": "patientenverwaltung@st-josef-koenigstein.de"
+        }
+      },
+      "Lenkungsgremium_Risikomanagement": {
+        "Lenkungsgremium": {
+          "Beteiligte_Abteilungen_Funktionsbereiche": "Geschäftsführung, ärztlicher Direktor, Pflegedienstleitung, Hygiene",
+          "Tagungsfrequenz": "halbjährlich"
+        }
+      },
+      "Instrumente_Massnahmen_Risikomanagement": {
+        "Instrument_Massnahme_Risikomanagement": [
+          {
+            "RM_Schluessel": "RM06",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Qualitäts- & Risikohandbuch",
+                "Datum": "2023-10-31"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM09",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Qualitäts- & Risikohandbuch",
+                "Datum": "2023-10-31"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM18",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Qualitäts- & Risikohandbuch",
+                "Datum": "2023-10-31"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM07",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Qualitäts- & Risikohandbuch",
+                "Datum": "2023-10-31"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM05",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Qualitäts- & Risikohandbuch",
+                "Datum": "2023-10-31"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM04",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Qualitäts- & Risikohandbuch",
+                "Datum": "2023-10-31"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM01",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Qualitäts- & Risikohandbuch",
+                "Datum": "2023-10-31"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM02"
+          },
+          {
+            "RM_Schluessel": "RM12"
+          },
+          {
+            "RM_Schluessel": "RM16",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "QM Handbuch und Risikohandbuch",
+                "Datum": "2023-10-31"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM08",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "QM-Handbuch und Risikohandbuch",
+                "Datum": "2023-10-31"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM10",
+            "Zusatzangaben_RM": {
+              "Fallbesprechungen_Konferenzen": {
+                "Fallbesprechung_Konferenz": {
+                  "Art": "Qualitätszirkel"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "Einrichtungsinternes_Fehlermeldesystem": {
+        "Tagungsgremium": {
+          "Tagungsfrequenz": "monatlich"
+        },
+        "Massnahmen": "Interdisziplinäre, berufsübergreifende Fallbesprechung, Regelmäßige CIRS Newsletter an alle Mitarbeiter - Info & Schulung über Prozessrisiken: \"Medikation\", \"Schmerzmanagement\", \"Dekubitus\"  und \"Sturzprävention\" - Nutzung von Patientenidentifikationsarmbänder bei allen stationären Aufnahmen",
+        "Fehlermeldesystem_intern": {
+          "System_intern": [
+            {
+              "IF_Schluessel": "IF03",
+              "Zusatzangaben_IF": {
+                "Frequenz": "bei Bedarf"
+              }
+            },
+            {
+              "IF_Schluessel": "IF01",
+              "Zusatzangaben_IF": {
+                "Datum": "2023-10-31"
+              }
+            },
+            {
+              "IF_Schluessel": "IF02",
+              "Zusatzangaben_IF": {
+                "Frequenz": "monatlich"
+              }
+            }
+          ]
+        }
+      },
+      "Einrichtungsuebergreifendes_Fehlermeldesystem": {
+        "Fehlermeldesystem_uebergreifend": {
+          "System_uebergreifend": {
+            "EF_Schluessel": "EF03"
+          }
+        },
+        "Tagungsgremium": {
+          "Tagungsfrequenz": "monatlich"
+        }
+      },
+      "Hygienepersonal": {
+        "Krankenhaushygieniker": {
+          "Anzahl": "1",
+          "Erlaeuterungen": "Der Krankenhaushygieniker ist für alle drei Standorte der Hochtaunus-Klinken zuständig. Siehe auch Hygiene-Organigramm: https://www.hochtaunus-kliniken.de/hygiene"
+        },
+        "Hygienebeauftragte_Aerzte": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "1"
+          }
+        },
+        "Hygienefachkraefte": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "1"
+          }
+        },
+        "Hygienebeauftragte_Pflege": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "1"
+          }
+        },
+        "Hygienekommission_eingerichtet": {
+          "Kontakt_Person_kurz": {
+            "Person": {
+              "Titel": "PD. Dr. med. Dr. habil.",
+              "Vorname": "Sasa-Marcel",
+              "Nachname": "Maksan",
+              "Funktion_Arbeitsschwerpunkt": "Ärztlicher Direktor, Chefarzt der Gefäßchirurgie und Endovaskulärer Chirurgie"
+            },
+            "Telefon": {
+              "Vorwahl": "06172",
+              "Rufnummer": "14",
+              "Durchwahl": "2610"
+            },
+            "Fax": {
+              "Vorwahl": "06172",
+              "Rufnummer": "14",
+              "Durchwahl": "102610"
+            },
+            "Email": "sasa.maksan@hochtaunus-kliniken.de"
+          },
+          "Tagungsfrequenz": "halbjährlich"
+        }
+      },
+      "Weitere_Informationen_Hygiene": {
+        "Hygienestandard_ZVK": {
+          "Standard_Hygiene_ZVK_liegt_vor": {
+            "Standard_thematisiert": {
+              "Hygienische_Haendedesinfektion": "ja",
+              "Hautdesinfektion": "ja",
+              "Beachtung_Einwirkzeit": "ja",
+              "Anwendung_weiterer_Hygienemassnahmen": {
+                "Sterile_Handschuhe": "ja",
+                "Steriler_Kittel": "ja",
+                "Kopfhaube": "ja",
+                "Mund_Nasen_Schutz": "ja",
+                "Steriles_Abdecktuch": "ja"
+              }
+            },
+            "Standard_autorisiert": "ja"
+          },
+          "Standard_Liegedauer_ZVK_liegt_vor": {
+            "Standard_autorisiert": "ja"
+          }
+        },
+        "Antibiotikaprophylaxe_Antibiotikatherapie": {
+          "Leitlinie_Antibiotikatherapie_liegt_vor": {
+            "Leitlinie_Resistenzlage_angepasst": "ja",
+            "Leitlinie_autorisiert": "ja"
+          },
+          "Standard_perioperative_Antibiotikaprophylaxe_liegt_nicht_vor": {}
+        },
+        "Umgang_Wunden": {
+          "Standard_Wundversorgung_Verbandwechsel_liegt_vor": {
+            "Standard_thematisiert": {
+              "Hygienische_Haendedesinfektion": "ja",
+              "Verbandwechsel_aseptische_Bedingungen": "ja",
+              "Antiseptische_Behandlung_infizierte_Wunden": "ja",
+              "Pruefung_Notwendigkeit_Wundauflage": "ja",
+              "Meldung_Wundinfektion": "ja"
+            },
+            "Standard_autorisiert": "ja"
+          }
+        },
+        "Haendedesinfektion": {
+          "Haendedesinfektionsmittelverbrauch_Allgemeinstationen_wurde_erhoben": {
+            "Haendedesinfektionsmittelverbrauch_Allgemeinstationen": "35,5"
+          },
+          "Keine_Intensivstation_vorhanden": {},
+          "Erfassung_Haendedesinfektionsmittelverbrauch_stationsbezogen": "ja"
+        },
+        "Umgang_Patienten_MRE": {
+          "Standardisierte_Information_MRSA": "ja",
+          "Informationsmanagement_MRSA": "ja",
+          "Risikoadaptives_Aufnahmescreening": "ja",
+          "Regelmaessige_Schulungen": "ja"
+        },
+        "Hygienebezogenes_Risikomanagement": {
+          "Hygiene_Instrument_Massnahme": [
+            {
+              "HM_Schluessel": "HM05",
+              "Zusatzangaben_HM": {
+                "Frequenz": "monatlich"
+              },
+              "Erlaeuterungen": "Es erfolgt keine Sterilisation von Medizinprodukten am Standort Königstein - die Aufbereitung von Medizinprodukten erfolgt - soweit erforderlich-  nach Vorgaben und wird regelmäßig  ( jährlich) überprüft"
+            },
+            {
+              "HM_Schluessel": "HM02",
+              "Zusatzangaben_HM": {
+                "Teilnahme_KISS": {
+                  "KISS_Modul": [
+                    {
+                      "Name": "CDAD-KISS"
+                    },
+                    {
+                      "Name": "MRSA-KISS"
+                    }
+                  ]
+                }
+              },
+              "Erlaeuterungen": "Zertifikat liegt vor. https://www.hochtaunus-kliniken.de/hygiene"
+            },
+            {
+              "HM_Schluessel": "HM03",
+              "Zusatzangaben_HM": {
+                "Name": "MRE-Netz Rhein-Main"
+              },
+              "Erlaeuterungen": "https://www.hochtaunus-kliniken.de/hygiene"
+            },
+            {
+              "HM_Schluessel": "HM04",
+              "Zusatzangaben_HM": {
+                "Teilnahme_ASH": "Zertifikat Bronze"
+              },
+              "Erlaeuterungen": "https://www.hochtaunus-kliniken.de/hygiene"
+            },
+            {
+              "HM_Schluessel": "HM01",
+              "Zusatzangaben_HM": {
+                "URL_Bericht_zu_Infektionsraten": "https://www.hochtaunus-kliniken.de/hygiene"
+              }
+            },
+            {
+              "HM_Schluessel": "HM09",
+              "Zusatzangaben_HM": {
+                "Frequenz": "monatlich"
+              },
+              "Erlaeuterungen": "https://www.hochtaunus-kliniken.de/hygiene"
+            }
+          ]
+        }
+      },
+      "Beschwerdemanagement": {
+        "Strukturiertes_Beschwerdemanagement": {
+          "Strukturiertes_Beschwerdemanagement_Eingefuehrt": "ja"
+        },
+        "Schriftliches_Konzept": {
+          "Schriftliches_Konzept_Existiert": "ja"
+        },
+        "Umgang_muendliche_Beschwerden": {
+          "Umgang_muendliche_Beschwerden_Geregelt": "ja"
+        },
+        "Umgang_schriftliche_Beschwerden": {
+          "Umgang_schriftliche_Beschwerden_Geregelt": "ja"
+        },
+        "Zeitziele_fuer_Rueckmeldung": {
+          "Zeitziele_fuer_Rueckmeldung_Definiert": "ja",
+          "Erlaeuterungen": "Beschwerdeeingänge werden innerhalb von zwei Wochen beantwortet."
+        },
+        "Ansprechpartner": {
+          "Ansprechpersonen": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Marcel",
+                "Nachname": "Blaeschke",
+                "Funktion_Arbeitsschwerpunkt": "Leiter Patientenverwaltung"
+              },
+              "Telefon": {
+                "Vorwahl": "06174",
+                "Rufnummer": "208",
+                "Durchwahl": "120"
+              },
+              "Fax": {
+                "Vorwahl": "06174",
+                "Rufnummer": "208",
+                "Durchwahl": "155"
+              },
+              "Email": "patientenverwaltung@st-josef-koenigstein.de"
+            }
+          },
+          "Erlaeuterungen": "Patientenreferentinnen am Standort Bad Homburg bearbeiten zentral alle Beschwerde-Eingänge der drei Standorte."
+        },
+        "Patientenfuersprecher": {
+          "Fuersprechpersonen": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Maria Magdalena",
+                "Nachname": "De Zotti",
+                "Funktion_Arbeitsschwerpunkt": "Patientenfürsprecherin"
+              },
+              "Telefon": {
+                "Vorwahl": "06174",
+                "Rufnummer": "208",
+                "Durchwahl": "0"
+              },
+              "Fax": {
+                "Vorwahl": "06174",
+                "Rufnummer": "208",
+                "Durchwahl": "155"
+              },
+              "Email": "patientenverwaltung@st-josef-koenigstein.de"
+            }
+          }
+        },
+        "Anonyme_Eingabemoeglichkeiten": {
+          "Anonyme_Eingabemoeglichkeiten_Existieren": "ja"
+        },
+        "Patientenbefragungen": {
+          "Patientenbefragungen_Durchgefuehrt": "ja"
+        },
+        "Einweiserbefragungen": {
+          "Einweiserbefragungen_Durchgefuehrt": "nein"
+        }
+      },
+      "Arzneimitteltherapiesicherheit": {
+        "Hinweis_Arzneimitteltherapiesicherheit": "AMTS ist die Gesamtheit der Maßnahmen zur Gewährleistung eines optimalen Medikationsprozesses mit dem Ziel, Medikationsfehler und damit vermeidbare Risiken für Patientinnen und Patienten bei der Arzneimitteltherapie zu verringern. Eine Voraussetzung für die erfolgreiche Umsetzung dieser Maßnahmen ist, dass AMTS als integraler Bestandteil der täglichen Routine in einem interdisziplinären und multiprofessionellen Ansatz gelebt wird.",
+        "Verantwortliches_Gremium_AMTS": {
+          "Arzneimittelkommission": {}
+        },
+        "Verantwortliche_Person_AMTS": {
+          "Verantwortliche_Person_festgelegt": {
+            "Eigenstaendige_Position_AMTS": {
+              "Kontakt_Person_lang": {
+                "Person": {
+                  "Titel": "Dr. med",
+                  "Vorname": "Cornelius",
+                  "Nachname": "Gurlitt",
+                  "Funktion_Arbeitsschwerpunkt": "Ärztlicher Direktor, Chefarzt"
+                },
+                "Telefon": {
+                  "Vorwahl": "06174",
+                  "Rufnummer": "208",
+                  "Durchwahl": "111"
+                },
+                "Fax": {
+                  "Vorwahl": "06174",
+                  "Rufnummer": "208",
+                  "Durchwahl": "155"
+                },
+                "Email": "info@st-josef-koenigstein.de"
+              }
+            }
+          }
+        },
+        "Pharmazeutisches_Personal": {
+          "Anzahl_Apotheker": "1",
+          "Anzahl_weiteres_pharmazeutisches_Personal": "1",
+          "Erlaeuterungen": "Es besteht eine Kooperation mit der Schwanen Apotheke in Offenbach"
+        },
+        "Instrumente_Massnahmen_AMTS": {
+          "Hinweis_Instrumente_Massnahmen_AMTS": "Die Instrumente und Maßnahmen zur Förderung der Arzneimitteltherapiesicherheit werden mit Fokus auf den typischen Ablauf des Medikationsprozesses bei der stationären Patientenversorgung dargestellt. Eine Besonderheit des Medikationsprozesses im stationären Umfeld stellt das Überleitungsmanagement bei Aufnahme und Entlassung dar. Die im Folgenden gelisteten Instrumente und Maßnahmen adressieren Strukturelemente, z.B. besondere EDV-Ausstattung und Arbeitsmaterialien, sowie Prozessaspekte, wie Arbeitsbeschreibungen für besonders risikobehaftete Prozessschritte bzw. Konzepte zur Sicherung typischer Risikosituationen. Zusätzlich können bewährte Maßnahmen zur Vermeidung von bzw. zum Lernen aus Medikationsfehlern angegeben werden. Das Krankenhaus stellt hier dar, mit welchen Aspekten es sich bereits auseinandergesetzt bzw. welche Maßnahmen es konkret umgesetzt hat. Die folgenden Aspekte können, gegebenenfalls unter Verwendung von Freitextfeldern, dargestellt werden: \n\r - Aufnahme ins Krankenhaus, inklusive Anamnese \n\r Dargestellt werden können Instrumente und Maßnahmen zur Ermittlung der bisherigen Medikation (Arzneimittelanamnese), der anschließenden klinischen Bewertung und der Umstellung auf die im Krankenhaus verfügbare Medikation (Hausliste), sowie zur Dokumentation, sowohl der ursprünglichen Medikation der Patientin oder des Patienten als auch der für die Krankenhausbehandlung angepassten Medikation. \n\r - Medikationsprozess im Krankenhaus \n\r Im vorliegenden Rahmen wird beispielhaft von folgenden Teilprozessen ausgegangen: Arzneimittelanamnese – Verordnung – Patienteninformation – Arzneimittelabgabe – Arzneimittelanwendung – Dokumentation – Therapieüberwachung – Ergebnisbewertung. Dargestellt werden können hierzu Instrumente und Maßnahmen zur sicheren Arzneimittelverordnung, z. B. bezüglich Leserlichkeit, Eindeutigkeit und Vollständigkeit der Dokumentation, aber auch bezüglich Anwendungsgebiet, Wirksamkeit, Nutzen-Risiko-Verhältnis, Verträglichkeit (inklusive potentieller Kontraindikationen, Wechselwirkungen und Ähnliches) und Ressourcenabwägungen. Außerdem können Angaben zur Unterstützung einer zuverlässigen Arzneimittelbestellung, -abgabe und -anwendung bzw. -verabreichung gemacht werden. \n\r - Entlassung \n\r Dargestellt werden können insbesondere die Maßnahmen der Krankenhäuser, die sicherstellen, dass eine strukturierte und sichere Weitergabe von Informationen zur Arzneimitteltherapie an weiterbehandelnde Ärztinnen und Ärzte sowie die angemessene Ausstattung der Patientinnen und Patienten mit Arzneimittelinformationen, Medikationsplan und Medikamenten bzw. Arzneimittelverordnungen erfolgt.",
+          "Instrument_Massnahme_AMTS": [
+            {
+              "AMTS_Schluessel": "AS06",
+              "Zusatzangaben_AMTS": {
+                "SOP": {
+                  "Name": "Siehe VA",
+                  "Datum": "2023-10-31"
+                }
+              }
+            },
+            {
+              "AMTS_Schluessel": "AS01"
+            },
+            {
+              "AMTS_Schluessel": "AS02"
+            },
+            {
+              "AMTS_Schluessel": "AS05",
+              "Zusatzangaben_AMTS": {
+                "SOP": {
+                  "Name": "VA Anordnung und Verabreichung von Medikamenten",
+                  "Datum": "2023-10-31"
+                }
+              }
+            },
+            {
+              "AMTS_Schluessel": "AS12",
+              "Zusatzangaben_AMTS": {
+                "Massnahmen_Minimierung_Medikationsfehler": {
+                  "Massnahme_Minimierung_Medikationsfehler": [
+                    {
+                      "Massnahme": "Fallbesprechungen"
+                    },
+                    {
+                      "Massnahme": "Maßnahmen zur Vermeidung von Arzneimittelverwechslung"
+                    },
+                    {
+                      "Massnahme": "Spezielle AMTS-Visiten (z. B. pharmazeutische Visiten, antibiotic stewardship, Ernährung)"
+                    },
+                    {
+                      "Massnahme": "Teilnahme an einem einrichtungsübergreifenden Fehlermeldesystem (siehe Kapitel 12.2.3.2)"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Praevention_Hilfe_Missbrauch_Gewalt": {
+        "Hinweis_Praevention_Hilfe_Missbrauch_Gewalt": "Gemäß § 4 Absatz 2 der Qualitätsmanagement-Richtlinie haben Einrichtungen die Prävention von und Intervention bei Gewalt und Missbrauch als Teil des einrichtungsinternen Qualitätsmanagements vorzusehen. Ziel ist es, Missbrauch und Gewalt insbesondere gegenüber vulnerablen Patientengruppen, wie beispielsweise Kindern und Jugendlichen oder hilfsbedürftigen Personen, vorzubeugen, zu erkennen, adäquat darauf zu reagieren und auch innerhalb der Einrichtung zu verhindern. Das jeweilige Vorgehen wird an Einrichtungsgröße, Leistungsspektrum und den Patientinnen und Patienten ausgerichtet, um so passgenaue Lösungen zur Sensibilisierung der Teams sowie weitere geeignete vorbeugende und intervenierende Maßnahmen festzulegen. Dies können unter anderem Informationsmaterialien, Kontaktadressen, Schulungen/Fortbildungen, Verhaltenskodizes, Handlungsempfehlungen/Interventionspläne oder umfassende Schutzkonzepte sein.",
+        "Praevention_Intervention_Massnahmen": "nein",
+        "Schutzkonzepte_Gewalt_Kinder": {
+          "Hinweis_Schutzkonzepte_Gewalt_Kinder": "Gemäß § 4 Absatz 2 in Verbindung mit Teil B Abschnitt I § 1 der Qualitätsmanagement-Richtlinie haben sich Einrichtungen, die Kinder und Jugendliche versorgen, gezielt mit der Prävention von und Intervention bei (sexueller) Gewalt und Missbrauch bei Kindern und Jugendlichen zu befassen (Risiko- und Gefährdungsanalyse) und – der Größe und Organisationsform der Einrichtung entsprechend – konkrete Schritte und Maßnahmen abzuleiten (Schutzkonzept). In diesem Abschnitt geben Krankenhäuser, die Kinder und Jugendliche versorgen, an, ob sie gemäß § 4 Absatz 2 in Verbindung mit Teil B Abschnitt I § 1 der Qualitätsmanagement-Richtlinie ein Schutzkonzept gegen (sexuelle) Gewalt bei Kindern und Jugendlichen aufweisen.",
+          "Keine_Versorgung_Kinder_Jugendliche": {}
+        }
+      }
+    },
+    "Teilnahme_Notfallversorgung": {
+      "Hinweis_Teilnahme_Notfallversorgung": "Alle Krankenhäuser gewährleisten Notfallversorgung und haben allgemeine Pflichten zur Hilfeleistung im Notfall. Darüber hinaus hat der Gemeinsame Bundesausschuss ein gestuftes System von Notfallstrukturen in Krankenhäusern im entgeltrechtlichen Sinne geregelt. Das bedeutet, dass Krankenhäuser, die festgelegte Anforderungen an eine von drei Notfallstufen erfüllen, durch Vergütungszuschläge finanziell unterstützt werden. Krankenhäuser, die die Anforderungen an eine der drei Stufen nicht erfüllen, erhalten keine Zuschläge. Nimmt ein Krankenhaus nicht am gestuften System von Notfallstrukturen teil und gewährleistet es nicht eine spezielle Notfallversorgung, sieht der Gesetzgeber Abschläge vor.",
+      "Teilnahme_Notfallstufe": {
+        "Keine_Teilnahme_Notfallversorgung": {}
+      },
+      "Kooperation_mit_Kassenaerztlicher_Vereinigung": {
+        "Notdienstpraxis_Existiert": "nein",
+        "Vertragsaerztlicher_Notdienst_Existiert": "nein"
+      }
+    },
+    "Organisationseinheiten_Fachabteilungen": {
+      "Organisationseinheit_Fachabteilung": [
+        {
+          "Gliederungsnummer": "1",
+          "Name": "Allgemeine Chirurgie",
+          "Aerztliche_Leitung_OE": {
+            "Leitender_Belegarzt": [
+              {
+                "Kontakt_Person_lang": {
+                  "Person": {
+                    "Titel": "Dr. med.",
+                    "Vorname": "Axel",
+                    "Nachname": "Kuprian",
+                    "Funktion_Arbeitsschwerpunkt": "Chirurgie, Unfallchirurgie"
+                  },
+                  "Telefon": {
+                    "Vorwahl": "06192",
+                    "Rufnummer": "929618"
+                  },
+                  "Fax": {
+                    "Vorwahl": "06192",
+                    "Rufnummer": "929618"
+                  },
+                  "Email": "praxishofheim@orthopaedie-rheinmain.de"
+                },
+                "Kontakt_Zugang": {
+                  "Strasse": "Hattersheimerstrasse",
+                  "Hausnummer": "3",
+                  "Postleitzahl": "65719",
+                  "Ort": "Hofheim"
+                }
+              },
+              {
+                "Kontakt_Person_lang": {
+                  "Person": {
+                    "Titel": "Dr. med",
+                    "Vorname": "Ulli",
+                    "Nachname": "Vesper",
+                    "Funktion_Arbeitsschwerpunkt": "Handchirurgie"
+                  },
+                  "Telefon": {
+                    "Vorwahl": "06172",
+                    "Rufnummer": "21974"
+                  },
+                  "Fax": {
+                    "Vorwahl": "06172",
+                    "Rufnummer": "1021974"
+                  },
+                  "Email": "info@st-josef-koenigstein.de"
+                },
+                "Kontakt_Zugang": {
+                  "Strasse": "Thomasstraße",
+                  "Hausnummer": "6-8",
+                  "Postleitzahl": "61348",
+                  "Ort": "Bad Homburg"
+                }
+              }
+            ]
+          },
+          "Zielvereinbarungen": {
+            "Keine_Zielvereinbarungen_geschlossen": {},
+            "Erlaeuterungen": "."
+          },
+          "Fachabteilungsschluessel": [
+            {
+              "FA_Schluessel": "1500"
+            },
+            {
+              "FA_Schluessel": "1551"
+            }
+          ],
+          "Medizinische_Leistungsangebote": {
+            "Medizinisches_Leistungsangebot": [
+              {
+                "VA_VU_Schluessel": "VO18"
+              },
+              {
+                "VA_VU_Schluessel": "VO16"
+              }
+            ]
+          },
+          "Fallzahlen_OE": {
+            "Vollstationaere_Fallzahl": "63",
+            "Teilstationaere_Fallzahl": "0"
+          },
+          "Hauptdiagnosen": {
+            "Hauptdiagnose": [
+              {
+                "ICD_10": "M54.4",
+                "Fallzahl": "58"
+              },
+              {
+                "ICD_10": "M54.5",
+                "Fallzahl": "4"
+              },
+              {
+                "ICD_10": "M54.2",
+                "Fallzahl_Datenschutz": {}
+              }
+            ]
+          },
+          "Prozeduren": {
+            "Verpflichtende_Angabe": {
+              "Prozedur": [
+                {
+                  "OPS_301": "8-910",
+                  "Anzahl": "61"
+                },
+                {
+                  "OPS_301": "9-984.6",
+                  "Anzahl": "5"
+                },
+                {
+                  "OPS_301": "9-984.7",
+                  "Anzahl": "5"
+                },
+                {
+                  "OPS_301": "9-984.8",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-984.9",
+                  "Anzahl_Datenschutz": {}
+                }
+              ]
+            }
+          },
+          "Ambulante_Operationen": {
+            "Keine_Erbracht": {}
+          },
+          "Personelle_Ausstattung": {
+            "Aerztliches_Personal": {
+              "Gemischte_Haupt_Belegabteilung": {
+                "Keine_Aerzte_ohne_Belegaerzte": {},
+                "Belegaerzte": {
+                  "Anzahl": "1",
+                  "Fall_je_Anzahl": "63,00000"
+                }
+              }
+            },
+            "Aerztliche_Fachexpertisen": {
+              "Fachexpertise": [
+                {
+                  "AQ_ZF_Schluessel": "AQ10"
+                },
+                {
+                  "AQ_ZF_Schluessel": "ZF52"
+                },
+                {
+                  "AQ_ZF_Schluessel": "ZF28"
+                },
+                {
+                  "AQ_ZF_Schluessel": "ZF42"
+                },
+                {
+                  "AQ_ZF_Schluessel": "ZF44"
+                }
+              ]
+            },
+            "Pflegekraefte": {
+              "Gesundheits_Krankenpfleger": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "0,81",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "0,81"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "0,81",
+                      "Fall_je_Anzahl": "77,77777"
+                    }
+                  }
+                }
+              },
+              "Altenpfleger": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "0,08",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "0,08"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "0,08",
+                      "Fall_je_Anzahl": "787,50000"
+                    }
+                  }
+                }
+              },
+              "Massgebliche_tarifliche_Wochenarbeitszeit": "38,50"
+            },
+            "Pflegerische_Fachexpertisen": {
+              "Fachexpertise_Pflege": [
+                {
+                  "PQ_ZP_Schluessel": "PQ14"
+                },
+                {
+                  "PQ_ZP_Schluessel": "PQ05"
+                },
+                {
+                  "PQ_ZP_Schluessel": "PQ20"
+                },
+                {
+                  "PQ_ZP_Schluessel": "PQ13",
+                  "Erlaeuterungen": "Die freigestellten Hygienefachkräfte betreuen die Standorte Bad Homburg, Usingen und Königstein"
+                },
+                {
+                  "PQ_ZP_Schluessel": "ZP07"
+                }
+              ]
+            },
+            "Ausgewaehltes_Personal_Psych": {
+              "Ausgewaehltes_Therapeutisches_Personal": {
+                "Diplom_Psychologen": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "0",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "0"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "0"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "Gliederungsnummer": "2",
+          "Name": "Innere Medizin",
+          "Aerztliche_Leitung_OE": {
+            "Chefarzt": {
+              "Kontakt_Person_lang": {
+                "Person": {
+                  "Titel": "Dr. med.",
+                  "Vorname": "Cornelius",
+                  "Nachname": "Gurlitt",
+                  "Funktion_Arbeitsschwerpunkt": "Ärztlicher Direktor / Chefarzt"
+                },
+                "Telefon": {
+                  "Vorwahl": "06174",
+                  "Rufnummer": "208",
+                  "Durchwahl": "111"
+                },
+                "Fax": {
+                  "Vorwahl": "06174",
+                  "Rufnummer": "208",
+                  "Durchwahl": "155"
+                },
+                "Email": "cornelius.gurlitt@hochtaunus-kliniken.de"
+              },
+              "Kontakt_Zugang": {
+                "Strasse": "Woogtalstrasse",
+                "Hausnummer": "7",
+                "Postleitzahl": "61462",
+                "Ort": "Königstein/Ts."
+              }
+            }
+          },
+          "Zielvereinbarungen": {
+            "Zielvereinbarungen_geschlossen_an_Empfehlung_DKG_gehalten": {}
+          },
+          "Fachabteilungsschluessel": {
+            "FA_Schluessel": "0100"
+          },
+          "Medizinische_Leistungsangebote": {
+            "Medizinisches_Leistungsangebot": [
+              {
+                "VA_VU_Schluessel": "VI15"
+              },
+              {
+                "VA_VU_Schluessel": "VI05"
+              },
+              {
+                "VA_VU_Schluessel": "VI19"
+              },
+              {
+                "VA_VU_Schluessel": "VI07"
+              },
+              {
+                "VA_VU_Schluessel": "VI10"
+              },
+              {
+                "VA_VU_Schluessel": "VI40"
+              },
+              {
+                "VA_VU_Schluessel": "VI31"
+              },
+              {
+                "VA_VU_Schluessel": "VI09"
+              },
+              {
+                "VA_VU_Schluessel": "VI08"
+              },
+              {
+                "VA_VU_Schluessel": "VI03"
+              }
+            ]
+          },
+          "Fallzahlen_OE": {
+            "Vollstationaere_Fallzahl": "214",
+            "Teilstationaere_Fallzahl": "0"
+          },
+          "Hauptdiagnosen": {
+            "Hauptdiagnose": [
+              {
+                "ICD_10": "I70.25",
+                "Fallzahl": "12"
+              },
+              {
+                "ICD_10": "I50.14",
+                "Fallzahl": "10"
+              },
+              {
+                "ICD_10": "A49.0",
+                "Fallzahl": "8"
+              },
+              {
+                "ICD_10": "E86",
+                "Fallzahl": "7"
+              },
+              {
+                "ICD_10": "I33.0",
+                "Fallzahl": "7"
+              },
+              {
+                "ICD_10": "N39.0",
+                "Fallzahl": "7"
+              },
+              {
+                "ICD_10": "I50.01",
+                "Fallzahl": "5"
+              },
+              {
+                "ICD_10": "J18.1",
+                "Fallzahl": "5"
+              },
+              {
+                "ICD_10": "I70.23",
+                "Fallzahl": "4"
+              },
+              {
+                "ICD_10": "A04.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "A04.71",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "A09.9",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "A46",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "A49.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "A49.9",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "B02.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "B02.9",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "B37.4",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "B99",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "C18.7",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "C19",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "C20",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "C50.9",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "C61",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "C64",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "C83.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "D61.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "D64.9",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "E11.75",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "E11.91",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "E21.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "E87.6",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F03",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F05.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F05.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F06.7",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F10.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G04.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G20.90",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G30.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G30.9",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G40.9",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G41.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G83.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I10.01",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I21.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I21.4",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I25.13",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I26.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I26.9",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I38",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I47.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I48.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I49.5",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I50.11",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I50.12",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I50.13",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I50.19",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I61.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I63.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I63.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I63.4",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I63.5",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I70.22",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I70.24",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I71.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I71.4",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I74.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I74.5",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I95.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "J12.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "J18.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "J18.9",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "J22",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "J44.19",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "J90",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "J96.01",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "K26.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "K29.6",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "K31.82",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "K50.82",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "K55.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "K55.9",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "K56.5",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "K56.6",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "K56.7",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "K57.22",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "K57.31",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "K57.32",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "K70.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "K70.41",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "K70.48",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "L12.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "L89.24",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "L89.36",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M00.86",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M16.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M16.9",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M25.51",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M46.44",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M46.46",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M46.47",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "N13.21",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "N13.68",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "N17.91",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "N17.93",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "N20.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "R02.07",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "R26.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "R40.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "R41.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "R53",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "S06.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "S12.21",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "S31.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "S32.4",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "S72.01",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "S82.6",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "T82.3",
+                "Fallzahl_Datenschutz": {}
+              }
+            ]
+          },
+          "Prozeduren": {
+            "Verpflichtende_Angabe": {
+              "Prozedur": [
+                {
+                  "OPS_301": "9-984.7",
+                  "Anzahl": "50"
+                },
+                {
+                  "OPS_301": "9-984.8",
+                  "Anzahl": "39"
+                },
+                {
+                  "OPS_301": "9-984.9",
+                  "Anzahl": "21"
+                },
+                {
+                  "OPS_301": "8-800.c0",
+                  "Anzahl": "7"
+                },
+                {
+                  "OPS_301": "9-984.6",
+                  "Anzahl": "6"
+                },
+                {
+                  "OPS_301": "3-200",
+                  "Anzahl": "5"
+                },
+                {
+                  "OPS_301": "3-225",
+                  "Anzahl": "5"
+                },
+                {
+                  "OPS_301": "9-984.a",
+                  "Anzahl": "5"
+                },
+                {
+                  "OPS_301": "8-831.00",
+                  "Anzahl": "4"
+                },
+                {
+                  "OPS_301": "9-984.b",
+                  "Anzahl": "4"
+                },
+                {
+                  "OPS_301": "3-052",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-203",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-206",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-222",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "5-399.7",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "5-900.04",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "6-009.e1",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-132.2",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-132.3",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-148.0",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-192.0f",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-192.1g",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-192.xc",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-542.12",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-640.0",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-771",
+                  "Anzahl_Datenschutz": {}
+                }
+              ]
+            }
+          },
+          "Ambulante_Operationen": {
+            "Keine_Erbracht": {}
+          },
+          "Personelle_Ausstattung": {
+            "Aerztliches_Personal": {
+              "Hauptabteilung": {
+                "Aerzte_ohne_Belegaerzte": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "5,57",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "5,52"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,05"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "5,57",
+                        "Fall_je_Anzahl": "38,42010"
+                      }
+                    }
+                  },
+                  "Fachaerzte": {
+                    "Personalerfassung": {
+                      "Anzahl_VK": "3,36",
+                      "Beschaeftigungsverhaeltnis": {
+                        "Personal_mit_direktem_BV": {
+                          "Anzahl_VK": "3,31"
+                        },
+                        "Personal_ohne_direktem_BV": {
+                          "Anzahl_VK": "0,05"
+                        }
+                      },
+                      "Versorgungsform": {
+                        "Ambulante_Versorgung": {
+                          "Anzahl_VK": "0"
+                        },
+                        "Stationaere_Versorgung": {
+                          "Anzahl_VK": "3,36",
+                          "Fall_je_Anzahl": "63,69047"
+                        }
+                      }
+                    }
+                  },
+                  "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+                }
+              }
+            },
+            "Aerztliche_Fachexpertisen": {
+              "Fachexpertise": [
+                {
+                  "AQ_ZF_Schluessel": "AQ28"
+                },
+                {
+                  "AQ_ZF_Schluessel": "ZF61"
+                },
+                {
+                  "AQ_ZF_Schluessel": "ZF09"
+                },
+                {
+                  "AQ_ZF_Schluessel": "ZF44"
+                }
+              ]
+            },
+            "Pflegekraefte": {
+              "Gesundheits_Krankenpfleger": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "8,29",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "8,29"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "8,29",
+                      "Fall_je_Anzahl": "25,81423"
+                    }
+                  }
+                }
+              },
+              "Altenpfleger": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "0,86",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "0,86"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "0,86",
+                      "Fall_je_Anzahl": "248,83720"
+                    }
+                  }
+                }
+              },
+              "Massgebliche_tarifliche_Wochenarbeitszeit": "38,50"
+            },
+            "Pflegerische_Fachexpertisen": {
+              "Fachexpertise_Pflege": [
+                {
+                  "PQ_ZP_Schluessel": "PQ13",
+                  "Erlaeuterungen": "Die freigestellten Hygienefachkräfte der HTK betreuen die Standorte Bad Homburg, Usingen und Königstein"
+                },
+                {
+                  "PQ_ZP_Schluessel": "PQ20"
+                },
+                {
+                  "PQ_ZP_Schluessel": "PQ14"
+                },
+                {
+                  "PQ_ZP_Schluessel": "PQ05"
+                },
+                {
+                  "PQ_ZP_Schluessel": "ZP07"
+                },
+                {
+                  "PQ_ZP_Schluessel": "ZP13"
+                },
+                {
+                  "PQ_ZP_Schluessel": "ZP18",
+                  "Erlaeuterungen": "Freigestellte, speziell geschulte Pflegekräfte stehen beratend allen Pflegekräften an allen Standorten zur Verfügung"
+                }
+              ]
+            },
+            "Ausgewaehltes_Personal_Psych": {
+              "Ausgewaehltes_Therapeutisches_Personal": {
+                "Diplom_Psychologen": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "0",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "0"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "0"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "Gliederungsnummer": "3",
+          "Name": "Handchirurgie",
+          "Aerztliche_Leitung_OE": {
+            "Leitender_Arzt": {
+              "Kontakt_Person_lang": {
+                "Person": {
+                  "Titel": "Dr.",
+                  "Vorname": "Ulli",
+                  "Nachname": "Vesper",
+                  "Funktion_Arbeitsschwerpunkt": "Facharzt für Orthopädie und Unfallchirurgie / Handchirurgie"
+                },
+                "Telefon": {
+                  "Vorwahl": "06174",
+                  "Rufnummer": "208",
+                  "Durchwahl": "0"
+                },
+                "Fax": {
+                  "Vorwahl": "06174",
+                  "Rufnummer": "208",
+                  "Durchwahl": "155"
+                },
+                "Email": "ulli.vesper@hochtaunus-kliniken.de"
+              },
+              "Kontakt_Zugang": {
+                "Strasse": "Woogtalstrasse",
+                "Hausnummer": "7",
+                "Postleitzahl": "61462",
+                "Ort": "Königstein"
+              }
+            }
+          },
+          "Zielvereinbarungen": {
+            "Keine_Zielvereinbarungen_geschlossen": {}
+          },
+          "Fachabteilungsschluessel": {
+            "FA_Schluessel": "1551"
+          },
+          "Medizinische_Leistungsangebote": {
+            "Medizinisches_Leistungsangebot": {
+              "VA_VU_Schluessel": "VO16"
+            }
+          },
+          "Fallzahlen_OE": {
+            "Vollstationaere_Fallzahl": "3",
+            "Teilstationaere_Fallzahl": "0"
+          },
+          "Hauptdiagnosen": {
+            "Hauptdiagnose": [
+              {
+                "ICD_10": "G56.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G90.50",
+                "Fallzahl_Datenschutz": {}
+              }
+            ]
+          },
+          "Prozeduren": {
+            "Verpflichtende_Angabe": {
+              "Prozedur": [
+                {
+                  "OPS_301": "8-988.1",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-984.6",
+                  "Anzahl_Datenschutz": {}
+                }
+              ]
+            }
+          },
+          "Ambulante_Operationen": {
+            "Keine_Erbracht": {}
+          },
+          "Personelle_Ausstattung": {
+            "Aerztliches_Personal": {
+              "Hauptabteilung": {
+                "Aerzte_ohne_Belegaerzte": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "0,25",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "0,25"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "0,25",
+                        "Fall_je_Anzahl": "12,00000"
+                      }
+                    }
+                  },
+                  "Fachaerzte": {
+                    "Personalerfassung": {
+                      "Anzahl_VK": "0,25",
+                      "Beschaeftigungsverhaeltnis": {
+                        "Personal_mit_direktem_BV": {
+                          "Anzahl_VK": "0,25"
+                        },
+                        "Personal_ohne_direktem_BV": {
+                          "Anzahl_VK": "0"
+                        }
+                      },
+                      "Versorgungsform": {
+                        "Ambulante_Versorgung": {
+                          "Anzahl_VK": "0"
+                        },
+                        "Stationaere_Versorgung": {
+                          "Anzahl_VK": "0,25",
+                          "Fall_je_Anzahl": "12,00000"
+                        }
+                      }
+                    }
+                  },
+                  "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+                }
+              }
+            },
+            "Pflegekraefte": {
+              "Gesundheits_Krankenpfleger": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "0,11",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "0,11"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "0,11",
+                      "Fall_je_Anzahl": "27,27272"
+                    }
+                  }
+                }
+              },
+              "Altenpfleger": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "0,01",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "0,01"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "0,01",
+                      "Fall_je_Anzahl": "300,00000"
+                    }
+                  }
+                }
+              },
+              "Massgebliche_tarifliche_Wochenarbeitszeit": "38,50"
+            },
+            "Ausgewaehltes_Personal_Psych": {
+              "Ausgewaehltes_Therapeutisches_Personal": {
+                "Diplom_Psychologen": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "0",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "0"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "0"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "Qualitaetssicherung": {
+      "QS_nach_Landesrecht": {
+        "Teilnahme_landesspezifische_Qualitaetssicherungsmassnahme": {
+          "Leistungsbereich": [
+            {
+              "Bezeichnung": "MRE",
+              "Teilnahme_externe_Qualitaetssicherung": "ja"
+            },
+            {
+              "Bezeichnung": "Schlaganfall: Akutbehandlung",
+              "Teilnahme_externe_Qualitaetssicherung": "ja"
+            }
+          ]
+        }
+      },
+      "Fortbildung": {
+        "Fortbildungspflichtige": "4",
+        "Nachweispflichtige": "3",
+        "Fortbildungsnachweis_Erbracht_Habende": "3"
+      },
+      "Pflegepersonaluntergrenzen": {
+        "Monatsbezogener_Erfuellungsgrad_PpUG": [
+          {
+            "Pflegesensitiver_Bereich": "Allgemeine Chirurgie, Innere Medizin, Orthopädie",
+            "Station": "Station 1",
+            "Schicht": "Tagschicht",
+            "Monatsbezogener_Erfuellungsgrad": "100,00",
+            "Ausnahmetatbestaende": "0"
+          },
+          {
+            "Pflegesensitiver_Bereich": "Allgemeine Chirurgie, Orthopädie",
+            "Station": "Station 1",
+            "Schicht": "Nachtschicht",
+            "Monatsbezogener_Erfuellungsgrad": "100,00",
+            "Ausnahmetatbestaende": "0"
+          }
+        ],
+        "Schichtbezogener_Erfuellungsgrad_PpUG": [
+          {
+            "Pflegesensitiver_Bereich": "Allgemeine Chirurgie, Innere Medizin, Orthopädie",
+            "Station": "Station 1",
+            "Schicht": "Tagschicht",
+            "Schichtbezogener_Erfuellungsgrad": "100,00"
+          },
+          {
+            "Pflegesensitiver_Bereich": "Allgemeine Chirurgie, Orthopädie",
+            "Station": "Station 1",
+            "Schicht": "Nachtschicht",
+            "Schichtbezogener_Erfuellungsgrad": "100,00"
+          }
+        ]
+      },
+      "ATMP-QS-RL": {
+        "Hinweis_ATMP-QS-RL": "Krankenhausstandorte, an denen neue Therapien gemäß den Anlagen der ATMP-QS-RL angewendet werden, müssen die dort vorgegebenen Mindestanforderungen an die Struktur-, Prozess- oder Ergebnisqualität erfüllen. Der Medizinische Dienst überprüft die Umsetzung der relevanten Qualitätsanforderungen und stellt dem Krankenhaus eine Bescheinigung aus, wenn diese vollumfänglich erfüllt werden. ATMP nach dieser Richtlinie dürfen ausschließlich von Leistungserbringern angewendet werden, die die Mindestanforderungen erfüllen.",
+        "Keine_Anwendung_Arzneimittel_neuartige_Therapien": {}
+      }
+    }
+  }
+}

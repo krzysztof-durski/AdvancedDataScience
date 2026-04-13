@@ -1,0 +1,1401 @@
+{
+  "Qualitaetsbericht": {
+    "Einleitung": {
+      "Datensatz": {
+        "Datum": "2024-10-30",
+        "Uhrzeit": "10:24:58",
+        "Sprache": "deutsch"
+      },
+      "Software": {
+        "Hersteller": "empira Software GmbH, Troisdorf",
+        "Produktname": "empira Krankenhaus-Qualitätsbericht-Manager QBX Desktop",
+        "Version": "23.10.6948.0 (9a92befd2)"
+      },
+      "Verantwortlicher_Erstellung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Jeannette",
+            "Nachname": "Eitner",
+            "Funktion_Arbeitsschwerpunkt": "PDL"
+          },
+          "Telefon": {
+            "Vorwahl": "04321",
+            "Rufnummer": "927657"
+          },
+          "Fax": {
+            "Vorwahl": "04321",
+            "Rufnummer": "927622"
+          },
+          "Email": "j.eitner@klinik-klosterstrasse.de"
+        }
+      },
+      "Verantwortlicher_Krankenhausleitung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Titel": "Herr",
+            "Vorname": "Andreas",
+            "Nachname": "Voss",
+            "Funktion_Arbeitsschwerpunkt": "Geschäftsführung"
+          },
+          "Telefon": {
+            "Vorwahl": "02171",
+            "Rufnummer": "7272609"
+          },
+          "Email": "andreas.voss@med360grad.de"
+        }
+      },
+      "URL_Internetseite_Krankenhaus": "http://www.klinik-klosterstrasse.de"
+    },
+    "Krankenhaus": {
+      "Ein_Standort": {
+        "Krankenhauskontaktdaten": {
+          "Name": "Klinik Klosterstraße GmbH",
+          "IK": "260102673",
+          "Standortnummer": "773716000",
+          "Standortnummer_alt": "00",
+          "Kontakt_Zugang": {
+            "Strasse": "Klosterstraße",
+            "Hausnummer": "63-65",
+            "Postleitzahl": "24536",
+            "Ort": "Neumünster",
+            "URL_Zugang": "http://www.klinik-klosterstrasse.de"
+          },
+          "Telefon": {
+            "Vorwahl": "04321",
+            "Rufnummer": "92760"
+          },
+          "Email": "info@klinik-klosterstrasse.de",
+          "Aerztliche_Leitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Titel": "Dr. med.",
+                "Vorname": "Axel",
+                "Nachname": "Rohne",
+                "Funktion_Arbeitsschwerpunkt": "Ärztliche Leitung / Gynäkologe"
+              },
+              "Telefon": {
+                "Vorwahl": "04321",
+                "Rufnummer": "47870"
+              },
+              "Email": "a.rohne@frauenarzt-neumuenster.de"
+            }
+          },
+          "Pflegedienstleitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Jeannette",
+                "Nachname": "Eitner",
+                "Funktion_Arbeitsschwerpunkt": "PDL"
+              },
+              "Telefon": {
+                "Vorwahl": "04321",
+                "Rufnummer": "927657"
+              },
+              "Fax": {
+                "Vorwahl": "04321",
+                "Rufnummer": "927622"
+              },
+              "Email": "j.eitner@klinik-klosterstrasse.de"
+            }
+          },
+          "Verwaltungsleitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Andrea",
+                "Nachname": "Schmidt",
+                "Funktion_Arbeitsschwerpunkt": "Verwaltung"
+              },
+              "Telefon": {
+                "Vorwahl": "04321",
+                "Rufnummer": "927656"
+              },
+              "Fax": {
+                "Vorwahl": "04321",
+                "Rufnummer": "927622"
+              },
+              "Email": "a.schmidt@klinik-klosterstrasse.de"
+            }
+          }
+        }
+      }
+    },
+    "Krankenhaustraeger": {
+      "Name": "Klinik Klosterstraße GmbH",
+      "Krankenhaustraeger_Art": {
+        "Art": "privat"
+      }
+    },
+    "Medizinisch_Pflegerische_Leistungsangebote": {
+      "MP_Leistungsangebot": [
+        {
+          "MP_Schluessel": "MP15"
+        },
+        {
+          "MP_Schluessel": "MP22"
+        }
+      ]
+    },
+    "Nicht_Medizinische_Leistungsangebote": {
+      "NM_Leistungsangebot": [
+        {
+          "NM_Schluessel": "NM02",
+          "Erlaeuterungen": "Die Klinik verfügt über 2 helle Einzelzimmer mit Blick ins Grüne.\nJeder versicherte Patient hat die Möglichekit gegen einen kleinen Aufpreis eines unserer Einzelzimmer zu nutzen, sofern es nicht belegt ist.",
+          "URL": "http://www.klinik-klosterstrasse.de"
+        },
+        {
+          "NM_Schluessel": "NM03",
+          "Erlaeuterungen": "2 Einzellzimmer mit eigener Nasszelle",
+          "URL": "http://www.klinik-klosterstrasse.de"
+        },
+        {
+          "NM_Schluessel": "NM10"
+        },
+        {
+          "NM_Schluessel": "NM11",
+          "Erlaeuterungen": "Die Klinik verfügt über 5 helle  Zwei-Bett-Zimmer mit jeweils einem gepflegtem Bad und WC.",
+          "URL": "http://www.klinik-klosterstrasse.de"
+        },
+        {
+          "NM_Schluessel": "NM07"
+        },
+        {
+          "NM_Schluessel": "NM09",
+          "Erlaeuterungen": "Mit vorheriger Anmeldung ist es möglich gegen einen Aufpreis eine Begeleitperson mit zu bringen.",
+          "URL": "http://www.klinik-klosterstrasse.de"
+        }
+      ]
+    },
+    "Barrierefreiheit": {
+      "Ansprechpartner_Menschen_mit_Beeintraechtigung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Jeannette",
+            "Nachname": "Eitner",
+            "Funktion_Arbeitsschwerpunkt": "PDL"
+          },
+          "Telefon": {
+            "Vorwahl": "04321",
+            "Rufnummer": "927657"
+          },
+          "Fax": {
+            "Vorwahl": "04321",
+            "Rufnummer": "927622"
+          },
+          "Email": "j.eitner@klinik-klosterstrasse.de"
+        }
+      },
+      "Barrierefreiheit_Aspekt": [
+        {
+          "BF_Schluessel": "BF06"
+        },
+        {
+          "BF_Schluessel": "BF08"
+        },
+        {
+          "BF_Schluessel": "BF09"
+        },
+        {
+          "BF_Schluessel": "BF24"
+        }
+      ]
+    },
+    "Anzahl_Betten": "3",
+    "Fallzahlen": {
+      "Vollstationaere_Fallzahl": "274",
+      "Teilstationaere_Fallzahl": "0",
+      "Ambulante_Fallzahl": "637",
+      "StaeB_Fallzahl": "0"
+    },
+    "Personal_des_Krankenhauses": {
+      "Aerzte": {
+        "Aerzte_ohne_Belegaerzte": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          },
+          "Fachaerzte": {
+            "Personalerfassung": {
+              "Anzahl_VK": "0",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0"
+                }
+              }
+            }
+          },
+          "Massgebliche_tarifliche_Wochenarbeitszeit": "0,00"
+        },
+        "Belegaerzte": {
+          "Anzahl": "3",
+          "Erlaeuterungen": "3 stationäre gynäkologische Belegärzte\n7 ambulante Belegärzte"
+        }
+      },
+      "Pflegekraefte": {
+        "Gesundheits_Krankenpfleger": {
+          "Personalerfassung": {
+            "Anzahl_VK": "3,08",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "3,08"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "3,08"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Gesundheits_Kinderkrankenpfleger": {
+          "Personalerfassung": {
+            "Anzahl_VK": "1,63",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "1,63"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "1,63"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Beleghebammen_Belegentbindungspfleger": {
+          "Anzahl": "0",
+          "Erlaeuterungen": "Wir kooperieren mit dem Städtischen Großversorger"
+        },
+        "Operationstechnische_Assistenz": {
+          "Personalerfassung": {
+            "Anzahl_VK": "3,75",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "3,75"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "3,75"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Medizinische_Fachangestellte": {
+          "Personalerfassung": {
+            "Anzahl_VK": "1",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "1"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "1"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+      }
+    },
+    "Umgang_mit_Risiken_in_der_Patientenversorgung": {
+      "Verantwortliche_Person_Qualitaetsmanagement": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Jeannette",
+            "Nachname": "Eitner",
+            "Funktion_Arbeitsschwerpunkt": "PDL"
+          },
+          "Telefon": {
+            "Vorwahl": "04321",
+            "Rufnummer": "927657"
+          },
+          "Email": "j.eitner@klinik-klosterstrasse.de"
+        }
+      },
+      "Lenkungsgremium_Qualitaetsmanagement": {
+        "Lenkungsgremium": {
+          "Beteiligte_Abteilungen_Funktionsbereiche": "Ärtzliche Leitung\nQS-Beauftragter Arzt\nQS- Beauftragte Schwester",
+          "Tagungsfrequenz": "quartalsweise"
+        }
+      },
+      "Verantwortliche_Person_Risikomanagement": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Jeannette",
+            "Nachname": "Eitner",
+            "Funktion_Arbeitsschwerpunkt": "PDL"
+          },
+          "Telefon": {
+            "Vorwahl": "04321",
+            "Rufnummer": "927657"
+          },
+          "Email": "j.eitner@klinik-klosterstrasse.de"
+        }
+      },
+      "Instrumente_Massnahmen_Risikomanagement": {
+        "Instrument_Massnahme_Risikomanagement": [
+          {
+            "RM_Schluessel": "RM02"
+          },
+          {
+            "RM_Schluessel": "RM03"
+          },
+          {
+            "RM_Schluessel": "RM05",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Schmerztherapie",
+                "Datum": "2021-08-05"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM09",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "OP Handbuch",
+                "Datum": "2018-12-01"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM12"
+          },
+          {
+            "RM_Schluessel": "RM13"
+          },
+          {
+            "RM_Schluessel": "RM16",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Dr.Sven Carstensen",
+                "Datum": "2018-09-01"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM17",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Narkose im Norden",
+                "Datum": "2018-03-01"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM18",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Augustin",
+                "Datum": "2018-01-01"
+              }
+            }
+          }
+        ]
+      },
+      "Hygienepersonal": {
+        "Krankenhaushygieniker": {
+          "Anzahl": "1",
+          "Erlaeuterungen": "Zusammenarbeit mit Medilys Laborgemeinschaft"
+        },
+        "Hygienebeauftragte_Aerzte": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "1"
+          },
+          "Erlaeuterungen": "Ein gynäkologischer Belegarzt hat die Funktion übernommen und wird einmal jährlich geschult."
+        },
+        "Hygienefachkraefte": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "1"
+          },
+          "Erlaeuterungen": "Zusammenarbeit mit dem Labor Medilys"
+        },
+        "Hygienebeauftragte_Pflege": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "1"
+          }
+        },
+        "Hygienekommission_eingerichtet": {
+          "Kontakt_Person_kurz": {
+            "Person": {
+              "Vorname": "Nadja",
+              "Nachname": "Kays",
+              "Funktion_Arbeitsschwerpunkt": "Leitende Hygienefachkraft"
+            },
+            "Telefon": {
+              "Vorwahl": "040",
+              "Rufnummer": "1818862784"
+            },
+            "Email": "n.kays@asklepios.com"
+          },
+          "Tagungsfrequenz": "jährlich"
+        }
+      },
+      "Weitere_Informationen_Hygiene": {
+        "Kein_Einsatz_ZVK": {},
+        "Antibiotikaprophylaxe_Antibiotikatherapie": {
+          "Leitlinie_Antibiotikatherapie_liegt_vor": {
+            "Leitlinie_Resistenzlage_angepasst": "ja",
+            "Leitlinie_autorisiert": "ja"
+          },
+          "Standard_perioperative_Antibiotikaprophylaxe_liegt_vor": {
+            "Standard_thematisiert": {
+              "Indikationsstellung_Antibiotikaprophylaxe": "ja",
+              "Zu_Verwendende_Antibiotika": "ja",
+              "Dauer_Antibiotikaprophylaxe": "ja"
+            },
+            "Standard_autorisiert": "ja",
+            "Ueberpruefung_durch_Checkliste": "ja"
+          }
+        },
+        "Umgang_Wunden": {
+          "Standard_Wundversorgung_Verbandwechsel_liegt_vor": {
+            "Standard_thematisiert": {
+              "Hygienische_Haendedesinfektion": "ja",
+              "Verbandwechsel_aseptische_Bedingungen": "ja",
+              "Antiseptische_Behandlung_infizierte_Wunden": "ja",
+              "Pruefung_Notwendigkeit_Wundauflage": "ja",
+              "Meldung_Wundinfektion": "ja"
+            },
+            "Standard_autorisiert": "ja"
+          }
+        },
+        "Haendedesinfektion": {
+          "Haendedesinfektionsmittelverbrauch_Allgemeinstationen_wurde_erhoben": {
+            "Haendedesinfektionsmittelverbrauch_Allgemeinstationen": "40"
+          },
+          "Keine_Intensivstation_vorhanden": {},
+          "Erfassung_Haendedesinfektionsmittelverbrauch_stationsbezogen": "ja"
+        },
+        "Umgang_Patienten_MRE": {
+          "Standardisierte_Information_MRSA": "ja",
+          "Informationsmanagement_MRSA": "ja",
+          "Risikoadaptives_Aufnahmescreening": "ja",
+          "Regelmaessige_Schulungen": "ja"
+        },
+        "Hygienebezogenes_Risikomanagement": {
+          "Hygiene_Instrument_Massnahme": [
+            {
+              "HM_Schluessel": "HM05"
+            },
+            {
+              "HM_Schluessel": "HM09"
+            }
+          ]
+        }
+      },
+      "Beschwerdemanagement": {
+        "Strukturiertes_Beschwerdemanagement": {
+          "Strukturiertes_Beschwerdemanagement_Eingefuehrt": "ja"
+        },
+        "Schriftliches_Konzept": {
+          "Schriftliches_Konzept_Existiert": "ja"
+        },
+        "Umgang_muendliche_Beschwerden": {
+          "Umgang_muendliche_Beschwerden_Geregelt": "ja"
+        },
+        "Umgang_schriftliche_Beschwerden": {
+          "Umgang_schriftliche_Beschwerden_Geregelt": "ja"
+        },
+        "Zeitziele_fuer_Rueckmeldung": {
+          "Zeitziele_fuer_Rueckmeldung_Definiert": "nein"
+        },
+        "Anonyme_Eingabemoeglichkeiten": {
+          "Anonyme_Eingabemoeglichkeiten_Existieren": "nein"
+        },
+        "Patientenbefragungen": {
+          "Patientenbefragungen_Durchgefuehrt": "ja"
+        },
+        "Einweiserbefragungen": {
+          "Einweiserbefragungen_Durchgefuehrt": "nein"
+        }
+      },
+      "Arzneimitteltherapiesicherheit": {
+        "Hinweis_Arzneimitteltherapiesicherheit": "AMTS ist die Gesamtheit der Maßnahmen zur Gewährleistung eines optimalen Medikationsprozesses mit dem Ziel, Medikationsfehler und damit vermeidbare Risiken für Patientinnen und Patienten bei der Arzneimitteltherapie zu verringern. Eine Voraussetzung für die erfolgreiche Umsetzung dieser Maßnahmen ist, dass AMTS als integraler Bestandteil der täglichen Routine in einem interdisziplinären und multiprofessionellen Ansatz gelebt wird.",
+        "Verantwortliches_Gremium_AMTS": {
+          "Kein_Gremium_Arbeitsgruppe": {}
+        },
+        "Verantwortliche_Person_AMTS": {
+          "Verantwortliche_Person_nicht_festgelegt": {}
+        },
+        "Pharmazeutisches_Personal": {
+          "Anzahl_Apotheker": "0",
+          "Anzahl_weiteres_pharmazeutisches_Personal": "0",
+          "Erlaeuterungen": "Die Klinik wird von einer externen Apotheke beliefert. 2mal im Jahr gibt es eine Begehung der Arzneimittelbestände gemäß § 14 Apothekengesetz der Apotheke."
+        }
+      },
+      "Praevention_Hilfe_Missbrauch_Gewalt": {
+        "Hinweis_Praevention_Hilfe_Missbrauch_Gewalt": "Gemäß § 4 Absatz 2 der Qualitätsmanagement-Richtlinie haben Einrichtungen die Prävention von und Intervention bei Gewalt und Missbrauch als Teil des einrichtungsinternen Qualitätsmanagements vorzusehen. Ziel ist es, Missbrauch und Gewalt insbesondere gegenüber vulnerablen Patientengruppen, wie beispielsweise Kindern und Jugendlichen oder hilfsbedürftigen Personen, vorzubeugen, zu erkennen, adäquat darauf zu reagieren und auch innerhalb der Einrichtung zu verhindern. Das jeweilige Vorgehen wird an Einrichtungsgröße, Leistungsspektrum und den Patientinnen und Patienten ausgerichtet, um so passgenaue Lösungen zur Sensibilisierung der Teams sowie weitere geeignete vorbeugende und intervenierende Maßnahmen festzulegen. Dies können unter anderem Informationsmaterialien, Kontaktadressen, Schulungen/Fortbildungen, Verhaltenskodizes, Handlungsempfehlungen/Interventionspläne oder umfassende Schutzkonzepte sein.",
+        "Praevention_Intervention_Massnahmen": "nein",
+        "Schutzkonzepte_Gewalt_Kinder": {
+          "Hinweis_Schutzkonzepte_Gewalt_Kinder": "Gemäß § 4 Absatz 2 in Verbindung mit Teil B Abschnitt I § 1 der Qualitätsmanagement-Richtlinie haben sich Einrichtungen, die Kinder und Jugendliche versorgen, gezielt mit der Prävention von und Intervention bei (sexueller) Gewalt und Missbrauch bei Kindern und Jugendlichen zu befassen (Risiko- und Gefährdungsanalyse) und – der Größe und Organisationsform der Einrichtung entsprechend – konkrete Schritte und Maßnahmen abzuleiten (Schutzkonzept). In diesem Abschnitt geben Krankenhäuser, die Kinder und Jugendliche versorgen, an, ob sie gemäß § 4 Absatz 2 in Verbindung mit Teil B Abschnitt I § 1 der Qualitätsmanagement-Richtlinie ein Schutzkonzept gegen (sexuelle) Gewalt bei Kindern und Jugendlichen aufweisen.",
+          "Keine_Versorgung_Kinder_Jugendliche": {}
+        }
+      }
+    },
+    "Teilnahme_Notfallversorgung": {
+      "Hinweis_Teilnahme_Notfallversorgung": "Alle Krankenhäuser gewährleisten Notfallversorgung und haben allgemeine Pflichten zur Hilfeleistung im Notfall. Darüber hinaus hat der Gemeinsame Bundesausschuss ein gestuftes System von Notfallstrukturen in Krankenhäusern im entgeltrechtlichen Sinne geregelt. Das bedeutet, dass Krankenhäuser, die festgelegte Anforderungen an eine von drei Notfallstufen erfüllen, durch Vergütungszuschläge finanziell unterstützt werden. Krankenhäuser, die die Anforderungen an eine der drei Stufen nicht erfüllen, erhalten keine Zuschläge. Nimmt ein Krankenhaus nicht am gestuften System von Notfallstrukturen teil und gewährleistet es nicht eine spezielle Notfallversorgung, sieht der Gesetzgeber Abschläge vor.",
+      "Teilnahme_Notfallstufe": {
+        "Keine_Teilnahme_Notfallversorgung": {}
+      },
+      "Kooperation_mit_Kassenaerztlicher_Vereinigung": {
+        "Notdienstpraxis_Existiert": "nein",
+        "Vertragsaerztlicher_Notdienst_Existiert": "nein"
+      }
+    },
+    "Organisationseinheiten_Fachabteilungen": {
+      "Organisationseinheit_Fachabteilung": {
+        "Gliederungsnummer": "1",
+        "Name": "Frauenheilkunde",
+        "Aerztliche_Leitung_OE": {
+          "Leitender_Belegarzt": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Titel": "Dr. med.",
+                "Vorname": "Axel",
+                "Nachname": "Rohne",
+                "Funktion_Arbeitsschwerpunkt": "Gynäkologe"
+              },
+              "Telefon": {
+                "Vorwahl": "04321",
+                "Rufnummer": "47870"
+              },
+              "Fax": {
+                "Vorwahl": "04321",
+                "Rufnummer": "927622"
+              },
+              "Email": "a.rohne@frauenarzt-neumuenster.de"
+            },
+            "Kontakt_Zugang": {
+              "Strasse": "Klosterstraße",
+              "Hausnummer": "63-65",
+              "Postleitzahl": "24536",
+              "Ort": "Neumünster"
+            }
+          }
+        },
+        "Zielvereinbarungen": {
+          "Keine_Zielvereinbarungen_geschlossen": {}
+        },
+        "Fachabteilungsschluessel": {
+          "FA_Schluessel": "2425"
+        },
+        "Medizinische_Leistungsangebote": {
+          "Medizinisches_Leistungsangebot": [
+            {
+              "VA_VU_Schluessel": "VG01"
+            },
+            {
+              "VA_VU_Schluessel": "VG02"
+            },
+            {
+              "VA_VU_Schluessel": "VG03"
+            },
+            {
+              "VA_VU_Schluessel": "VG05"
+            },
+            {
+              "VA_VU_Schluessel": "VG06"
+            },
+            {
+              "VA_VU_Schluessel": "VG07"
+            },
+            {
+              "VA_VU_Schluessel": "VG08"
+            },
+            {
+              "VA_VU_Schluessel": "VG13"
+            },
+            {
+              "VA_VU_Schluessel": "VG14"
+            }
+          ]
+        },
+        "Fallzahlen_OE": {
+          "Vollstationaere_Fallzahl": "274",
+          "Teilstationaere_Fallzahl": "0"
+        },
+        "Hauptdiagnosen": {
+          "Hauptdiagnose": [
+            {
+              "ICD_10": "C50.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "C50.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "C50.9",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "C54.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "D05.9",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "D06.9",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "D07.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "D24",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "D25.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "D25.1",
+              "Fallzahl": "14"
+            },
+            {
+              "ICD_10": "D25.9",
+              "Fallzahl": "60"
+            },
+            {
+              "ICD_10": "D27",
+              "Fallzahl": "10"
+            },
+            {
+              "ICD_10": "D28.9",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "D39.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "N25.9",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "N39.3",
+              "Fallzahl": "23"
+            },
+            {
+              "ICD_10": "N60.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "N61",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "N70.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "N70.9",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "N73.6",
+              "Fallzahl": "17"
+            },
+            {
+              "ICD_10": "N80.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "N80.3",
+              "Fallzahl": "5"
+            },
+            {
+              "ICD_10": "N80.9",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "N81.1",
+              "Fallzahl": "23"
+            },
+            {
+              "ICD_10": "N81.2",
+              "Fallzahl": "8"
+            },
+            {
+              "ICD_10": "N81.3",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "N81.4",
+              "Fallzahl": "21"
+            },
+            {
+              "ICD_10": "N81.6",
+              "Fallzahl": "9"
+            },
+            {
+              "ICD_10": "N81.8",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "N83.2",
+              "Fallzahl": "30"
+            },
+            {
+              "ICD_10": "N83.8",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "N85.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "N85.8",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "N92.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "N92.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "N92.6",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "N94.6",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "N95.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "O21.0",
+              "Fallzahl": "6"
+            },
+            {
+              "ICD_10": "R10.3",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "R32",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "S30.2",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "Z80.4",
+              "Fallzahl_Datenschutz": {}
+            }
+          ]
+        },
+        "Prozeduren": {
+          "Verpflichtende_Angabe": {
+            "Prozedur": [
+              {
+                "OPS_301": "1-472.0",
+                "Anzahl": "25"
+              },
+              {
+                "OPS_301": "1-661",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "1-672",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "1-693.2",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "1-694",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-401.11",
+                "Anzahl": "4"
+              },
+              {
+                "OPS_301": "5-469.20",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-469.21",
+                "Anzahl": "79"
+              },
+              {
+                "OPS_301": "5-469.22",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-469.2x",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-592",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-593.20",
+                "Anzahl": "25"
+              },
+              {
+                "OPS_301": "5-593.x",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-651.82",
+                "Anzahl": "12"
+              },
+              {
+                "OPS_301": "5-651.85",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-651.90",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-651.92",
+                "Anzahl": "26"
+              },
+              {
+                "OPS_301": "5-651.b2",
+                "Anzahl": "10"
+              },
+              {
+                "OPS_301": "5-652.52",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-652.62",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-653.22",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-653.32",
+                "Anzahl": "16"
+              },
+              {
+                "OPS_301": "5-653.33",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-657.60",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-657.62",
+                "Anzahl": "11"
+              },
+              {
+                "OPS_301": "5-657.70",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-657.72",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-657.90",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-657.91",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-657.92",
+                "Anzahl": "29"
+              },
+              {
+                "OPS_301": "5-657.95",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-659.22",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-661.52",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-661.60",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-661.62",
+                "Anzahl": "29"
+              },
+              {
+                "OPS_301": "5-667.1",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-681.4",
+                "Anzahl": "19"
+              },
+              {
+                "OPS_301": "5-681.82",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-682.00",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-682.02",
+                "Anzahl": "20"
+              },
+              {
+                "OPS_301": "5-682.03",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-683.00",
+                "Anzahl": "5"
+              },
+              {
+                "OPS_301": "5-683.01",
+                "Anzahl": "73"
+              },
+              {
+                "OPS_301": "5-683.02",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-683.03",
+                "Anzahl": "11"
+              },
+              {
+                "OPS_301": "5-683.05",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-683.13",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-683.23",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-690.0",
+                "Anzahl": "35"
+              },
+              {
+                "OPS_301": "5-690.2",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-702.1",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-702.2",
+                "Anzahl": "6"
+              },
+              {
+                "OPS_301": "5-702.x",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-703.2",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-704.00",
+                "Anzahl": "41"
+              },
+              {
+                "OPS_301": "5-704.01",
+                "Anzahl": "5"
+              },
+              {
+                "OPS_301": "5-704.10",
+                "Anzahl": "26"
+              },
+              {
+                "OPS_301": "5-704.4f",
+                "Anzahl": "11"
+              },
+              {
+                "OPS_301": "5-704.4g",
+                "Anzahl": "13"
+              },
+              {
+                "OPS_301": "5-712.0",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-714.40",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-870.90",
+                "Anzahl": "4"
+              },
+              {
+                "OPS_301": "5-870.91",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-870.a0",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-870.a1",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-872.0",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-872.1",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-881.1",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-932.10",
+                "Anzahl": "5"
+              },
+              {
+                "OPS_301": "5-983",
+                "Anzahl_Datenschutz": {}
+              }
+            ]
+          }
+        },
+        "Ambulante_Operationen": {
+          "Keine_Erbracht": {}
+        },
+        "Personelle_Ausstattung": {
+          "Aerztliches_Personal": {
+            "Belegabteilung": {
+              "Belegaerzte": {
+                "Anzahl": "3",
+                "Fall_je_Anzahl": "91,33333",
+                "Erlaeuterungen": "3 stationäre Belegärzte\n7 ambulante Blegärzte"
+              }
+            }
+          },
+          "Pflegekraefte": {
+            "Gesundheits_Krankenpfleger": {
+              "Personalerfassung": {
+                "Anzahl_VK": "3,08",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "3,08"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "3,08",
+                    "Fall_je_Anzahl": "88,96104"
+                  }
+                }
+              }
+            },
+            "Gesundheits_Kinderkrankenpfleger": {
+              "Personalerfassung": {
+                "Anzahl_VK": "1,63",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "1,63"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "1,63",
+                    "Fall_je_Anzahl": "168,09816"
+                  }
+                }
+              }
+            },
+            "Beleghebammen_Belegentbindungspfleger": {
+              "Anzahl": "0",
+              "Erlaeuterungen": "wir kooperieren mit dem städtischen Krankenhaus"
+            },
+            "Operationstechnische_Assistenz": {
+              "Personalerfassung": {
+                "Anzahl_VK": "3,75",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "3,75"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "3,75",
+                    "Fall_je_Anzahl": "73,06667"
+                  }
+                }
+              }
+            },
+            "Medizinische_Fachangestellte": {
+              "Personalerfassung": {
+                "Anzahl_VK": "1",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "1"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "1",
+                    "Fall_je_Anzahl": "274,00000"
+                  }
+                }
+              }
+            },
+            "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+          },
+          "Pflegerische_Fachexpertisen": {
+            "Fachexpertise_Pflege": [
+              {
+                "PQ_ZP_Schluessel": "PQ07"
+              },
+              {
+                "PQ_ZP_Schluessel": "PQ14",
+                "Erlaeuterungen": "bildet sich 1 mal jährlich fort und arbeitet mit einer externen Hygienefachkraft zusammen."
+              },
+              {
+                "PQ_ZP_Schluessel": "ZP04"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Qualitaetssicherung": {
+      "QS_nach_Landesrecht": {
+        "Keine_Teilnahme_landesspezifische_Qualitaetssicherungsmassnahme": {}
+      },
+      "DMP": {
+        "Teilnahme_DMP": {
+          "Bezeichnung": "Brustkrebs"
+        }
+      },
+      "Sonstige_Verfahren_Externe_QS": {
+        "Sonstiges_Verfahren_Externe_QS": {
+          "Leistungsbereich": "Vermeidung nosokomialer Infektionen",
+          "Bezeichnung_Qualitaetsindikator": "NWIF",
+          "Ergebnis": "100%",
+          "Messzeitraum": "2023",
+          "Datenerhebung": "Unitrend - Meldung zur methodischen Sollstatistik nach §92Abs.1Satz2 Nr.13i.V.m.§136Abs.1 Nr.1 SGB V",
+          "Rechenregeln": "Aufstellung der Zahl der zu dokumentierenden Datensätze (IST/SOll)",
+          "Referenzbereiche": "Dokumentationsrate wird nur für die Fälle mit Aufnahme und Entlassung 2020berechnet",
+          "Vergleichswerte": "0",
+          "Quellenangabe_Dokumentation": "Verhütung nosokomialer Infektionen( IfSG§2) - Hygienehandbuch\nPerioperative Antibiotiakprophylaxe intern"
+        }
+      },
+      "Fortbildung": {
+        "Fortbildungspflichtige": "0",
+        "Nachweispflichtige": "0",
+        "Fortbildungsnachweis_Erbracht_Habende": "0"
+      },
+      "Pflegepersonaluntergrenzen": {
+        "Monatsbezogener_Erfuellungsgrad_PpUG": [
+          {
+            "Pflegesensitiver_Bereich": "Gynäkologie und Geburtshilfe",
+            "Station": "gynäkologische Belegbetten",
+            "Schicht": "Tagschicht",
+            "Monatsbezogener_Erfuellungsgrad": "100,00",
+            "Ausnahmetatbestaende": "0"
+          },
+          {
+            "Pflegesensitiver_Bereich": "Gynäkologie und Geburtshilfe",
+            "Station": "gynäkologische Belegbetten",
+            "Schicht": "Nachtschicht",
+            "Monatsbezogener_Erfuellungsgrad": "100,00",
+            "Ausnahmetatbestaende": "0"
+          }
+        ],
+        "Schichtbezogener_Erfuellungsgrad_PpUG": [
+          {
+            "Pflegesensitiver_Bereich": "Gynäkologie und Geburtshilfe",
+            "Station": "gynäkologische Belegbetten",
+            "Schicht": "Tagschicht",
+            "Schichtbezogener_Erfuellungsgrad": "100,00"
+          },
+          {
+            "Pflegesensitiver_Bereich": "Gynäkologie und Geburtshilfe",
+            "Station": "gynäkologische Belegbetten",
+            "Schicht": "Nachtschicht",
+            "Schichtbezogener_Erfuellungsgrad": "100,00"
+          }
+        ]
+      },
+      "ATMP-QS-RL": {
+        "Hinweis_ATMP-QS-RL": "Krankenhausstandorte, an denen neue Therapien gemäß den Anlagen der ATMP-QS-RL angewendet werden, müssen die dort vorgegebenen Mindestanforderungen an die Struktur-, Prozess- oder Ergebnisqualität erfüllen. Der Medizinische Dienst überprüft die Umsetzung der relevanten Qualitätsanforderungen und stellt dem Krankenhaus eine Bescheinigung aus, wenn diese vollumfänglich erfüllt werden. ATMP nach dieser Richtlinie dürfen ausschließlich von Leistungserbringern angewendet werden, die die Mindestanforderungen erfüllen.",
+        "Keine_Anwendung_Arzneimittel_neuartige_Therapien": {}
+      }
+    }
+  }
+}

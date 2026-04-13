@@ -1,0 +1,1734 @@
+{
+  "Qualitaetsbericht": {
+    "Einleitung": {
+      "Datensatz": {
+        "Datum": "2025-02-28",
+        "Uhrzeit": "13:49:18",
+        "Sprache": "deutsch"
+      },
+      "Software": {
+        "Hersteller": "netfutura GmbH",
+        "Produktname": "promato QBM",
+        "Version": "2.12"
+      },
+      "Verantwortlicher_Erstellung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Stefan",
+            "Nachname": "Jungbluth",
+            "Funktion_Arbeitsschwerpunkt": "QM"
+          },
+          "Telefon": {
+            "Vorwahl": "0271",
+            "Rufnummer": "2345",
+            "Durchwahl": "365"
+          },
+          "Email": "stefan.jungbluth@drk-kinderklinik.de"
+        }
+      },
+      "Verantwortlicher_Krankenhausleitung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Carsten",
+            "Nachname": "Jochum",
+            "Funktion_Arbeitsschwerpunkt": "Geschäftsführer"
+          },
+          "Telefon": {
+            "Vorwahl": "0271",
+            "Rufnummer": "2345",
+            "Durchwahl": "253"
+          },
+          "Email": "gf.sekr@drk-kinderklinik.de"
+        }
+      },
+      "URL_Internetseite_Krankenhaus": "https://www.drk-kinderklinik.de/home/"
+    },
+    "Krankenhaus": {
+      "Mehrere_Standorte": {
+        "Krankenhauskontaktdaten": {
+          "Name": "DRK-Kinderklinik Siegen gGmbH",
+          "IK": "260591265",
+          "Kontakt_Zugang": {
+            "Strasse": "Wellersbergstraße",
+            "Hausnummer": "60",
+            "Postleitzahl": "57072",
+            "Ort": "Siegen",
+            "URL_Zugang": "https://www.drk-kinderklinik.de/home/"
+          },
+          "Kontakt_Adresse": {
+            "Adresse": {
+              "Strasse": "Wellersbergstraße",
+              "Hausnummer": "60"
+            },
+            "Postleitzahl": "57072",
+            "Ort": "Siegen"
+          },
+          "Telefon": {
+            "Vorwahl": "0271",
+            "Rufnummer": "2345253"
+          },
+          "Email": "info@drk-kinderklinik.de",
+          "Aerztliche_Leitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Markus",
+                "Nachname": "Pingel",
+                "Funktion_Arbeitsschwerpunkt": "Chefarzt Neonatologie"
+              },
+              "Telefon": {
+                "Vorwahl": "0271",
+                "Rufnummer": "2345404"
+              },
+              "Email": "markus.pingel@drk-kinderklinik.de"
+            }
+          },
+          "Pflegedienstleitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Simone",
+                "Nachname": "Hensel",
+                "Funktion_Arbeitsschwerpunkt": "Bereichsleitung Pflege"
+              },
+              "Telefon": {
+                "Vorwahl": "0271",
+                "Rufnummer": "2345632"
+              },
+              "Email": "simone.hensel@drkkinderklinik.de"
+            }
+          },
+          "Verwaltungsleitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Antonio",
+                "Nachname": "Monte",
+                "Funktion_Arbeitsschwerpunkt": "Verwaltungsleiter"
+              },
+              "Telefon": {
+                "Vorwahl": "0271",
+                "Rufnummer": "2345253"
+              },
+              "Email": "gf.sekr@drk-kinderklinik.de"
+            }
+          }
+        },
+        "Standortkontaktdaten": {
+          "Name": "PNZ der Kinderklinik Siegen",
+          "IK": "260591265",
+          "Standortnummer": "773585000",
+          "Standortnummer_alt": "00",
+          "Kontakt_Zugang": {
+            "Strasse": "Wichernstraße",
+            "Hausnummer": "40",
+            "Postleitzahl": "57074",
+            "Ort": "Siegen",
+            "URL_Zugang": "https://www.drk-kinderklinik.de/home/"
+          },
+          "Aerztliche_Leitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Markus",
+                "Nachname": "Pingel",
+                "Funktion_Arbeitsschwerpunkt": "Chefarzt"
+              },
+              "Telefon": {
+                "Vorwahl": "0271",
+                "Rufnummer": "2345404"
+              },
+              "Email": "markus.pingel@drkkinderklinik.de"
+            }
+          },
+          "Pflegedienstleitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Simone",
+                "Nachname": "Hensel",
+                "Funktion_Arbeitsschwerpunkt": "Bereichsleitung Pflege"
+              },
+              "Telefon": {
+                "Vorwahl": "0271",
+                "Rufnummer": "2345632"
+              },
+              "Email": "simone.hensel@drkkinderklinik.de"
+            }
+          },
+          "Verwaltungsleitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Antonio",
+                "Nachname": "Monte",
+                "Funktion_Arbeitsschwerpunkt": "Verwaltungsleiter"
+              },
+              "Telefon": {
+                "Vorwahl": "0271",
+                "Rufnummer": "2345253"
+              },
+              "Email": "gf.sekr@drk-kinderklinik.de"
+            }
+          }
+        }
+      }
+    },
+    "Krankenhaustraeger": {
+      "Name": "DRK",
+      "Krankenhaustraeger_Art": {
+        "Art": "freigemeinnützig"
+      }
+    },
+    "Krankenhaus_Art": {
+      "Akademisches_Lehrkrankenhaus": {
+        "Name_Universitaet": "Universität Marburg"
+      }
+    },
+    "Medizinisch_Pflegerische_Leistungsangebote": {
+      "MP_Leistungsangebot": [
+        {
+          "MP_Schluessel": "MP37"
+        },
+        {
+          "MP_Schluessel": "MP65"
+        },
+        {
+          "MP_Schluessel": "MP63"
+        },
+        {
+          "MP_Schluessel": "MP03"
+        },
+        {
+          "MP_Schluessel": "MP05"
+        }
+      ]
+    },
+    "Nicht_Medizinische_Leistungsangebote": {
+      "NM_Leistungsangebot": [
+        {
+          "NM_Schluessel": "NM10"
+        },
+        {
+          "NM_Schluessel": "NM60"
+        },
+        {
+          "NM_Schluessel": "NM66"
+        },
+        {
+          "NM_Schluessel": "NM42"
+        }
+      ]
+    },
+    "Barrierefreiheit": {
+      "Ansprechpartner_Menschen_mit_Beeintraechtigung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Heidi",
+            "Nachname": "Schopp",
+            "Funktion_Arbeitsschwerpunkt": "Sozialer Dienst"
+          },
+          "Telefon": {
+            "Vorwahl": "0271",
+            "Rufnummer": "2345244"
+          },
+          "Email": "heidi.schopp@drk-kinderklinik.de"
+        }
+      },
+      "Barrierefreiheit_Aspekt": [
+        {
+          "BF_Schluessel": "BF01"
+        },
+        {
+          "BF_Schluessel": "BF34"
+        },
+        {
+          "BF_Schluessel": "BF13"
+        },
+        {
+          "BF_Schluessel": "BF04"
+        }
+      ]
+    },
+    "Akademische_Lehre": {
+      "Akademische_Lehre_Wissenschaftliche_Taetigkeit": {
+        "FL_Schluessel": "FL03"
+      }
+    },
+    "Ausbildung_andere_Heilberufe": {
+      "Ausbildung_in_anderen_Heilberufen": {
+        "HB_Schluessel": "HB02"
+      }
+    },
+    "Anzahl_Betten": "10",
+    "Fallzahlen": {
+      "Vollstationaere_Fallzahl": "424",
+      "Teilstationaere_Fallzahl": "0",
+      "Ambulante_Fallzahl": "0",
+      "StaeB_Fallzahl": "0"
+    },
+    "Personal_des_Krankenhauses": {
+      "Aerzte": {
+        "Aerzte_ohne_Belegaerzte": {
+          "Personalerfassung": {
+            "Anzahl_VK": "10,5",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "10,5"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "10,5"
+              }
+            }
+          },
+          "Fachaerzte": {
+            "Personalerfassung": {
+              "Anzahl_VK": "9,01",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "9,01"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "9,01"
+                }
+              }
+            }
+          },
+          "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+        },
+        "Belegaerzte": {
+          "Anzahl": "0"
+        },
+        "Aerzte_ohne_Fachabteilungszuordnung": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          },
+          "Fachaerzte": {
+            "Personalerfassung": {
+              "Anzahl_VK": "0,00",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Pflegekraefte": {
+        "Gesundheits_Krankenpfleger": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Gesundheits_Kinderkrankenpfleger": {
+          "Personalerfassung": {
+            "Anzahl_VK": "24,95",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "24,95"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "24,95"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Massgebliche_tarifliche_Wochenarbeitszeit": "38,50"
+      },
+      "Ausgewaehltes_Personal_Psych": {
+        "Ausgewaehltes_Therapeutisches_Personal": {
+          "Diplom_Psychologen": {
+            "Personalerfassung": {
+              "Anzahl_VK": "1",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "1"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "1"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Umgang_mit_Risiken_in_der_Patientenversorgung": {
+      "Verantwortliche_Person_Qualitaetsmanagement": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Eva-Maria",
+            "Nachname": "Görbitz",
+            "Funktion_Arbeitsschwerpunkt": "QM"
+          },
+          "Telefon": {
+            "Vorwahl": "0271",
+            "Rufnummer": "2345447"
+          },
+          "Email": "eva-maria.goerbitz@drk-kinderklinik.de"
+        }
+      },
+      "Lenkungsgremium_Qualitaetsmanagement": {
+        "Lenkungsgremium": {
+          "Beteiligte_Abteilungen_Funktionsbereiche": "Ärzte, Pflege, Marketing, Hygiene, Qualitätsmanagement",
+          "Tagungsfrequenz": "monatlich"
+        }
+      },
+      "Verantwortliche_Person_Risikomanagement": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Eva-Maria",
+            "Nachname": "Görbitz",
+            "Funktion_Arbeitsschwerpunkt": "QM"
+          },
+          "Telefon": {
+            "Vorwahl": "0271",
+            "Rufnummer": "2345"
+          },
+          "Email": "eva-maria.goerbitz@drk-kinderklinik.de"
+        }
+      },
+      "Lenkungsgremium_Risikomanagement": {
+        "Lenkungsgremium": {
+          "Beteiligte_Abteilungen_Funktionsbereiche": "Ärzte, Pflege, Marketing, Hygiene, Qualitätsmanagement",
+          "Tagungsfrequenz": "monatlich"
+        }
+      },
+      "Einrichtungsinternes_Fehlermeldesystem": {
+        "Tagungsgremium": {
+          "Tagungsfrequenz": "monatlich"
+        },
+        "Massnahmen": "zB das Patientenarmband",
+        "Fehlermeldesystem_intern": {
+          "System_intern": {
+            "IF_Schluessel": "IF02",
+            "Zusatzangaben_IF": {
+              "Frequenz": "monatlich"
+            }
+          }
+        }
+      },
+      "Einrichtungsuebergreifendes_Fehlermeldesystem": {
+        "Fehlermeldesystem_uebergreifend": {
+          "System_uebergreifend": {
+            "EF_Schluessel": "EF03"
+          }
+        },
+        "Tagungsgremium": {
+          "Tagungsfrequenz": "monatlich"
+        }
+      },
+      "Hygienepersonal": {
+        "Krankenhaushygieniker": {
+          "Anzahl": "1",
+          "Erlaeuterungen": "Prof. Dr. Exner, Bonn"
+        },
+        "Hygienebeauftragte_Aerzte": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "2"
+          },
+          "Erlaeuterungen": "Markus Pingel, Christian Sippel"
+        },
+        "Hygienefachkraefte": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "2"
+          },
+          "Erlaeuterungen": "Ebru Mentese, Katharina Berg, Luisa Dickel"
+        },
+        "Hygienebeauftragte_Pflege": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "6"
+          },
+          "Erlaeuterungen": "alle Fachleitungen der jeweiligen Fachabteilungen"
+        },
+        "Hygienekommission_eingerichtet": {
+          "Kontakt_Person_kurz": {
+            "Person": {
+              "Vorname": "Markus",
+              "Nachname": "Pingel",
+              "Funktion_Arbeitsschwerpunkt": "Chefarzt"
+            },
+            "Telefon": {
+              "Vorwahl": "0271",
+              "Rufnummer": "2345404"
+            },
+            "Email": "markus.pingel@drk-kinderklinik.de"
+          },
+          "Tagungsfrequenz": "monatlich"
+        }
+      },
+      "Weitere_Informationen_Hygiene": {
+        "Hygienestandard_ZVK": {
+          "Standard_Hygiene_ZVK_liegt_vor": {
+            "Standard_thematisiert": {
+              "Hygienische_Haendedesinfektion": "ja",
+              "Hautdesinfektion": "ja",
+              "Beachtung_Einwirkzeit": "ja",
+              "Anwendung_weiterer_Hygienemassnahmen": {
+                "Sterile_Handschuhe": "ja",
+                "Steriler_Kittel": "ja",
+                "Kopfhaube": "ja",
+                "Mund_Nasen_Schutz": "ja",
+                "Steriles_Abdecktuch": "ja"
+              }
+            },
+            "Standard_autorisiert": "ja"
+          },
+          "Standard_Liegedauer_ZVK_liegt_vor": {
+            "Standard_autorisiert": "ja"
+          }
+        },
+        "Antibiotikaprophylaxe_Antibiotikatherapie": {
+          "Leitlinie_Antibiotikatherapie_liegt_vor": {
+            "Leitlinie_Resistenzlage_angepasst": "ja",
+            "Leitlinie_autorisiert": "ja"
+          },
+          "Standard_perioperative_Antibiotikaprophylaxe_liegt_vor": {
+            "Standard_thematisiert": {
+              "Indikationsstellung_Antibiotikaprophylaxe": "ja",
+              "Zu_Verwendende_Antibiotika": "ja",
+              "Dauer_Antibiotikaprophylaxe": "ja"
+            },
+            "Standard_autorisiert": "ja",
+            "Ueberpruefung_durch_Checkliste": "ja"
+          }
+        },
+        "Umgang_Wunden": {
+          "Standard_Wundversorgung_Verbandwechsel_liegt_vor": {
+            "Standard_thematisiert": {
+              "Hygienische_Haendedesinfektion": "ja",
+              "Verbandwechsel_aseptische_Bedingungen": "ja",
+              "Antiseptische_Behandlung_infizierte_Wunden": "ja",
+              "Pruefung_Notwendigkeit_Wundauflage": "ja",
+              "Meldung_Wundinfektion": "ja"
+            },
+            "Standard_autorisiert": "ja"
+          }
+        },
+        "Haendedesinfektion": {
+          "Haendedesinfektionsmittelverbrauch_Allgemeinstationen_wurde_nicht_erhoben": {},
+          "Haendedesinfektionsmittelverbrauch_Intensivstationen_wurde_erhoben": {
+            "Haendedesinfektionsmittelverbrauch_Intensivstationen": "278"
+          },
+          "Erfassung_Haendedesinfektionsmittelverbrauch_stationsbezogen": "ja"
+        },
+        "Umgang_Patienten_MRE": {
+          "Standardisierte_Information_MRSA": "ja",
+          "Informationsmanagement_MRSA": "ja",
+          "Risikoadaptives_Aufnahmescreening": "ja",
+          "Regelmaessige_Schulungen": "ja"
+        },
+        "Hygienebezogenes_Risikomanagement": {
+          "Hygiene_Instrument_Massnahme": [
+            {
+              "HM_Schluessel": "HM05",
+              "Zusatzangaben_HM": {
+                "Frequenz": "jährlich"
+              },
+              "Erlaeuterungen": "externer zertifizierter Dienstleister. Das PNZ greift auf die Infrastruktur der Kinderklinik zurück."
+            },
+            {
+              "HM_Schluessel": "HM09",
+              "Zusatzangaben_HM": {
+                "Frequenz": "quartalsweise"
+              },
+              "Erlaeuterungen": "Das PNZ greift auf die Infrastruktur der Kinderklinik zurück."
+            }
+          ]
+        }
+      },
+      "Beschwerdemanagement": {
+        "Strukturiertes_Beschwerdemanagement": {
+          "Strukturiertes_Beschwerdemanagement_Eingefuehrt": "ja",
+          "Erlaeuterungen": "Das PNZ greift auf die Möglichkeiten der Kinderklinik zurück"
+        },
+        "Schriftliches_Konzept": {
+          "Schriftliches_Konzept_Existiert": "ja"
+        },
+        "Umgang_muendliche_Beschwerden": {
+          "Umgang_muendliche_Beschwerden_Geregelt": "ja"
+        },
+        "Umgang_schriftliche_Beschwerden": {
+          "Umgang_schriftliche_Beschwerden_Geregelt": "ja"
+        },
+        "Zeitziele_fuer_Rueckmeldung": {
+          "Zeitziele_fuer_Rueckmeldung_Definiert": "ja"
+        },
+        "Ansprechpartner": {
+          "Ansprechpersonen": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Arnd",
+                "Nachname": "Dickel",
+                "Funktion_Arbeitsschwerpunkt": "marketing"
+              },
+              "Telefon": {
+                "Vorwahl": "0271",
+                "Rufnummer": "2345442"
+              },
+              "Email": "arnd.dickel@drk-kinderklinik.de"
+            }
+          }
+        },
+        "Patientenfuersprecher": {
+          "Fuersprechpersonen": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Silke",
+                "Nachname": "Schitz",
+                "Funktion_Arbeitsschwerpunkt": "Extern"
+              },
+              "Telefon": {
+                "Vorwahl": "0271",
+                "Rufnummer": "2345442"
+              },
+              "Email": "markerting@drkkinderklinik.de"
+            }
+          }
+        },
+        "Anonyme_Eingabemoeglichkeiten": {
+          "Anonyme_Eingabemoeglichkeiten_Existieren": "nein"
+        },
+        "Patientenbefragungen": {
+          "Patientenbefragungen_Durchgefuehrt": "nein"
+        },
+        "Einweiserbefragungen": {
+          "Einweiserbefragungen_Durchgefuehrt": "nein"
+        }
+      },
+      "Arzneimitteltherapiesicherheit": {
+        "Hinweis_Arzneimitteltherapiesicherheit": "AMTS ist die Gesamtheit der Maßnahmen zur Gewährleistung eines optimalen Medikationsprozesses mit dem Ziel, Medikationsfehler und damit vermeidbare Risiken für Patientinnen und Patienten bei der Arzneimitteltherapie zu verringern. Eine Voraussetzung für die erfolgreiche Umsetzung dieser Maßnahmen ist, dass AMTS als integraler Bestandteil der täglichen Routine in einem interdisziplinären und multiprofessionellen Ansatz gelebt wird.",
+        "Verantwortliches_Gremium_AMTS": {
+          "Arzneimittelkommission": {}
+        },
+        "Verantwortliche_Person_AMTS": {
+          "Verantwortliche_Person_festgelegt": {
+            "Eigenstaendige_Position_AMTS": {
+              "Kontakt_Person_lang": {
+                "Person": {
+                  "Titel": "Dr",
+                  "Vorname": "Manfred",
+                  "Nachname": "Schill",
+                  "Funktion_Arbeitsschwerpunkt": "Oberarzt"
+                },
+                "Telefon": {
+                  "Vorwahl": "0271",
+                  "Rufnummer": "2345601"
+                },
+                "Email": "manfred.schill@drk-kinderklinik.de"
+              }
+            }
+          }
+        },
+        "Pharmazeutisches_Personal": {
+          "Anzahl_Apotheker": "0",
+          "Anzahl_weiteres_pharmazeutisches_Personal": "0",
+          "Erlaeuterungen": "Versorgung durch externe Partnerapotheke"
+        }
+      },
+      "Praevention_Hilfe_Missbrauch_Gewalt": {
+        "Hinweis_Praevention_Hilfe_Missbrauch_Gewalt": "Gemäß § 4 Absatz 2 der Qualitätsmanagement-Richtlinie haben Einrichtungen die Prävention von und Intervention bei Gewalt und Missbrauch als Teil des einrichtungsinternen Qualitätsmanagements vorzusehen. Ziel ist es, Missbrauch und Gewalt insbesondere gegenüber vulnerablen Patientengruppen, wie beispielsweise Kindern und Jugendlichen oder hilfsbedürftigen Personen, vorzubeugen, zu erkennen, adäquat darauf zu reagieren und auch innerhalb der Einrichtung zu verhindern. Das jeweilige Vorgehen wird an Einrichtungsgröße, Leistungsspektrum und den Patientinnen und Patienten ausgerichtet, um so passgenaue Lösungen zur Sensibilisierung der Teams sowie weitere geeignete vorbeugende und intervenierende Maßnahmen festzulegen. Dies können unter anderem Informationsmaterialien, Kontaktadressen, Schulungen/Fortbildungen, Verhaltenskodizes, Handlungsempfehlungen/Interventionspläne oder umfassende Schutzkonzepte sein.",
+        "Praevention_Intervention_Massnahmen": "ja",
+        "Schutzkonzepte_Gewalt_Kinder": {
+          "Hinweis_Schutzkonzepte_Gewalt_Kinder": "Gemäß § 4 Absatz 2 in Verbindung mit Teil B Abschnitt I § 1 der Qualitätsmanagement-Richtlinie haben sich Einrichtungen, die Kinder und Jugendliche versorgen, gezielt mit der Prävention von und Intervention bei (sexueller) Gewalt und Missbrauch bei Kindern und Jugendlichen zu befassen (Risiko- und Gefährdungsanalyse) und – der Größe und Organisationsform der Einrichtung entsprechend – konkrete Schritte und Maßnahmen abzuleiten (Schutzkonzept). In diesem Abschnitt geben Krankenhäuser, die Kinder und Jugendliche versorgen, an, ob sie gemäß § 4 Absatz 2 in Verbindung mit Teil B Abschnitt I § 1 der Qualitätsmanagement-Richtlinie ein Schutzkonzept gegen (sexuelle) Gewalt bei Kindern und Jugendlichen aufweisen.",
+          "Versorgung_Kinder_Jugendliche": {
+            "Schutzkonzept_gegen_Gewalt_liegt_vor": {
+              "Schutzkonzept": [
+                {
+                  "SK_Schluessel": "SK09"
+                },
+                {
+                  "SK_Schluessel": "SK01"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "Apparative_Ausstattung": {
+      "Geraet": [
+        {
+          "AA_Schluessel": "AA38",
+          "Notfallverfuegbarkeit_24h": "ja",
+          "Erlaeuterungen": "Das PNZ kann auf Geräte der Kinderklinik zurückgreifen."
+        },
+        {
+          "AA_Schluessel": "AA47",
+          "Notfallverfuegbarkeit_24h": "ja",
+          "Erlaeuterungen": "Das PNZ kann auf Geräte der Kinderklinik zurückgreifen."
+        },
+        {
+          "AA_Schluessel": "AA22",
+          "Notfallverfuegbarkeit_24h": "ja",
+          "Erlaeuterungen": "Das PNZ kann auf Geräte der Kinderklinik zurückgreifen."
+        },
+        {
+          "AA_Schluessel": "AA08",
+          "Notfallverfuegbarkeit_24h": "ja",
+          "Erlaeuterungen": "Das PNZ kann auf Geräte der Kinderklinik zurückgreifen."
+        },
+        {
+          "AA_Schluessel": "AA10",
+          "Notfallverfuegbarkeit_24h": "ja",
+          "Erlaeuterungen": "Das PNZ kann auf Geräte der Kinderklinik zurückgreifen."
+        }
+      ]
+    },
+    "Teilnahme_Notfallversorgung": {
+      "Hinweis_Teilnahme_Notfallversorgung": "Alle Krankenhäuser gewährleisten Notfallversorgung und haben allgemeine Pflichten zur Hilfeleistung im Notfall. Darüber hinaus hat der Gemeinsame Bundesausschuss ein gestuftes System von Notfallstrukturen in Krankenhäusern im entgeltrechtlichen Sinne geregelt. Das bedeutet, dass Krankenhäuser, die festgelegte Anforderungen an eine von drei Notfallstufen erfüllen, durch Vergütungszuschläge finanziell unterstützt werden. Krankenhäuser, die die Anforderungen an eine der drei Stufen nicht erfüllen, erhalten keine Zuschläge. Nimmt ein Krankenhaus nicht am gestuften System von Notfallstrukturen teil und gewährleistet es nicht eine spezielle Notfallversorgung, sieht der Gesetzgeber Abschläge vor.",
+      "Teilnahme_Notfallstufe": {
+        "Notfallstufe_zugeordnet": {
+          "Erweiterte_Notfallversorgung_Stufe_2": {
+            "Umstand_Zuordnung_Notfallstufe": {
+              "Erfuellung_Voraussetzung": {}
+            }
+          }
+        },
+        "Erlaeuterungen": "Das PNZ erfüllt die Voraussetzungen selbst nicht, Erfüllung am Standort Kinderklinik."
+      },
+      "Kooperation_mit_Kassenaerztlicher_Vereinigung": {
+        "Notdienstpraxis_Existiert": "ja",
+        "Vertragsaerztlicher_Notdienst_Existiert": "ja"
+      }
+    },
+    "Organisationseinheiten_Fachabteilungen": {
+      "Organisationseinheit_Fachabteilung": {
+        "Gliederungsnummer": "1",
+        "Name": "Pädiatrie/Schwerpunkt Neonatologie",
+        "Aerztliche_Leitung_OE": {
+          "Chefarzt": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Markus",
+                "Nachname": "Pingel",
+                "Funktion_Arbeitsschwerpunkt": "Chefarzt"
+              },
+              "Telefon": {
+                "Vorwahl": "0271",
+                "Rufnummer": "2345404"
+              },
+              "Email": "markus.pingel@drk-kinderklinik.de"
+            },
+            "Kontakt_Zugang": {
+              "Strasse": "Wichernstraße",
+              "Hausnummer": "40",
+              "Postleitzahl": "57074",
+              "Ort": "Siegen"
+            }
+          }
+        },
+        "Zielvereinbarungen": {
+          "Keine_Zielvereinbarungen_geschlossen": {}
+        },
+        "Fachabteilungsschluessel": {
+          "FA_Schluessel": "1012"
+        },
+        "Medizinische_Leistungsangebote": {
+          "Medizinisches_Leistungsangebot": [
+            {
+              "VA_VU_Schluessel": "VA01"
+            },
+            {
+              "VA_VU_Schluessel": "VA02"
+            },
+            {
+              "VA_VU_Schluessel": "VK12"
+            },
+            {
+              "VA_VU_Schluessel": "VK23"
+            }
+          ]
+        },
+        "Fallzahlen_OE": {
+          "Vollstationaere_Fallzahl": "424",
+          "Teilstationaere_Fallzahl": "0"
+        },
+        "Hauptdiagnosen": {
+          "Hauptdiagnose": [
+            {
+              "ICD_10": "P07.12",
+              "Fallzahl": "144"
+            },
+            {
+              "ICD_10": "P22.1",
+              "Fallzahl": "88"
+            },
+            {
+              "ICD_10": "P07.3",
+              "Fallzahl": "26"
+            },
+            {
+              "ICD_10": "P07.11",
+              "Fallzahl": "24"
+            },
+            {
+              "ICD_10": "P07.01",
+              "Fallzahl": "14"
+            },
+            {
+              "ICD_10": "P07.02",
+              "Fallzahl": "14"
+            },
+            {
+              "ICD_10": "P07.10",
+              "Fallzahl": "11"
+            },
+            {
+              "ICD_10": "P39.9",
+              "Fallzahl": "10"
+            },
+            {
+              "ICD_10": "P70.4",
+              "Fallzahl": "9"
+            },
+            {
+              "ICD_10": "P22.8",
+              "Fallzahl": "8"
+            },
+            {
+              "ICD_10": "P39.8",
+              "Fallzahl": "8"
+            },
+            {
+              "ICD_10": "P21.0",
+              "Fallzahl": "6"
+            },
+            {
+              "ICD_10": "P28.2",
+              "Fallzahl": "6"
+            },
+            {
+              "ICD_10": "P22.0",
+              "Fallzahl": "4"
+            },
+            {
+              "ICD_10": "E16.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "E16.2",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "E71.3",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "G12.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I47.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "P00.2",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "P02.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "P02.7",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "P04.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "P04.4",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "P05.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "P07.00",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "P07.2",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "P21.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "P23.8",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "P24.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "P25.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "P28.4",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "P29.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "P36.8",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "P39.4",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "P55.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "P55.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "P59.8",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "P80.8",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "P80.9",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "P81.8",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "P90",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "P94.2",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "P96.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "Q25.4",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "Q35.5",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "Q37.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "Q62.7",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "Q77.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "Q79.2",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "Q91.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "R06.80",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "Z76.2",
+              "Fallzahl_Datenschutz": {}
+            }
+          ]
+        },
+        "Prozeduren": {
+          "Verpflichtende_Angabe": {
+            "Prozedur": [
+              {
+                "OPS_301": "8-930",
+                "Anzahl": "428"
+              },
+              {
+                "OPS_301": "1-208.1",
+                "Anzahl": "409"
+              },
+              {
+                "OPS_301": "8-010.3",
+                "Anzahl": "287"
+              },
+              {
+                "OPS_301": "8-711.00",
+                "Anzahl": "248"
+              },
+              {
+                "OPS_301": "8-706",
+                "Anzahl": "247"
+              },
+              {
+                "OPS_301": "9-262.1",
+                "Anzahl": "247"
+              },
+              {
+                "OPS_301": "8-811.0",
+                "Anzahl": "180"
+              },
+              {
+                "OPS_301": "8-560.2",
+                "Anzahl": "129"
+              },
+              {
+                "OPS_301": "9-262.0",
+                "Anzahl": "98"
+              },
+              {
+                "OPS_301": "8-121",
+                "Anzahl": "82"
+              },
+              {
+                "OPS_301": "6-003.9",
+                "Anzahl": "57"
+              },
+              {
+                "OPS_301": "8-831.00",
+                "Anzahl": "48"
+              },
+              {
+                "OPS_301": "8-701",
+                "Anzahl": "45"
+              },
+              {
+                "OPS_301": "8-010.1",
+                "Anzahl": "44"
+              },
+              {
+                "OPS_301": "8-561.1",
+                "Anzahl": "42"
+              },
+              {
+                "OPS_301": "8-711.10",
+                "Anzahl": "36"
+              },
+              {
+                "OPS_301": "8-711.40",
+                "Anzahl": "32"
+              },
+              {
+                "OPS_301": "8-800.c0",
+                "Anzahl": "26"
+              },
+              {
+                "OPS_301": "8-811.1",
+                "Anzahl": "25"
+              },
+              {
+                "OPS_301": "8-711.20",
+                "Anzahl": "24"
+              },
+              {
+                "OPS_301": "1-207.0",
+                "Anzahl": "22"
+              },
+              {
+                "OPS_301": "8-831.02",
+                "Anzahl": "22"
+              },
+              {
+                "OPS_301": "8-015.0",
+                "Anzahl": "17"
+              },
+              {
+                "OPS_301": "8-812.60",
+                "Anzahl": "14"
+              },
+              {
+                "OPS_301": "1-207.1",
+                "Anzahl": "13"
+              },
+              {
+                "OPS_301": "1-945.1",
+                "Anzahl": "10"
+              },
+              {
+                "OPS_301": "8-831.0",
+                "Anzahl": "9"
+              },
+              {
+                "OPS_301": "8-920",
+                "Anzahl": "9"
+              },
+              {
+                "OPS_301": "9-320",
+                "Anzahl": "9"
+              },
+              {
+                "OPS_301": "8-800.g0",
+                "Anzahl": "8"
+              },
+              {
+                "OPS_301": "8-810.j3",
+                "Anzahl": "8"
+              },
+              {
+                "OPS_301": "8-120",
+                "Anzahl": "7"
+              },
+              {
+                "OPS_301": "3-13a",
+                "Anzahl": "6"
+              },
+              {
+                "OPS_301": "8-144.1",
+                "Anzahl": "6"
+              },
+              {
+                "OPS_301": "8-800.c1",
+                "Anzahl": "6"
+              },
+              {
+                "OPS_301": "8-987.13",
+                "Anzahl": "6"
+              },
+              {
+                "OPS_301": "5-465.1",
+                "Anzahl": "5"
+              },
+              {
+                "OPS_301": "5-541.0",
+                "Anzahl": "5"
+              },
+              {
+                "OPS_301": "6-004.01",
+                "Anzahl": "5"
+              },
+              {
+                "OPS_301": "8-125.0",
+                "Anzahl": "5"
+              },
+              {
+                "OPS_301": "8-607.1",
+                "Anzahl": "5"
+              },
+              {
+                "OPS_301": "8-714.00",
+                "Anzahl": "5"
+              },
+              {
+                "OPS_301": "8-987.10",
+                "Anzahl": "5"
+              },
+              {
+                "OPS_301": "1-945.0",
+                "Anzahl": "4"
+              },
+              {
+                "OPS_301": "5-469.00",
+                "Anzahl": "4"
+              },
+              {
+                "OPS_301": "5-469.20",
+                "Anzahl": "4"
+              },
+              {
+                "OPS_301": "9-984.b",
+                "Anzahl": "4"
+              },
+              {
+                "OPS_301": "1-204.2",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "1-204.4",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "3-033.0",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "3-13e",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "3-800",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "3-820",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-357.0",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-450.2",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-451.1",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-452.0",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-454.20",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-454.60",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-455.23",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-460.10",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-460.30",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-461.50",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-462.0",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-462.1",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-466.1",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-469.10",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-470.0",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-471.0",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-530.00",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-537.0",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-549.20",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-549.21",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-549.40",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "6-003.c",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "6-004.00",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "6-004.02",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "6-004.03",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "6-004.04",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "6-004.05",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "6-004.08",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "6-004.d",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-016",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-020.0",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-148.0",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-151.4",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-310.x",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-640.0",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-714.1",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-720",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-771",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-800.0",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-800.c2",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-800.g1",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-800.g2",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-800.ga",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-810.w1",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-812.50",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-831.01",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-831.22",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-857.13",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-903",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-987.03",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-987.11",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-987.12",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-98g.11",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-98g.12",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-98g.14",
+                "Anzahl_Datenschutz": {}
+              }
+            ]
+          }
+        },
+        "Ambulante_Operationen": {
+          "Keine_Erbracht": {}
+        },
+        "Personelle_Ausstattung": {
+          "Aerztliches_Personal": {
+            "Hauptabteilung": {
+              "Aerzte_ohne_Belegaerzte": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "10,50",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "10,50"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,00"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "10,50",
+                      "Fall_je_Anzahl": "40,38095"
+                    }
+                  }
+                },
+                "Fachaerzte": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "9,01",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "9,01"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0,00"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "9,01",
+                        "Fall_je_Anzahl": "47,05882"
+                      }
+                    }
+                  }
+                },
+                "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+              }
+            }
+          },
+          "Aerztliche_Fachexpertisen": {
+            "Fachexpertise": [
+              {
+                "AQ_ZF_Schluessel": "AQ34"
+              },
+              {
+                "AQ_ZF_Schluessel": "AQ35"
+              },
+              {
+                "AQ_ZF_Schluessel": "AQ32"
+              },
+              {
+                "AQ_ZF_Schluessel": "ZF28"
+              },
+              {
+                "AQ_ZF_Schluessel": "ZF30"
+              }
+            ]
+          },
+          "Pflegekraefte": {
+            "Gesundheits_Krankenpfleger": {
+              "Personalerfassung": {
+                "Anzahl_VK": "0,00",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "0,00"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0,00"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0,00"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "0,00"
+                  }
+                }
+              }
+            },
+            "Gesundheits_Kinderkrankenpfleger": {
+              "Personalerfassung": {
+                "Anzahl_VK": "24,95",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "24,95"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0,00"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0,00"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "24,95",
+                    "Fall_je_Anzahl": "16,99398"
+                  }
+                }
+              }
+            },
+            "Massgebliche_tarifliche_Wochenarbeitszeit": "38,50"
+          },
+          "Pflegerische_Fachexpertisen": {
+            "Fachexpertise_Pflege": [
+              {
+                "PQ_ZP_Schluessel": "PQ09"
+              },
+              {
+                "PQ_ZP_Schluessel": "PQ04"
+              },
+              {
+                "PQ_ZP_Schluessel": "PQ05"
+              },
+              {
+                "PQ_ZP_Schluessel": "ZP02"
+              },
+              {
+                "PQ_ZP_Schluessel": "ZP15"
+              },
+              {
+                "PQ_ZP_Schluessel": "ZP01"
+              },
+              {
+                "PQ_ZP_Schluessel": "ZP16"
+              },
+              {
+                "PQ_ZP_Schluessel": "ZP08"
+              }
+            ]
+          },
+          "Ausgewaehltes_Personal_Psych": {
+            "Ausgewaehltes_Therapeutisches_Personal": {
+              "Diplom_Psychologen": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "1,00",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "1,00"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,00"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "1,00",
+                      "Fall_je_Anzahl": "424,00000"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Qualitaetssicherung": {
+      "QS_nach_Landesrecht": {
+        "Keine_Teilnahme_landesspezifische_Qualitaetssicherungsmassnahme": {}
+      },
+      "Sonstige_Verfahren_Externe_QS": {
+        "Sonstiges_Verfahren_Externe_QS": {
+          "Leistungsbereich": "Perinatalzentrum Level 1",
+          "Bezeichnung_Qualitaetsindikator": "https://perinatalzentren.org/startseite/",
+          "Ergebnis": "siehe Online-Vergleichswerte, durchschnittlich",
+          "Messzeitraum": "jeweils die letzten 5 Jahre",
+          "Datenerhebung": "jährlich"
+        }
+      },
+      "Mindestmengen": {
+        "Leistungsbereich": {
+          "Bezeichnung": "Versorgung von Früh- und Reifgeborenen mit einem Aufnahmegewicht < 1250g",
+          "Erbrachte_Menge": "45"
+        },
+        "Mindestmengen_Angabe_Prognosejahr": {
+          "Leistungsbereich": {
+            "Bezeichnung": "Versorgung von Früh- und Reifgeborenen mit einem Aufnahmegewicht < 1250g",
+            "Leistungsberechtigung_Prognosejahr": "ja",
+            "Ergebnis_Prognosepruefung_Landesverbaende": {
+              "Pruefung_Landesverbaende": "ja",
+              "Leistungsmenge_Berichtsjahr": "45",
+              "Q3_4_Q1_2_Leistungsmenge": "35"
+            }
+          }
+        }
+      },
+      "Strukturqualitaetsvereinbarung": {
+        "Vereinbarung": {
+          "CQ_Schluessel": "CQ05",
+          "Erlaeuterungen": "Das Perinatalzentrum (Level 1) versorgt ca. 80 Frühgeborene<1.500 g pro Jahr. Teilnahme an Neo-KISS-Programm"
+        },
+        "Angabe_Erfuellung_Personalvorgaben": {
+          "Mitteilung_Nichterfuellung_pflegerische_Versorgung_nicht_erfolgt": {}
+        }
+      },
+      "Fortbildung": {
+        "Fortbildungspflichtige": "33",
+        "Nachweispflichtige": "7",
+        "Fortbildungsnachweis_Erbracht_Habende": "7"
+      },
+      "ATMP-QS-RL": {
+        "Hinweis_ATMP-QS-RL": "Krankenhausstandorte, an denen neue Therapien gemäß den Anlagen der ATMP-QS-RL angewendet werden, müssen die dort vorgegebenen Mindestanforderungen an die Struktur-, Prozess- oder Ergebnisqualität erfüllen. Der Medizinische Dienst überprüft die Umsetzung der relevanten Qualitätsanforderungen und stellt dem Krankenhaus eine Bescheinigung aus, wenn diese vollumfänglich erfüllt werden. ATMP nach dieser Richtlinie dürfen ausschließlich von Leistungserbringern angewendet werden, die die Mindestanforderungen erfüllen.",
+        "Keine_Anwendung_Arzneimittel_neuartige_Therapien": {}
+      }
+    }
+  }
+}

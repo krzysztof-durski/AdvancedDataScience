@@ -8,7 +8,7 @@ from pathlib import Path
 # Add project root
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from ingest.common import DB_CONFIG, IngestStats, merge_stats
+from ingest.common import DB_CONFIG, IngestStats, get_version_year_from_filename, merge_stats
 from ingest.hospital_ingest import ingest_hospital_json_files
 from ingest.icd_ingest import ingest_icd_to_db
 from ingest.ops_ingest import ingest_ops_to_db
@@ -28,7 +28,8 @@ def _parse_year_filter(value: str | None) -> set[int] | None:
 
 
 def _select_hospital_files(hospital_dir: Path, include_years: set[int] | None, exclude_years: set[int] | None) -> list[Path]:
-    files = sorted(hospital_dir.glob("*.json"))
+    # Support both flat folder layouts and nested year folders under DATA/.
+    files = sorted(hospital_dir.rglob("*.json"))
     selected: list[Path] = []
     for f in files:
         parts = f.stem.split("-")
@@ -49,7 +50,9 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Run data ingestion phases in deterministic order.")
     parser.add_argument("--icd-path", type=Path, default=data_dir / "ICD-diagnoses.txt")
     parser.add_argument("--ops-path", type=Path, default=data_dir / "OPS-procedures.txt")
-    parser.add_argument("--hospital-dir", type=Path, default=data_dir / "json_output")
+    parser.add_argument("--hospital-dir", type=Path, default=data_dir)
+    parser.add_argument("--icd-version-year", type=int, default=None)
+    parser.add_argument("--ops-version-year", type=int, default=None)
     parser.add_argument("--batch-size", type=int, default=1000)
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--include-years", type=str, default=None)
@@ -84,6 +87,17 @@ def main():
         print(f"Hospital folder not found: {args.hospital_dir}")
         sys.exit(1)
 
+    if args.icd_version_year is None and get_version_year_from_filename(icd_path) is None:
+        print(
+            f"[ICD] warning: no year found in filename {icd_path.name}; "
+            "default parser fallback may use 2025. Prefer --icd-version-year."
+        )
+    if args.ops_version_year is None and get_version_year_from_filename(ops_path) is None:
+        print(
+            f"[OPS] warning: no year found in filename {ops_path.name}; "
+            "default parser fallback may use 2025. Prefer --ops-version-year."
+        )
+
     try:
         import psycopg2
         conn = psycopg2.connect(**DB_CONFIG)
@@ -104,7 +118,12 @@ def main():
             icd_stats = IngestStats(read=1, skipped=1)
             print(f"[ICD] skipped unchanged file: {icd_path}")
         else:
-            icd_stats = ingest_icd_to_db(icd_path, conn, batch_size=args.batch_size)
+            icd_stats = ingest_icd_to_db(
+                icd_path,
+                conn,
+                version_year=args.icd_version_year,
+                batch_size=args.batch_size,
+            )
             if not args.dry_run:
                 mark_processed_file(icd_path, "icd", conn)
         if not args.dry_run:
@@ -117,7 +136,12 @@ def main():
             ops_stats = IngestStats(read=1, skipped=1)
             print(f"[OPS] skipped unchanged file: {ops_path}")
         else:
-            ops_stats = ingest_ops_to_db(ops_path, conn, batch_size=args.batch_size)
+            ops_stats = ingest_ops_to_db(
+                ops_path,
+                conn,
+                version_year=args.ops_version_year,
+                batch_size=args.batch_size,
+            )
             if not args.dry_run:
                 mark_processed_file(ops_path, "ops", conn)
         if not args.dry_run:

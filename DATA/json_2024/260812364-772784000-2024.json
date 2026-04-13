@@ -1,0 +1,2323 @@
+{
+  "Qualitaetsbericht": {
+    "Einleitung": {
+      "Datensatz": {
+        "Datum": "2025-11-21",
+        "Uhrzeit": "10:40:13",
+        "Sprache": "deutsch"
+      },
+      "Software": {
+        "Hersteller": "empira Software GmbH, Troisdorf",
+        "Produktname": "empira Krankenhaus-Qualitätsbericht-Manager QBX Desktop",
+        "Version": "24.10.7311.0 (9a939a872)"
+      },
+      "Verantwortlicher_Erstellung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Titel": "Dr. med.",
+            "Vorname": "Matthias",
+            "Nachname": "Fabian",
+            "Funktion_Arbeitsschwerpunkt": "Qualitätsmanagement und Medizinprozesse"
+          },
+          "Telefon": {
+            "Vorwahl": "0711",
+            "Rufnummer": "278",
+            "Durchwahl": "32183"
+          },
+          "Email": "m.fabian@klinikum-stuttgart.de"
+        }
+      },
+      "Verantwortlicher_Krankenhausleitung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Titel": "Prof. Dr. med.",
+            "Vorname": "Jan Steffen",
+            "Nachname": "Jürgensen MBA MPH",
+            "Funktion_Arbeitsschwerpunkt": "Medizinischer Vorstand und Vorstandsvorsitzender"
+          },
+          "Telefon": {
+            "Vorwahl": "0711",
+            "Rufnummer": "278",
+            "Durchwahl": "32001"
+          },
+          "Email": "Vorstand@Klinikum-Stuttgart.de"
+        }
+      },
+      "URL_Internetseite_Krankenhaus": "https://www.klinikum-stuttgart.de/"
+    },
+    "Krankenhaus": {
+      "Mehrere_Standorte": {
+        "Krankenhauskontaktdaten": {
+          "Name": "Klinikum Stuttgart - Gemeinnützige Kommunalanstalt öffentlichen Rechts",
+          "IK": "260812364",
+          "Kontakt_Zugang": {
+            "Strasse": "Kriegsbergstraße",
+            "Hausnummer": "60",
+            "Postleitzahl": "70174",
+            "Ort": "Stuttgart",
+            "URL_Zugang": "https://www.klinikum-stuttgart.de"
+          },
+          "Kontakt_Adresse": {
+            "Postfach": "102644",
+            "Postleitzahl": "70022",
+            "Ort": "Stuttgart"
+          },
+          "Telefon": {
+            "Vorwahl": "0711",
+            "Rufnummer": "278",
+            "Durchwahl": "00"
+          },
+          "Email": "info@klinikum-stuttgart.de",
+          "Aerztliche_Leitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Titel": "Prof. Dr. med.",
+                "Vorname": "Jan Steffen",
+                "Nachname": "Jürgensen MBA MPH",
+                "Funktion_Arbeitsschwerpunkt": "Medizinischer Vorstand und Vorstandsvorsitzender"
+              },
+              "Telefon": {
+                "Vorwahl": "0711",
+                "Rufnummer": "278",
+                "Durchwahl": "32001"
+              },
+              "Email": "vorstand@klinikum-stuttgart.de"
+            }
+          },
+          "Pflegedienstleitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Oliver",
+                "Nachname": "Hommel",
+                "Funktion_Arbeitsschwerpunkt": "Pflegedirektor"
+              },
+              "Telefon": {
+                "Vorwahl": "0711",
+                "Rufnummer": "278",
+                "Durchwahl": "20060"
+              },
+              "Email": "o.hommel@klinikum-stuttgart.de"
+            }
+          },
+          "Verwaltungsleitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Marya",
+                "Nachname": "Verdel",
+                "Funktion_Arbeitsschwerpunkt": "Kaufmännische Vorständin"
+              },
+              "Telefon": {
+                "Vorwahl": "0711",
+                "Rufnummer": "278",
+                "Durchwahl": "32006"
+              },
+              "Email": "Vorstand@Klinikum-Stuttgart.de"
+            }
+          }
+        },
+        "Standortkontaktdaten": {
+          "Name": "Klinikum Stuttgart - Hasenbergstraße - Kinder- und Jugendpsychiatrie",
+          "IK": "260812364",
+          "Standortnummer": "772784000",
+          "Kontakt_Zugang": {
+            "Strasse": "Hasenbergstraße",
+            "Hausnummer": "60",
+            "Postleitzahl": "70176",
+            "Ort": "Stuttgart",
+            "URL_Zugang": "https://www.klinikum-stuttgart.de/kliniken-institute-zentren/klinik-fuer-kinder-und-jugendpsychiatrie-und-psychotherapie/startseite"
+          },
+          "Kontakt_Adresse": {
+            "Postfach": "102644",
+            "Postleitzahl": "70022",
+            "Ort": "Stuttgart"
+          },
+          "Aerztliche_Leitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Titel": "Prof. Dr. med.",
+                "Vorname": "Jan Steffen",
+                "Nachname": "Jürgensen MBA MPH",
+                "Funktion_Arbeitsschwerpunkt": "Medizinischer Vorstand und Vorstandsvorsitzender"
+              },
+              "Telefon": {
+                "Vorwahl": "0711",
+                "Rufnummer": "278",
+                "Durchwahl": "32001"
+              },
+              "Email": "vorstand@klinikum-stuttgart.de"
+            }
+          },
+          "Pflegedienstleitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Oliver",
+                "Nachname": "Hommel",
+                "Funktion_Arbeitsschwerpunkt": "Pflegedirektor"
+              },
+              "Telefon": {
+                "Vorwahl": "0711",
+                "Rufnummer": "278",
+                "Durchwahl": "20060"
+              },
+              "Email": "o.hommel@klinikum-stuttgart.de"
+            }
+          },
+          "Verwaltungsleitung": {
+            "Kontakt_Person_lang": [
+              {
+                "Person": {
+                  "Titel": "Dr.",
+                  "Vorname": "Alexander",
+                  "Nachname": "Hewer (bis 31.3.23)",
+                  "Funktion_Arbeitsschwerpunkt": "Kaufmännischer Vorstand"
+                },
+                "Telefon": {
+                  "Vorwahl": "0711",
+                  "Rufnummer": "278",
+                  "Durchwahl": "32006"
+                },
+                "Email": "Vorstand@Klinikum-Stuttgart.de"
+              },
+              {
+                "Person": {
+                  "Vorname": "Marya",
+                  "Nachname": "Verdal (ab 1.1.24)",
+                  "Funktion_Arbeitsschwerpunkt": "Kaufmännische Vorständin"
+                },
+                "Telefon": {
+                  "Vorwahl": "0711",
+                  "Rufnummer": "278",
+                  "Durchwahl": "32006"
+                },
+                "Email": "Vorstand@Klinikum-Stuttgart.de"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Krankenhaustraeger": {
+      "Name": "Stadt Stuttgart",
+      "Krankenhaustraeger_Art": {
+        "Art": "öffentlich"
+      }
+    },
+    "Krankenhaus_Art": {
+      "Akademisches_Lehrkrankenhaus": {
+        "Name_Universitaet": "Eberhard Karls Universität Tübingen"
+      }
+    },
+    "Medizinisch_Pflegerische_Leistungsangebote": {
+      "MP_Leistungsangebot": [
+        {
+          "MP_Schluessel": "MP03"
+        },
+        {
+          "MP_Schluessel": "MP53"
+        },
+        {
+          "MP_Schluessel": "MP06"
+        },
+        {
+          "MP_Schluessel": "MP56"
+        },
+        {
+          "MP_Schluessel": "MP08"
+        },
+        {
+          "MP_Schluessel": "MP11"
+        },
+        {
+          "MP_Schluessel": "MP14"
+        },
+        {
+          "MP_Schluessel": "MP15"
+        },
+        {
+          "MP_Schluessel": "MP16"
+        },
+        {
+          "MP_Schluessel": "MP17"
+        },
+        {
+          "MP_Schluessel": "MP20"
+        },
+        {
+          "MP_Schluessel": "MP21"
+        },
+        {
+          "MP_Schluessel": "MP22"
+        },
+        {
+          "MP_Schluessel": "MP23"
+        },
+        {
+          "MP_Schluessel": "MP27"
+        },
+        {
+          "MP_Schluessel": "MP30"
+        },
+        {
+          "MP_Schluessel": "MP32"
+        },
+        {
+          "MP_Schluessel": "MP34"
+        },
+        {
+          "MP_Schluessel": "MP37"
+        },
+        {
+          "MP_Schluessel": "MP62"
+        },
+        {
+          "MP_Schluessel": "MP63"
+        },
+        {
+          "MP_Schluessel": "MP64"
+        },
+        {
+          "MP_Schluessel": "MP39"
+        },
+        {
+          "MP_Schluessel": "MP40"
+        },
+        {
+          "MP_Schluessel": "MP65"
+        },
+        {
+          "MP_Schluessel": "MP42"
+        },
+        {
+          "MP_Schluessel": "MP51"
+        },
+        {
+          "MP_Schluessel": "MP68"
+        },
+        {
+          "MP_Schluessel": "MP52"
+        }
+      ]
+    },
+    "Nicht_Medizinische_Leistungsangebote": {
+      "NM_Leistungsangebot": [
+        {
+          "NM_Schluessel": "NM02"
+        },
+        {
+          "NM_Schluessel": "NM10"
+        },
+        {
+          "NM_Schluessel": "NM62",
+          "Erlaeuterungen": "für Patienten und Patientinnen der Kinder und Jugendpsychiatrie"
+        },
+        {
+          "NM_Schluessel": "NM63",
+          "Erlaeuterungen": "für Patienten und Patientinnen der Kinder und Jugendpsychiatrie"
+        },
+        {
+          "NM_Schluessel": "NM64"
+        },
+        {
+          "NM_Schluessel": "NM50"
+        },
+        {
+          "NM_Schluessel": "NM40"
+        },
+        {
+          "NM_Schluessel": "NM60"
+        },
+        {
+          "NM_Schluessel": "NM66"
+        },
+        {
+          "NM_Schluessel": "NM42",
+          "Erlaeuterungen": "Evangelisch, katholisch, weitere Konfessionen auf Wunsch"
+        }
+      ]
+    },
+    "Akademische_Lehre": {
+      "Akademische_Lehre_Wissenschaftliche_Taetigkeit": [
+        {
+          "FL_Schluessel": "FL01",
+          "Erlaeuterungen": "Die meisten Chefärzte sind als Privatdozenten oder Professoren an Medizinischen Fakultäten in Deutschland tätig."
+        },
+        {
+          "FL_Schluessel": "FL02"
+        },
+        {
+          "FL_Schluessel": "FL03",
+          "Erlaeuterungen": "Das Klinikum Stuttgart ist Akademisches Lehrkrankenhaus der Universität Tübingen. Es stehen jährlich 75 PJ-Plätze zur Verfügung. https://www.klinikum-stuttgart.de/karriere/ausbildung-studium/pj-famulatur-fuer-medizinstudierende"
+        },
+        {
+          "FL_Schluessel": "FL04",
+          "Erlaeuterungen": "Es finden Kooperationen mit verschiedenen Hochschulen im In- und Ausland im Rahmen öffentlich geförderter Verbundprojekte bzw. Studiengruppen statt."
+        },
+        {
+          "FL_Schluessel": "FL05",
+          "Erlaeuterungen": "Phase I Studien werden nicht durchgeführt, aber multizentrische Phase II Studien."
+        },
+        {
+          "FL_Schluessel": "FL06",
+          "Erlaeuterungen": "Eine Vielzahl der Kliniken und Institute des Klinikums Stuttgart nimmt an Multicenterstudien der Phase III und IV teil. Nähere Angaben zu den Studien finden Sie im Geschäftsbericht des Klinikums Stuttgart unter www.klinikum-stuttgart.de."
+        },
+        {
+          "FL_Schluessel": "FL07",
+          "Erlaeuterungen": "Es werden insbesondere in der Onkologie sowie in Einzelfällen auch in anderen Bereichen klinische Studien initiiert und geleitet."
+        },
+        {
+          "FL_Schluessel": "FL08",
+          "Erlaeuterungen": "Mehrere Ärztliche Direktoren sind an der Herausgeberschaft wissenschaftlicher Journale beteiligt."
+        },
+        {
+          "FL_Schluessel": "FL09",
+          "Erlaeuterungen": "Mehrere Ärztliche Direktoren betreuen Doktoranden."
+        }
+      ]
+    },
+    "Ausbildung_andere_Heilberufe": {
+      "Ausbildung_in_anderen_Heilberufen": [
+        {
+          "HB_Schluessel": "HB06",
+          "Erlaeuterungen": "Es bestehen Kooperationsverträge mit Ausbildungszentren, für die Praktikumsplätze angeboten werden. Weitere Informationenen finden Sie unter https://www.klinikum-stuttgart.de/karriere."
+        },
+        {
+          "HB_Schluessel": "HB01",
+          "Erlaeuterungen": "https://www.klinikum-stuttgart.de/karriere/"
+        },
+        {
+          "HB_Schluessel": "HB19",
+          "Erlaeuterungen": "https://www.klinikum-stuttgart.de/karriere/"
+        },
+        {
+          "HB_Schluessel": "HB20",
+          "Erlaeuterungen": "https://www.klinikum-stuttgart.de/karriere/"
+        },
+        {
+          "HB_Schluessel": "HB17",
+          "Erlaeuterungen": "https://www.klinikum-stuttgart.de/karriere"
+        }
+      ]
+    },
+    "Anzahl_Betten": "73",
+    "Fallzahlen": {
+      "Vollstationaere_Fallzahl": "169",
+      "Teilstationaere_Fallzahl": "25",
+      "Ambulante_Fallzahl": "0",
+      "StaeB_Fallzahl": "20"
+    },
+    "Personal_des_Krankenhauses": {
+      "Aerzte": {
+        "Aerzte_ohne_Belegaerzte": {
+          "Personalerfassung": {
+            "Anzahl_VK": "8,1",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "8,1"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,9"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "7,2"
+              }
+            }
+          },
+          "Fachaerzte": {
+            "Personalerfassung": {
+              "Anzahl_VK": "3,6",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "3,6"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,4"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "3,2"
+                }
+              }
+            }
+          },
+          "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+        },
+        "Belegaerzte": {
+          "Anzahl": "0"
+        }
+      },
+      "Pflegekraefte": {
+        "Gesundheits_Krankenpfleger": {
+          "Personalerfassung": {
+            "Anzahl_VK": "11,7",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "11,7"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "11,7"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Gesundheits_Kinderkrankenpfleger": {
+          "Personalerfassung": {
+            "Anzahl_VK": "9,7",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "9,7"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "9,7"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Altenpfleger": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,7",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,7"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,7"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Pflegefachpersonen": {
+          "Personalerfassung": {
+            "Anzahl_VK": "2,6",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "2,6"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "2,6"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Pflegefachpersonen_BSc": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,7",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,7"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,7"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Pflegehelfer": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,3",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,3"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,3"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Massgebliche_tarifliche_Wochenarbeitszeit": "39,00"
+      },
+      "Ausgewaehltes_Personal_Psych": {
+        "Ausgewaehltes_Therapeutisches_Personal": {
+          "Diplom_Psychologen": {
+            "Personalerfassung": {
+              "Anzahl_VK": "0",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0"
+                }
+              }
+            }
+          },
+          "Psychologische_Psychotherapeuten": {
+            "Personalerfassung": {
+              "Anzahl_VK": "0,1",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,1"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,1"
+                }
+              }
+            }
+          },
+          "Sozialpaedagogen": {
+            "Personalerfassung": {
+              "Anzahl_VK": "6,8",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "6,8"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "6,8"
+                }
+              }
+            }
+          }
+        },
+        "Genesungsbegleitung": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0"
+          }
+        }
+      },
+      "Spezielles_Therapeutisches_Personal": {
+        "Therapeutisches_Personal": [
+          {
+            "SP_Schluessel": "SP06",
+            "Personalerfassung": {
+              "Anzahl_VK": "9,6",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "9,6"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "9,6"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP13",
+            "Personalerfassung": {
+              "Anzahl_VK": "6,6",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "6,6"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "6,6"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP24",
+            "Personalerfassung": {
+              "Anzahl_VK": "0,1",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,1"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,1"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP26",
+            "Personalerfassung": {
+              "Anzahl_VK": "6,8",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "6,8"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "6,8"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "Umgang_mit_Risiken_in_der_Patientenversorgung": {
+      "Verantwortliche_Person_Qualitaetsmanagement": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Titel": "Dr.",
+            "Vorname": "Matthias",
+            "Nachname": "Fabian",
+            "Funktion_Arbeitsschwerpunkt": "Qualitätsmanagement - Medizinprozesse"
+          },
+          "Telefon": {
+            "Vorwahl": "0711",
+            "Rufnummer": "278",
+            "Durchwahl": "32183"
+          },
+          "Email": "m.fabian@klinikum-stuttgart.de"
+        }
+      },
+      "Lenkungsgremium_Qualitaetsmanagement": {
+        "Lenkungsgremium": {
+          "Beteiligte_Abteilungen_Funktionsbereiche": "Stabsstelle Qualitätsmanagement und Medizinprozesse",
+          "Tagungsfrequenz": "bei Bedarf"
+        }
+      },
+      "Verantwortliche_Person_Risikomanagement": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Titel": "Prof. Dr. med.",
+            "Vorname": "Jan Steffen",
+            "Nachname": "Jürgensen MBA MPH",
+            "Funktion_Arbeitsschwerpunkt": "Medizinischer Vorstand und Vorstandsvorsitzender"
+          },
+          "Telefon": {
+            "Vorwahl": "0711",
+            "Rufnummer": "278",
+            "Durchwahl": "32001"
+          },
+          "Email": "vorstand@klinikum-stuttgart.de"
+        }
+      },
+      "Lenkungsgremium_Risikomanagement": {
+        "Lenkungsgremium": {
+          "Beteiligte_Abteilungen_Funktionsbereiche": "Krankenhausleitung, Stabststelle Recht-Compliance-Revision, Servicecenter Finanzen, Servicecenter-IT, Controlling, Qualitätsmanagement, CIRS-Team",
+          "Tagungsfrequenz": "quartalsweise"
+        }
+      },
+      "Instrumente_Massnahmen_Risikomanagement": {
+        "Instrument_Massnahme_Risikomanagement": [
+          {
+            "RM_Schluessel": "RM01",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Risikomanagement Handbuch August 23 und Richtlinie zum Qualitäts- und klinischen Risikomanagement am Klinikum Stuttgar",
+                "Datum": "2025-06-04"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM02"
+          },
+          {
+            "RM_Schluessel": "RM08",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Der Umgang mit freiheitsentziehenden Maßnahmen ist in einer Richtlinie geregelt.",
+                "Datum": "2020-05-28"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM09",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Dienstanweisung Medizinprodukte - DA MPG liegt vor.",
+                "Datum": "2025-08-19"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM12"
+          },
+          {
+            "RM_Schluessel": "RM18",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Richtlinie zum Qualitätsmanagement mit Aspekten zum Risikomanagement liegt vor und wird laufend den gesetzlichen Vorgaben und prozessualen Notwendigkeiten angepasst.",
+                "Datum": "2025-05-08"
+              }
+            }
+          }
+        ]
+      },
+      "Einrichtungsinternes_Fehlermeldesystem": {
+        "Tagungsgremium": {
+          "Tagungsfrequenz": "monatlich"
+        },
+        "Massnahmen": "Informationskampagne „Stop injekt Check!“ – Verbesserung der Medikationssicherheit, Delirprävention",
+        "Fehlermeldesystem_intern": {
+          "System_intern": [
+            {
+              "IF_Schluessel": "IF01",
+              "Zusatzangaben_IF": {
+                "Datum": "2011-03-01"
+              }
+            },
+            {
+              "IF_Schluessel": "IF02",
+              "Zusatzangaben_IF": {
+                "Frequenz": "monatlich"
+              }
+            },
+            {
+              "IF_Schluessel": "IF03",
+              "Zusatzangaben_IF": {
+                "Frequenz": "quartalsweise"
+              }
+            }
+          ]
+        }
+      },
+      "Einrichtungsuebergreifendes_Fehlermeldesystem": {
+        "Fehlermeldesystem_uebergreifend": {
+          "System_uebergreifend": {
+            "EF_Schluessel": "EF02"
+          }
+        }
+      },
+      "Hygienepersonal": {
+        "Krankenhaushygieniker": {
+          "Anzahl": "0",
+          "Erlaeuterungen": "1 Fachärztin für Mikrobiologie, Virologie und Infektionsepidemiologie, Zusatzbezeichnung Medizinhygiene (1VK), 1 Fachärztin für Mikrobiologie, Virologie und Infektionsepidemiologie (0,40 VK), 1 Facharzt Anästhesiologie, Zusatzbezeichnung Medizinhygiene (0,40 VK), 1 Facharzt Innere, Gastroenterologie, Infektiologie (0,80 VK). Das Team des Hygieneinstitutes am Katharinenhospital betreut alle Standorte des Klinikum Stuttgarts mit."
+        },
+        "Hygienebeauftragte_Aerzte": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "0"
+          },
+          "Erlaeuterungen": "56 (davon 6 Ärzte mit doppelter Funktion als HBÄ an zwei Standorten), davon am Standort Katharinenhospital 33, Standort Olgahospital / Frauenklinik 11 und Standort Krankenhaus Bad Cannstatt 12. Die Standorte Hasenbergstr. und Türlenstraße (Behandlungszentrum Mitte, BZM) werden vom Standort Bad Cannstatt mitversorgt."
+        },
+        "Hygienefachkraefte": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "0"
+          },
+          "Erlaeuterungen": "12 und 1 HFK i.A. , davon am Standort Katharinenhospital 7 und Olgahospital 4 (betreut auch Standort Hasenbergstr.), KBC 2 (betreut auch Standort Türlenstr., BZM)."
+        },
+        "Hygienebeauftragte_Pflege": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "0"
+          },
+          "Erlaeuterungen": "Klinikum Stuttgart gesamt: 123, davon am Standort Katharinenhospital 57, am Standort Olgahospital / Frauenklinik 31 und am Standort Krankenhaus Bad Cannstatt 35, die auch die Standorte Hasenbergstr. und Türlenstr. (Behandlungszentrum Mitte, BZM) mitbetreuen."
+        },
+        "Hygienekommission_eingerichtet": {
+          "Kontakt_Person_kurz": {
+            "Person": {
+              "Titel": "Prof. Dr. med.",
+              "Vorname": "Jan Steffen",
+              "Nachname": "Jürgensen MBA MPH",
+              "Funktion_Arbeitsschwerpunkt": "Medizinischer Vorstand und Vorstandsvorsitzender"
+            },
+            "Telefon": {
+              "Vorwahl": "0711",
+              "Rufnummer": "278",
+              "Durchwahl": "32001"
+            },
+            "Email": "vorstand@klinikum-stuttgart.de"
+          },
+          "Tagungsfrequenz": "halbjährlich"
+        }
+      },
+      "Weitere_Informationen_Hygiene": {
+        "Kein_Einsatz_ZVK": {},
+        "Antibiotikaprophylaxe_Antibiotikatherapie": {
+          "Leitlinie_Antibiotikatherapie_liegt_nicht_vor": {},
+          "Keine_Durchfuehrung_Operationen": {}
+        },
+        "Umgang_Wunden": {
+          "Keine_Durchfuehrung_Wundversorgung": {}
+        },
+        "Haendedesinfektion": {
+          "Haendedesinfektionsmittelverbrauch_Allgemeinstationen_wurde_nicht_erhoben": {},
+          "Keine_Intensivstation_vorhanden": {},
+          "Erfassung_Haendedesinfektionsmittelverbrauch_stationsbezogen": "nein"
+        },
+        "Umgang_Patienten_MRE": {
+          "Standardisierte_Information_MRSA": "nein",
+          "Informationsmanagement_MRSA": "nein",
+          "Risikoadaptives_Aufnahmescreening": "nein",
+          "Regelmaessige_Schulungen": "nein"
+        },
+        "Hygienebezogenes_Risikomanagement": {
+          "Hygiene_Instrument_Massnahme": {
+            "HM_Schluessel": "HM09",
+            "Erlaeuterungen": "Neben 10 Präsenzveranstaltungen wurden folgende verpflichtende E-Learning Programm aufgesetzt:\n- Hände- u. Basishygiene – 1/Jahr\n- Hygiene bei Punktionen, Injektion und Infusionstherapie – 1/J\n- Hygienischer Umgang mit multiresistenten Erregern – alle 2 J\n- Hygiene im OP - 1/J"
+          }
+        }
+      },
+      "Beschwerdemanagement": {
+        "Strukturiertes_Beschwerdemanagement": {
+          "Strukturiertes_Beschwerdemanagement_Eingefuehrt": "ja",
+          "Erlaeuterungen": "Das Beschwerdemanagement ist zentral in der Unternehmensorganisation angesiedelt. Ein Konzept ist mit der Geschäftsführung abgestimmt und seit 2005 etabliert. Das Krankenhaus ist seit 01.01.15 im \"Bundesverband Beschwerdemanagement für Gesundheitseinrichtungen e.V.\" vertreten."
+        },
+        "Schriftliches_Konzept": {
+          "Schriftliches_Konzept_Existiert": "ja",
+          "Erlaeuterungen": "Die Eingangskanäle sind definiert und werden kommuniziert. Die Mitarbeiter im Beschwerdemanagement sind mit den Abläufen vertraut. Ein Reportingsystem ist etabliert und wird stetig weiterentwickelt."
+        },
+        "Umgang_muendliche_Beschwerden": {
+          "Umgang_muendliche_Beschwerden_Geregelt": "ja",
+          "Erlaeuterungen": "Der Prozess zur Bearbeitung mündlicher Beschwerden ist definiert."
+        },
+        "Umgang_schriftliche_Beschwerden": {
+          "Umgang_schriftliche_Beschwerden_Geregelt": "ja",
+          "Erlaeuterungen": "Der Prozess zur Bearbeitung schriftlicher Beschwerden ist definiert."
+        },
+        "Zeitziele_fuer_Rueckmeldung": {
+          "Zeitziele_fuer_Rueckmeldung_Definiert": "ja",
+          "Erlaeuterungen": "Zeitziele sind definiert. Bei längerer Bearbeitungszeit erhalten Beschwerdeführer oder Beschwerdeführerinnen eine Zwischennachricht."
+        },
+        "Ansprechpartner": {
+          "Ansprechpersonen": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Jürgen",
+                "Nachname": "Kleinat",
+                "Funktion_Arbeitsschwerpunkt": "Beschwerdemanager"
+              },
+              "Telefon": {
+                "Vorwahl": "0711",
+                "Rufnummer": "278",
+                "Durchwahl": "32126"
+              },
+              "Email": "j.kleinat@klinikum-stuttgart.de"
+            }
+          },
+          "Erlaeuterungen": "Herr Matthias Bäuerlein\nHerr Jürgen Kleinat"
+        },
+        "Anonyme_Eingabemoeglichkeiten": {
+          "Anonyme_Eingabemoeglichkeiten_Existieren": "ja",
+          "URL_Kontaktformular": "https://www.klinikum-stuttgart.de/ihr-aufenthalt/ihre-meinung/online-formular/"
+        },
+        "Patientenbefragungen": {
+          "Patientenbefragungen_Durchgefuehrt": "nein",
+          "Erlaeuterungen": "Patientenbefragungen erfolgen teilweise stationär und in den Ambulanzen."
+        },
+        "Einweiserbefragungen": {
+          "Einweiserbefragungen_Durchgefuehrt": "nein",
+          "Erlaeuterungen": "In einzelnen Kliniken, sowie Ambulanzen finden regelhaft Einweiserbefragungen statt."
+        }
+      },
+      "Arzneimitteltherapiesicherheit": {
+        "Hinweis_Arzneimitteltherapiesicherheit": "AMTS ist die Gesamtheit der Maßnahmen zur Gewährleistung eines optimalen Medikationsprozesses mit dem Ziel, Medikationsfehler und damit vermeidbare Risiken für Patientinnen und Patienten bei der Arzneimitteltherapie zu verringern. Eine Voraussetzung für die erfolgreiche Umsetzung dieser Maßnahmen ist, dass AMTS als integraler Bestandteil der täglichen Routine in einem interdisziplinären und multiprofessionellen Ansatz gelebt wird.",
+        "Verantwortliches_Gremium_AMTS": {
+          "Arzneimittelkommission": {}
+        },
+        "Verantwortliche_Person_AMTS": {
+          "Verantwortliche_Person_festgelegt": {
+            "Eigenstaendige_Position_AMTS": {
+              "Kontakt_Person_lang": {
+                "Person": {
+                  "Vorname": "Holger",
+                  "Nachname": "Hennig",
+                  "Funktion_Arbeitsschwerpunkt": "Direktor der Apotheke"
+                },
+                "Telefon": {
+                  "Vorwahl": "0711",
+                  "Rufnummer": "278",
+                  "Durchwahl": "34600"
+                },
+                "Fax": {
+                  "Vorwahl": "0711",
+                  "Rufnummer": "278",
+                  "Durchwahl": "34609"
+                },
+                "Email": "h.hennig@klinikum-stuttgart.de"
+              }
+            }
+          }
+        },
+        "Pharmazeutisches_Personal": {
+          "Anzahl_Apotheker": "0",
+          "Anzahl_weiteres_pharmazeutisches_Personal": "0",
+          "Erlaeuterungen": "Die 21 Apotheker und 21 pharmazeutisch technischen Assistenten (PTA) sind für alle Standorte des Klinikum Stuttgarts zuständig und werden am Standort Katharinenhospital ausgewiesen."
+        },
+        "Instrumente_Massnahmen_AMTS": {
+          "Hinweis_Instrumente_Massnahmen_AMTS": "Die Instrumente und Maßnahmen zur Förderung der Arzneimitteltherapiesicherheit werden mit Fokus auf den typischen Ablauf des Medikationsprozesses bei der stationären Patientenversorgung dargestellt. Eine Besonderheit des Medikationsprozesses im stationären Umfeld stellt das Überleitungsmanagement bei Aufnahme und Entlassung dar. Die im Folgenden gelisteten Instrumente und Maßnahmen adressieren Strukturelemente, zum Beispiel besondere EDV-Ausstattung und Arbeitsmaterialien, sowie Prozessaspekte, wie Arbeitsbeschreibungen für besonders risikobehaftete Prozessschritte bzw. Konzepte zur Sicherung typischer Risikosituationen. Zusätzlich können bewährte Maßnahmen zur Vermeidung von bzw. zum Lernen aus Medikationsfehlern angegeben werden. Das Krankenhaus stellt hier dar, mit welchen Aspekten es sich bereits auseinandergesetzt bzw. welche Maßnahmen es konkret umgesetzt hat. Die folgenden Aspekte können, gegebenenfalls unter Verwendung von Freitextfeldern, dargestellt werden: \n\r - Aufnahme ins Krankenhaus, inklusive Anamnese \n\r Dargestellt werden können Instrumente und Maßnahmen zur Ermittlung der bisherigen Medikation (Arzneimittelanamnese), der anschließenden klinischen Bewertung und der Umstellung auf die im Krankenhaus verfügbare Medikation (Hausliste), sowie zur Dokumentation, sowohl der ursprünglichen Medikation der Patientin oder des Patienten als auch der für die Krankenhausbehandlung angepassten Medikation. \n\r - Medikationsprozess im Krankenhaus \n\r Im vorliegenden Rahmen wird beispielhaft von folgenden Teilprozessen ausgegangen: Arzneimittelanamnese – Verordnung – Patienteninformation – Arzneimittelabgabe – Arzneimittelanwendung – Dokumentation – Therapieüberwachung – Ergebnisbewertung. Dargestellt werden können hierzu Instrumente und Maßnahmen zur sicheren Arzneimittelverordnung, zum Beispiel bezüglich Leserlichkeit, Eindeutigkeit und Vollständigkeit der Dokumentation, aber auch bezüglich Anwendungsgebiet, Wirksamkeit, Nutzen-Risiko-Verhältnisses, Verträglichkeit (inklusive potenzieller Kontraindikationen, Wechselwirkungen und Ähnliches) und Ressourcenabwägungen. Außerdem können Angaben zur Unterstützung einer zuverlässigen Arzneimittelbestellung, -abgabe und -anwendung bzw. -verabreichung gemacht werden. \n\r - Entlassung \n\r Dargestellt werden können insbesondere die Maßnahmen der Krankenhäuser, die sicherstellen, dass eine strukturierte und sichere Weitergabe von Informationen zur Arzneimitteltherapie an weiterbehandelnde Ärztinnen und Ärzte sowie die angemessene Ausstattung der Patientinnen und Patienten mit Arzneimittelinformationen, Medikationsplan und Medikamenten bzw. Arzneimittelverordnungen erfolgt.",
+          "Instrument_Massnahme_AMTS": [
+            {
+              "AMTS_Schluessel": "AS08"
+            },
+            {
+              "AMTS_Schluessel": "AS13",
+              "Zusatzangaben_AMTS": {
+                "Massnahmen_Arzneimitteltherapie_Entlassung": {
+                  "Massnahme_Arzneimitteltherapie_Entlassung": [
+                    {
+                      "Massnahme": "Aushändigung des Medikationsplans"
+                    },
+                    {
+                      "Massnahme": "bei Bedarf Arzneimittel-Mitgabe oder Ausstellung von Entlassrezepten"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Praevention_Hilfe_Missbrauch_Gewalt": {
+        "Hinweis_Praevention_Hilfe_Missbrauch_Gewalt": "Gemäß Teil A § 4 Absatz 2 der Qualitätsmanagement-Richtlinie haben Einrichtungen die Prävention von und Intervention bei Gewalt und Missbrauch als Teil des einrichtungsinternen Qualitätsmanagements vorzusehen. Ziel ist es, Missbrauch und Gewalt insbesondere gegenüber vulnerablen Patientengruppen, wie beispielsweise Kindern und Jugendlichen oder hilfsbedürftigen Personen, vorzubeugen, zu erkennen, adäquat darauf zu reagieren und auch innerhalb der Einrichtung zu verhindern. Das jeweilige Vorgehen wird an Einrichtungsgröße, Leistungsspektrum und den Patientinnen und Patienten ausgerichtet, um so passgenaue Lösungen zur Sensibilisierung der Teams sowie weitere geeignete vorbeugende und intervenierende Maßnahmen festzulegen. Dies können unter anderem Informationsmaterialien, Kontaktadressen, Schulungen/Fortbildungen, Verhaltenskodizes, Handlungsempfehlungen/Interventionspläne oder umfassende Schutzkonzepte sein.",
+        "Praevention_Intervention_Massnahmen": "ja",
+        "Schutzkonzepte_Gewalt_Kinder": {
+          "Hinweis_Schutzkonzepte_Gewalt_Kinder": "Gemäß Teil A § 4 Absatz 2 in Verbindung mit Teil B Abschnitt I § 1 der Qualitätsmanagement-Richtlinie haben sich Einrichtungen, die Kinder und Jugendliche versorgen, gezielt mit der Prävention von und Intervention bei (sexueller) Gewalt und Missbrauch bei Kindern und Jugendlichen zu befassen (Risiko- und Gefährdungsanalyse) und – der Größe und Organisationsform der Einrichtung entsprechend – konkrete Schritte und Maßnahmen abzuleiten (Schutzkonzept). In diesem Abschnitt geben Krankenhäuser, die Kinder und Jugendliche versorgen, an, ob sie gemäß Teil A § 4 Absatz 2 in Verbindung mit Teil B Abschnitt I § 1 der Qualitätsmanagement-Richtlinie ein Schutzkonzept gegen (sexuelle) Gewalt bei Kindern und Jugendlichen aufweisen.",
+          "Versorgung_Kinder_Jugendliche": {
+            "Schutzkonzept_gegen_Gewalt_liegt_vor": {
+              "Schutzkonzept": [
+                {
+                  "SK_Schluessel": "SK01"
+                },
+                {
+                  "SK_Schluessel": "SK02"
+                },
+                {
+                  "SK_Schluessel": "SK03"
+                },
+                {
+                  "SK_Schluessel": "SK04",
+                  "Datum_letzte_Ueberpruefung": "2025-10-07"
+                },
+                {
+                  "SK_Schluessel": "SK05"
+                },
+                {
+                  "SK_Schluessel": "SK06"
+                },
+                {
+                  "SK_Schluessel": "SK07"
+                },
+                {
+                  "SK_Schluessel": "SK08",
+                  "Datum_letzte_Ueberpruefung": "2025-10-07"
+                },
+                {
+                  "SK_Schluessel": "SK09"
+                },
+                {
+                  "SK_Schluessel": "SK10",
+                  "Datum_letzte_Ueberpruefung": "2025-10-07"
+                },
+                {
+                  "SK_Schluessel": "SK11"
+                }
+              ],
+              "Kommentar": "Letzte Aktualisierung 22.01.2024"
+            }
+          }
+        }
+      }
+    },
+    "Teilnahme_Notfallversorgung": {
+      "Hinweis_Teilnahme_Notfallversorgung": "Alle Krankenhäuser gewährleisten Notfallversorgung und haben allgemeine Pflichten zur Hilfeleistung im Notfall. Darüber hinaus hat der Gemeinsame Bundesausschuss ein gestuftes System von Notfallstrukturen in Krankenhäusern im entgeltrechtlichen Sinne geregelt. Das bedeutet, dass Krankenhäuser, die festgelegte Anforderungen an eine von drei Notfallstufen erfüllen, durch Vergütungszuschläge finanziell unterstützt werden. Krankenhäuser, die die Anforderungen an eine der drei Stufen nicht erfüllen, erhalten keine Zuschläge. Nimmt ein Krankenhaus nicht am gestuften System von Notfallstrukturen teil und gewährleistet es nicht eine spezielle Notfallversorgung, sieht der Gesetzgeber Abschläge vor.",
+      "Teilnahme_Notfallstufe": {
+        "Keine_Teilnahme_Notfallversorgung": {},
+        "Erlaeuterungen": "Als Krankenhaus der Stadtteil bezogenen psychiatrischen Versorgung nimmt dieser Standort nicht an der Notfallversorgung teil. Die Notfallversorgung efolgt über den Standort Klinik Stuttgart - Krankenhaus Bad Cannstatt."
+      },
+      "Voraussetzungen_Spezialversorgung_erfuellt": {
+        "Tatbestand_Spezialversorgung": "Krankenhäuser und selbstständig gebietsärztlich geleitete Abteilungen für die Fachgebiete Psychiatrie und Psychotherapie, Kinder- und Jugendpsychiatrie und -psychotherapie sowie Psychosomatische Medizin und Psychotherapie, die nicht in das DRG-Vergütungssystem einbezogen sind"
+      },
+      "Kooperation_mit_Kassenaerztlicher_Vereinigung": {
+        "Notdienstpraxis_Existiert": "nein",
+        "Vertragsaerztlicher_Notdienst_Existiert": "nein"
+      }
+    },
+    "Organisationseinheiten_Fachabteilungen": {
+      "Organisationseinheit_Fachabteilung": {
+        "Gliederungsnummer": "1",
+        "Name": "Klinik für Kinder- und Jugendpsychiatrie und Psychotherapie (Hasenbergstraße)",
+        "Aerztliche_Leitung_OE": {
+          "Chefarzt": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Titel": "Prof. Dr.",
+                "Vorname": "Oliver",
+                "Nachname": "Fricke",
+                "Funktion_Arbeitsschwerpunkt": "Ärztlicher Direktor"
+              },
+              "Telefon": {
+                "Vorwahl": "0711",
+                "Rufnummer": "278",
+                "Durchwahl": "72471"
+              },
+              "Email": "o.fricke@klinikum-stuttgart.de"
+            },
+            "Kontakt_Zugang": {
+              "Strasse": "Prießnitzweg",
+              "Hausnummer": "24",
+              "Postleitzahl": "70374",
+              "Ort": "Stuttgart",
+              "URL_Zugang": "https://www.klinikum-stuttgart.de/kliniken-institute-zentren/klinik-fuer-kinder-und-jugendpsychiatrie-und-psychotherapie/startseite/"
+            }
+          }
+        },
+        "Zielvereinbarungen": {
+          "Zielvereinbarungen_geschlossen_an_Empfehlung_DKG_gehalten": {}
+        },
+        "Fachabteilungsschluessel": [
+          {
+            "FA_Schluessel": "3000"
+          },
+          {
+            "FA_Schluessel": "3060"
+          }
+        ],
+        "Medizinische_Leistungsangebote": {
+          "Medizinisches_Leistungsangebot": [
+            {
+              "VA_VU_Schluessel": "VP01"
+            },
+            {
+              "VA_VU_Schluessel": "VP02"
+            },
+            {
+              "VA_VU_Schluessel": "VP03"
+            },
+            {
+              "VA_VU_Schluessel": "VP04"
+            },
+            {
+              "VA_VU_Schluessel": "VP05"
+            },
+            {
+              "VA_VU_Schluessel": "VP06"
+            },
+            {
+              "VA_VU_Schluessel": "VP07"
+            },
+            {
+              "VA_VU_Schluessel": "VP08"
+            },
+            {
+              "VA_VU_Schluessel": "VP09"
+            },
+            {
+              "VA_VU_Schluessel": "VP11"
+            },
+            {
+              "VA_VU_Schluessel": "VP15"
+            }
+          ]
+        },
+        "Fallzahlen_OE": {
+          "Vollstationaere_Fallzahl": "169",
+          "Teilstationaere_Fallzahl": "25",
+          "Erlaeuterungen": "Teilstationäre Fälle werden sowohl in der Hasenbergstraße als auch am Hauptstandort Krankenhaus Bad Cannstatt des Klinikums Stuttgart behandelt."
+        },
+        "Hauptdiagnosen": {
+          "Hauptdiagnose": [
+            {
+              "ICD_10": "F20.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F23.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F31.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F31.8",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F32.1",
+              "Fallzahl": "14"
+            },
+            {
+              "ICD_10": "F32.2",
+              "Fallzahl": "33"
+            },
+            {
+              "ICD_10": "F32.3",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F33.2",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F40.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F40.2",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F41.2",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F42.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F42.2",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F43.1",
+              "Fallzahl": "4"
+            },
+            {
+              "ICD_10": "F43.2",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F44.5",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F44.7",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F45.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F50.00",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F50.01",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F50.08",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F50.1",
+              "Fallzahl": "7"
+            },
+            {
+              "ICD_10": "F50.2",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F60.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F60.30",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F60.31",
+              "Fallzahl": "29"
+            },
+            {
+              "ICD_10": "F60.6",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F61",
+              "Fallzahl": "5"
+            },
+            {
+              "ICD_10": "F84.1",
+              "Fallzahl": "4"
+            },
+            {
+              "ICD_10": "F84.5",
+              "Fallzahl": "9"
+            },
+            {
+              "ICD_10": "F90.0",
+              "Fallzahl": "5"
+            },
+            {
+              "ICD_10": "F90.1",
+              "Fallzahl": "12"
+            },
+            {
+              "ICD_10": "F91.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F91.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F91.2",
+              "Fallzahl": "6"
+            },
+            {
+              "ICD_10": "F91.3",
+              "Fallzahl": "4"
+            },
+            {
+              "ICD_10": "F92.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F92.8",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F93.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F93.8",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F94.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F94.1",
+              "Fallzahl": "7"
+            },
+            {
+              "ICD_10": "F94.2",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F98.02",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F98.1",
+              "Fallzahl_Datenschutz": {}
+            }
+          ]
+        },
+        "Prozeduren": {
+          "Freiwillige_Angabe": {
+            "Prozedur": [
+              {
+                "OPS_301": "6-005.9c",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-102.3",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-191.00",
+                "Anzahl": "6"
+              },
+              {
+                "OPS_301": "8-191.10",
+                "Anzahl": "14"
+              },
+              {
+                "OPS_301": "9-656",
+                "Anzahl": "339"
+              },
+              {
+                "OPS_301": "9-672",
+                "Anzahl": "168"
+              },
+              {
+                "OPS_301": "9-693.00",
+                "Anzahl": "5"
+              },
+              {
+                "OPS_301": "9-693.01",
+                "Anzahl": "4"
+              },
+              {
+                "OPS_301": "9-693.02",
+                "Anzahl": "10"
+              },
+              {
+                "OPS_301": "9-693.10",
+                "Anzahl": "55"
+              },
+              {
+                "OPS_301": "9-693.11",
+                "Anzahl": "28"
+              },
+              {
+                "OPS_301": "9-693.12",
+                "Anzahl": "16"
+              },
+              {
+                "OPS_301": "9-693.13",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "9-696.0",
+                "Anzahl": "128"
+              },
+              {
+                "OPS_301": "9-696.10",
+                "Anzahl": "219"
+              },
+              {
+                "OPS_301": "9-696.11",
+                "Anzahl": "157"
+              },
+              {
+                "OPS_301": "9-696.12",
+                "Anzahl": "186"
+              },
+              {
+                "OPS_301": "9-696.13",
+                "Anzahl": "101"
+              },
+              {
+                "OPS_301": "9-696.14",
+                "Anzahl": "79"
+              },
+              {
+                "OPS_301": "9-696.15",
+                "Anzahl": "158"
+              },
+              {
+                "OPS_301": "9-696.16",
+                "Anzahl": "98"
+              },
+              {
+                "OPS_301": "9-696.17",
+                "Anzahl": "64"
+              },
+              {
+                "OPS_301": "9-696.18",
+                "Anzahl": "62"
+              },
+              {
+                "OPS_301": "9-696.19",
+                "Anzahl": "87"
+              },
+              {
+                "OPS_301": "9-696.1a",
+                "Anzahl": "44"
+              },
+              {
+                "OPS_301": "9-696.1b",
+                "Anzahl": "41"
+              },
+              {
+                "OPS_301": "9-696.1c",
+                "Anzahl": "22"
+              },
+              {
+                "OPS_301": "9-696.1d",
+                "Anzahl": "27"
+              },
+              {
+                "OPS_301": "9-696.1e",
+                "Anzahl": "15"
+              },
+              {
+                "OPS_301": "9-696.1f",
+                "Anzahl": "10"
+              },
+              {
+                "OPS_301": "9-696.1g",
+                "Anzahl": "50"
+              },
+              {
+                "OPS_301": "9-696.20",
+                "Anzahl": "554"
+              },
+              {
+                "OPS_301": "9-696.21",
+                "Anzahl": "157"
+              },
+              {
+                "OPS_301": "9-696.22",
+                "Anzahl": "32"
+              },
+              {
+                "OPS_301": "9-696.23",
+                "Anzahl": "5"
+              },
+              {
+                "OPS_301": "9-696.24",
+                "Anzahl": "12"
+              },
+              {
+                "OPS_301": "9-696.26",
+                "Anzahl": "4"
+              },
+              {
+                "OPS_301": "9-696.30",
+                "Anzahl": "90"
+              },
+              {
+                "OPS_301": "9-696.31",
+                "Anzahl": "160"
+              },
+              {
+                "OPS_301": "9-696.32",
+                "Anzahl": "373"
+              },
+              {
+                "OPS_301": "9-696.33",
+                "Anzahl": "156"
+              },
+              {
+                "OPS_301": "9-696.34",
+                "Anzahl": "116"
+              },
+              {
+                "OPS_301": "9-696.35",
+                "Anzahl": "340"
+              },
+              {
+                "OPS_301": "9-696.36",
+                "Anzahl": "147"
+              },
+              {
+                "OPS_301": "9-696.37",
+                "Anzahl": "86"
+              },
+              {
+                "OPS_301": "9-696.38",
+                "Anzahl": "86"
+              },
+              {
+                "OPS_301": "9-696.39",
+                "Anzahl": "133"
+              },
+              {
+                "OPS_301": "9-696.3a",
+                "Anzahl": "53"
+              },
+              {
+                "OPS_301": "9-696.3b",
+                "Anzahl": "35"
+              },
+              {
+                "OPS_301": "9-696.3c",
+                "Anzahl": "36"
+              },
+              {
+                "OPS_301": "9-696.3d",
+                "Anzahl": "48"
+              },
+              {
+                "OPS_301": "9-696.3e",
+                "Anzahl": "13"
+              },
+              {
+                "OPS_301": "9-696.3f",
+                "Anzahl": "19"
+              },
+              {
+                "OPS_301": "9-696.3g",
+                "Anzahl": "44"
+              },
+              {
+                "OPS_301": "9-696.40",
+                "Anzahl": "419"
+              },
+              {
+                "OPS_301": "9-696.41",
+                "Anzahl": "68"
+              },
+              {
+                "OPS_301": "9-696.42",
+                "Anzahl": "13"
+              },
+              {
+                "OPS_301": "9-696.43",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "9-696.50",
+                "Anzahl": "41"
+              },
+              {
+                "OPS_301": "9-696.51",
+                "Anzahl": "105"
+              },
+              {
+                "OPS_301": "9-696.52",
+                "Anzahl": "847"
+              },
+              {
+                "OPS_301": "9-696.53",
+                "Anzahl": "106"
+              },
+              {
+                "OPS_301": "9-696.54",
+                "Anzahl": "143"
+              },
+              {
+                "OPS_301": "9-696.55",
+                "Anzahl": "385"
+              },
+              {
+                "OPS_301": "9-696.56",
+                "Anzahl": "65"
+              },
+              {
+                "OPS_301": "9-696.57",
+                "Anzahl": "114"
+              },
+              {
+                "OPS_301": "9-696.58",
+                "Anzahl": "133"
+              },
+              {
+                "OPS_301": "9-696.59",
+                "Anzahl": "49"
+              },
+              {
+                "OPS_301": "9-696.5a",
+                "Anzahl": "71"
+              },
+              {
+                "OPS_301": "9-696.5b",
+                "Anzahl": "40"
+              },
+              {
+                "OPS_301": "9-696.5c",
+                "Anzahl": "32"
+              },
+              {
+                "OPS_301": "9-696.5d",
+                "Anzahl": "28"
+              },
+              {
+                "OPS_301": "9-696.5e",
+                "Anzahl": "21"
+              },
+              {
+                "OPS_301": "9-696.5f",
+                "Anzahl": "16"
+              },
+              {
+                "OPS_301": "9-696.5g",
+                "Anzahl": "9"
+              },
+              {
+                "OPS_301": "9-696.5h",
+                "Anzahl": "18"
+              },
+              {
+                "OPS_301": "9-696.5j",
+                "Anzahl": "15"
+              },
+              {
+                "OPS_301": "9-696.5k",
+                "Anzahl": "4"
+              },
+              {
+                "OPS_301": "9-696.5m",
+                "Anzahl": "7"
+              },
+              {
+                "OPS_301": "9-696.5n",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "9-696.5p",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "9-696.5q",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "9-696.5r",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "9-696.5s",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "9-696.5w",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "9-801.00",
+                "Anzahl": "130"
+              },
+              {
+                "OPS_301": "9-801.01",
+                "Anzahl": "166"
+              },
+              {
+                "OPS_301": "9-801.02",
+                "Anzahl": "44"
+              },
+              {
+                "OPS_301": "9-801.03",
+                "Anzahl": "19"
+              },
+              {
+                "OPS_301": "9-801.04",
+                "Anzahl": "16"
+              },
+              {
+                "OPS_301": "9-801.05",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "9-801.10",
+                "Anzahl": "90"
+              },
+              {
+                "OPS_301": "9-801.11",
+                "Anzahl": "194"
+              },
+              {
+                "OPS_301": "9-801.12",
+                "Anzahl": "41"
+              },
+              {
+                "OPS_301": "9-801.13",
+                "Anzahl": "35"
+              },
+              {
+                "OPS_301": "9-801.14",
+                "Anzahl": "38"
+              },
+              {
+                "OPS_301": "9-801.15",
+                "Anzahl": "5"
+              },
+              {
+                "OPS_301": "9-801.16",
+                "Anzahl": "5"
+              },
+              {
+                "OPS_301": "9-801.20",
+                "Anzahl": "110"
+              },
+              {
+                "OPS_301": "9-801.21",
+                "Anzahl": "182"
+              },
+              {
+                "OPS_301": "9-801.22",
+                "Anzahl": "48"
+              },
+              {
+                "OPS_301": "9-801.23",
+                "Anzahl": "21"
+              },
+              {
+                "OPS_301": "9-801.24",
+                "Anzahl": "13"
+              },
+              {
+                "OPS_301": "9-801.25",
+                "Anzahl": "5"
+              },
+              {
+                "OPS_301": "9-801.26",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "9-801.30",
+                "Anzahl": "209"
+              },
+              {
+                "OPS_301": "9-801.31",
+                "Anzahl": "219"
+              },
+              {
+                "OPS_301": "9-801.32",
+                "Anzahl": "106"
+              },
+              {
+                "OPS_301": "9-801.33",
+                "Anzahl": "31"
+              },
+              {
+                "OPS_301": "9-801.34",
+                "Anzahl": "21"
+              },
+              {
+                "OPS_301": "9-801.35",
+                "Anzahl": "4"
+              },
+              {
+                "OPS_301": "9-801.36",
+                "Anzahl": "5"
+              },
+              {
+                "OPS_301": "9-984.7",
+                "Anzahl": "5"
+              },
+              {
+                "OPS_301": "9-984.8",
+                "Anzahl": "12"
+              },
+              {
+                "OPS_301": "9-984.b",
+                "Anzahl_Datenschutz": {}
+              }
+            ]
+          }
+        },
+        "Ambulante_Behandlungsmoeglichkeiten": {
+          "Ambulante_Behandlungsmoeglichkeit": [
+            {
+              "Ambulanz": {
+                "AM_Schluessel": "AM07",
+                "Bezeichnung": "Privatambulanz Prof. Fricke",
+                "Erlaeuterungen": "www.klinikum-stuttgart.de/medizin-pflege/kinder-jugendpsychiatrie-psychotherapie/kontakt-sprechstunden"
+              }
+            },
+            {
+              "Ambulanz": {
+                "AM_Schluessel": "AM02",
+                "Bezeichnung": "Psychiatrische Institutsambulanz (PIA)",
+                "Leistungen_Ambulanz": {
+                  "Medizinisches_Leistungsangebot": [
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP05"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP06"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP08"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP09"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP11"
+                    }
+                  ]
+                },
+                "Erlaeuterungen": "www.klinikum-stuttgart.de/medizin-pflege/kinder-jugendpsychiatrie-psychotherapie/kontakt-sprechstunden"
+              }
+            },
+            {
+              "Ambulanz": {
+                "AM_Schluessel": "AM11",
+                "Bezeichnung": "Ambulanz für vor- und nachstationäre Leistungen"
+              }
+            }
+          ]
+        },
+        "Ambulante_Operationen": {
+          "Keine_Erbracht": {}
+        },
+        "Personelle_Ausstattung": {
+          "Aerztliches_Personal": {
+            "Hauptabteilung": {
+              "Aerzte_ohne_Belegaerzte": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "8,1",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "8,1"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,9"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "7,2",
+                      "Fall_je_Anzahl": "23,47222"
+                    }
+                  }
+                },
+                "Fachaerzte": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "3,6",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "3,6"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0,4"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "3,2",
+                        "Fall_je_Anzahl": "52,81250"
+                      }
+                    }
+                  }
+                },
+                "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+              }
+            }
+          },
+          "Aerztliche_Fachexpertisen": {
+            "Fachexpertise": [
+              {
+                "AQ_ZF_Schluessel": "AQ32"
+              },
+              {
+                "AQ_ZF_Schluessel": "AQ37"
+              },
+              {
+                "AQ_ZF_Schluessel": "ZF35"
+              }
+            ]
+          },
+          "Pflegekraefte": {
+            "Gesundheits_Krankenpfleger": {
+              "Personalerfassung": {
+                "Anzahl_VK": "11,7",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "11,7"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "11,7",
+                    "Fall_je_Anzahl": "14,44444"
+                  }
+                }
+              }
+            },
+            "Gesundheits_Kinderkrankenpfleger": {
+              "Personalerfassung": {
+                "Anzahl_VK": "9,7",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "9,7"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "9,7",
+                    "Fall_je_Anzahl": "17,42268"
+                  }
+                }
+              }
+            },
+            "Altenpfleger": {
+              "Personalerfassung": {
+                "Anzahl_VK": "0,7",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "0,7"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "0,7",
+                    "Fall_je_Anzahl": "241,42857"
+                  }
+                }
+              }
+            },
+            "Pflegefachpersonen": {
+              "Personalerfassung": {
+                "Anzahl_VK": "2,6",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "2,6"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "2,6",
+                    "Fall_je_Anzahl": "65,00000"
+                  }
+                }
+              }
+            },
+            "Pflegefachpersonen_BSc": {
+              "Personalerfassung": {
+                "Anzahl_VK": "0,7",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "0,7"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "0,7",
+                    "Fall_je_Anzahl": "241,42857"
+                  }
+                }
+              }
+            },
+            "Pflegehelfer": {
+              "Personalerfassung": {
+                "Anzahl_VK": "0,3",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "0,3"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "0,3",
+                    "Fall_je_Anzahl": "563,33333"
+                  }
+                }
+              }
+            },
+            "Massgebliche_tarifliche_Wochenarbeitszeit": "39,00"
+          },
+          "Pflegerische_Fachexpertisen": {
+            "Fachexpertise_Pflege": [
+              {
+                "PQ_ZP_Schluessel": "PQ01"
+              },
+              {
+                "PQ_ZP_Schluessel": "PQ02"
+              },
+              {
+                "PQ_ZP_Schluessel": "PQ05"
+              },
+              {
+                "PQ_ZP_Schluessel": "PQ06"
+              },
+              {
+                "PQ_ZP_Schluessel": "PQ10",
+                "Erlaeuterungen": "Mitarbeiter mit Fachweiterbildung Kinder- und jugendpsychiatrische Pflege (Ausbildung wird für ganz baden-Württemberg durchgeführt)"
+              },
+              {
+                "PQ_ZP_Schluessel": "PQ14"
+              },
+              {
+                "PQ_ZP_Schluessel": "PQ20"
+              },
+              {
+                "PQ_ZP_Schluessel": "ZP08"
+              },
+              {
+                "PQ_ZP_Schluessel": "ZP24"
+              }
+            ]
+          },
+          "Ausgewaehltes_Personal_Psych": {
+            "Ausgewaehltes_Therapeutisches_Personal": {
+              "Psychologische_Psychotherapeuten": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "0,1",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "0,1"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "0,1",
+                      "Fall_je_Anzahl": "1690,00000"
+                    }
+                  }
+                }
+              },
+              "Sozialpaedagogen": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "6,8",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "6,8"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "6,8",
+                      "Fall_je_Anzahl": "24,85294"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Qualitaetssicherung": {
+      "QS_nach_Landesrecht": {
+        "Teilnahme_landesspezifische_Qualitaetssicherungsmassnahme": {
+          "Leistungsbereich": [
+            {
+              "Bezeichnung": "Schlaganfall: Akutbehandlung",
+              "Teilnahme_externe_Qualitaetssicherung": "trifft_nicht_zu"
+            },
+            {
+              "Bezeichnung": "MRE",
+              "Teilnahme_externe_Qualitaetssicherung": "trifft_nicht_zu"
+            },
+            {
+              "Bezeichnung": "Universelles Neugeborenen-Hörscreening",
+              "Teilnahme_externe_Qualitaetssicherung": "trifft_nicht_zu"
+            }
+          ]
+        }
+      },
+      "Fortbildung": {
+        "Fortbildungspflichtige": "4",
+        "Nachweispflichtige": "0",
+        "Fortbildungsnachweis_Erbracht_Habende": "0"
+      },
+      "ATMP-QS-RL": {
+        "Hinweis_ATMP-QS-RL": "Krankenhausstandorte, an denen neue Therapien gemäß den Anlagen der ATMP-QS-RL angewendet werden, müssen die dort vorgegebenen Mindestanforderungen an die Struktur-, Prozess- oder Ergebnisqualität erfüllen. Der Medizinische Dienst überprüft die Umsetzung der relevanten Qualitätsanforderungen und stellt dem Krankenhaus eine Bescheinigung aus, wenn diese vollumfänglich erfüllt werden. ATMP nach dieser Richtlinie dürfen ausschließlich von Leistungserbringern angewendet werden, die die Mindestanforderungen erfüllen.",
+        "Keine_Anwendung_Arzneimittel_neuartige_Therapien": {}
+      }
+    }
+  }
+}

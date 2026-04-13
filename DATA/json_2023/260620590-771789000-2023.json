@@ -1,0 +1,5388 @@
+{
+  "Qualitaetsbericht": {
+    "Einleitung": {
+      "Datensatz": {
+        "Datum": "2024-12-02",
+        "Uhrzeit": "13:36:51",
+        "Sprache": "deutsch"
+      },
+      "Software": {
+        "Hersteller": "3M Medica",
+        "Produktname": "3M Qualitätsbericht",
+        "Version": "2024.2.1.4"
+      },
+      "Verantwortlicher_Erstellung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Veronika",
+            "Nachname": "Brening",
+            "Funktion_Arbeitsschwerpunkt": "Qualitätsmanagerin"
+          },
+          "Telefon": {
+            "Vorwahl": "06691",
+            "Rufnummer": "18",
+            "Durchwahl": "2074"
+          },
+          "Email": "Veronika.Brening@hephata.de"
+        }
+      },
+      "Verantwortlicher_Krankenhausleitung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Titel": "Staatlich geprüfter Betriebswirt",
+            "Vorname": "Götz",
+            "Nachname": "Pfannkuche",
+            "Funktion_Arbeitsschwerpunkt": "Geschäftsbereichsleitung"
+          },
+          "Telefon": {
+            "Vorwahl": "06691",
+            "Rufnummer": "18",
+            "Durchwahl": "2004"
+          },
+          "Email": "sekretariat.klinik@hephata.de"
+        }
+      },
+      "URL_Internetseite_Krankenhaus": "http://www.hephata.de"
+    },
+    "Krankenhaus": {
+      "Ein_Standort": {
+        "Krankenhauskontaktdaten": {
+          "Name": "Hephata-Klinik",
+          "IK": "260620590",
+          "Standortnummer": "771789000",
+          "Standortnummer_alt": "00",
+          "Kontakt_Zugang": {
+            "Strasse": "Schimmelpfengstr.",
+            "Hausnummer": "6",
+            "Postleitzahl": "34613",
+            "Ort": "Schwalmstadt",
+            "URL_Zugang": "http://www.hephata.de"
+          },
+          "Telefon": {
+            "Vorwahl": "06691",
+            "Rufnummer": "182010"
+          },
+          "Email": "sekretariat.klinik@hephata.de",
+          "Aerztliche_Leitung": {
+            "Kontakt_Person_lang": [
+              {
+                "Person": {
+                  "Titel": "Dr.",
+                  "Vorname": "Sven",
+                  "Nachname": "Fuest",
+                  "Funktion_Arbeitsschwerpunkt": "Chefarzt Neurologie"
+                },
+                "Telefon": {
+                  "Vorwahl": "06691",
+                  "Rufnummer": "18",
+                  "Durchwahl": "2152"
+                },
+                "Email": "Astrid.Schaefer@hephata.de"
+              },
+              {
+                "Person": {
+                  "Titel": "Magistar",
+                  "Vorname": "Yulia",
+                  "Nachname": "Blatska",
+                  "Funktion_Arbeitsschwerpunkt": "Chefärztin Psychiatrie und Psychotherapie"
+                },
+                "Telefon": {
+                  "Vorwahl": "2002",
+                  "Rufnummer": "18",
+                  "Durchwahl": "2002"
+                },
+                "Email": "chefarztsekretariat.psychiatrie@hephata.de"
+              }
+            ]
+          },
+          "Pflegedienstleitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Titel": "Dipl. Pflegewirtin",
+                "Vorname": "Sandra",
+                "Nachname": "Such",
+                "Funktion_Arbeitsschwerpunkt": "Pflegedienstleitung"
+              },
+              "Telefon": {
+                "Vorwahl": "06691",
+                "Rufnummer": "18",
+                "Durchwahl": "2007"
+              },
+              "Email": "sekretariat.klinik@hephata.de"
+            }
+          },
+          "Verwaltungsleitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Titel": "Staatlich geprüfter Betriebswirt",
+                "Vorname": "Götz",
+                "Nachname": "Pfannkuche",
+                "Funktion_Arbeitsschwerpunkt": "Geschäftsbereichsleitung"
+              },
+              "Telefon": {
+                "Vorwahl": "06691",
+                "Rufnummer": "18",
+                "Durchwahl": "2004"
+              },
+              "Email": "sekretariat.klinik@hephata.de"
+            }
+          }
+        }
+      }
+    },
+    "Krankenhaustraeger": {
+      "Name": "Hephata Hessisches Diakoniezentrum e.V.",
+      "Krankenhaustraeger_Art": {
+        "Art": "freigemeinnützig"
+      }
+    },
+    "Medizinisch_Pflegerische_Leistungsangebote": {
+      "MP_Leistungsangebot": [
+        {
+          "MP_Schluessel": "MP03",
+          "Erlaeuterungen": "Sozialdienst, Epilepsieberatung, MS-Beratung, Narkolepsie-, Hypersomnie-, Parkinson-Selbsthilfe, Zusammenarbeit mit Selbsthilfegruppen"
+        },
+        {
+          "MP_Schluessel": "MP04",
+          "Erlaeuterungen": "Körperwahrnehmung"
+        },
+        {
+          "MP_Schluessel": "MP06",
+          "Erlaeuterungen": "Ergotherapie: Ansprache der taktilen, auditiven, olfaktorischen und visuellen Reize"
+        },
+        {
+          "MP_Schluessel": "MP08",
+          "Erlaeuterungen": "Epilepsieberatungsstelle, Sozialdienst, Zusammenarbeit mit psychosozialem Dienst, interprofessionelle MS-Beratung, Lehrer"
+        },
+        {
+          "MP_Schluessel": "MP09",
+          "Erlaeuterungen": "Seelsorgerin im Haus, Sterbebegleitung durch geschultes Personal"
+        },
+        {
+          "MP_Schluessel": "MP11",
+          "Erlaeuterungen": "Physiotherapie: Nordic Walking, Morgenaktivierung, Spiel- und Sportgruppe, Spazierganggruppe der geschützten Station, Gymnastikgruppe, Ergometer, Hockergymnastik, Kegeln"
+        },
+        {
+          "MP_Schluessel": "MP12",
+          "Erlaeuterungen": "Speziell ausgebildete Therapeutinnen in der Physiotherapie"
+        },
+        {
+          "MP_Schluessel": "MP14",
+          "Erlaeuterungen": "BELA-Ernährungsgruppe, Therapieküche (Kochen, Backen), Haushaltstraining (z.B. Einkaufen)"
+        },
+        {
+          "MP_Schluessel": "MP15",
+          "Erlaeuterungen": "Pflegeüberleitung, Entlassmanagement"
+        },
+        {
+          "MP_Schluessel": "MP16",
+          "Erlaeuterungen": "Cogni-Plus (Hirnleistungstraining), Therapie bei Bedarf auch am Wochenende"
+        },
+        {
+          "MP_Schluessel": "MP17",
+          "Erlaeuterungen": "Bezugspflegekonzept in der Tagesklinik"
+        },
+        {
+          "MP_Schluessel": "MP25",
+          "Erlaeuterungen": "Entspannungsmassage"
+        },
+        {
+          "MP_Schluessel": "MP30",
+          "Erlaeuterungen": "Lehrerin aus der naheliegenden Schule bietet ein Schulungsangebot für Patienten in der Ausbildung"
+        },
+        {
+          "MP_Schluessel": "MP31",
+          "Erlaeuterungen": "z.B. Wassertreten, Massagen, Fango"
+        },
+        {
+          "MP_Schluessel": "MP32",
+          "Erlaeuterungen": "Stehtisch, Gangtraining, Ergometer mit speziellem Sitz"
+        },
+        {
+          "MP_Schluessel": "MP33",
+          "Erlaeuterungen": "Psychoedukation, Depressionsgruppe, Suchtgruppe, Gruppentherapeutisches Angebot gesunde Ernährung, Angstgruppe, MOSES-Schulung"
+        },
+        {
+          "MP_Schluessel": "MP34",
+          "Erlaeuterungen": "Einzel- und Gruppentherapie, Neuropsychologie"
+        },
+        {
+          "MP_Schluessel": "MP37"
+        },
+        {
+          "MP_Schluessel": "MP39",
+          "Erlaeuterungen": "MS-Beratung, Depressionsgruppe, Modulare Schulung Epilepsie, Atemzentrum"
+        },
+        {
+          "MP_Schluessel": "MP40",
+          "Erlaeuterungen": "Progressive Muskelentspannung, Feldenkrais, Entspannungsgruppe krankheitsspezifisch, Entspannungsmassagen und Entspannungsbäder"
+        },
+        {
+          "MP_Schluessel": "MP44",
+          "Erlaeuterungen": "extern beauftragte Logopäden im Haus, auch am Wochenende"
+        },
+        {
+          "MP_Schluessel": "MP47",
+          "Erlaeuterungen": "Nach ärztlicher Anordnung: individuelle Beratung der Patienten durch Spezialtherapeut, Unterstützung bei der Auswahl bedarfsgerechter Hilfsmittel"
+        },
+        {
+          "MP_Schluessel": "MP48",
+          "Erlaeuterungen": "Fango, Eisanwendungen, Wärmelampe, Wassertretbecken"
+        },
+        {
+          "MP_Schluessel": "MP51",
+          "Erlaeuterungen": "spezielle Versorgung chronischer Wunden nach hausangepasstem Standard durch geschulte Wundmanagerin"
+        },
+        {
+          "MP_Schluessel": "MP52",
+          "Erlaeuterungen": "Anonyme Alkoholiker, Freundeskreis, Depash und Pash (Selbsthilfegruppen für Panik- und Angststörungen)"
+        },
+        {
+          "MP_Schluessel": "MP53",
+          "Erlaeuterungen": "Aromaauflagen und Stoßtherapien"
+        },
+        {
+          "MP_Schluessel": "MP56",
+          "Erlaeuterungen": "Belastungserprobungen für psychiatrische Patienten"
+        },
+        {
+          "MP_Schluessel": "MP59",
+          "Erlaeuterungen": "Neuropsychologie: Cogbat, Cogni-Plus, kognitive Gruppen"
+        },
+        {
+          "MP_Schluessel": "MP63",
+          "Erlaeuterungen": "Management einer bedarfsgerechten nachstationären Versorgung"
+        },
+        {
+          "MP_Schluessel": "MP24",
+          "Erlaeuterungen": "speziell geschultes Personal der Physiotherapie: Durchführung der Lymphdrainage nach ärztlicher Anordnung, z.B. bei Beinödemen"
+        },
+        {
+          "MP_Schluessel": "MP68",
+          "Erlaeuterungen": "Überleitungspflege"
+        },
+        {
+          "MP_Schluessel": "MP02",
+          "Erlaeuterungen": "Ohrakupunktur nach NADA: Für Patienten in Krisen oder traumatischen Erlebnissen"
+        },
+        {
+          "MP_Schluessel": "MP62",
+          "Erlaeuterungen": "Station 1a: Wasserbett mit Wärmefunktion und Vibrationsmassage, Lichttherapie und akustische Reize"
+        },
+        {
+          "MP_Schluessel": "MP42",
+          "Erlaeuterungen": "Gartengruppe in Zusammenarbeit mit der Ergotherapie\ninteraktive Gruppe"
+        }
+      ]
+    },
+    "Nicht_Medizinische_Leistungsangebote": {
+      "NM_Leistungsangebot": [
+        {
+          "NM_Schluessel": "NM03",
+          "Erlaeuterungen": "in beiden Abteilungen: Neurologie und Psychiatrie"
+        },
+        {
+          "NM_Schluessel": "NM11",
+          "Erlaeuterungen": "in beiden Abteilungen: Neurologie und Psychiatrie"
+        },
+        {
+          "NM_Schluessel": "NM69",
+          "Erlaeuterungen": "kostenloses Patienten WLAN, Fernseher im Zimmer, Tresor für Wertsachen"
+        },
+        {
+          "NM_Schluessel": "NM42",
+          "Erlaeuterungen": "individuelle Gespräche mit Patienten, Mitarbeitenden und Angehörigen, Gesprächskreise, Andachten und aufsuchende Tätigkeit durch im Haus beschäftigte Seelsorgerin und Ethikbeauftragte, Sterbebegleitung"
+        },
+        {
+          "NM_Schluessel": "NM60",
+          "Erlaeuterungen": "Parkinson, Narkolepsie, MS, Alkoholabhängigkeit, Epilepsie u.a."
+        },
+        {
+          "NM_Schluessel": "NM63",
+          "Erlaeuterungen": "für Schulpflichtige und junge Erwachsene in Ausbildung"
+        },
+        {
+          "NM_Schluessel": "NM66",
+          "Erlaeuterungen": "Besondere Bedarfe werden erfasst und an unseren Hephata internen Speiselieferanten weitergeleitet. Die Zubereitung erfolgt durch diätetisch geschultes Fachpersonal. Folgende Ernährungsformen sind in den Leistungen enthalten: Vegetarisch, vegan, lactosefrei, glutenfrei, Histamin, PKU usw."
+        }
+      ]
+    },
+    "Barrierefreiheit": {
+      "Ansprechpartner_Menschen_mit_Beeintraechtigung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Titel": "Herr",
+            "Vorname": "Edgar",
+            "Nachname": "Michel",
+            "Funktion_Arbeitsschwerpunkt": "Sozialdienst"
+          },
+          "Telefon": {
+            "Vorwahl": "06691",
+            "Rufnummer": "18",
+            "Durchwahl": "2034"
+          },
+          "Fax": {
+            "Vorwahl": "06691",
+            "Rufnummer": "18",
+            "Durchwahl": "262125"
+          },
+          "Email": "Edgar.Michel@hephata.de"
+        }
+      },
+      "Barrierefreiheit_Aspekt": [
+        {
+          "BF_Schluessel": "BF04"
+        },
+        {
+          "BF_Schluessel": "BF06"
+        },
+        {
+          "BF_Schluessel": "BF08"
+        },
+        {
+          "BF_Schluessel": "BF09"
+        },
+        {
+          "BF_Schluessel": "BF10"
+        },
+        {
+          "BF_Schluessel": "BF11"
+        },
+        {
+          "BF_Schluessel": "BF15"
+        },
+        {
+          "BF_Schluessel": "BF16"
+        },
+        {
+          "BF_Schluessel": "BF17"
+        },
+        {
+          "BF_Schluessel": "BF20",
+          "Erlaeuterungen": "MRT"
+        },
+        {
+          "BF_Schluessel": "BF21",
+          "Erlaeuterungen": "Rollstühle, Toilettenstühle, Patientenlifter"
+        },
+        {
+          "BF_Schluessel": "BF22"
+        },
+        {
+          "BF_Schluessel": "BF24",
+          "Erlaeuterungen": "bedarfsgerechte Speisenversorgung durch Diätetisch geschultes Personal aus der Großküche"
+        },
+        {
+          "BF_Schluessel": "BF26",
+          "Erlaeuterungen": "im ärztlichen und pflegerischen Dienst z.B. Arabisch, Russisch, Farsi, Englisch, Griechisch"
+        },
+        {
+          "BF_Schluessel": "BF32",
+          "Erlaeuterungen": "Andachtsraum"
+        },
+        {
+          "BF_Schluessel": "BF14"
+        },
+        {
+          "BF_Schluessel": "BF13"
+        },
+        {
+          "BF_Schluessel": "BF33"
+        },
+        {
+          "BF_Schluessel": "BF34"
+        }
+      ]
+    },
+    "Akademische_Lehre": {
+      "Akademische_Lehre_Wissenschaftliche_Taetigkeit": {
+        "FL_Schluessel": "FL03",
+        "Erlaeuterungen": "Psychologen und Neuropsychologen"
+      }
+    },
+    "Ausbildung_andere_Heilberufe": {
+      "Ausbildung_in_anderen_Heilberufen": [
+        {
+          "HB_Schluessel": "HB06",
+          "Erlaeuterungen": "praktischer Ausbildungsbetrieb in Kooperation mit der Ergotherapieschule Fokus"
+        },
+        {
+          "HB_Schluessel": "HB17",
+          "Erlaeuterungen": "praktischer Ausbildungsbetrieb für Krankenpflegehelfer in Kooperation mit der Hephata Akademie"
+        },
+        {
+          "HB_Schluessel": "HB19",
+          "Erlaeuterungen": "Generalistikausbildung in Kooperation mit der Hephata Akademie"
+        }
+      ]
+    },
+    "Anzahl_Betten": "93",
+    "Fallzahlen": {
+      "Vollstationaere_Fallzahl": "2514",
+      "Teilstationaere_Fallzahl": "133",
+      "Ambulante_Fallzahl": "6052",
+      "StaeB_Fallzahl": "0"
+    },
+    "Personal_des_Krankenhauses": {
+      "Aerzte": {
+        "Aerzte_ohne_Belegaerzte": {
+          "Personalerfassung": {
+            "Anzahl_VK": "17,18",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "14,55"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "2,63"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "3,68"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "13,50"
+              }
+            }
+          },
+          "Fachaerzte": {
+            "Personalerfassung": {
+              "Anzahl_VK": "9,70",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "9,70"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "2,69"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "7,01"
+                }
+              }
+            }
+          },
+          "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+        },
+        "Belegaerzte": {
+          "Anzahl": "0"
+        },
+        "Aerzte_ohne_Fachabteilungszuordnung": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          },
+          "Fachaerzte": {
+            "Personalerfassung": {
+              "Anzahl_VK": "0,00",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Pflegekraefte": {
+        "Gesundheits_Krankenpfleger": {
+          "Personalerfassung": {
+            "Anzahl_VK": "47,92",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "47,92"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "2,53"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "45,39"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          }
+        },
+        "Gesundheits_Kinderkrankenpfleger": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          }
+        },
+        "Altenpfleger": {
+          "Personalerfassung": {
+            "Anzahl_VK": "8,24",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "8,24"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "8,24"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          }
+        },
+        "Pflegefachpersonen": {
+          "Personalerfassung": {
+            "Anzahl_VK": "3,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "3,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "3,00"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          }
+        },
+        "Pflegefachpersonen_BSc": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          }
+        },
+        "Pflegeassistenten": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          }
+        },
+        "Krankenpflegehelfer": {
+          "Personalerfassung": {
+            "Anzahl_VK": "7,87",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "7,87"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "7,87"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          }
+        },
+        "Pflegehelfer": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          }
+        },
+        "Hebammen_Entbindungspfleger": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          }
+        },
+        "Beleghebammen_Belegentbindungspfleger": {
+          "Anzahl": "0"
+        },
+        "Operationstechnische_Assistenz": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          }
+        },
+        "Anaesthesietechnische_Assistenz": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          }
+        },
+        "Medizinische_Fachangestellte": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          }
+        },
+        "Massgebliche_tarifliche_Wochenarbeitszeit": "39,00"
+      },
+      "Ausgewaehltes_Personal_Psych": {
+        "Ausgewaehltes_Therapeutisches_Personal": {
+          "Diplom_Psychologen": {
+            "Personalerfassung": {
+              "Anzahl_VK": "2,95",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "2,95"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "1,09"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "1,86"
+                }
+              }
+            }
+          },
+          "Klinische_Neuropsychologen": {
+            "Personalerfassung": {
+              "Anzahl_VK": "0,47",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,47"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,47"
+                }
+              }
+            }
+          },
+          "Psychologische_Psychotherapeuten": {
+            "Personalerfassung": {
+              "Anzahl_VK": "0,62",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,62"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,62"
+                }
+              }
+            }
+          },
+          "Kinder_Jugendlichenpsychotherapeuten": {
+            "Personalerfassung": {
+              "Anzahl_VK": "0,00",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                }
+              }
+            }
+          },
+          "Psychotherapeuten_in_Ausbildung_waehrend_Taetigkeit": {
+            "Personalerfassung": {
+              "Anzahl_VK": "1,15",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "1,15"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "1,15"
+                }
+              }
+            }
+          },
+          "Ergotherapeuten": {
+            "Personalerfassung": {
+              "Anzahl_VK": "3,10",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "3,10"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "3,10"
+                }
+              }
+            }
+          },
+          "Physiotherapeuten": {
+            "Personalerfassung": {
+              "Anzahl_VK": "0,73",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,73"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,12"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,61"
+                }
+              }
+            }
+          },
+          "Sozialpaedagogen": {
+            "Personalerfassung": {
+              "Anzahl_VK": "2,58",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "2,58"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,92"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "1,66"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Spezielles_Therapeutisches_Personal": {
+        "Therapeutisches_Personal": [
+          {
+            "SP_Schluessel": "SP05",
+            "Personalerfassung": {
+              "Anzahl_VK": "5,66",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "5,66"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "5,66"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP25",
+            "Personalerfassung": {
+              "Anzahl_VK": "2,83",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "2,83"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,92"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "1,91"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP21",
+            "Personalerfassung": {
+              "Anzahl_VK": "2,45",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "2,45"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,12"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "2,33"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP15",
+            "Personalerfassung": {
+              "Anzahl_VK": "0,30",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,30"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,30"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP43",
+            "Personalerfassung": {
+              "Anzahl_VK": "5,19",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "5,19"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "5,19"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP56",
+            "Personalerfassung": {
+              "Anzahl_VK": "3,26",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "3,26"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "3,26"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "Umgang_mit_Risiken_in_der_Patientenversorgung": {
+      "Verantwortliche_Person_Qualitaetsmanagement": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Veronika",
+            "Nachname": "Brening",
+            "Funktion_Arbeitsschwerpunkt": "Qualitätsmanagerin"
+          },
+          "Telefon": {
+            "Vorwahl": "06691",
+            "Rufnummer": "18",
+            "Durchwahl": "2074"
+          },
+          "Email": "veronika.brening@hephata.de"
+        }
+      },
+      "Lenkungsgremium_Qualitaetsmanagement": {
+        "Lenkungsgremium": {
+          "Beteiligte_Abteilungen_Funktionsbereiche": "Qualitätsmanagerin, Klinikleitung, Patientensicherheitsbeauftragte",
+          "Tagungsfrequenz": "monatlich"
+        }
+      },
+      "Verantwortliche_Person_Risikomanagement": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Veronika",
+            "Nachname": "Brening",
+            "Funktion_Arbeitsschwerpunkt": "Qualitätsmanagerin"
+          },
+          "Telefon": {
+            "Vorwahl": "06691",
+            "Rufnummer": "18",
+            "Durchwahl": "2074"
+          },
+          "Email": "veronika.brening@hephata.de"
+        }
+      },
+      "Lenkungsgremium_Risikomanagement": {
+        "Lenkungsgremium": {
+          "Beteiligte_Abteilungen_Funktionsbereiche": "QMB, Klinikleitung, Patientensicherheitsbeuaftragter",
+          "Tagungsfrequenz": "quartalsweise"
+        }
+      },
+      "Instrumente_Massnahmen_Risikomanagement": {
+        "Instrument_Massnahme_Risikomanagement": [
+          {
+            "RM_Schluessel": "RM09",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Umgang mit Fehlfunktionen von Geräten",
+                "Datum": "2023-02-19"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM04",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "VA Internes Schwachstellenmanagement ,  VA und Dokumentation \"Besondere Vorkommnisse\", Risikomatrix",
+                "Datum": "2023-07-15"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM08",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "Arbeitsanweisung \"Freiheitsentziehende Maßnahmen\"",
+                "Datum": "2023-10-26"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM18",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "VA Entlassmanagement",
+                "Datum": "2023-10-20"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM12"
+          },
+          {
+            "RM_Schluessel": "RM02"
+          },
+          {
+            "RM_Schluessel": "RM03"
+          },
+          {
+            "RM_Schluessel": "RM01",
+            "Zusatzangaben_RM": {
+              "SOP": {
+                "Name": "VA Internes Schwachstellenmanagement ,  VA und Dokumentation \"Besondere Vorkommnisse\", Risikomatrix",
+                "Datum": "2023-07-15"
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM10",
+            "Zusatzangaben_RM": {
+              "Fallbesprechungen_Konferenzen": {
+                "Fallbesprechung_Konferenz": [
+                  {
+                    "Art": "Qualitätszirkel"
+                  },
+                  {
+                    "Andere": "Hygienekommission"
+                  },
+                  {
+                    "Art": "Mortalitäts- und Morbiditätskonferenzen"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "Einrichtungsinternes_Fehlermeldesystem": {
+        "Tagungsgremium": {
+          "Tagungsfrequenz": "bei Bedarf"
+        },
+        "Massnahmen": "Einzusehen in den jeweiligen Protokollen und im Maßnahmenplan",
+        "Fehlermeldesystem_intern": {
+          "System_intern": {
+            "IF_Schluessel": "IF02",
+            "Zusatzangaben_IF": {
+              "Frequenz": "bei Bedarf"
+            }
+          }
+        }
+      },
+      "Hygienepersonal": {
+        "Krankenhaushygieniker": {
+          "Anzahl": "1"
+        },
+        "Hygienebeauftragte_Aerzte": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "1"
+          }
+        },
+        "Hygienefachkraefte": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "1"
+          }
+        },
+        "Hygienebeauftragte_Pflege": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "8"
+          }
+        },
+        "Hygienekommission_eingerichtet": {
+          "Kontakt_Person_kurz": {
+            "Person": {
+              "Titel": "Dr. Fuest, Sven",
+              "Vorname": "Chefarzt Neurologie",
+              "Nachname": "Magistar Yulia, Blatska",
+              "Funktion_Arbeitsschwerpunkt": "Chefärztin Psychiatrie"
+            },
+            "Telefon": {
+              "Vorwahl": "06691",
+              "Rufnummer": "18",
+              "Durchwahl": "2002"
+            },
+            "Email": "Sekretariat.klinik@hephata.de"
+          },
+          "Tagungsfrequenz": "halbjährlich"
+        }
+      },
+      "Weitere_Informationen_Hygiene": {
+        "Hygienestandard_ZVK": {
+          "Standard_Hygiene_ZVK_liegt_vor": {
+            "Standard_thematisiert": {
+              "Hygienische_Haendedesinfektion": "ja",
+              "Hautdesinfektion": "ja",
+              "Beachtung_Einwirkzeit": "ja",
+              "Anwendung_weiterer_Hygienemassnahmen": {
+                "Sterile_Handschuhe": "ja",
+                "Steriler_Kittel": "ja",
+                "Kopfhaube": "ja",
+                "Mund_Nasen_Schutz": "ja",
+                "Steriles_Abdecktuch": "ja"
+              }
+            },
+            "Standard_autorisiert": "ja"
+          },
+          "Standard_Liegedauer_ZVK_liegt_vor": {
+            "Standard_autorisiert": "ja"
+          }
+        },
+        "Antibiotikaprophylaxe_Antibiotikatherapie": {
+          "Leitlinie_Antibiotikatherapie_liegt_vor": {
+            "Leitlinie_Resistenzlage_angepasst": "nein",
+            "Leitlinie_autorisiert": "ja"
+          },
+          "Keine_Durchfuehrung_Operationen": {}
+        },
+        "Umgang_Wunden": {
+          "Standard_Wundversorgung_Verbandwechsel_liegt_vor": {
+            "Standard_thematisiert": {
+              "Hygienische_Haendedesinfektion": "ja",
+              "Verbandwechsel_aseptische_Bedingungen": "ja",
+              "Antiseptische_Behandlung_infizierte_Wunden": "ja",
+              "Pruefung_Notwendigkeit_Wundauflage": "ja",
+              "Meldung_Wundinfektion": "ja"
+            },
+            "Standard_autorisiert": "ja"
+          }
+        },
+        "Haendedesinfektion": {
+          "Haendedesinfektionsmittelverbrauch_Allgemeinstationen_wurde_erhoben": {
+            "Haendedesinfektionsmittelverbrauch_Allgemeinstationen": "24,00"
+          },
+          "Keine_Intensivstation_vorhanden": {},
+          "Erfassung_Haendedesinfektionsmittelverbrauch_stationsbezogen": "ja"
+        },
+        "Umgang_Patienten_MRE": {
+          "Standardisierte_Information_MRSA": "ja",
+          "Informationsmanagement_MRSA": "ja",
+          "Risikoadaptives_Aufnahmescreening": "ja",
+          "Regelmaessige_Schulungen": "ja"
+        },
+        "Hygienebezogenes_Risikomanagement": {
+          "Hygiene_Instrument_Massnahme": [
+            {
+              "HM_Schluessel": "HM03",
+              "Zusatzangaben_HM": {
+                "Name": "GQH-MRSA-Bogen Hessen"
+              }
+            },
+            {
+              "HM_Schluessel": "HM09",
+              "Zusatzangaben_HM": {
+                "Frequenz": "quartalsweise"
+              },
+              "Erlaeuterungen": "regelmäßige Schulungen durch die Hygienefachkraft; Begehungen mit Protokoll und Maßnahmenableitung; Beobachtung der Händecompliance mit Maßnahmenableitung, jährliche Hygienecheck durch Abklatschuntersuchungen"
+            }
+          ]
+        }
+      },
+      "Beschwerdemanagement": {
+        "Strukturiertes_Beschwerdemanagement": {
+          "Strukturiertes_Beschwerdemanagement_Eingefuehrt": "ja"
+        },
+        "Schriftliches_Konzept": {
+          "Schriftliches_Konzept_Existiert": "ja"
+        },
+        "Umgang_muendliche_Beschwerden": {
+          "Umgang_muendliche_Beschwerden_Geregelt": "ja"
+        },
+        "Umgang_schriftliche_Beschwerden": {
+          "Umgang_schriftliche_Beschwerden_Geregelt": "ja"
+        },
+        "Zeitziele_fuer_Rueckmeldung": {
+          "Zeitziele_fuer_Rueckmeldung_Definiert": "ja"
+        },
+        "Ansprechpartner": {
+          "Ansprechpersonen": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Veronika",
+                "Nachname": "Brening",
+                "Funktion_Arbeitsschwerpunkt": "Qualitäts- und \nBeschwerdemanagerin"
+              },
+              "Telefon": {
+                "Vorwahl": "06691",
+                "Rufnummer": "18",
+                "Durchwahl": "2074"
+              },
+              "Email": "veronika.brening@hephata.de"
+            }
+          }
+        },
+        "Patientenfuersprecher": {
+          "Fuersprechpersonen": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Christian",
+                "Nachname": "Wagner",
+                "Funktion_Arbeitsschwerpunkt": "Patientensicherheitsbeauftragte"
+              },
+              "Telefon": {
+                "Vorwahl": "06691",
+                "Rufnummer": "18",
+                "Durchwahl": "2140"
+              },
+              "Email": "Christian.Wagner@hephata.de"
+            }
+          }
+        },
+        "Anonyme_Eingabemoeglichkeiten": {
+          "Anonyme_Eingabemoeglichkeiten_Existieren": "ja"
+        },
+        "Patientenbefragungen": {
+          "Patientenbefragungen_Durchgefuehrt": "ja"
+        },
+        "Einweiserbefragungen": {
+          "Einweiserbefragungen_Durchgefuehrt": "nein"
+        }
+      },
+      "Arzneimitteltherapiesicherheit": {
+        "Hinweis_Arzneimitteltherapiesicherheit": "AMTS ist die Gesamtheit der Maßnahmen zur Gewährleistung eines optimalen Medikationsprozesses mit dem Ziel, Medikationsfehler und damit vermeidbare Risiken für Patientinnen und Patienten bei der Arzneimitteltherapie zu verringern. Eine Voraussetzung für die erfolgreiche Umsetzung dieser Maßnahmen ist, dass AMTS als integraler Bestandteil der täglichen Routine in einem interdisziplinären und multiprofessionellen Ansatz gelebt wird.",
+        "Verantwortliches_Gremium_AMTS": {
+          "Arzneimittelkommission": {}
+        },
+        "Verantwortliche_Person_AMTS": {
+          "Verantwortliche_Person_festgelegt": {
+            "Person_Entspricht_Angaben_Qualitaetsmanagement": {
+              "Verantwortliche_Person_Qualitaetsmanagement": {
+                "Kontakt_Person_lang": {
+                  "Person": {
+                    "Vorname": "Veronika",
+                    "Nachname": "Brening",
+                    "Funktion_Arbeitsschwerpunkt": "Qualitätsmanagerin"
+                  },
+                  "Telefon": {
+                    "Vorwahl": "06691",
+                    "Rufnummer": "18",
+                    "Durchwahl": "2074"
+                  },
+                  "Email": "veronika.brening@hephata.de"
+                }
+              }
+            }
+          }
+        },
+        "Pharmazeutisches_Personal": {
+          "Anzahl_Apotheker": "0",
+          "Anzahl_weiteres_pharmazeutisches_Personal": "0",
+          "Erlaeuterungen": "Die Klinik wird durch eine externe Apotheke mit Medikamenten versorgt. Die Arzneimittelkommission wird aus den Mitarbeitenden dieser Apotheke, dem Chefarzt der Neurologie und dem hygienebeauftragten Arzt gebildet."
+        },
+        "Instrumente_Massnahmen_AMTS": {
+          "Hinweis_Instrumente_Massnahmen_AMTS": "Die Instrumente und Maßnahmen zur Förderung der Arzneimitteltherapiesicherheit werden mit Fokus auf den typischen Ablauf des Medikationsprozesses bei der stationären Patientenversorgung dargestellt. Eine Besonderheit des Medikationsprozesses im stationären Umfeld stellt das Überleitungsmanagement bei Aufnahme und Entlassung dar. Die im Folgenden gelisteten Instrumente und Maßnahmen adressieren Strukturelemente, z.B. besondere EDV-Ausstattung und Arbeitsmaterialien, sowie Prozessaspekte, wie Arbeitsbeschreibungen für besonders risikobehaftete Prozessschritte bzw. Konzepte zur Sicherung typischer Risikosituationen. Zusätzlich können bewährte Maßnahmen zur Vermeidung von bzw. zum Lernen aus Medikationsfehlern angegeben werden. Das Krankenhaus stellt hier dar, mit welchen Aspekten es sich bereits auseinandergesetzt bzw. welche Maßnahmen es konkret umgesetzt hat. Die folgenden Aspekte können, gegebenenfalls unter Verwendung von Freitextfeldern, dargestellt werden: \n\r - Aufnahme ins Krankenhaus, inklusive Anamnese \n\r Dargestellt werden können Instrumente und Maßnahmen zur Ermittlung der bisherigen Medikation (Arzneimittelanamnese), der anschließenden klinischen Bewertung und der Umstellung auf die im Krankenhaus verfügbare Medikation (Hausliste), sowie zur Dokumentation, sowohl der ursprünglichen Medikation der Patientin oder des Patienten als auch der für die Krankenhausbehandlung angepassten Medikation. \n\r - Medikationsprozess im Krankenhaus \n\r Im vorliegenden Rahmen wird beispielhaft von folgenden Teilprozessen ausgegangen: Arzneimittelanamnese – Verordnung – Patienteninformation – Arzneimittelabgabe – Arzneimittelanwendung – Dokumentation – Therapieüberwachung – Ergebnisbewertung. Dargestellt werden können hierzu Instrumente und Maßnahmen zur sicheren Arzneimittelverordnung, z. B. bezüglich Leserlichkeit, Eindeutigkeit und Vollständigkeit der Dokumentation, aber auch bezüglich Anwendungsgebiet, Wirksamkeit, Nutzen-Risiko-Verhältnis, Verträglichkeit (inklusive potentieller Kontraindikationen, Wechselwirkungen und Ähnliches) und Ressourcenabwägungen. Außerdem können Angaben zur Unterstützung einer zuverlässigen Arzneimittelbestellung, -abgabe und -anwendung bzw. -verabreichung gemacht werden. \n\r - Entlassung \n\r Dargestellt werden können insbesondere die Maßnahmen der Krankenhäuser, die sicherstellen, dass eine strukturierte und sichere Weitergabe von Informationen zur Arzneimitteltherapie an weiterbehandelnde Ärztinnen und Ärzte sowie die angemessene Ausstattung der Patientinnen und Patienten mit Arzneimittelinformationen, Medikationsplan und Medikamenten bzw. Arzneimittelverordnungen erfolgt.",
+          "Instrument_Massnahme_AMTS": [
+            {
+              "AMTS_Schluessel": "AS01"
+            },
+            {
+              "AMTS_Schluessel": "AS07"
+            },
+            {
+              "AMTS_Schluessel": "AS13",
+              "Zusatzangaben_AMTS": {
+                "Massnahmen_Arzneimitteltherapie_Entlassung": {
+                  "Massnahme_Arzneimitteltherapie_Entlassung": [
+                    {
+                      "Massnahme": "Aushändigung von arzneimittelbezogenen Informationen für die Weiterbehandlung und Anschlussversorgung der Patientin oder des Patienten im Rahmen eines (ggf. vorläufigen) Entlassbriefs"
+                    },
+                    {
+                      "Massnahme": "Aushändigung des Medikationsplans"
+                    },
+                    {
+                      "Massnahme": "bei Bedarf Arzneimittel-Mitgabe oder Ausstellung von Entlassrezepten"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "AMTS_Schluessel": "AS04"
+            },
+            {
+              "AMTS_Schluessel": "AS12",
+              "Zusatzangaben_AMTS": {
+                "Massnahmen_Minimierung_Medikationsfehler": {
+                  "Massnahme_Minimierung_Medikationsfehler": {
+                    "Massnahme": "Maßnahmen zur Vermeidung von Arzneimittelverwechslung"
+                  }
+                }
+              }
+            },
+            {
+              "AMTS_Schluessel": "AS11"
+            }
+          ]
+        }
+      },
+      "Praevention_Hilfe_Missbrauch_Gewalt": {
+        "Hinweis_Praevention_Hilfe_Missbrauch_Gewalt": "Gemäß § 4 Absatz 2 der Qualitätsmanagement-Richtlinie haben Einrichtungen die Prävention von und Intervention bei Gewalt und Missbrauch als Teil des einrichtungsinternen Qualitätsmanagements vorzusehen. Ziel ist es, Missbrauch und Gewalt insbesondere gegenüber vulnerablen Patientengruppen, wie beispielsweise Kindern und Jugendlichen oder hilfsbedürftigen Personen, vorzubeugen, zu erkennen, adäquat darauf zu reagieren und auch innerhalb der Einrichtung zu verhindern. Das jeweilige Vorgehen wird an Einrichtungsgröße, Leistungsspektrum und den Patientinnen und Patienten ausgerichtet, um so passgenaue Lösungen zur Sensibilisierung der Teams sowie weitere geeignete vorbeugende und intervenierende Maßnahmen festzulegen. Dies können unter anderem Informationsmaterialien, Kontaktadressen, Schulungen/Fortbildungen, Verhaltenskodizes, Handlungsempfehlungen/Interventionspläne oder umfassende Schutzkonzepte sein.",
+        "Praevention_Intervention_Massnahmen": "ja",
+        "Kommentar": "- monatliche Supervisionen mit den Mitarbeitenden der Psychiatrie\n- fallbezogene Supervisionen nach Bedarf\n- Deeskalationstraining für Mitarbeitende beider Abteilungen Psychiatrie und Neurologie, sowie die Verwaltung",
+        "Schutzkonzepte_Gewalt_Kinder": {
+          "Hinweis_Schutzkonzepte_Gewalt_Kinder": "Gemäß § 4 Absatz 2 in Verbindung mit Teil B Abschnitt I § 1 der Qualitätsmanagement-Richtlinie haben sich Einrichtungen, die Kinder und Jugendliche versorgen, gezielt mit der Prävention von und Intervention bei (sexueller) Gewalt und Missbrauch bei Kindern und Jugendlichen zu befassen (Risiko- und Gefährdungsanalyse) und – der Größe und Organisationsform der Einrichtung entsprechend – konkrete Schritte und Maßnahmen abzuleiten (Schutzkonzept). In diesem Abschnitt geben Krankenhäuser, die Kinder und Jugendliche versorgen, an, ob sie gemäß § 4 Absatz 2 in Verbindung mit Teil B Abschnitt I § 1 der Qualitätsmanagement-Richtlinie ein Schutzkonzept gegen (sexuelle) Gewalt bei Kindern und Jugendlichen aufweisen.",
+          "Versorgung_Kinder_Jugendliche": {
+            "Schutzkonzept_gegen_Gewalt_liegt_vor": {
+              "Schutzkonzept": [
+                {
+                  "SK_Schluessel": "SK02"
+                },
+                {
+                  "SK_Schluessel": "SK01",
+                  "Kommentar": "Erfassung von verbalen oder körperlichen Übergriffen in einem Bogen - Weiterleitung an Klinikleitung, Auswertung durch die QMB"
+                },
+                {
+                  "SK_Schluessel": "SK06",
+                  "Kommentar": "zweijährige Anforderung des erweiterten polizeilichen Führungszeugnisses von allen Mitarbeitenden"
+                },
+                {
+                  "SK_Schluessel": "SK09",
+                  "Kommentar": "systematische Erfassung von sexuellen Übergriffen mit einer fest benannten Ansprechpartnerin (Seelsorge)"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "Apparative_Ausstattung": {
+      "Geraet": [
+        {
+          "AA_Schluessel": "AA01",
+          "Notfallverfuegbarkeit_24h": "ja",
+          "Erlaeuterungen": "In Kooperation mit externer Praxis, farbcodierte Dopplersonographie zur extra- und intrakraniellen Gefäßdarstellung im Haus vorhanden"
+        },
+        {
+          "AA_Schluessel": "AA08",
+          "Notfallverfuegbarkeit_24h": "ja"
+        },
+        {
+          "AA_Schluessel": "AA10",
+          "Notfallverfuegbarkeit_24h": "ja"
+        },
+        {
+          "AA_Schluessel": "AA22",
+          "Notfallverfuegbarkeit_24h": "ja",
+          "Erlaeuterungen": "In Kooperation mit externer Praxis"
+        },
+        {
+          "AA_Schluessel": "AA43",
+          "Notfallverfuegbarkeit_24h": "keine_Angabe_erforderlich",
+          "Erlaeuterungen": "3 Polysomnographiegeräte mit bis zu 36 Kanälen"
+        }
+      ]
+    },
+    "Teilnahme_Notfallversorgung": {
+      "Hinweis_Teilnahme_Notfallversorgung": "Alle Krankenhäuser gewährleisten Notfallversorgung und haben allgemeine Pflichten zur Hilfeleistung im Notfall. Darüber hinaus hat der Gemeinsame Bundesausschuss ein gestuftes System von Notfallstrukturen in Krankenhäusern im entgeltrechtlichen Sinne geregelt. Das bedeutet, dass Krankenhäuser, die festgelegte Anforderungen an eine von drei Notfallstufen erfüllen, durch Vergütungszuschläge finanziell unterstützt werden. Krankenhäuser, die die Anforderungen an eine der drei Stufen nicht erfüllen, erhalten keine Zuschläge. Nimmt ein Krankenhaus nicht am gestuften System von Notfallstrukturen teil und gewährleistet es nicht eine spezielle Notfallversorgung, sieht der Gesetzgeber Abschläge vor.",
+      "Teilnahme_Notfallstufe": {
+        "Notfallstufe_zugeordnet": {
+          "Basisnotfallversorgung_Stufe_1": {
+            "Umstand_Zuordnung_Notfallstufe": {
+              "Erfuellung_Voraussetzung_Modul_Spezielle_Notfallversorgung": {
+                "Teilnahme_Spezielle_Notfallversorgung": {
+                  "Module_Spezielle_Notfallversorgung": "SN05"
+                }
+              }
+            }
+          }
+        },
+        "Erlaeuterungen": "In der Neurologie ist eine Stroke Unit vorhanden, die mit der Notfallstufe 1 gleichgesetzt ist."
+      },
+      "Kooperation_mit_Kassenaerztlicher_Vereinigung": {
+        "Notdienstpraxis_Existiert": "nein",
+        "Vertragsaerztlicher_Notdienst_Existiert": "nein"
+      }
+    },
+    "Organisationseinheiten_Fachabteilungen": {
+      "Organisationseinheit_Fachabteilung": [
+        {
+          "Gliederungsnummer": "1",
+          "Name": "Neurologie",
+          "Aerztliche_Leitung_OE": {
+            "Chefarzt": {
+              "Kontakt_Person_lang": {
+                "Person": {
+                  "Titel": "Dr.",
+                  "Vorname": "Sven",
+                  "Nachname": "Fuest",
+                  "Funktion_Arbeitsschwerpunkt": "Chefarzt Neurologie"
+                },
+                "Telefon": {
+                  "Vorwahl": "06691",
+                  "Rufnummer": "18",
+                  "Durchwahl": "2152"
+                },
+                "Email": "Astrid.Schaefer@hephata.de"
+              },
+              "Kontakt_Zugang": {
+                "Strasse": "Schimmelpfengstr.",
+                "Hausnummer": "6",
+                "Postleitzahl": "34613",
+                "Ort": "Schwalmstadt"
+              }
+            }
+          },
+          "Zielvereinbarungen": {
+            "Keine_Zielvereinbarungen_geschlossen": {}
+          },
+          "Fachabteilungsschluessel": {
+            "FA_Schluessel": "2800"
+          },
+          "Medizinische_Leistungsangebote": {
+            "Medizinisches_Leistungsangebot": [
+              {
+                "VA_VU_Schluessel": "VH07"
+              },
+              {
+                "VA_VU_Schluessel": "VN01"
+              },
+              {
+                "VA_VU_Schluessel": "VN02"
+              },
+              {
+                "VA_VU_Schluessel": "VN03"
+              },
+              {
+                "VA_VU_Schluessel": "VN04"
+              },
+              {
+                "VA_VU_Schluessel": "VN05"
+              },
+              {
+                "VA_VU_Schluessel": "VN06"
+              },
+              {
+                "VA_VU_Schluessel": "VN07"
+              },
+              {
+                "VA_VU_Schluessel": "VN08"
+              },
+              {
+                "VA_VU_Schluessel": "VN09"
+              },
+              {
+                "VA_VU_Schluessel": "VN10"
+              },
+              {
+                "VA_VU_Schluessel": "VN11"
+              },
+              {
+                "VA_VU_Schluessel": "VN12"
+              },
+              {
+                "VA_VU_Schluessel": "VN13"
+              },
+              {
+                "VA_VU_Schluessel": "VN14"
+              },
+              {
+                "VA_VU_Schluessel": "VN15"
+              },
+              {
+                "VA_VU_Schluessel": "VN16"
+              },
+              {
+                "VA_VU_Schluessel": "VN17"
+              },
+              {
+                "VA_VU_Schluessel": "VN18"
+              },
+              {
+                "VA_VU_Schluessel": "VN19"
+              },
+              {
+                "VA_VU_Schluessel": "VN20",
+                "Erlaeuterungen": "Schlafmedizin, Pumpenbehandlung, Botox, Epilepsie, MS"
+              },
+              {
+                "VA_VU_Schluessel": "VN22"
+              },
+              {
+                "VA_VU_Schluessel": "VN24"
+              }
+            ]
+          },
+          "Fallzahlen_OE": {
+            "Vollstationaere_Fallzahl": "1483",
+            "Teilstationaere_Fallzahl": "0"
+          },
+          "Hauptdiagnosen": {
+            "Hauptdiagnose": [
+              {
+                "ICD_10": "G40.2",
+                "Fallzahl": "183"
+              },
+              {
+                "ICD_10": "I63.4",
+                "Fallzahl": "101"
+              },
+              {
+                "ICD_10": "R55",
+                "Fallzahl": "52"
+              },
+              {
+                "ICD_10": "G35.11",
+                "Fallzahl": "49"
+              },
+              {
+                "ICD_10": "G40.3",
+                "Fallzahl": "49"
+              },
+              {
+                "ICD_10": "I63.5",
+                "Fallzahl": "42"
+              },
+              {
+                "ICD_10": "G47.4",
+                "Fallzahl": "41"
+              },
+              {
+                "ICD_10": "G47.1",
+                "Fallzahl": "36"
+              },
+              {
+                "ICD_10": "F44.5",
+                "Fallzahl": "28"
+              },
+              {
+                "ICD_10": "G20.10",
+                "Fallzahl": "27"
+              },
+              {
+                "ICD_10": "I63.3",
+                "Fallzahl": "26"
+              },
+              {
+                "ICD_10": "G47.8",
+                "Fallzahl": "22"
+              },
+              {
+                "ICD_10": "G40.8",
+                "Fallzahl": "20"
+              },
+              {
+                "ICD_10": "G35.31",
+                "Fallzahl": "20"
+              },
+              {
+                "ICD_10": "G35.0",
+                "Fallzahl": "20"
+              },
+              {
+                "ICD_10": "G45.12",
+                "Fallzahl": "19"
+              },
+              {
+                "ICD_10": "R20.2",
+                "Fallzahl": "18"
+              },
+              {
+                "ICD_10": "I63.2",
+                "Fallzahl": "17"
+              },
+              {
+                "ICD_10": "G44.2",
+                "Fallzahl": "16"
+              },
+              {
+                "ICD_10": "R26.8",
+                "Fallzahl": "16"
+              },
+              {
+                "ICD_10": "G40.5",
+                "Fallzahl": "15"
+              },
+              {
+                "ICD_10": "G40.4",
+                "Fallzahl": "15"
+              },
+              {
+                "ICD_10": "G51.0",
+                "Fallzahl": "14"
+              },
+              {
+                "ICD_10": "H81.2",
+                "Fallzahl": "14"
+              },
+              {
+                "ICD_10": "R42",
+                "Fallzahl": "13"
+              },
+              {
+                "ICD_10": "G43.1",
+                "Fallzahl": "13"
+              },
+              {
+                "ICD_10": "G45.13",
+                "Fallzahl": "12"
+              },
+              {
+                "ICD_10": "G45.02",
+                "Fallzahl": "12"
+              },
+              {
+                "ICD_10": "H81.1",
+                "Fallzahl": "11"
+              },
+              {
+                "ICD_10": "G41.2",
+                "Fallzahl": "10"
+              },
+              {
+                "ICD_10": "R56.8",
+                "Fallzahl": "9"
+              },
+              {
+                "ICD_10": "G45.82",
+                "Fallzahl": "9"
+              },
+              {
+                "ICD_10": "G45.42",
+                "Fallzahl": "9"
+              },
+              {
+                "ICD_10": "I67.3",
+                "Fallzahl": "9"
+              },
+              {
+                "ICD_10": "G50.0",
+                "Fallzahl": "9"
+              },
+              {
+                "ICD_10": "G91.20",
+                "Fallzahl": "8"
+              },
+              {
+                "ICD_10": "M51.1",
+                "Fallzahl": "8"
+              },
+              {
+                "ICD_10": "G40.6",
+                "Fallzahl": "8"
+              },
+              {
+                "ICD_10": "E86",
+                "Fallzahl": "7"
+              },
+              {
+                "ICD_10": "G25.81",
+                "Fallzahl": "7"
+              },
+              {
+                "ICD_10": "R40.0",
+                "Fallzahl": "7"
+              },
+              {
+                "ICD_10": "G45.92",
+                "Fallzahl": "7"
+              },
+              {
+                "ICD_10": "M54.4",
+                "Fallzahl": "7"
+              },
+              {
+                "ICD_10": "G62.88",
+                "Fallzahl": "7"
+              },
+              {
+                "ICD_10": "G70.0",
+                "Fallzahl": "7"
+              },
+              {
+                "ICD_10": "G61.8",
+                "Fallzahl": "7"
+              },
+              {
+                "ICD_10": "G47.31",
+                "Fallzahl": "7"
+              },
+              {
+                "ICD_10": "A69.2",
+                "Fallzahl": "7"
+              },
+              {
+                "ICD_10": "I63.8",
+                "Fallzahl": "6"
+              },
+              {
+                "ICD_10": "F05.8",
+                "Fallzahl": "6"
+              },
+              {
+                "ICD_10": "B99",
+                "Fallzahl": "6"
+              },
+              {
+                "ICD_10": "R51",
+                "Fallzahl": "6"
+              },
+              {
+                "ICD_10": "R53",
+                "Fallzahl": "6"
+              },
+              {
+                "ICD_10": "G40.1",
+                "Fallzahl": "6"
+              },
+              {
+                "ICD_10": "G47.0",
+                "Fallzahl": "6"
+              },
+              {
+                "ICD_10": "G20.00",
+                "Fallzahl": "6"
+              },
+              {
+                "ICD_10": "F44.6",
+                "Fallzahl": "6"
+              },
+              {
+                "ICD_10": "M48.06",
+                "Fallzahl": "5"
+              },
+              {
+                "ICD_10": "G45.03",
+                "Fallzahl": "5"
+              },
+              {
+                "ICD_10": "I95.1",
+                "Fallzahl": "5"
+              },
+              {
+                "ICD_10": "F51.3",
+                "Fallzahl": "5"
+              },
+              {
+                "ICD_10": "I63.0",
+                "Fallzahl": "5"
+              },
+              {
+                "ICD_10": "R29.6",
+                "Fallzahl": "5"
+              },
+              {
+                "ICD_10": "G45.89",
+                "Fallzahl": "5"
+              },
+              {
+                "ICD_10": "G43.2",
+                "Fallzahl": "5"
+              },
+              {
+                "ICD_10": "C79.3",
+                "Fallzahl": "5"
+              },
+              {
+                "ICD_10": "F05.0",
+                "Fallzahl": "4"
+              },
+              {
+                "ICD_10": "G20.21",
+                "Fallzahl": "4"
+              },
+              {
+                "ICD_10": "E87.1",
+                "Fallzahl": "4"
+              },
+              {
+                "ICD_10": "I61.6",
+                "Fallzahl": "4"
+              },
+              {
+                "ICD_10": "M54.86",
+                "Fallzahl": "4"
+              },
+              {
+                "ICD_10": "M53.1",
+                "Fallzahl": "4"
+              },
+              {
+                "ICD_10": "G12.2",
+                "Fallzahl": "4"
+              },
+              {
+                "ICD_10": "G20.11",
+                "Fallzahl": "4"
+              },
+              {
+                "ICD_10": "M51.2",
+                "Fallzahl": "4"
+              },
+              {
+                "ICD_10": "G31.0",
+                "Fallzahl": "4"
+              },
+              {
+                "ICD_10": "F05.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M54.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G93.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G91.29",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G93.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "B02.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I67.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "H49.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M31.6",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "H81.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M54.16",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M50.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M54.5",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F44.4",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G35.21",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G44.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I61.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "H53.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G62.9",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I10.01",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G43.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F51.4",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "D47.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "R25.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "R20.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "D43.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F45.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F51.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "R47.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F45.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "R41.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F06.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G21.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G40.7",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G35.10",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M48.02",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G30.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G35.9",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G40.09",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G20.01",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "J20.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G81.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "H46",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G50.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G52.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G40.9",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G41.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G56.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I50.9",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G04.9",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "R47.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "R50.88",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F41.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "R47.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G45.83",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G44.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F44.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G95.9",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G30.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G25.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "E78.5",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "E11.40",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G93.88",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "E51.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F01.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F01.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "D32.9",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "D48.7",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G61.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G81.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G90.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G83.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G95.83",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G93.4",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G96.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G97.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F01.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "B02.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "B02.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "C71.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "C71.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G04.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F98.08",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "B02.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G00.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "D18.02",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "A87.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "E83.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "E83.58",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "H53.4",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I64",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "B02.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "A40.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G43.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G23.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G50.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G51.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G21.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G21.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G23.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G21.4",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G45.93",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G45.33",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G47.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "A02.9",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G57.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G56.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G45.49",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G56.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G37.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I44.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "H81.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "H49.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I10.00",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G97.88",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G83.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "H54.5",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "H81.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G24.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G25.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G43.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G31.88",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "H51.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "H34.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "H53.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "H53.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F51.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M25.56",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M54.02",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M02.91",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M25.50",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I63.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I62.02",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M54.87",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I63.9",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M50.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M48.00",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M51.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M53.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M62.39",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M62.80",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M47.13",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M42.17",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "R41.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I67.6",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "R25.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I60.7",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I67.88",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "R26.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "R25.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I67.4",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "R40.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "R50.80",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "S06.4",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I65.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I65.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "R52.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "R54",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "S06.5",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I48.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F01.9",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F06.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F10.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F06.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F44.88",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F10.4",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F45.33",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F45.40",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G20.91",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G11.9",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F71.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G12.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F51.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F07.9",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G11.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G11.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F43.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "N39.48",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M80.08",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "J06.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "I80.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "K70.40",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M51.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "J18.9",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "N39.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "J32.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "J98.7",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M79.67",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "J69.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M79.10",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "R13.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "M75.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "K52.8",
+                "Fallzahl_Datenschutz": {}
+              }
+            ]
+          },
+          "Prozeduren": {
+            "Verpflichtende_Angabe": {
+              "Prozedur": [
+                {
+                  "OPS_301": "1-207.0",
+                  "Anzahl": "747"
+                },
+                {
+                  "OPS_301": "3-800",
+                  "Anzahl": "622"
+                },
+                {
+                  "OPS_301": "3-200",
+                  "Anzahl": "538"
+                },
+                {
+                  "OPS_301": "3-035",
+                  "Anzahl": "489"
+                },
+                {
+                  "OPS_301": "8-561.1",
+                  "Anzahl": "449"
+                },
+                {
+                  "OPS_301": "8-930",
+                  "Anzahl": "400"
+                },
+                {
+                  "OPS_301": "1-901.0",
+                  "Anzahl": "277"
+                },
+                {
+                  "OPS_301": "3-84x",
+                  "Anzahl": "276"
+                },
+                {
+                  "OPS_301": "8-547.30",
+                  "Anzahl": "273"
+                },
+                {
+                  "OPS_301": "1-207.2",
+                  "Anzahl": "250"
+                },
+                {
+                  "OPS_301": "3-990",
+                  "Anzahl": "221"
+                },
+                {
+                  "OPS_301": "1-790",
+                  "Anzahl": "179"
+                },
+                {
+                  "OPS_301": "8-98b.20",
+                  "Anzahl": "177"
+                },
+                {
+                  "OPS_301": "3-820",
+                  "Anzahl": "177"
+                },
+                {
+                  "OPS_301": "9-984.8",
+                  "Anzahl": "169"
+                },
+                {
+                  "OPS_301": "9-984.7",
+                  "Anzahl": "165"
+                },
+                {
+                  "OPS_301": "9-320",
+                  "Anzahl": "158"
+                },
+                {
+                  "OPS_301": "1-204.2",
+                  "Anzahl": "139"
+                },
+                {
+                  "OPS_301": "1-206",
+                  "Anzahl": "131"
+                },
+                {
+                  "OPS_301": "3-802",
+                  "Anzahl": "124"
+                },
+                {
+                  "OPS_301": "9-984.9",
+                  "Anzahl": "111"
+                },
+                {
+                  "OPS_301": "3-80x",
+                  "Anzahl": "109"
+                },
+                {
+                  "OPS_301": "3-823",
+                  "Anzahl": "65"
+                },
+                {
+                  "OPS_301": "1-795",
+                  "Anzahl": "61"
+                },
+                {
+                  "OPS_301": "1-900.0",
+                  "Anzahl": "57"
+                },
+                {
+                  "OPS_301": "1-902.0",
+                  "Anzahl": "55"
+                },
+                {
+                  "OPS_301": "1-208.6",
+                  "Anzahl": "55"
+                },
+                {
+                  "OPS_301": "1-208.2",
+                  "Anzahl": "51"
+                },
+                {
+                  "OPS_301": "9-401.22",
+                  "Anzahl": "49"
+                },
+                {
+                  "OPS_301": "1-207.1",
+                  "Anzahl": "48"
+                },
+                {
+                  "OPS_301": "9-984.a",
+                  "Anzahl": "45"
+                },
+                {
+                  "OPS_301": "9-984.6",
+                  "Anzahl": "42"
+                },
+                {
+                  "OPS_301": "9-401.00",
+                  "Anzahl": "37"
+                },
+                {
+                  "OPS_301": "1-20a.20",
+                  "Anzahl": "33"
+                },
+                {
+                  "OPS_301": "3-220",
+                  "Anzahl": "31"
+                },
+                {
+                  "OPS_301": "8-547.31",
+                  "Anzahl": "30"
+                },
+                {
+                  "OPS_301": "8-020.8",
+                  "Anzahl": "29"
+                },
+                {
+                  "OPS_301": "9-984.b",
+                  "Anzahl": "22"
+                },
+                {
+                  "OPS_301": "3-221",
+                  "Anzahl": "21"
+                },
+                {
+                  "OPS_301": "3-22x",
+                  "Anzahl": "14"
+                },
+                {
+                  "OPS_301": "3-203",
+                  "Anzahl": "12"
+                },
+                {
+                  "OPS_301": "1-901.1",
+                  "Anzahl": "12"
+                },
+                {
+                  "OPS_301": "8-972.0",
+                  "Anzahl": "12"
+                },
+                {
+                  "OPS_301": "3-821",
+                  "Anzahl": "11"
+                },
+                {
+                  "OPS_301": "8-151.4",
+                  "Anzahl": "10"
+                },
+                {
+                  "OPS_301": "9-401.23",
+                  "Anzahl": "9"
+                },
+                {
+                  "OPS_301": "3-801",
+                  "Anzahl": "9"
+                },
+                {
+                  "OPS_301": "1-205",
+                  "Anzahl": "9"
+                },
+                {
+                  "OPS_301": "1-902.1",
+                  "Anzahl": "7"
+                },
+                {
+                  "OPS_301": "3-202",
+                  "Anzahl": "7"
+                },
+                {
+                  "OPS_301": "3-82x",
+                  "Anzahl": "5"
+                },
+                {
+                  "OPS_301": "8-547.0",
+                  "Anzahl": "5"
+                },
+                {
+                  "OPS_301": "3-222",
+                  "Anzahl": "4"
+                },
+                {
+                  "OPS_301": "3-205",
+                  "Anzahl": "4"
+                },
+                {
+                  "OPS_301": "8-717.0",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-810.wb",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-390.1",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-717.1",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "1-791",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "1-204.1",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "1-207.x",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-401.10",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-810.w9",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-561.2",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-972.1",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-137.00",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-98b.22",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-052",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-401.01",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-206",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-97e.0",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-771",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-810.wa",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-201",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-910",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-972.2",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-98b.21",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-812.52",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-812.50",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-125.0",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-996",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-994",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-808",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-806",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-810.wc",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "8-810.wh",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "1-204.7",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "1-266.0",
+                  "Anzahl_Datenschutz": {}
+                }
+              ]
+            }
+          },
+          "Ambulante_Behandlungsmoeglichkeiten": {
+            "Ambulante_Behandlungsmoeglichkeit": [
+              {
+                "Ambulanz": {
+                  "AM_Schluessel": "AM04",
+                  "Leistungen_Ambulanz": {
+                    "Medizinisches_Leistungsangebot": [
+                      {
+                        "Sonstiger": {
+                          "VA_VU_Sonstiger_Schluessel_Ambulanz": "VN00",
+                          "Bezeichnung": "VN00"
+                        }
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VR10"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VN05"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VN12"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VN13"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VN03"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VN08"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VN11"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VN19"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VN07"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VN14"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VN16"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VN06"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VN04"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VN15"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VN02"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VN10"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VN17"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VN01"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VI06"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VR22"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VN22"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VN23"
+                      },
+                      {
+                        "VA_VU_Schluessel_Ambulanz": "VN20"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "Ambulanz": {
+                  "AM_Schluessel": "AM10"
+                }
+              }
+            ]
+          },
+          "Ambulante_Operationen": {
+            "Keine_Erbracht": {}
+          },
+          "Personelle_Ausstattung": {
+            "Aerztliches_Personal": {
+              "Hauptabteilung": {
+                "Aerzte_ohne_Belegaerzte": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "6,97",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "6,10"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,87"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0,99"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "5,98",
+                        "Fall_je_Anzahl": "247,99332"
+                      }
+                    }
+                  },
+                  "Fachaerzte": {
+                    "Personalerfassung": {
+                      "Anzahl_VK": "3,70",
+                      "Beschaeftigungsverhaeltnis": {
+                        "Personal_mit_direktem_BV": {
+                          "Anzahl_VK": "3,70"
+                        },
+                        "Personal_ohne_direktem_BV": {
+                          "Anzahl_VK": "0,00"
+                        }
+                      },
+                      "Versorgungsform": {
+                        "Ambulante_Versorgung": {
+                          "Anzahl_VK": "0,99"
+                        },
+                        "Stationaere_Versorgung": {
+                          "Anzahl_VK": "2,71",
+                          "Fall_je_Anzahl": "547,23250"
+                        }
+                      }
+                    }
+                  },
+                  "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+                }
+              }
+            },
+            "Aerztliche_Fachexpertisen": {
+              "Fachexpertise": [
+                {
+                  "AQ_ZF_Schluessel": "AQ23"
+                },
+                {
+                  "AQ_ZF_Schluessel": "AQ42"
+                },
+                {
+                  "AQ_ZF_Schluessel": "AQ56"
+                },
+                {
+                  "AQ_ZF_Schluessel": "ZF73"
+                },
+                {
+                  "AQ_ZF_Schluessel": "ZF39"
+                },
+                {
+                  "AQ_ZF_Schluessel": "ZF42"
+                },
+                {
+                  "AQ_ZF_Schluessel": "ZF15"
+                }
+              ]
+            },
+            "Pflegekraefte": {
+              "Gesundheits_Krankenpfleger": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "24,08",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "24,08"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,42"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "23,66",
+                      "Fall_je_Anzahl": "62,67963"
+                    }
+                  }
+                }
+              },
+              "Altenpfleger": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "4,88",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "4,88"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,00"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "4,88",
+                      "Fall_je_Anzahl": "303,89343"
+                    }
+                  }
+                }
+              },
+              "Pflegefachpersonen": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "1,00",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "1,00"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,00"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "1,00",
+                      "Fall_je_Anzahl": "1483,00000"
+                    }
+                  }
+                }
+              },
+              "Krankenpflegehelfer": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "1,55",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "1,55"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,00"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "1,55",
+                      "Fall_je_Anzahl": "956,77423"
+                    }
+                  }
+                }
+              },
+              "Massgebliche_tarifliche_Wochenarbeitszeit": "39,00"
+            },
+            "Pflegerische_Fachexpertisen": {
+              "Fachexpertise_Pflege": [
+                {
+                  "PQ_ZP_Schluessel": "PQ05"
+                },
+                {
+                  "PQ_ZP_Schluessel": "PQ14"
+                },
+                {
+                  "PQ_ZP_Schluessel": "PQ20"
+                },
+                {
+                  "PQ_ZP_Schluessel": "ZP05",
+                  "Erlaeuterungen": "z. B. Überleitungspflege"
+                },
+                {
+                  "PQ_ZP_Schluessel": "ZP26"
+                },
+                {
+                  "PQ_ZP_Schluessel": "ZP01"
+                },
+                {
+                  "PQ_ZP_Schluessel": "ZP02"
+                },
+                {
+                  "PQ_ZP_Schluessel": "ZP14"
+                },
+                {
+                  "PQ_ZP_Schluessel": "ZP29",
+                  "Erlaeuterungen": "Stroke-Nurse vorhanden"
+                },
+                {
+                  "PQ_ZP_Schluessel": "ZP06"
+                },
+                {
+                  "PQ_ZP_Schluessel": "ZP24",
+                  "Erlaeuterungen": "ausgebildeter Deeskalationstrainer im Haus, der Schulungen für alle Abteilungen anbietet"
+                },
+                {
+                  "PQ_ZP_Schluessel": "ZP33"
+                },
+                {
+                  "PQ_ZP_Schluessel": "ZP31",
+                  "Erlaeuterungen": "Fachkrankenpfleger für Epilepsie, Morbus Parkinson und MS"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Gliederungsnummer": "2",
+          "Name": "Psychiatrie und Psychotherapie",
+          "Aerztliche_Leitung_OE": {
+            "Chefarzt": {
+              "Kontakt_Person_lang": {
+                "Person": {
+                  "Titel": "Magistar",
+                  "Vorname": "Yulia",
+                  "Nachname": "Blatska",
+                  "Funktion_Arbeitsschwerpunkt": "Chefärztin Psychiatrie"
+                },
+                "Telefon": {
+                  "Vorwahl": "06691",
+                  "Rufnummer": "18",
+                  "Durchwahl": "2002"
+                },
+                "Email": "chefarztsekretariat.psychiatrie@hephata.de"
+              },
+              "Kontakt_Zugang": {
+                "Strasse": "Schimmelpfengstr.",
+                "Hausnummer": "6",
+                "Postleitzahl": "34613",
+                "Ort": "Schwalmstadt",
+                "URL_Zugang": "http://www.hephata.de"
+              }
+            }
+          },
+          "Zielvereinbarungen": {
+            "Keine_Zielvereinbarungen_geschlossen": {}
+          },
+          "Fachabteilungsschluessel": {
+            "FA_Schluessel": "2900"
+          },
+          "Medizinische_Leistungsangebote": {
+            "Medizinisches_Leistungsangebot": [
+              {
+                "Sonstiger": {
+                  "VA_VU_Sonstiger_Schluessel": "VP00",
+                  "Bezeichnung": "VP00"
+                }
+              },
+              {
+                "VA_VU_Schluessel": "VP01"
+              },
+              {
+                "VA_VU_Schluessel": "VP02"
+              },
+              {
+                "VA_VU_Schluessel": "VP03",
+                "Erlaeuterungen": "Biologische, nicht medikamentöse Therapieverfahren"
+              },
+              {
+                "VA_VU_Schluessel": "VP04"
+              },
+              {
+                "VA_VU_Schluessel": "VP05"
+              },
+              {
+                "VA_VU_Schluessel": "VP06"
+              },
+              {
+                "VA_VU_Schluessel": "VP07"
+              },
+              {
+                "VA_VU_Schluessel": "VP08"
+              },
+              {
+                "VA_VU_Schluessel": "VP09"
+              },
+              {
+                "VA_VU_Schluessel": "VP10"
+              },
+              {
+                "VA_VU_Schluessel": "VP12",
+                "Erlaeuterungen": "Ermächtigungsambulanz, Schwerpunkt Affektive, auch Bipolare Störungen, Traumatherapie, Gedächtnisambulanz, Beratung über biologische Therapieverfahren bei Depression, Depressionen-Angehörigengruppe, Psychiatrische Sprechstunde für Flüchtlinge"
+              },
+              {
+                "VA_VU_Schluessel": "VP15"
+              }
+            ]
+          },
+          "Fallzahlen_OE": {
+            "Vollstationaere_Fallzahl": "889",
+            "Teilstationaere_Fallzahl": "0"
+          },
+          "Hauptdiagnosen": {
+            "Hauptdiagnose": [
+              {
+                "ICD_10": "F10.2",
+                "Fallzahl": "316"
+              },
+              {
+                "ICD_10": "F20.0",
+                "Fallzahl": "83"
+              },
+              {
+                "ICD_10": "F33.1",
+                "Fallzahl": "66"
+              },
+              {
+                "ICD_10": "F33.2",
+                "Fallzahl": "65"
+              },
+              {
+                "ICD_10": "F32.2",
+                "Fallzahl": "33"
+              },
+              {
+                "ICD_10": "F32.1",
+                "Fallzahl": "31"
+              },
+              {
+                "ICD_10": "F43.2",
+                "Fallzahl": "17"
+              },
+              {
+                "ICD_10": "F60.31",
+                "Fallzahl": "15"
+              },
+              {
+                "ICD_10": "F12.2",
+                "Fallzahl": "13"
+              },
+              {
+                "ICD_10": "F01.3",
+                "Fallzahl": "13"
+              },
+              {
+                "ICD_10": "G30.1",
+                "Fallzahl": "13"
+              },
+              {
+                "ICD_10": "F70.1",
+                "Fallzahl": "12"
+              },
+              {
+                "ICD_10": "F25.1",
+                "Fallzahl": "11"
+              },
+              {
+                "ICD_10": "F11.2",
+                "Fallzahl": "11"
+              },
+              {
+                "ICD_10": "F13.2",
+                "Fallzahl": "10"
+              },
+              {
+                "ICD_10": "F06.3",
+                "Fallzahl": "10"
+              },
+              {
+                "ICD_10": "F10.0",
+                "Fallzahl": "10"
+              },
+              {
+                "ICD_10": "F71.1",
+                "Fallzahl": "9"
+              },
+              {
+                "ICD_10": "F15.2",
+                "Fallzahl": "9"
+              },
+              {
+                "ICD_10": "F25.2",
+                "Fallzahl": "9"
+              },
+              {
+                "ICD_10": "F31.4",
+                "Fallzahl": "9"
+              },
+              {
+                "ICD_10": "F06.2",
+                "Fallzahl": "8"
+              },
+              {
+                "ICD_10": "F33.3",
+                "Fallzahl": "7"
+              },
+              {
+                "ICD_10": "F60.30",
+                "Fallzahl": "6"
+              },
+              {
+                "ICD_10": "F23.1",
+                "Fallzahl": "6"
+              },
+              {
+                "ICD_10": "F25.0",
+                "Fallzahl": "6"
+              },
+              {
+                "ICD_10": "F43.1",
+                "Fallzahl": "4"
+              },
+              {
+                "ICD_10": "G31.0",
+                "Fallzahl": "4"
+              },
+              {
+                "ICD_10": "F05.0",
+                "Fallzahl": "4"
+              },
+              {
+                "ICD_10": "F31.3",
+                "Fallzahl": "4"
+              },
+              {
+                "ICD_10": "F12.5",
+                "Fallzahl": "4"
+              },
+              {
+                "ICD_10": "F31.6",
+                "Fallzahl": "4"
+              },
+              {
+                "ICD_10": "F10.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F10.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F41.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F22.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F43.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G30.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F31.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F31.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F03",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F15.5",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F10.6",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F20.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F01.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F31.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F44.5",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F41.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F40.01",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F20.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F23.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F07.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F20.5",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F12.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F15.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F20.6",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F42.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F07.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F06.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F06.4",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F06.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F41.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F05.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F05.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F45.33",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F45.40",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F01.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G35.9",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F45.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F63.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F45.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G20.10",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F92.8",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F15.4",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F19.5",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F84.5",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F45.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "G30.9",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F84.1",
+                "Fallzahl_Datenschutz": {}
+              }
+            ]
+          },
+          "Prozeduren": {
+            "Verpflichtende_Angabe": {
+              "Prozedur": [
+                {
+                  "OPS_301": "9-649.10",
+                  "Anzahl": "1819"
+                },
+                {
+                  "OPS_301": "9-649.40",
+                  "Anzahl": "1590"
+                },
+                {
+                  "OPS_301": "9-649.20",
+                  "Anzahl": "1098"
+                },
+                {
+                  "OPS_301": "9-649.50",
+                  "Anzahl": "738"
+                },
+                {
+                  "OPS_301": "9-607",
+                  "Anzahl": "697"
+                },
+                {
+                  "OPS_301": "9-649.30",
+                  "Anzahl": "655"
+                },
+                {
+                  "OPS_301": "9-617",
+                  "Anzahl": "586"
+                },
+                {
+                  "OPS_301": "9-649.31",
+                  "Anzahl": "372"
+                },
+                {
+                  "OPS_301": "9-649.11",
+                  "Anzahl": "310"
+                },
+                {
+                  "OPS_301": "9-649.51",
+                  "Anzahl": "263"
+                },
+                {
+                  "OPS_301": "9-984.7",
+                  "Anzahl": "122"
+                },
+                {
+                  "OPS_301": "9-618",
+                  "Anzahl": "122"
+                },
+                {
+                  "OPS_301": "9-649.52",
+                  "Anzahl": "118"
+                },
+                {
+                  "OPS_301": "9-649.32",
+                  "Anzahl": "96"
+                },
+                {
+                  "OPS_301": "6-00c.6",
+                  "Anzahl": "95"
+                },
+                {
+                  "OPS_301": "9-649.0",
+                  "Anzahl": "86"
+                },
+                {
+                  "OPS_301": "3-800",
+                  "Anzahl": "62"
+                },
+                {
+                  "OPS_301": "9-649.12",
+                  "Anzahl": "51"
+                },
+                {
+                  "OPS_301": "9-984.8",
+                  "Anzahl": "49"
+                },
+                {
+                  "OPS_301": "3-200",
+                  "Anzahl": "48"
+                },
+                {
+                  "OPS_301": "9-649.53",
+                  "Anzahl": "47"
+                },
+                {
+                  "OPS_301": "9-649.33",
+                  "Anzahl": "47"
+                },
+                {
+                  "OPS_301": "9-984.b",
+                  "Anzahl": "39"
+                },
+                {
+                  "OPS_301": "9-647.7",
+                  "Anzahl": "39"
+                },
+                {
+                  "OPS_301": "9-984.6",
+                  "Anzahl": "38"
+                },
+                {
+                  "OPS_301": "9-649.54",
+                  "Anzahl": "36"
+                },
+                {
+                  "OPS_301": "9-619",
+                  "Anzahl": "34"
+                },
+                {
+                  "OPS_301": "9-649.41",
+                  "Anzahl": "33"
+                },
+                {
+                  "OPS_301": "9-647.6",
+                  "Anzahl": "32"
+                },
+                {
+                  "OPS_301": "9-647.1",
+                  "Anzahl": "31"
+                },
+                {
+                  "OPS_301": "9-647.8",
+                  "Anzahl": "29"
+                },
+                {
+                  "OPS_301": "9-647.4",
+                  "Anzahl": "27"
+                },
+                {
+                  "OPS_301": "9-647.3",
+                  "Anzahl": "27"
+                },
+                {
+                  "OPS_301": "9-640.06",
+                  "Anzahl": "24"
+                },
+                {
+                  "OPS_301": "9-647.5",
+                  "Anzahl": "23"
+                },
+                {
+                  "OPS_301": "9-984.9",
+                  "Anzahl": "23"
+                },
+                {
+                  "OPS_301": "9-640.08",
+                  "Anzahl": "20"
+                },
+                {
+                  "OPS_301": "9-61a",
+                  "Anzahl": "17"
+                },
+                {
+                  "OPS_301": "9-647.2",
+                  "Anzahl": "17"
+                },
+                {
+                  "OPS_301": "9-647.9",
+                  "Anzahl": "16"
+                },
+                {
+                  "OPS_301": "9-649.55",
+                  "Anzahl": "16"
+                },
+                {
+                  "OPS_301": "9-647.h",
+                  "Anzahl": "15"
+                },
+                {
+                  "OPS_301": "9-647.m",
+                  "Anzahl": "14"
+                },
+                {
+                  "OPS_301": "9-647.u",
+                  "Anzahl": "14"
+                },
+                {
+                  "OPS_301": "9-647.a",
+                  "Anzahl": "13"
+                },
+                {
+                  "OPS_301": "9-647.n",
+                  "Anzahl": "13"
+                },
+                {
+                  "OPS_301": "9-649.35",
+                  "Anzahl": "12"
+                },
+                {
+                  "OPS_301": "9-649.34",
+                  "Anzahl": "12"
+                },
+                {
+                  "OPS_301": "9-649.13",
+                  "Anzahl": "11"
+                },
+                {
+                  "OPS_301": "9-640.07",
+                  "Anzahl": "11"
+                },
+                {
+                  "OPS_301": "9-647.e",
+                  "Anzahl": "11"
+                },
+                {
+                  "OPS_301": "9-649.56",
+                  "Anzahl": "8"
+                },
+                {
+                  "OPS_301": "9-647.c",
+                  "Anzahl": "8"
+                },
+                {
+                  "OPS_301": "6-006.a3",
+                  "Anzahl": "7"
+                },
+                {
+                  "OPS_301": "6-006.a0",
+                  "Anzahl": "7"
+                },
+                {
+                  "OPS_301": "9-647.g",
+                  "Anzahl": "7"
+                },
+                {
+                  "OPS_301": "9-647.0",
+                  "Anzahl": "7"
+                },
+                {
+                  "OPS_301": "1-204.2",
+                  "Anzahl": "7"
+                },
+                {
+                  "OPS_301": "9-649.57",
+                  "Anzahl": "7"
+                },
+                {
+                  "OPS_301": "6-006.a1",
+                  "Anzahl": "6"
+                },
+                {
+                  "OPS_301": "9-647.f",
+                  "Anzahl": "6"
+                },
+                {
+                  "OPS_301": "1-207.0",
+                  "Anzahl": "6"
+                },
+                {
+                  "OPS_301": "9-647.b",
+                  "Anzahl": "6"
+                },
+                {
+                  "OPS_301": "9-640.04",
+                  "Anzahl": "5"
+                },
+                {
+                  "OPS_301": "9-647.j",
+                  "Anzahl": "5"
+                },
+                {
+                  "OPS_301": "9-649.36",
+                  "Anzahl": "5"
+                },
+                {
+                  "OPS_301": "9-647.q",
+                  "Anzahl": "4"
+                },
+                {
+                  "OPS_301": "9-640.05",
+                  "Anzahl": "4"
+                },
+                {
+                  "OPS_301": "9-647.k",
+                  "Anzahl": "4"
+                },
+                {
+                  "OPS_301": "9-647.d",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-202",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-649.21",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-649.14",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-649.59",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-802",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "6-006.a5",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "6-006.a6",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-61b",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "6-006.a2",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-649.16",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-647.p",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-647.r",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-649.15",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-205",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "6-001.d2",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "6-006.a4",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-206",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-221",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-203",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-801",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-649.22",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-984.a",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-207",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-820",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "1-206",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-649.37",
+                  "Anzahl_Datenschutz": {}
+                }
+              ]
+            }
+          },
+          "Ambulante_Behandlungsmoeglichkeiten": {
+            "Ambulante_Behandlungsmoeglichkeit": {
+              "Ambulanz": {
+                "AM_Schluessel": "AM02",
+                "Bezeichnung": "Ambulante Behandlung schwer und chronisch psychisch erkrankter Menschen",
+                "Leistungen_Ambulanz": {
+                  "Medizinisches_Leistungsangebot": [
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP03"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP08"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP10"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP07"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP04"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP06"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP01"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP02"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP09"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP05"
+                    },
+                    {
+                      "VA_VU_Schluessel_Ambulanz": "VP12"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "Ambulante_Operationen": {
+            "Keine_Erbracht": {}
+          },
+          "Personelle_Ausstattung": {
+            "Aerztliches_Personal": {
+              "Hauptabteilung": {
+                "Aerzte_ohne_Belegaerzte": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "9,81",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "8,05"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "1,76"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "2,69"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "7,12",
+                        "Fall_je_Anzahl": "124,85955"
+                      }
+                    }
+                  },
+                  "Fachaerzte": {
+                    "Personalerfassung": {
+                      "Anzahl_VK": "5,60",
+                      "Beschaeftigungsverhaeltnis": {
+                        "Personal_mit_direktem_BV": {
+                          "Anzahl_VK": "5,60"
+                        },
+                        "Personal_ohne_direktem_BV": {
+                          "Anzahl_VK": "0,00"
+                        }
+                      },
+                      "Versorgungsform": {
+                        "Ambulante_Versorgung": {
+                          "Anzahl_VK": "1,70"
+                        },
+                        "Stationaere_Versorgung": {
+                          "Anzahl_VK": "3,90",
+                          "Fall_je_Anzahl": "227,94872"
+                        }
+                      }
+                    }
+                  },
+                  "Massgebliche_tarifliche_Wochenarbeitszeit": "39,00"
+                }
+              }
+            },
+            "Aerztliche_Fachexpertisen": {
+              "Fachexpertise": [
+                {
+                  "AQ_ZF_Schluessel": "AQ51"
+                },
+                {
+                  "AQ_ZF_Schluessel": "AQ53"
+                },
+                {
+                  "AQ_ZF_Schluessel": "ZF36"
+                },
+                {
+                  "AQ_ZF_Schluessel": "ZF73"
+                }
+              ]
+            },
+            "Pflegekraefte": {
+              "Gesundheits_Krankenpfleger": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "21,32",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "21,32"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "2,11"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "19,21",
+                      "Fall_je_Anzahl": "46,27798"
+                    }
+                  }
+                }
+              },
+              "Altenpfleger": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "3,36",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "3,36"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,00"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "3,36",
+                      "Fall_je_Anzahl": "264,58334"
+                    }
+                  }
+                }
+              },
+              "Pflegefachpersonen": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "2,00",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "2,00"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,00"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "2,00",
+                      "Fall_je_Anzahl": "444,50000"
+                    }
+                  }
+                }
+              },
+              "Krankenpflegehelfer": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "6,32",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "6,32"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,00"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "6,32",
+                      "Fall_je_Anzahl": "140,66455"
+                    }
+                  }
+                }
+              },
+              "Massgebliche_tarifliche_Wochenarbeitszeit": "39,00"
+            },
+            "Pflegerische_Fachexpertisen": {
+              "Fachexpertise_Pflege": [
+                {
+                  "PQ_ZP_Schluessel": "PQ05"
+                },
+                {
+                  "PQ_ZP_Schluessel": "PQ10"
+                },
+                {
+                  "PQ_ZP_Schluessel": "PQ14"
+                },
+                {
+                  "PQ_ZP_Schluessel": "PQ20"
+                },
+                {
+                  "PQ_ZP_Schluessel": "ZP05"
+                },
+                {
+                  "PQ_ZP_Schluessel": "ZP24",
+                  "Erlaeuterungen": "Deeskalationstrainer als Multiplikatoren mit regelhafter Schulung für Mitarbeiter"
+                },
+                {
+                  "PQ_ZP_Schluessel": "ZP02"
+                },
+                {
+                  "PQ_ZP_Schluessel": "ZP25"
+                },
+                {
+                  "PQ_ZP_Schluessel": "ZP06"
+                },
+                {
+                  "PQ_ZP_Schluessel": "ZP20"
+                }
+              ]
+            },
+            "Ausgewaehltes_Personal_Psych": {
+              "Ausgewaehltes_Therapeutisches_Personal": {
+                "Diplom_Psychologen": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "1,55",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "1,55"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "1,09"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "0,46",
+                        "Fall_je_Anzahl": "1932,60864"
+                      }
+                    }
+                  }
+                },
+                "Klinische_Neuropsychologen": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "0,47",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "0,47"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0,00"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "0,47",
+                        "Fall_je_Anzahl": "1891,48938"
+                      }
+                    }
+                  }
+                },
+                "Psychologische_Psychotherapeuten": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "0,00",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0,00"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "0,00",
+                        "Fall_je_Anzahl": "0,00000"
+                      }
+                    }
+                  }
+                },
+                "Psychotherapeuten_in_Ausbildung_waehrend_Taetigkeit": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "1,15",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "1,15"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0,00"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "1,15",
+                        "Fall_je_Anzahl": "773,04350"
+                      }
+                    }
+                  }
+                },
+                "Ergotherapeuten": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "2,33",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "2,33"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0,00"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "2,33",
+                        "Fall_je_Anzahl": "381,54507"
+                      }
+                    }
+                  }
+                },
+                "Physiotherapeuten": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "0,63",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "0,63"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0,12"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "0,51",
+                        "Fall_je_Anzahl": "1743,13733"
+                      }
+                    }
+                  }
+                },
+                "Sozialpaedagogen": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "2,08",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "2,08"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0,92"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "1,16",
+                        "Fall_je_Anzahl": "766,37933"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "Gliederungsnummer": "3",
+          "Name": "Tagesklinik",
+          "Aerztliche_Leitung_OE": {
+            "Chefarzt": {
+              "Kontakt_Person_lang": {
+                "Person": {
+                  "Titel": "Magistar",
+                  "Vorname": "Yulia",
+                  "Nachname": "Blatska",
+                  "Funktion_Arbeitsschwerpunkt": "Chefärztin Psychiatrie"
+                },
+                "Telefon": {
+                  "Vorwahl": "06691",
+                  "Rufnummer": "18",
+                  "Durchwahl": "2002"
+                },
+                "Email": "chefarztsekretariat.psychiatrie@hephata.de"
+              },
+              "Kontakt_Zugang": {
+                "Strasse": "Schimmelpfengstr.",
+                "Hausnummer": "6",
+                "Postleitzahl": "34613",
+                "Ort": "Schwalmstadt",
+                "URL_Zugang": "http://www.hephata.de"
+              }
+            }
+          },
+          "Zielvereinbarungen": {
+            "Keine_Zielvereinbarungen_geschlossen": {}
+          },
+          "Fachabteilungsschluessel": {
+            "FA_Schluessel": "2960"
+          },
+          "Medizinische_Leistungsangebote": {
+            "Medizinisches_Leistungsangebot": [
+              {
+                "VA_VU_Schluessel": "VI25"
+              },
+              {
+                "VA_VU_Schluessel": "VP01"
+              },
+              {
+                "VA_VU_Schluessel": "VP02"
+              },
+              {
+                "VA_VU_Schluessel": "VP03"
+              },
+              {
+                "VA_VU_Schluessel": "VP04"
+              },
+              {
+                "VA_VU_Schluessel": "VP05"
+              },
+              {
+                "VA_VU_Schluessel": "VP06"
+              },
+              {
+                "VA_VU_Schluessel": "VP07"
+              },
+              {
+                "VA_VU_Schluessel": "VP08"
+              },
+              {
+                "VA_VU_Schluessel": "VP09"
+              },
+              {
+                "VA_VU_Schluessel": "VP10"
+              },
+              {
+                "VA_VU_Schluessel": "VP12"
+              },
+              {
+                "VA_VU_Schluessel": "VP15"
+              }
+            ]
+          },
+          "Fallzahlen_OE": {
+            "Vollstationaere_Fallzahl": "142",
+            "Teilstationaere_Fallzahl": "133"
+          },
+          "Hauptdiagnosen": {
+            "Hauptdiagnose": [
+              {
+                "ICD_10": "F33.1",
+                "Fallzahl": "47"
+              },
+              {
+                "ICD_10": "F33.2",
+                "Fallzahl": "32"
+              },
+              {
+                "ICD_10": "F32.1",
+                "Fallzahl": "16"
+              },
+              {
+                "ICD_10": "F43.1",
+                "Fallzahl": "12"
+              },
+              {
+                "ICD_10": "F32.2",
+                "Fallzahl": "8"
+              },
+              {
+                "ICD_10": "F40.01",
+                "Fallzahl": "7"
+              },
+              {
+                "ICD_10": "F20.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F60.31",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F10.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F45.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F43.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F31.4",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F41.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F31.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F33.3",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F31.7",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F42.2",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F33.0",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F60.6",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F84.1",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "ICD_10": "F90.0",
+                "Fallzahl_Datenschutz": {}
+              }
+            ]
+          },
+          "Prozeduren": {
+            "Verpflichtende_Angabe": {
+              "Prozedur": [
+                {
+                  "OPS_301": "9-649.40",
+                  "Anzahl": "650"
+                },
+                {
+                  "OPS_301": "9-649.10",
+                  "Anzahl": "315"
+                },
+                {
+                  "OPS_301": "9-626",
+                  "Anzahl": "212"
+                },
+                {
+                  "OPS_301": "9-649.31",
+                  "Anzahl": "191"
+                },
+                {
+                  "OPS_301": "9-607",
+                  "Anzahl": "179"
+                },
+                {
+                  "OPS_301": "9-649.32",
+                  "Anzahl": "144"
+                },
+                {
+                  "OPS_301": "9-649.50",
+                  "Anzahl": "142"
+                },
+                {
+                  "OPS_301": "9-649.33",
+                  "Anzahl": "63"
+                },
+                {
+                  "OPS_301": "9-649.51",
+                  "Anzahl": "61"
+                },
+                {
+                  "OPS_301": "9-649.30",
+                  "Anzahl": "51"
+                },
+                {
+                  "OPS_301": "9-649.20",
+                  "Anzahl": "48"
+                },
+                {
+                  "OPS_301": "6-00c.6",
+                  "Anzahl": "39"
+                },
+                {
+                  "OPS_301": "9-649.34",
+                  "Anzahl": "34"
+                },
+                {
+                  "OPS_301": "9-649.35",
+                  "Anzahl": "34"
+                },
+                {
+                  "OPS_301": "9-649.41",
+                  "Anzahl": "30"
+                },
+                {
+                  "OPS_301": "9-649.52",
+                  "Anzahl": "28"
+                },
+                {
+                  "OPS_301": "9-649.11",
+                  "Anzahl": "11"
+                },
+                {
+                  "OPS_301": "9-649.53",
+                  "Anzahl": "8"
+                },
+                {
+                  "OPS_301": "9-649.54",
+                  "Anzahl": "7"
+                },
+                {
+                  "OPS_301": "9-649.36",
+                  "Anzahl": "6"
+                },
+                {
+                  "OPS_301": "9-984.6",
+                  "Anzahl": "6"
+                },
+                {
+                  "OPS_301": "9-649.0",
+                  "Anzahl": "4"
+                },
+                {
+                  "OPS_301": "9-649.37",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-984.b",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "3-800",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-649.3a",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-649.42",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-649.38",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-984.7",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-984.8",
+                  "Anzahl_Datenschutz": {}
+                },
+                {
+                  "OPS_301": "9-649.3c",
+                  "Anzahl_Datenschutz": {}
+                }
+              ]
+            }
+          },
+          "Ambulante_Operationen": {
+            "Keine_Erbracht": {}
+          },
+          "Personelle_Ausstattung": {
+            "Aerztliches_Personal": {
+              "Hauptabteilung": {
+                "Aerzte_ohne_Belegaerzte": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "0,40",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "0,40"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0,00"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "0,40",
+                        "Fall_je_Anzahl": "355,00000"
+                      }
+                    }
+                  },
+                  "Fachaerzte": {
+                    "Personalerfassung": {
+                      "Anzahl_VK": "0,40",
+                      "Beschaeftigungsverhaeltnis": {
+                        "Personal_mit_direktem_BV": {
+                          "Anzahl_VK": "0,40"
+                        },
+                        "Personal_ohne_direktem_BV": {
+                          "Anzahl_VK": "0,00"
+                        }
+                      },
+                      "Versorgungsform": {
+                        "Ambulante_Versorgung": {
+                          "Anzahl_VK": "0,00"
+                        },
+                        "Stationaere_Versorgung": {
+                          "Anzahl_VK": "0,40",
+                          "Fall_je_Anzahl": "355,00000"
+                        }
+                      }
+                    }
+                  },
+                  "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+                }
+              }
+            },
+            "Aerztliche_Fachexpertisen": {
+              "Fachexpertise": [
+                {
+                  "AQ_ZF_Schluessel": "AQ51"
+                },
+                {
+                  "AQ_ZF_Schluessel": "ZF36"
+                }
+              ]
+            },
+            "Pflegekraefte": {
+              "Gesundheits_Krankenpfleger": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "2,52",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "2,52"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,00"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "2,52",
+                      "Fall_je_Anzahl": "56,34921"
+                    }
+                  }
+                }
+              },
+              "Massgebliche_tarifliche_Wochenarbeitszeit": "39,00"
+            },
+            "Pflegerische_Fachexpertisen": {
+              "Fachexpertise_Pflege": [
+                {
+                  "PQ_ZP_Schluessel": "PQ10"
+                },
+                {
+                  "PQ_ZP_Schluessel": "PQ14"
+                }
+              ]
+            },
+            "Ausgewaehltes_Personal_Psych": {
+              "Ausgewaehltes_Therapeutisches_Personal": {
+                "Diplom_Psychologen": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "1,40",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "1,40"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0,00"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "1,40",
+                        "Fall_je_Anzahl": "101,42857"
+                      }
+                    }
+                  }
+                },
+                "Psychologische_Psychotherapeuten": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "0,62",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "0,62"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0,00"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "0,62",
+                        "Fall_je_Anzahl": "229,03226"
+                      }
+                    }
+                  }
+                },
+                "Ergotherapeuten": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "0,77",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "0,77"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0,00"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "0,77",
+                        "Fall_je_Anzahl": "184,41559"
+                      }
+                    }
+                  }
+                },
+                "Physiotherapeuten": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "0,10",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "0,10"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0,00"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "0,10",
+                        "Fall_je_Anzahl": "1420,00000"
+                      }
+                    }
+                  }
+                },
+                "Sozialpaedagogen": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "0,50",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "0,50"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0,00"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "0,50",
+                        "Fall_je_Anzahl": "284,00000"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "Qualitaetssicherung": {
+      "QS_nach_Landesrecht": {
+        "Keine_Teilnahme_landesspezifische_Qualitaetssicherungsmassnahme": {}
+      },
+      "Fortbildung": {
+        "Fortbildungspflichtige": "15",
+        "Nachweispflichtige": "15",
+        "Fortbildungsnachweis_Erbracht_Habende": "15"
+      },
+      "Pflegepersonaluntergrenzen": {
+        "Monatsbezogener_Erfuellungsgrad_PpUG": [
+          {
+            "Pflegesensitiver_Bereich": "Neurologie",
+            "Station": "Neurologie",
+            "Schicht": "Tagschicht",
+            "Monatsbezogener_Erfuellungsgrad": "100,00",
+            "Ausnahmetatbestaende": "0"
+          },
+          {
+            "Pflegesensitiver_Bereich": "Neurologie",
+            "Station": "Neurologie",
+            "Schicht": "Nachtschicht",
+            "Monatsbezogener_Erfuellungsgrad": "100,00",
+            "Ausnahmetatbestaende": "0"
+          }
+        ],
+        "Schichtbezogener_Erfuellungsgrad_PpUG": [
+          {
+            "Pflegesensitiver_Bereich": "Neurologie",
+            "Station": "Neurologie",
+            "Schicht": "Tagschicht",
+            "Schichtbezogener_Erfuellungsgrad": "100,00"
+          },
+          {
+            "Pflegesensitiver_Bereich": "Neurologie",
+            "Station": "Neurologie",
+            "Schicht": "Nachtschicht",
+            "Schichtbezogener_Erfuellungsgrad": "100,00"
+          }
+        ]
+      },
+      "ATMP-QS-RL": {
+        "Hinweis_ATMP-QS-RL": "Krankenhausstandorte, an denen neue Therapien gemäß den Anlagen der ATMP-QS-RL angewendet werden, müssen die dort vorgegebenen Mindestanforderungen an die Struktur-, Prozess- oder Ergebnisqualität erfüllen. Der Medizinische Dienst überprüft die Umsetzung der relevanten Qualitätsanforderungen und stellt dem Krankenhaus eine Bescheinigung aus, wenn diese vollumfänglich erfüllt werden. ATMP nach dieser Richtlinie dürfen ausschließlich von Leistungserbringern angewendet werden, die die Mindestanforderungen erfüllen.",
+        "Keine_Anwendung_Arzneimittel_neuartige_Therapien": {}
+      }
+    }
+  }
+}

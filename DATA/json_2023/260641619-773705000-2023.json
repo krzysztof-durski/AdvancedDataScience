@@ -1,0 +1,1544 @@
+{
+  "Qualitaetsbericht": {
+    "Einleitung": {
+      "Datensatz": {
+        "Datum": "2024-11-05",
+        "Uhrzeit": "14:20:19",
+        "Sprache": "deutsch"
+      },
+      "Software": {
+        "Hersteller": "netfutura GmbH",
+        "Produktname": "promato QBM",
+        "Version": "2.12"
+      },
+      "Verantwortlicher_Erstellung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Hopp",
+            "Nachname": "Verena",
+            "Funktion_Arbeitsschwerpunkt": "Assistenz der Geschäftsführung"
+          },
+          "Telefon": {
+            "Vorwahl": "06032",
+            "Rufnummer": "6032"
+          },
+          "Fax": {
+            "Vorwahl": "06032",
+            "Rufnummer": "6030"
+          },
+          "Email": "v.hopp@burghof-klinik.com"
+        }
+      },
+      "Verantwortlicher_Krankenhausleitung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Ralf",
+            "Nachname": "Menges",
+            "Funktion_Arbeitsschwerpunkt": "Geschäftsführer"
+          },
+          "Telefon": {
+            "Vorwahl": "06032",
+            "Rufnummer": "6032"
+          },
+          "Fax": {
+            "Vorwahl": "06032",
+            "Rufnummer": "6030"
+          },
+          "Email": "r.menges@burghof-klinik.com"
+        }
+      },
+      "URL_Internetseite_Krankenhaus": "http://www.burghof-klinik.com",
+      "Weiterfuehrende_Links": {
+        "Link": {
+          "URL": "http://www.burghof-klinik.com"
+        }
+      }
+    },
+    "Krankenhaus": {
+      "Ein_Standort": {
+        "Krankenhauskontaktdaten": {
+          "Name": "Burghof-Klinik Bad Nauheim GmbH",
+          "IK": "260641619",
+          "Standortnummer": "773705000",
+          "Standortnummer_alt": "00",
+          "Kontakt_Zugang": {
+            "Strasse": "Burgallee",
+            "Hausnummer": "22",
+            "Postleitzahl": "61231",
+            "Ort": "Bad Nauheim",
+            "URL_Zugang": "http://www.burghof-klinik.com"
+          },
+          "Kontakt_Adresse": {
+            "Adresse": {
+              "Strasse": "Burgallee",
+              "Hausnummer": "22"
+            },
+            "Postleitzahl": "61231",
+            "Ort": "Bad Nauheim"
+          },
+          "Telefon": {
+            "Vorwahl": "06032",
+            "Rufnummer": "6032"
+          },
+          "Email": "info@burghof-klinik.com",
+          "Aerztliche_Leitung": {
+            "Kontakt_Person_lang": [
+              {
+                "Person": {
+                  "Titel": "Dr.",
+                  "Vorname": "Harald",
+                  "Nachname": "Reitz-Lennemann",
+                  "Funktion_Arbeitsschwerpunkt": "Chefarzt"
+                },
+                "Telefon": {
+                  "Vorwahl": "06032",
+                  "Rufnummer": "6032"
+                },
+                "Fax": {
+                  "Vorwahl": "06032",
+                  "Rufnummer": "6030"
+                },
+                "Email": "h.reitz-lennemann@burghof-klinik.com"
+              },
+              {
+                "Person": {
+                  "Titel": "Dr. med.",
+                  "Vorname": "Ingrid",
+                  "Nachname": "Singer",
+                  "Funktion_Arbeitsschwerpunkt": "Chefärztin"
+                },
+                "Telefon": {
+                  "Vorwahl": "06032",
+                  "Rufnummer": "6032"
+                },
+                "Fax": {
+                  "Vorwahl": "06032",
+                  "Rufnummer": "6030"
+                },
+                "Email": "s.singer@burghof-klinik.com"
+              }
+            ]
+          },
+          "Pflegedienstleitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Tim",
+                "Nachname": "van Slobbe",
+                "Funktion_Arbeitsschwerpunkt": "Pflegegdienstleitung"
+              },
+              "Telefon": {
+                "Vorwahl": "06032",
+                "Rufnummer": "6032"
+              },
+              "Fax": {
+                "Vorwahl": "06032",
+                "Rufnummer": "6030"
+              },
+              "Email": "pdl@burghof-klinik.com"
+            }
+          },
+          "Verwaltungsleitung": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Ralf",
+                "Nachname": "Menges",
+                "Funktion_Arbeitsschwerpunkt": "Geschäftsführer"
+              },
+              "Telefon": {
+                "Vorwahl": "06032",
+                "Rufnummer": "6032"
+              },
+              "Fax": {
+                "Vorwahl": "06032",
+                "Rufnummer": "6030"
+              },
+              "Email": "r.menges@burghof-klinik.com"
+            }
+          }
+        }
+      }
+    },
+    "Krankenhaustraeger": {
+      "Name": "Burghof-Klinik Bad Nauheim GmbH",
+      "Krankenhaustraeger_Art": {
+        "Art": "privat"
+      }
+    },
+    "Medizinisch_Pflegerische_Leistungsangebote": {
+      "MP_Leistungsangebot": [
+        {
+          "MP_Schluessel": "MP14",
+          "Erlaeuterungen": "im Rahmen von psychischen Krankheitsbildern ( u. a. Essstörungen),  Angebote von veganen Speisen"
+        },
+        {
+          "MP_Schluessel": "MP27"
+        },
+        {
+          "MP_Schluessel": "MP40",
+          "Erlaeuterungen": "z. B. Autogenes Training, Progressive Muskelentspannung, Meditation, Feldenkrais, Atemübungen"
+        },
+        {
+          "MP_Schluessel": "MP15",
+          "Erlaeuterungen": "Entlassmanagement: Sozialdienst/Sozialberatung"
+        },
+        {
+          "MP_Schluessel": "MP34",
+          "Erlaeuterungen": "Gesprächstherapien (Gruppen- sowie Einzeltermine), Verhaltenstherapie, Tiefenpsychologie"
+        },
+        {
+          "MP_Schluessel": "MP23",
+          "Erlaeuterungen": "z. B. kreatives Gestalten/Malen, Specksteinverarbeitung"
+        },
+        {
+          "MP_Schluessel": "MP52"
+        },
+        {
+          "MP_Schluessel": "MP04"
+        },
+        {
+          "MP_Schluessel": "MP17",
+          "Erlaeuterungen": "Fallbezogene Behandlung: jedem  Patienten wird ein/e Therapeuten/in als Fallführer/in sowie eine Pflegekraft als Bezugspflege zugewiesen"
+        },
+        {
+          "MP_Schluessel": "MP11",
+          "Erlaeuterungen": "z. B. Feldenkrais, Tanz- & Bewegungstherapie, Achtsamkeitsbasierte Übungen, Aggressionslenkungen, Boxtraining, Autogenes Training, Progressive Muskelentspannung"
+        },
+        {
+          "MP_Schluessel": "MP63"
+        }
+      ]
+    },
+    "Nicht_Medizinische_Leistungsangebote": {
+      "NM_Leistungsangebot": [
+        {
+          "NM_Schluessel": "NM69",
+          "Erlaeuterungen": "Anschluss an den Kurpark, eigene Küche mit Spezialessensplänen für Vegetarier und Veganer, Bücherei, Aufenthaltsraum mit Gemeinschaftsspielen, WLAN, Kaffee & Kuchen"
+        },
+        {
+          "NM_Schluessel": "NM03",
+          "Erlaeuterungen": "Sky-Angebote, 6 Stück"
+        },
+        {
+          "NM_Schluessel": "NM02",
+          "Erlaeuterungen": "Sky-Angebote, 1 Stück"
+        },
+        {
+          "NM_Schluessel": "NM49",
+          "Erlaeuterungen": "durch den Sozialdienst"
+        },
+        {
+          "NM_Schluessel": "NM11",
+          "Erlaeuterungen": "7 Stück"
+        },
+        {
+          "NM_Schluessel": "NM10",
+          "Erlaeuterungen": "16 Stück"
+        },
+        {
+          "NM_Schluessel": "NM66",
+          "Erlaeuterungen": "eigene Hausküche, vegetarisch/vegane Küche, glutenfreie Ernährung"
+        }
+      ]
+    },
+    "Anzahl_Betten": "52",
+    "Fallzahlen": {
+      "Vollstationaere_Fallzahl": "380",
+      "Teilstationaere_Fallzahl": "0",
+      "Ambulante_Fallzahl": "0",
+      "StaeB_Fallzahl": "0"
+    },
+    "Personal_des_Krankenhauses": {
+      "Aerzte": {
+        "Aerzte_ohne_Belegaerzte": {
+          "Personalerfassung": {
+            "Anzahl_VK": "6,29",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "6,29"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "6,29"
+              }
+            }
+          },
+          "Fachaerzte": {
+            "Personalerfassung": {
+              "Anzahl_VK": "2,5",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "2,5"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "2,5"
+                }
+              }
+            }
+          },
+          "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+        },
+        "Belegaerzte": {
+          "Anzahl": "0"
+        },
+        "Aerzte_ohne_Fachabteilungszuordnung": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          },
+          "Fachaerzte": {
+            "Personalerfassung": {
+              "Anzahl_VK": "0,00",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Pflegekraefte": {
+        "Gesundheits_Krankenpfleger": {
+          "Personalerfassung": {
+            "Anzahl_VK": "20,27",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "20,27"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "20,27"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          }
+        },
+        "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+      },
+      "Ausgewaehltes_Personal_Psych": {
+        "Ausgewaehltes_Therapeutisches_Personal": {
+          "Klinische_Neuropsychologen": {
+            "Personalerfassung": {
+              "Anzahl_VK": "1",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "1"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "1"
+                }
+              }
+            }
+          },
+          "Psychologische_Psychotherapeuten": {
+            "Personalerfassung": {
+              "Anzahl_VK": "3,6",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "3,6"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "3,6"
+                }
+              }
+            }
+          },
+          "Psychotherapeuten_in_Ausbildung_waehrend_Taetigkeit": {
+            "Personalerfassung": {
+              "Anzahl_VK": "2,6",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "2,6"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "2,6"
+                }
+              }
+            }
+          },
+          "Physiotherapeuten": {
+            "Personalerfassung": {
+              "Anzahl_VK": "1,4",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "1,4"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "1,4"
+                }
+              }
+            }
+          },
+          "Sozialpaedagogen": {
+            "Personalerfassung": {
+              "Anzahl_VK": "0,9",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,9"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,9"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Spezielles_Therapeutisches_Personal": {
+        "Therapeutisches_Personal": [
+          {
+            "SP_Schluessel": "SP16",
+            "Personalerfassung": {
+              "Anzahl_VK": "0,40",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,40"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,40"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP04",
+            "Personalerfassung": {
+              "Anzahl_VK": "1,00",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "1,00"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "1,00"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP26",
+            "Personalerfassung": {
+              "Anzahl_VK": "0,80",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,80"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,80"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP36",
+            "Personalerfassung": {
+              "Anzahl_VK": "2,40",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "2,40"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "2,40"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP13",
+            "Personalerfassung": {
+              "Anzahl_VK": "1,00",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "1,00"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "1,00"
+                }
+              }
+            }
+          },
+          {
+            "SP_Schluessel": "SP25",
+            "Personalerfassung": {
+              "Anzahl_VK": "0,75",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,75"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,75"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "Umgang_mit_Risiken_in_der_Patientenversorgung": {
+      "Verantwortliche_Person_Qualitaetsmanagement": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Ralf",
+            "Nachname": "Menges",
+            "Funktion_Arbeitsschwerpunkt": "Geschäftsführer"
+          },
+          "Telefon": {
+            "Vorwahl": "06032",
+            "Rufnummer": "6032"
+          },
+          "Fax": {
+            "Vorwahl": "06032",
+            "Rufnummer": "6030"
+          },
+          "Email": "r.menges@burghof-klinik.com"
+        }
+      },
+      "Lenkungsgremium_Qualitaetsmanagement": {
+        "Lenkungsgremium": {
+          "Beteiligte_Abteilungen_Funktionsbereiche": "Ärztliche Leitung, Pflegedienstleitung, Geschäftsführung",
+          "Tagungsfrequenz": "bei Bedarf"
+        }
+      },
+      "Verantwortliche_Person_Risikomanagement": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Ralf",
+            "Nachname": "Menges",
+            "Funktion_Arbeitsschwerpunkt": "Geschäftsführer"
+          },
+          "Telefon": {
+            "Vorwahl": "06032",
+            "Rufnummer": "6032"
+          },
+          "Fax": {
+            "Vorwahl": "06032",
+            "Rufnummer": "6030"
+          },
+          "Email": "r.menges@burghof-klinik.com"
+        }
+      },
+      "Lenkungsgremium_Risikomanagement": {
+        "Lenkungsgremium": {
+          "Beteiligte_Abteilungen_Funktionsbereiche": "Ärztliche Leitung, Pflegedienstleitung, Geschäftsführung",
+          "Tagungsfrequenz": "bei Bedarf"
+        }
+      },
+      "Instrumente_Massnahmen_Risikomanagement": {
+        "Instrument_Massnahme_Risikomanagement": [
+          {
+            "RM_Schluessel": "RM10",
+            "Zusatzangaben_RM": {
+              "Fallbesprechungen_Konferenzen": {
+                "Fallbesprechung_Konferenz": [
+                  {
+                    "Art": "Qualitätszirkel"
+                  },
+                  {
+                    "Andere": "Supervision"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "RM_Schluessel": "RM02"
+          }
+        ]
+      },
+      "Einrichtungsinternes_Fehlermeldesystem": {
+        "Tagungsgremium": {
+          "Tagungsfrequenz": "halbjährlich"
+        },
+        "Massnahmen": "Die Zentralisierung möglicher Fehlerquellen im Sinne eines Risikomanagement CIRS wurde innerhalb des Qualitätsmanagementsystems eingeführt. Dabei sind Hinweise auf mögliche Fehlerquellen hinsichtlich der Patientensicherheit strukturiert erfasst und in entsprechenden Arbeitsbereichen wie medizinisch-therapeutische Versorgung, Fehler - und Beschwerdemanagement, Arbeits- und Hygienemanagement, Verbesserungswesen bearbeitet.",
+        "Fehlermeldesystem_intern": {
+          "System_intern": [
+            {
+              "IF_Schluessel": "IF02",
+              "Zusatzangaben_IF": {
+                "Frequenz": "bei Bedarf"
+              }
+            },
+            {
+              "IF_Schluessel": "IF01",
+              "Zusatzangaben_IF": {
+                "Datum": "2023-11-17"
+              }
+            }
+          ]
+        }
+      },
+      "Hygienepersonal": {
+        "Krankenhaushygieniker": {
+          "Anzahl": "1"
+        },
+        "Hygienebeauftragte_Aerzte": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "1"
+          },
+          "Erlaeuterungen": "Oberarzt Andreas Schneider"
+        },
+        "Hygienefachkraefte": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "1"
+          },
+          "Erlaeuterungen": "externer Hygienebeauftragter, Frau Krug"
+        },
+        "Hygienebeauftragte_Pflege": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "1"
+          },
+          "Erlaeuterungen": "externer Hygienebeauftragter, Frau Krug"
+        },
+        "Hygienekommission_eingerichtet": {
+          "Kontakt_Person_kurz": {
+            "Person": {
+              "Vorname": "Andreas",
+              "Nachname": "Schneider",
+              "Funktion_Arbeitsschwerpunkt": "Hygienebeauftragter Arzt"
+            },
+            "Telefon": {
+              "Vorwahl": "06032",
+              "Rufnummer": "6032"
+            },
+            "Fax": {
+              "Vorwahl": "06032",
+              "Rufnummer": "6030"
+            },
+            "Email": "a.schneider@burghof-klinik.com"
+          },
+          "Tagungsfrequenz": "quartalsweise"
+        }
+      },
+      "Weitere_Informationen_Hygiene": {
+        "Kein_Einsatz_ZVK": {},
+        "Antibiotikaprophylaxe_Antibiotikatherapie": {
+          "Leitlinie_Antibiotikatherapie_liegt_vor": {
+            "Leitlinie_Resistenzlage_angepasst": "ja",
+            "Leitlinie_autorisiert": "ja"
+          },
+          "Keine_Durchfuehrung_Operationen": {}
+        },
+        "Umgang_Wunden": {
+          "Standard_Wundversorgung_Verbandwechsel_liegt_vor": {
+            "Standard_thematisiert": {
+              "Hygienische_Haendedesinfektion": "ja",
+              "Verbandwechsel_aseptische_Bedingungen": "ja",
+              "Antiseptische_Behandlung_infizierte_Wunden": "ja",
+              "Pruefung_Notwendigkeit_Wundauflage": "ja",
+              "Meldung_Wundinfektion": "ja"
+            },
+            "Standard_autorisiert": "ja"
+          }
+        },
+        "Haendedesinfektion": {
+          "Haendedesinfektionsmittelverbrauch_Allgemeinstationen_wurde_nicht_erhoben": {},
+          "Keine_Intensivstation_vorhanden": {},
+          "Erfassung_Haendedesinfektionsmittelverbrauch_stationsbezogen": "nein"
+        },
+        "Umgang_Patienten_MRE": {
+          "Standardisierte_Information_MRSA": "ja",
+          "Informationsmanagement_MRSA": "ja",
+          "Risikoadaptives_Aufnahmescreening": "ja",
+          "Regelmaessige_Schulungen": "ja"
+        }
+      },
+      "Beschwerdemanagement": {
+        "Strukturiertes_Beschwerdemanagement": {
+          "Strukturiertes_Beschwerdemanagement_Eingefuehrt": "ja",
+          "Erlaeuterungen": "Bestandteil des CRM Customer-Relationship-Management-Konzeptes"
+        },
+        "Schriftliches_Konzept": {
+          "Schriftliches_Konzept_Existiert": "ja",
+          "Erlaeuterungen": "Alle Prozesse und Verantwortlichkeiten sind explizit im Qualitätsmanagement-Handbuch geregelt."
+        },
+        "Umgang_muendliche_Beschwerden": {
+          "Umgang_muendliche_Beschwerden_Geregelt": "ja"
+        },
+        "Umgang_schriftliche_Beschwerden": {
+          "Umgang_schriftliche_Beschwerden_Geregelt": "ja"
+        },
+        "Zeitziele_fuer_Rueckmeldung": {
+          "Zeitziele_fuer_Rueckmeldung_Definiert": "ja"
+        },
+        "Ansprechpartner": {
+          "Ansprechpersonen": {
+            "Kontakt_Person_lang": [
+              {
+                "Person": {
+                  "Titel": "Dr.",
+                  "Vorname": "Harald",
+                  "Nachname": "Reitz-Lennemann",
+                  "Funktion_Arbeitsschwerpunkt": "Chefarzt"
+                },
+                "Telefon": {
+                  "Vorwahl": "06032",
+                  "Rufnummer": "6032"
+                },
+                "Fax": {
+                  "Vorwahl": "06032",
+                  "Rufnummer": "6030"
+                },
+                "Email": "h.reitz-lennemann@burghof-klilnik.com"
+              },
+              {
+                "Person": {
+                  "Titel": "Dr. med.",
+                  "Vorname": "Ingrid",
+                  "Nachname": "Singer",
+                  "Funktion_Arbeitsschwerpunkt": "Chefärztin"
+                },
+                "Telefon": {
+                  "Vorwahl": "06032",
+                  "Rufnummer": "6032"
+                },
+                "Fax": {
+                  "Vorwahl": "06032",
+                  "Rufnummer": "6030"
+                },
+                "Email": "i.singer@burghof-klinik.com"
+              },
+              {
+                "Person": {
+                  "Vorname": "Tim",
+                  "Nachname": "van Slobbe",
+                  "Funktion_Arbeitsschwerpunkt": "Pflegedienstleitung"
+                },
+                "Telefon": {
+                  "Vorwahl": "06032",
+                  "Rufnummer": "6032"
+                },
+                "Fax": {
+                  "Vorwahl": "06032",
+                  "Rufnummer": "6030"
+                },
+                "Email": "pdl@burghof-klinik.com"
+              }
+            ]
+          }
+        },
+        "Patientenfuersprecher": {
+          "Fuersprechpersonen": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Vorname": "Renate",
+                "Nachname": "Klingelhöfer",
+                "Funktion_Arbeitsschwerpunkt": "Patientenfürsprecherin"
+              },
+              "Telefon": {
+                "Vorwahl": "06032",
+                "Rufnummer": "6032"
+              },
+              "Fax": {
+                "Vorwahl": "06032",
+                "Rufnummer": "6030"
+              },
+              "Email": "info@burghof-klinik.com"
+            }
+          },
+          "Erlaeuterungen": "Vom Wetteraukreis eingesetzt als Patientenfürsprecher"
+        },
+        "Anonyme_Eingabemoeglichkeiten": {
+          "Anonyme_Eingabemoeglichkeiten_Existieren": "ja"
+        },
+        "Patientenbefragungen": {
+          "Patientenbefragungen_Durchgefuehrt": "ja",
+          "Erlaeuterungen": "Abschlussfragebogen (standardisiert)"
+        },
+        "Einweiserbefragungen": {
+          "Einweiserbefragungen_Durchgefuehrt": "nein"
+        }
+      },
+      "Arzneimitteltherapiesicherheit": {
+        "Hinweis_Arzneimitteltherapiesicherheit": "AMTS ist die Gesamtheit der Maßnahmen zur Gewährleistung eines optimalen Medikationsprozesses mit dem Ziel, Medikationsfehler und damit vermeidbare Risiken für Patientinnen und Patienten bei der Arzneimitteltherapie zu verringern. Eine Voraussetzung für die erfolgreiche Umsetzung dieser Maßnahmen ist, dass AMTS als integraler Bestandteil der täglichen Routine in einem interdisziplinären und multiprofessionellen Ansatz gelebt wird.",
+        "Verantwortliches_Gremium_AMTS": {
+          "Arbeitsgruppe_Qualitaetsmanagement": {
+            "Lenkungsgremium_Qualitaetsmanagement": {
+              "Lenkungsgremium": {
+                "Beteiligte_Abteilungen_Funktionsbereiche": "Ärztliche Leitung, Pflegedienstleitung, Geschäftsführung",
+                "Tagungsfrequenz": "bei Bedarf"
+              }
+            }
+          }
+        },
+        "Verantwortliche_Person_AMTS": {
+          "Verantwortliche_Person_festgelegt": {
+            "Eigenstaendige_Position_AMTS": {
+              "Kontakt_Person_lang": {
+                "Person": {
+                  "Titel": "Dr.",
+                  "Vorname": "Harald",
+                  "Nachname": "Reitz-Lennemann",
+                  "Funktion_Arbeitsschwerpunkt": "Chefarzt"
+                },
+                "Telefon": {
+                  "Vorwahl": "06032",
+                  "Rufnummer": "6032"
+                },
+                "Fax": {
+                  "Vorwahl": "06032",
+                  "Rufnummer": "6030"
+                },
+                "Email": "h.reitz-lennemann@burghof-klinik.com"
+              }
+            }
+          }
+        },
+        "Pharmazeutisches_Personal": {
+          "Anzahl_Apotheker": "0",
+          "Anzahl_weiteres_pharmazeutisches_Personal": "0"
+        }
+      },
+      "Praevention_Hilfe_Missbrauch_Gewalt": {
+        "Hinweis_Praevention_Hilfe_Missbrauch_Gewalt": "Gemäß § 4 Absatz 2 der Qualitätsmanagement-Richtlinie haben Einrichtungen die Prävention von und Intervention bei Gewalt und Missbrauch als Teil des einrichtungsinternen Qualitätsmanagements vorzusehen. Ziel ist es, Missbrauch und Gewalt insbesondere gegenüber vulnerablen Patientengruppen, wie beispielsweise Kindern und Jugendlichen oder hilfsbedürftigen Personen, vorzubeugen, zu erkennen, adäquat darauf zu reagieren und auch innerhalb der Einrichtung zu verhindern. Das jeweilige Vorgehen wird an Einrichtungsgröße, Leistungsspektrum und den Patientinnen und Patienten ausgerichtet, um so passgenaue Lösungen zur Sensibilisierung der Teams sowie weitere geeignete vorbeugende und intervenierende Maßnahmen festzulegen. Dies können unter anderem Informationsmaterialien, Kontaktadressen, Schulungen/Fortbildungen, Verhaltenskodizes, Handlungsempfehlungen/Interventionspläne oder umfassende Schutzkonzepte sein.",
+        "Praevention_Intervention_Massnahmen": "nein",
+        "Schutzkonzepte_Gewalt_Kinder": {
+          "Hinweis_Schutzkonzepte_Gewalt_Kinder": "Gemäß § 4 Absatz 2 in Verbindung mit Teil B Abschnitt I § 1 der Qualitätsmanagement-Richtlinie haben sich Einrichtungen, die Kinder und Jugendliche versorgen, gezielt mit der Prävention von und Intervention bei (sexueller) Gewalt und Missbrauch bei Kindern und Jugendlichen zu befassen (Risiko- und Gefährdungsanalyse) und – der Größe und Organisationsform der Einrichtung entsprechend – konkrete Schritte und Maßnahmen abzuleiten (Schutzkonzept). In diesem Abschnitt geben Krankenhäuser, die Kinder und Jugendliche versorgen, an, ob sie gemäß § 4 Absatz 2 in Verbindung mit Teil B Abschnitt I § 1 der Qualitätsmanagement-Richtlinie ein Schutzkonzept gegen (sexuelle) Gewalt bei Kindern und Jugendlichen aufweisen.",
+          "Keine_Versorgung_Kinder_Jugendliche": {}
+        }
+      }
+    },
+    "Teilnahme_Notfallversorgung": {
+      "Hinweis_Teilnahme_Notfallversorgung": "Alle Krankenhäuser gewährleisten Notfallversorgung und haben allgemeine Pflichten zur Hilfeleistung im Notfall. Darüber hinaus hat der Gemeinsame Bundesausschuss ein gestuftes System von Notfallstrukturen in Krankenhäusern im entgeltrechtlichen Sinne geregelt. Das bedeutet, dass Krankenhäuser, die festgelegte Anforderungen an eine von drei Notfallstufen erfüllen, durch Vergütungszuschläge finanziell unterstützt werden. Krankenhäuser, die die Anforderungen an eine der drei Stufen nicht erfüllen, erhalten keine Zuschläge. Nimmt ein Krankenhaus nicht am gestuften System von Notfallstrukturen teil und gewährleistet es nicht eine spezielle Notfallversorgung, sieht der Gesetzgeber Abschläge vor.",
+      "Teilnahme_Notfallstufe": {
+        "Keine_Teilnahme_Notfallversorgung": {}
+      },
+      "Kooperation_mit_Kassenaerztlicher_Vereinigung": {
+        "Notdienstpraxis_Existiert": "nein",
+        "Vertragsaerztlicher_Notdienst_Existiert": "nein"
+      }
+    },
+    "Organisationseinheiten_Fachabteilungen": {
+      "Organisationseinheit_Fachabteilung": {
+        "Gliederungsnummer": "1",
+        "Name": "Psychosomatik/Psychotherapie",
+        "Aerztliche_Leitung_OE": {
+          "Chefarzt": [
+            {
+              "Kontakt_Person_lang": {
+                "Person": {
+                  "Titel": "Dr.",
+                  "Vorname": "Harald",
+                  "Nachname": "Reitz-Lennemann",
+                  "Funktion_Arbeitsschwerpunkt": "Chefarzt"
+                },
+                "Telefon": {
+                  "Vorwahl": "06032",
+                  "Rufnummer": "6032"
+                },
+                "Fax": {
+                  "Vorwahl": "06032",
+                  "Rufnummer": "6030"
+                },
+                "Email": "h.reitz-lennemann@burghof-klinik.com"
+              },
+              "Kontakt_Zugang": {
+                "Strasse": "Burgallee",
+                "Hausnummer": "22",
+                "Postleitzahl": "61231",
+                "Ort": "Bad Nauheim"
+              }
+            },
+            {
+              "Kontakt_Person_lang": {
+                "Person": {
+                  "Titel": "Dr. med.",
+                  "Vorname": "Ingrid",
+                  "Nachname": "Singer",
+                  "Funktion_Arbeitsschwerpunkt": "Chefärztin"
+                },
+                "Telefon": {
+                  "Vorwahl": "06032",
+                  "Rufnummer": "6032"
+                },
+                "Fax": {
+                  "Vorwahl": "06032",
+                  "Rufnummer": "6030"
+                },
+                "Email": "i.singer@burghof-klinik.com"
+              },
+              "Kontakt_Zugang": {
+                "Strasse": "Burgallee",
+                "Hausnummer": "22",
+                "Postleitzahl": "61231",
+                "Ort": "Bad Nauheim"
+              }
+            }
+          ]
+        },
+        "Zielvereinbarungen": {
+          "Keine_Zielvereinbarungen_geschlossen": {}
+        },
+        "Fachabteilungsschluessel": {
+          "FA_Schluessel": "3100"
+        },
+        "Medizinische_Leistungsangebote": {
+          "Medizinisches_Leistungsangebot": [
+            {
+              "VA_VU_Schluessel": "VP05"
+            },
+            {
+              "VA_VU_Schluessel": "VP06"
+            },
+            {
+              "VA_VU_Schluessel": "VP04"
+            },
+            {
+              "VA_VU_Schluessel": "VP13"
+            },
+            {
+              "VA_VU_Schluessel": "VP09"
+            },
+            {
+              "VA_VU_Schluessel": "VP03"
+            }
+          ]
+        },
+        "Fallzahlen_OE": {
+          "Vollstationaere_Fallzahl": "380",
+          "Teilstationaere_Fallzahl": "0"
+        },
+        "Hauptdiagnosen": {
+          "Hauptdiagnose": [
+            {
+              "ICD_10": "F33.1",
+              "Fallzahl": "210"
+            },
+            {
+              "ICD_10": "F40.01",
+              "Fallzahl": "67"
+            },
+            {
+              "ICD_10": "F41.0",
+              "Fallzahl": "39"
+            },
+            {
+              "ICD_10": "F32.1",
+              "Fallzahl": "17"
+            },
+            {
+              "ICD_10": "F41.1",
+              "Fallzahl": "11"
+            },
+            {
+              "ICD_10": "F45.41",
+              "Fallzahl": "9"
+            },
+            {
+              "ICD_10": "F33.2",
+              "Fallzahl": "6"
+            },
+            {
+              "ICD_10": "F45.2",
+              "Fallzahl": "5"
+            },
+            {
+              "ICD_10": "F43.1",
+              "Fallzahl": "4"
+            },
+            {
+              "ICD_10": "F40.00",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F40.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F40.2",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F41.2",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F42.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F42.2",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F44.4",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F45.37",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F50.2",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F51.0",
+              "Fallzahl_Datenschutz": {}
+            }
+          ]
+        },
+        "Prozeduren": {
+          "Freiwillige_Angabe": {
+            "Prozedur": [
+              {
+                "OPS_301": "9-649.40",
+                "Anzahl": "1344"
+              },
+              {
+                "OPS_301": "9-649.21",
+                "Anzahl": "1289"
+              },
+              {
+                "OPS_301": "9-649.20",
+                "Anzahl": "964"
+              },
+              {
+                "OPS_301": "9-649.11",
+                "Anzahl": "889"
+              },
+              {
+                "OPS_301": "9-626",
+                "Anzahl": "688"
+              },
+              {
+                "OPS_301": "9-607",
+                "Anzahl": "508"
+              },
+              {
+                "OPS_301": "9-649.51",
+                "Anzahl": "447"
+              },
+              {
+                "OPS_301": "9-649.41",
+                "Anzahl": "322"
+              },
+              {
+                "OPS_301": "9-649.10",
+                "Anzahl": "292"
+              },
+              {
+                "OPS_301": "9-649.30",
+                "Anzahl": "277"
+              },
+              {
+                "OPS_301": "9-649.12",
+                "Anzahl": "268"
+              },
+              {
+                "OPS_301": "9-649.31",
+                "Anzahl": "264"
+              },
+              {
+                "OPS_301": "9-649.50",
+                "Anzahl": "249"
+              },
+              {
+                "OPS_301": "9-649.13",
+                "Anzahl": "248"
+              },
+              {
+                "OPS_301": "9-649.0",
+                "Anzahl": "155"
+              },
+              {
+                "OPS_301": "9-649.14",
+                "Anzahl": "124"
+              },
+              {
+                "OPS_301": "9-649.53",
+                "Anzahl": "120"
+              },
+              {
+                "OPS_301": "9-649.22",
+                "Anzahl": "92"
+              },
+              {
+                "OPS_301": "9-649.52",
+                "Anzahl": "91"
+              },
+              {
+                "OPS_301": "9-649.32",
+                "Anzahl": "56"
+              },
+              {
+                "OPS_301": "9-649.33",
+                "Anzahl": "30"
+              },
+              {
+                "OPS_301": "9-649.15",
+                "Anzahl": "25"
+              },
+              {
+                "OPS_301": "9-649.16",
+                "Anzahl": "23"
+              },
+              {
+                "OPS_301": "9-649.34",
+                "Anzahl": "19"
+              },
+              {
+                "OPS_301": "9-649.55",
+                "Anzahl": "15"
+              },
+              {
+                "OPS_301": "9-649.56",
+                "Anzahl": "12"
+              },
+              {
+                "OPS_301": "9-649.23",
+                "Anzahl": "11"
+              },
+              {
+                "OPS_301": "9-649.54",
+                "Anzahl": "11"
+              },
+              {
+                "OPS_301": "9-649.17",
+                "Anzahl": "8"
+              },
+              {
+                "OPS_301": "9-649.57",
+                "Anzahl": "6"
+              },
+              {
+                "OPS_301": "9-649.42",
+                "Anzahl": "5"
+              },
+              {
+                "OPS_301": "9-649.19",
+                "Anzahl": "4"
+              },
+              {
+                "OPS_301": "9-649.18",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "9-649.1a",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "9-649.35",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "9-649.36",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "9-649.37",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "9-649.38",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "9-649.58",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "9-649.59",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "9-649.5a",
+                "Anzahl_Datenschutz": {}
+              }
+            ]
+          }
+        },
+        "Ambulante_Operationen": {
+          "Keine_Erbracht": {}
+        },
+        "Personelle_Ausstattung": {
+          "Aerztliches_Personal": {
+            "Hauptabteilung": {
+              "Aerzte_ohne_Belegaerzte": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "6,29",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "6,29"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,00"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "6,29",
+                      "Fall_je_Anzahl": "60,41335"
+                    }
+                  }
+                },
+                "Fachaerzte": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "2,50",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "2,50"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0,00"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "2,50",
+                        "Fall_je_Anzahl": "152,00000"
+                      }
+                    }
+                  }
+                },
+                "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+              }
+            }
+          },
+          "Aerztliche_Fachexpertisen": {
+            "Fachexpertise": {
+              "AQ_ZF_Schluessel": "AQ53"
+            }
+          },
+          "Pflegekraefte": {
+            "Gesundheits_Krankenpfleger": {
+              "Personalerfassung": {
+                "Anzahl_VK": "20,27",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "20,27"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0,00"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0,00"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "20,27",
+                    "Fall_je_Anzahl": "18,74691"
+                  }
+                }
+              }
+            },
+            "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+          },
+          "Pflegerische_Fachexpertisen": {
+            "Fachexpertise_Pflege": {
+              "PQ_ZP_Schluessel": "PQ10"
+            }
+          },
+          "Ausgewaehltes_Personal_Psych": {
+            "Ausgewaehltes_Therapeutisches_Personal": {
+              "Diplom_Psychologen": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "0",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "0"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "0"
+                    }
+                  }
+                }
+              },
+              "Klinische_Neuropsychologen": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "1,00",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "1,00"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,00"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "1,00",
+                      "Fall_je_Anzahl": "380,00000"
+                    }
+                  }
+                }
+              },
+              "Psychologische_Psychotherapeuten": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "3,60",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "3,60"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,00"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "3,60",
+                      "Fall_je_Anzahl": "105,55555"
+                    }
+                  }
+                }
+              },
+              "Psychotherapeuten_in_Ausbildung_waehrend_Taetigkeit": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "2,60",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "2,60"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,00"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "2,60",
+                      "Fall_je_Anzahl": "146,15384"
+                    }
+                  }
+                }
+              },
+              "Physiotherapeuten": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "1,40",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "1,40"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,00"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "1,40",
+                      "Fall_je_Anzahl": "271,42857"
+                    }
+                  }
+                }
+              },
+              "Sozialpaedagogen": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "0,90",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "0,90"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,00"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "0,90",
+                      "Fall_je_Anzahl": "422,22222"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Qualitaetssicherung": {
+      "QS_nach_Landesrecht": {
+        "Keine_Teilnahme_landesspezifische_Qualitaetssicherungsmassnahme": {}
+      },
+      "Fortbildung": {
+        "Fortbildungspflichtige": "3",
+        "Nachweispflichtige": "3",
+        "Fortbildungsnachweis_Erbracht_Habende": "3"
+      },
+      "ATMP-QS-RL": {
+        "Hinweis_ATMP-QS-RL": "Krankenhausstandorte, an denen neue Therapien gemäß den Anlagen der ATMP-QS-RL angewendet werden, müssen die dort vorgegebenen Mindestanforderungen an die Struktur-, Prozess- oder Ergebnisqualität erfüllen. Der Medizinische Dienst überprüft die Umsetzung der relevanten Qualitätsanforderungen und stellt dem Krankenhaus eine Bescheinigung aus, wenn diese vollumfänglich erfüllt werden. ATMP nach dieser Richtlinie dürfen ausschließlich von Leistungserbringern angewendet werden, die die Mindestanforderungen erfüllen.",
+        "Keine_Anwendung_Arzneimittel_neuartige_Therapien": {}
+      }
+    }
+  }
+}
