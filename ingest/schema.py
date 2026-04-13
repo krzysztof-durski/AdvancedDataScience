@@ -43,13 +43,46 @@ CREATE INDEX IF NOT EXISTS ix_ops_parent_id ON ops(parent_id);
 CREATE INDEX IF NOT EXISTS ix_ops_version_year ON ops(version_year);
 """
 
+HOSPITAL_LOCATIONS_CREATE = """
+CREATE TABLE IF NOT EXISTS hospital_locations (
+    id SERIAL PRIMARY KEY,
+    ik VARCHAR(32) NOT NULL,
+    standortnummer VARCHAR(32) NOT NULL,
+    report_year SMALLINT NOT NULL,
+    hospital_name TEXT,
+    city TEXT,
+    postal_code VARCHAR(16),
+    source_file TEXT NOT NULL,
+    created_at TIMESTAMPTZ DEFAULT NOW(),
+    updated_at TIMESTAMPTZ DEFAULT NOW(),
+    UNIQUE (ik, standortnummer, report_year)
+);
+CREATE INDEX IF NOT EXISTS ix_hospital_locations_report_year ON hospital_locations(report_year);
+CREATE INDEX IF NOT EXISTS ix_hospital_locations_city ON hospital_locations(city);
+"""
+
+INGEST_FILES_CREATE = """
+CREATE TABLE IF NOT EXISTS ingest_files (
+    id SERIAL PRIMARY KEY,
+    phase VARCHAR(32) NOT NULL,
+    file_path TEXT NOT NULL,
+    mtime_ns BIGINT NOT NULL,
+    size_bytes BIGINT NOT NULL,
+    sha256 CHAR(64) NOT NULL,
+    ingested_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    UNIQUE (phase, file_path)
+);
+"""
+
 
 def ensure_schema(conn) -> None:
-    """Create icd and ops tables if they do not exist."""
+    """Create ingestion tables if they do not exist."""
     cur = conn.cursor()
     try:
         cur.execute(ICD_CREATE)
         cur.execute(OPS_CREATE)
+        cur.execute(HOSPITAL_LOCATIONS_CREATE)
+        cur.execute(INGEST_FILES_CREATE)
         conn.commit()
     finally:
         cur.close()
