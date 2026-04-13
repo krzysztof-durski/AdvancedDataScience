@@ -1,0 +1,14 @@
+{
+  "name": "advanced-data-science",
+  "version": "1.0.0",
+  "description": "Hospital data models with ICD and OPS classifications",
+  "type": "module",
+  "scripts": {
+    "db:migrate": "node src/scripts/migrate.js",
+    "db:seed": "node src/scripts/seed.js"
+  },
+  "dependencies": {
+    "pg": "^8.13.0",
+    "sequelize": "^6.37.0"
+  }
+}
