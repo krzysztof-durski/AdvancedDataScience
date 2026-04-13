@@ -112,11 +112,53 @@ class TestIngestOpsToDb:
 
     def test_ingest_creates_records(self, ops_sample_path, db_conn):
         try:
-            count = ingest_ops_to_db(ops_sample_path, db_conn)
-            assert count >= 8
+            stats = ingest_ops_to_db(ops_sample_path, db_conn)
+            assert stats.inserted >= 8
+            assert stats.accepted >= 8
         finally:
             db_conn.rollback()
             db_conn.close()
+
+
+class TestOpsIngestMatrix:
+    @pytest.fixture
+    def db_conn(self, db_config):
+        try:
+            import psycopg2
+            from ingest.schema import ensure_schema
+
+            conn = psycopg2.connect(**db_config)
+            ensure_schema(conn)
+            return conn
+        except Exception:
+            pytest.skip("PostgreSQL not available")
+
+    def _write(self, path: Path, lines: list[str]) -> Path:
+        path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+        return path
+
+    def test_single_file_load(self, tmp_path, db_conn):
+        file_a = self._write(tmp_path / "ops2024_a.txt", ["1|10|1-100||Klinische Untersuchung"])
+        stats = ingest_ops_to_db(file_a, db_conn)
+        assert stats.inserted == 1
+
+    def test_duplicate_entry_and_rerun(self, tmp_path, db_conn):
+        file_a = self._write(tmp_path / "ops2024_a.txt", ["1|10|1-100||Klinische Untersuchung"])
+        first = ingest_ops_to_db(file_a, db_conn)
+        second = ingest_ops_to_db(file_a, db_conn)
+        assert first.inserted == 1
+        assert second.updated == 1
+
+    def test_second_file_superset(self, tmp_path, db_conn):
+        file_a = self._write(tmp_path / "ops2024_a.txt", ["1|10|1-100||Klinische Untersuchung"])
+        file_b = self._write(
+            tmp_path / "ops2024_b.txt",
+            ["1|10|1-100||Klinische Untersuchung UPDATED", "1|11|1-204.0||Messung des Hirndruckes"],
+        )
+        ingest_ops_to_db(file_a, db_conn)
+        stats = ingest_ops_to_db(file_b, db_conn)
+        assert stats.updated >= 1
+        assert stats.inserted >= 1
 
 
 class TestOpsFixturePath:

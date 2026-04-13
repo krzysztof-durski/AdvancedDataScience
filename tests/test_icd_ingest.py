@@ -135,11 +135,62 @@ class TestIngestIcdToDb:
 
     def test_ingest_creates_records(self, icd_sample_path, db_conn):
         try:
-            count = ingest_icd_to_db(icd_sample_path, db_conn)
-            assert count >= 5
+            stats = ingest_icd_to_db(icd_sample_path, db_conn)
+            assert stats.inserted >= 5
+            assert stats.accepted >= 5
         finally:
             db_conn.rollback()
             db_conn.close()
+
+
+class TestIcdIngestMatrix:
+    @pytest.fixture
+    def db_conn(self, db_config):
+        try:
+            import psycopg2
+            from ingest.schema import ensure_schema
+
+            conn = psycopg2.connect(**db_config)
+            ensure_schema(conn)
+            return conn
+        except Exception:
+            pytest.skip("PostgreSQL not available")
+
+    def _write(self, path: Path, lines: list[str]) -> Path:
+        path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+        return path
+
+    def test_same_file_loaded_twice_is_idempotent(self, tmp_path, db_conn):
+        file_a = self._write(tmp_path / "icd2024_a.txt", ["5|1|1|||A00||Cholera"])
+        first = ingest_icd_to_db(file_a, db_conn)
+        second = ingest_icd_to_db(file_a, db_conn)
+        assert first.inserted == 1
+        assert second.updated == 1
+        assert second.inserted == 0
+
+    def test_non_overlapping_files(self, tmp_path, db_conn):
+        file_a = self._write(tmp_path / "icd2024_a.txt", ["5|1|1|||A00||Cholera"])
+        file_b = self._write(tmp_path / "icd2024_b.txt", ["5|2|1|||B00||Herpesviral [Herpes-simplex-] Infektionen"])
+        stats_a = ingest_icd_to_db(file_a, db_conn)
+        stats_b = ingest_icd_to_db(file_b, db_conn)
+        assert stats_a.inserted == 1
+        assert stats_b.inserted == 1
+
+    def test_overlapping_files_and_changed_values(self, tmp_path, db_conn):
+        file_a = self._write(tmp_path / "icd2024_a.txt", ["5|1|1|||A00||Cholera"])
+        file_b = self._write(
+            tmp_path / "icd2024_b.txt",
+            ["5|1|1|||A00||Cholera UPDATED", "5|2|1|||A00.0||Cholera subtype"],
+        )
+        ingest_icd_to_db(file_a, db_conn)
+        overlap = ingest_icd_to_db(file_b, db_conn)
+        assert overlap.updated >= 1
+        assert overlap.inserted >= 1
+
+    def test_corrupted_entry_is_skipped(self, tmp_path):
+        file_a = self._write(tmp_path / "icd2024_a.txt", ["broken-line", "5|1|1|||A00||Cholera"])
+        stats = list(parse_icd_txt(file_a))
+        assert len(stats) == 1
 
 
 class TestIcdFixturePath:
