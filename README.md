@@ -1,7 +1,7 @@
 # AdvancedDataScience
 
-Hospital data ingestion project for German ICD-10-GM diagnoses and OPS procedures.
-The current runnable path is Docker Postgres + Python ingestion scripts.
+Hospital data ingestion project for German ICD-10-GM diagnoses, OPS procedures, and hospital location reports.
+The runnable path is Docker Postgres + Python ingestion scripts.
 
 ## Quick Start
 
@@ -15,10 +15,10 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 # 3) Ensure input files exist
-ls DATA/ICD-diagnoses.txt DATA/OPS-procedures.txt
+ls DATA/ICD-diagnoses.txt DATA/OPS-procedures.txt DATA/json_output
 
 # 4) Run ingestion
-python ingest/run_ingest.py
+python ingest/run_ingest.py --batch-size 1000
 
 # 5) Run tests
 pytest
@@ -29,6 +29,8 @@ If ingestion succeeds, you should see output like:
 - `ICD: <n> rows`
 - `Ingesting OPS...`
 - `OPS: <n> rows`
+- `HOSPITAL: ...`
+- `TOTAL: ...`
 - `Done.`
 
 ## Prerequisites
@@ -87,20 +89,45 @@ Dependencies include parser/DB/testing packages such as `lxml`, `psycopg2-binary
 
 - `DATA/ICD-diagnoses.txt`
 - `DATA/OPS-procedures.txt`
+- `DATA/json_output/*.json`
 
 If either file is missing, the script exits with a clear error message.
 
 ## Run Ingestion
 
 ```bash
-python ingest/run_ingest.py
+python ingest/run_ingest.py \
+  --icd-path DATA/ICD-diagnoses.txt \
+  --ops-path DATA/OPS-procedures.txt \
+  --hospital-dir DATA/json_output \
+  --batch-size 1000
 ```
 
 What it does:
 - Connects to Postgres using env vars/defaults.
-- Parses ICD and OPS text files.
-- Upserts rows into `icd` and `ops` tables.
-- Commits after ICD and OPS phases.
+- Runs phases in deterministic order: ICD -> OPS -> hospital.
+- Upserts rows into `icd`, `ops`, and `hospital_locations`.
+- Tracks processed files in `ingest_files` using `mtime_ns`, `size_bytes`, and `sha256`.
+- Prints per-phase and final summary counters.
+
+Optional flags:
+
+```bash
+# Parse and validate without persisting
+python ingest/run_ingest.py --dry-run
+
+# Process only selected hospital years
+python ingest/run_ingest.py --include-years 2023,2024
+
+# Exclude selected hospital years
+python ingest/run_ingest.py --exclude-years 2008,2010
+
+# Disable processed-file tracking
+python ingest/run_ingest.py --no-track-files
+
+# Continue mode (skip immediate exit on top-level error)
+python ingest/run_ingest.py --continue-on-error
+```
 
 ## Verify Data Loaded
 
@@ -109,8 +136,10 @@ Use psql from the running container:
 ```bash
 docker compose exec -T postgres psql -U postgres -d hospital_db -c "SELECT COUNT(*) AS icd_rows FROM icd;"
 docker compose exec -T postgres psql -U postgres -d hospital_db -c "SELECT COUNT(*) AS ops_rows FROM ops;"
+docker compose exec -T postgres psql -U postgres -d hospital_db -c "SELECT COUNT(*) AS hospital_rows FROM hospital_locations;"
 docker compose exec -T postgres psql -U postgres -d hospital_db -c "SELECT version_year, COUNT(*) FROM icd GROUP BY version_year ORDER BY version_year;"
 docker compose exec -T postgres psql -U postgres -d hospital_db -c "SELECT version_year, COUNT(*) FROM ops GROUP BY version_year ORDER BY version_year;"
+docker compose exec -T postgres psql -U postgres -d hospital_db -c "SELECT report_year, COUNT(*) FROM hospital_locations GROUP BY report_year ORDER BY report_year;"
 ```
 
 ## Testing
@@ -125,6 +154,7 @@ pytest -v
 # Specific file
 pytest tests/test_icd_ingest.py
 pytest tests/test_ops_ingest.py
+pytest tests/test_hospital_ingest.py
 ```
 
 ## Node / Sequelize Status
@@ -136,8 +166,9 @@ Current Node-side pieces available:
   - `npm run db:migrate` -> `node src/scripts/migrate.js`
   - `npm run db:seed` -> `node src/scripts/seed.js`
 
-Important: `src/scripts/migrate.js` and `src/scripts/seed.js` are not present yet.
-So `db:migrate` / `db:seed` commands are placeholders until those scripts are added.
+Current status:
+- `src/scripts/migrate.js` is present.
+- `src/scripts/seed.js` is still missing.
 
 ## Troubleshooting
 
@@ -149,9 +180,14 @@ So `db:migrate` / `db:seed` commands are placeholders until those scripts are ad
 - `ICD file not found` or `OPS file not found`:
   - Place files at exactly `DATA/ICD-diagnoses.txt` and `DATA/OPS-procedures.txt`.
 
-- `relation "icd" does not exist` or `relation "ops" does not exist`:
+- `relation "icd" does not exist`, `relation "ops" does not exist`, or `relation "hospital_locations" does not exist`:
   - Re-run ingestion; schema creation is handled in ingestion flow.
   - If database state is corrupted, reset: `docker compose down -v && docker compose up -d`.
+
+- Hospital files are unexpectedly skipped:
+  - Remove tracking entries for a clean rerun:
+    `docker compose exec -T postgres psql -U postgres -d hospital_db -c "TRUNCATE ingest_files;"`
+  - Or run once with `--no-track-files`.
 
 - Python package import errors:
   - Activate virtualenv before running commands.
@@ -161,6 +197,19 @@ So `db:migrate` / `db:seed` commands are placeholders until those scripts are ad
   - Check logs: `docker compose logs postgres`
   - If needed, clear old volume/state: `docker compose down -v`.
 
-## Command Reference
+## Design Notes
 
-See `COMMANDS.md` for a compact command catalog.
+See `docs/ingestion_strategy.md` for deterministic-key strategy, duplicate policy, and rerun tracking details.
+
+## Reproducibility Checklist (Exam)
+
+1. Start clean DB: `docker compose down -v && docker compose up -d`
+2. Run ingest: `python ingest/run_ingest.py --batch-size 1000`
+3. Re-run ingest to validate deterministic behavior:
+   `python ingest/run_ingest.py --batch-size 1000`
+4. Verify no unintended duplicate growth in key tables:
+   - `icd` uniqueness by `(code, version_year)`
+   - `ops` uniqueness by `(code, version_year)`
+   - `hospital_locations` uniqueness by `(ik, standortnummer, report_year)`
+5. Execute tests:
+   `pytest -q`
