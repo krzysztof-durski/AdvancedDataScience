@@ -1,0 +1,15 @@
+type,meaning,example
+feat,New feature,feat: add dark mode toggle
+fix,Bug fix in existing code,fix: prevent login form from submitting twice
+bug,Explicit bug-related change,bug: correct date parsing for US locale
+change,General update or refactor,change: simplify navbar layout styles
+add,Add a new file or content,add: include .editorconfig for consistent formatting
+docs,Documentation only,docs: update setup instructions for macOS
+style,Formatting only (no logic change),style: reformat navbar CSS spacing
+refactor,Internal code improvement same behavior,refactor: split auth helpers into separate module
+perf,Performance improvement,perf: memoize expensive markdown parsing
+test,Add or update tests,test: add unit tests for token validator
+build,Build system or dependency changes,build: update vite plugins configuration
+ci,CI/CD pipeline updates,ci: run lint step before build
+chore,Maintenance tasks not affecting app behavior,chore: clean up unused assets
+revert,Revert a previous commit,revert: undo auth redirect change

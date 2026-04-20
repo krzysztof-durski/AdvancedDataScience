@@ -18,20 +18,17 @@ pip install -r requirements.txt
 ls DATA/ICD-diagnoses.txt DATA/OPS-procedures.txt DATA
 
 # 4) Run ingestion
-python ingest/run_ingest.py --batch-size 1000
+python -m ingest.run_ingest --batch-size 1000
 
 # 5) Run tests
 pytest
 ```
 
-If ingestion succeeds, you should see output like:
-- `Ingesting ICD...`
-- `ICD: <n> rows`
-- `Ingesting OPS...`
-- `OPS: <n> rows`
-- `HOSPITAL: ...`
-- `TOTAL: ...`
-- `Done.`
+If ingestion succeeds, you should see output lines like:
+- `ICD: read=... accepted=... skipped=... inserted=... updated=... errors=...`
+- `OPS: read=... accepted=... skipped=... inserted=... updated=... errors=...`
+- `HOSPITAL: read=... accepted=... skipped=... inserted=... updated=... errors=...`
+- `TOTAL: read=... accepted=... skipped=... inserted=... updated=... errors=...`
 
 ## Prerequisites
 
@@ -51,9 +48,7 @@ DB_USER=postgres
 DB_PASSWORD=postgres
 ```
 
-These values are used by both:
-- Python ingestion (`ingest/common.py`)
-- Node Sequelize config (`src/config/database.js`)
+These values are used by Python ingestion (`ingest/common.py`).
 
 ## Database (Docker)
 
@@ -85,7 +80,7 @@ Dependencies include parser/DB/testing packages such as `lxml`, `psycopg2-binary
 
 ## Data Files Required for Ingestion
 
-`ingest/run_ingest.py` expects these exact files:
+`ingest.run_ingest` expects these exact files:
 
 - `DATA/ICD-diagnoses.txt`
 - `DATA/OPS-procedures.txt`
@@ -98,7 +93,7 @@ Current repository layout stores hospital JSON under year folders (for example `
 ## Run Ingestion
 
 ```bash
-python ingest/run_ingest.py \
+python -m ingest.run_ingest \
   --icd-path DATA/ICD-diagnoses.txt \
   --ops-path DATA/OPS-procedures.txt \
   --hospital-dir DATA \
@@ -110,7 +105,8 @@ python ingest/run_ingest.py \
 What it does:
 - Connects to Postgres using env vars/defaults.
 - Runs phases in deterministic order: ICD -> OPS -> hospital.
-- Upserts rows into `icd`, `ops`, and `hospital_locations`.
+- Upserts rows into `icd_reference`, `ops_reference`, and `hospital_locations`.
+- Upserts department-level metrics into `hospital_departments`, `hospital_department_diagnoses`, and `hospital_department_procedures`.
 - Tracks processed files in `ingest_files` using `mtime_ns`, `size_bytes`, and `sha256`.
 - Prints per-phase and final summary counters.
 
@@ -118,22 +114,22 @@ Optional flags:
 
 ```bash
 # Parse and validate without persisting
-python ingest/run_ingest.py --dry-run
+python -m ingest.run_ingest --dry-run
 
 # Process only selected hospital years
-python ingest/run_ingest.py --include-years 2023,2024
+python -m ingest.run_ingest --include-years 2023,2024
 
 # Exclude selected hospital years
-python ingest/run_ingest.py --exclude-years 2008,2010
+python -m ingest.run_ingest --exclude-years 2008,2010
 
 # Disable processed-file tracking
-python ingest/run_ingest.py --no-track-files
+python -m ingest.run_ingest --no-track-files
 
 # Override inferred ICD/OPS version year (recommended when filename has no year)
-python ingest/run_ingest.py --icd-version-year 2025 --ops-version-year 2025
+python -m ingest.run_ingest --icd-version-year 2025 --ops-version-year 2025
 
 # Continue mode (skip immediate exit on top-level error)
-python ingest/run_ingest.py --continue-on-error
+python -m ingest.run_ingest --continue-on-error
 ```
 
 ## Verify Data Loaded
@@ -141,11 +137,14 @@ python ingest/run_ingest.py --continue-on-error
 Use psql from the running container:
 
 ```bash
-docker compose exec -T postgres psql -U postgres -d hospital_db -c "SELECT COUNT(*) AS icd_rows FROM icd;"
-docker compose exec -T postgres psql -U postgres -d hospital_db -c "SELECT COUNT(*) AS ops_rows FROM ops;"
+docker compose exec -T postgres psql -U postgres -d hospital_db -c "SELECT COUNT(*) AS icd_rows FROM icd_reference;"
+docker compose exec -T postgres psql -U postgres -d hospital_db -c "SELECT COUNT(*) AS ops_rows FROM ops_reference;"
 docker compose exec -T postgres psql -U postgres -d hospital_db -c "SELECT COUNT(*) AS hospital_rows FROM hospital_locations;"
-docker compose exec -T postgres psql -U postgres -d hospital_db -c "SELECT version_year, COUNT(*) FROM icd GROUP BY version_year ORDER BY version_year;"
-docker compose exec -T postgres psql -U postgres -d hospital_db -c "SELECT version_year, COUNT(*) FROM ops GROUP BY version_year ORDER BY version_year;"
+docker compose exec -T postgres psql -U postgres -d hospital_db -c "SELECT COUNT(*) AS department_rows FROM hospital_departments;"
+docker compose exec -T postgres psql -U postgres -d hospital_db -c "SELECT COUNT(*) AS diagnosis_rows FROM hospital_department_diagnoses;"
+docker compose exec -T postgres psql -U postgres -d hospital_db -c "SELECT COUNT(*) AS procedure_rows FROM hospital_department_procedures;"
+docker compose exec -T postgres psql -U postgres -d hospital_db -c "SELECT version_year, COUNT(*) FROM icd_reference GROUP BY version_year ORDER BY version_year;"
+docker compose exec -T postgres psql -U postgres -d hospital_db -c "SELECT version_year, COUNT(*) FROM ops_reference GROUP BY version_year ORDER BY version_year;"
 docker compose exec -T postgres psql -U postgres -d hospital_db -c "SELECT report_year, COUNT(*) FROM hospital_locations GROUP BY report_year ORDER BY report_year;"
 ```
 
@@ -167,15 +166,13 @@ pytest tests/test_hospital_ingest.py
 ## Node / Sequelize Status
 
 Current Node-side pieces available:
-- DB config: `src/config/database.js`
-- Models: `src/models/Icd.js`, `src/models/Ops.js`, `src/models/index.js`
 - Package scripts:
   - `npm run db:migrate` -> `node src/scripts/migrate.js`
   - `npm run db:seed` -> `node src/scripts/seed.js`
 
 Current status:
-- `src/scripts/migrate.js` is present.
-- `src/scripts/seed.js` is still missing.
+- The `src/` folder is currently not present in this repository checkout.
+- Node scripts are declared in `package.json` but will fail until matching files are added.
 
 ## Troubleshooting
 
@@ -213,12 +210,12 @@ See `docs/ingestion_strategy.md` for deterministic-key strategy, duplicate polic
 ## Reproducibility Checklist (Exam)
 
 1. Start clean DB: `docker compose down -v && docker compose up -d`
-2. Run ingest: `python ingest/run_ingest.py --batch-size 1000`
+2. Run ingest: `python -m ingest.run_ingest --batch-size 1000`
 3. Re-run ingest to validate deterministic behavior:
-   `python ingest/run_ingest.py --batch-size 1000`
+   `python -m ingest.run_ingest --batch-size 1000`
 4. Verify no unintended duplicate growth in key tables:
-   - `icd` uniqueness by `(code, version_year)`
-   - `ops` uniqueness by `(code, version_year)`
+   - `icd_reference` uniqueness by `(code, version_year)`
+   - `ops_reference` uniqueness by `(code, version_year)`
    - `hospital_locations` uniqueness by `(ik, standortnummer, report_year)`
 5. Execute tests:
    `pytest -q`

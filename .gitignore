@@ -1,12 +1,47 @@
-WorkingFiles
-DATA_temp
+# Local / scratch data
+DATA_temp/
+
+# Dependencies
 node_modules/
-INFO
+venv/
+.venv/
+env/
 
-# XML→JSON conversion scripts
-scripts/xml_to_json.py
-scripts/convert_xml_by_year.sh
+# Environment and secrets
 .env
-.DS_Store
+.env.*
+!.env.example
 
-COMMANDS.md
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+__init__.py
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+
+# Testing / type-check / lint caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors
+.idea/
+.vscode/
