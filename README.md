@@ -219,3 +219,114 @@ See `docs/ingestion_strategy.md` for deterministic-key strategy, duplicate polic
    - `hospital_locations` uniqueness by `(ik, standortnummer, report_year)`
 5. Execute tests:
    `pytest -q`
+
+## Pipeline assumptions (optional constraints)
+
+The list below is a **generic scenario** (large volume, flaky writes, changing schema, GDPR, etc.). **This project does not claim** that every item applies to the current deployment (for example, redundant storage with eventual consistency is an external circumstance, not something the ingestion code models).
+
+| Assumption | What this repo does today | If it became a real requirement |
+|------------|---------------------------|--------------------------------|
+| Very large row counts (e.g. 1B+) | Single-process batched upserts; ICD/OPS parse into memory before write. | Stream parsing, smaller commits, partitioning/sharding or distributed ingest, capacity planning for Postgres. |
+| Large per-entry annotations (e.g. ~1MB) later | Core tables are fixed columns; no extension store. | Add a **reference / extension table** (FK to stable entity key, optional `JSONB` or blob **pointer** to object storage for huge payloads); keep hot path tables narrow. |
+| Incremental updates | Hospital JSON: skip unchanged files via `ingest_files` fingerprints; upserts are idempotent. ICD/OPS: full file pass each run. | Add file-level tracking for ICD/OPS, or change feeds, if sources are huge. |
+| Full reload | Rebuild truth from **all** sources: truncate or delete target tables, clear `ingest_files` (or `--no-track-files`). Empty `hospital_locations` forces re-read of JSON when tracking is on. | Document runbook + optional CLI flag; consider separate “staging then swap” for zero-downtime. |
+| Unpredictable write failures | Retries + savepoints on batched `execute_values`; hospital parse errors per file with `--continue-on-error`. | Smaller transactions, dead-letter queue for bad rows/batches, replay from durable log. |
+| Evolving data model | `CREATE TABLE IF NOT EXISTS` only in `ensure_schema`. | Migrations (e.g. Alembic/Flyway), additive columns, backward-compatible ingest. |
+| Redundant storage / eventual consistency | Single Postgres connection. | Idempotent keys, outbox pattern, explicit sync jobs; not handled inside this script. |
+| Retroactive deletion (GDPR) | Hard delete is possible in SQL; child rows cascade from `hospital_locations`. | Document **subject/entity → DELETE** procedure; extend tables if annotations hold PII; cover replicas and backups. |
+| Tight timeline | Batching, progress bars, skip unchanged hospital files speed re-runs. | Prioritize incremental path and runbook over premature scale engineering. |
+
+## Some questions to consider
+
+**1. To ingest all data, do you run one script or several separate scripts?**  
+**One script:** `python -m ingest.run_ingest` is the only ingestion entrypoint; a single invocation runs ICD, then OPS, then every eligible hospital JSON file under `--hospital-dir`, so you do not split the workload across multiple top-level ingest programs in this repository.
+
+- You may still **re-run** that same command whenever inputs change (idempotent upserts and optional `ingest_files` skipping); that is repeat use of one program, not a requirement to coordinate several different executables to obtain a full load.
+
+**2. What should happen when an error occurs?**  
+ICD/OPS skip unusable lines, batched upserts retry transient database errors with savepoints, and a hospital JSON failure increments `errors`, records `failed` in `ingest_files` when tracking is on, then aborts the run unless `--continue-on-error`, while any other uncaught exception also stops the process immediately.
+
+**3. What should happen when someone runs the ingestion again?**  
+Re-running is idempotent via upserts on stable keys, skips unchanged tracked hospital JSON when fingerprints match, and reprocesses JSON when `hospital_locations` is empty so stale `ingest_files` metadata cannot hide a truncated hospital load.
+
+**4. What configuration options should the program have?**  
+Postgres is configured via `DB_*` environment variables, and ingestion is tuned with `ingest.run_ingest` CLI flags for input paths, ICD/OPS version years, hospital year filters, batch size, hospital flush cadence, dry-run, file tracking, continue-on-error, and progress output.
+
+## Ingestion pipeline design decisions
+
+### Database
+
+- PostgreSQL (Docker Compose) is the system of record.
+- Table roles:
+  - Reference: `icd_reference`, `ops_reference`.
+  - Hospital domain: locations, departments, department diagnoses/procedures.
+  - Ops metadata: `ingest_files` (fingerprints, status).
+- Schema:
+  - Applied at ingest time via `ensure_schema` (`CREATE TABLE IF NOT EXISTS`).
+  - Trades separate migration tooling for a minimal “clone and run” setup.
+- Keys and writes:
+  - Composite keys: ICD/OPS `(code, version_year)`; hospital `(ik, standortnummer, report_year)`.
+  - Idempotent loads: batched `INSERT ... ON CONFLICT DO UPDATE` instead of ad hoc dedupe.
+- Referential integrity:
+  - Department ICD/OPS codes are mainly a logical join to reference tables (no enforced FK on those columns).
+
+### Ingestion strategy
+
+- Shape of the run:
+  - Single CLI: `python -m ingest.run_ingest`.
+  - Phase order: ICD → OPS → hospital JSON (scan recursive under `--hospital-dir`).
+- Database I/O and resilience:
+  - Bulk inserts via `execute_values` with `--batch-size`.
+  - Transient errors: retries with savepoints (`ingest/common.py`).
+  - Hospital path: periodic flush/commit every `--hospital-flush-files` files to cap memory and save partial work.
+- What gets skipped vs reprocessed:
+  - Hospital JSON: may skip unchanged files when tracking compares `mtime_ns`, `size_bytes`, `sha256` in `ingest_files`.
+  - ICD/OPS: full parse + upsert each run (no first-class fingerprint skip in-repo).
+- Conflict and rerun policy:
+  - Same key, new payload: latest ingest wins (`ON CONFLICT DO UPDATE`).
+  - See `docs/ingestion_strategy.md` for deterministic-key notes.
+- Operator modes:
+  - `--dry-run`: parse/validate without writing.
+  - Default fail-fast; `--continue-on-error` continues hospital files after a bad file.
+  - ICD/OPS: bad lines usually bump counters; hard failures still abort.
+- Feedback:
+  - Per-phase counters on stdout.
+  - Optional `tqdm` bars (`--no-progress` to disable).
+
+### Language and stack
+
+- Runtime: Python 3.11+.
+- Main libraries:
+  - `psycopg2-binary` for Postgres access.
+  - `lxml` for markup-heavy sources where needed.
+  - Code organized as small modules under `ingest/`.
+- Why Python here:
+  - Fast iteration for a batch job.
+  - Strong text / JSON ergonomics.
+  - No compile step for contributors running ingest locally.
+
+### If data were ~100× or ~1000× larger
+
+- Current baseline:
+  - Single process, single DB connection.
+  - ICD/OPS parsers hold full row lists in memory before write (scales poorly past “catalog” sizes).
+- Likely next steps:
+  - Stream parsers and smaller transactions.
+  - Parallel workers partitioned by file or report year.
+  - File-level incremental tracking for ICD/OPS, not only hospitals.
+  - Postgres: indexes, partitioning (e.g. by year), `COPY` or staging-then-swap instead of long upsert windows.
+- Related doc: the “Pipeline assumptions” table earlier in this README states the same themes in table form.
+
+### Tests
+
+- Runner: `pytest`.
+- Coverage areas:
+  - ICD/OPS/hospital parsers and ingest paths.
+  - Reference scenarios (duplicates, non-overlap, validation).
+- Test modules:
+  - `tests/test_icd_ingest.py`
+  - `tests/test_ops_ingest.py`
+  - `tests/test_hospital_ingest.py`
+  - `tests/test_reference_ingest_scenarios.py`
+- Data:
+  - Fixtures under `tests/fixtures/` for small, repeatable inputs without full production dumps.
