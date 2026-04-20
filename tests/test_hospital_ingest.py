@@ -113,6 +113,121 @@ def test_hospital_overlap_and_update(db_conn, tmp_data_dir: Path):
         assert count == 99
 
 
+def _ein_standort_kontakt_zugang_payload() -> dict:
+    """Mirrors the majority shape in DATA/json_2024: address under
+    Krankenhaus.Ein_Standort.Krankenhauskontaktdaten.Kontakt_Zugang.
+    """
+    return {
+        "Qualitaetsbericht": {
+            "Krankenhaus": {
+                "Ein_Standort": {
+                    "Krankenhauskontaktdaten": {
+                        "Name": "Hospital Ein-Standort",
+                        "Kontakt_Zugang": {
+                            "Strasse": "Budapester Straße",
+                            "Hausnummer": "38",
+                            "Postleitzahl": "20359",
+                            "Ort": "Hamburg",
+                        },
+                    }
+                }
+            }
+        }
+    }
+
+
+def _mehrere_standorte_payload() -> dict:
+    """Per-site address under Standortkontaktdaten should beat the umbrella
+    address under Krankenhauskontaktdaten.
+    """
+    return {
+        "Qualitaetsbericht": {
+            "Krankenhaus": {
+                "Mehrere_Standorte": {
+                    "Krankenhauskontaktdaten": {
+                        "Name": "Umbrella Org",
+                        "Kontakt_Zugang": {
+                            "Strasse": "Headquarter Str.",
+                            "Postleitzahl": "00000",
+                            "Ort": "Nowhere",
+                        },
+                    },
+                    "Standortkontaktdaten": {
+                        "Name": "Site Clinic",
+                        "Kontakt_Zugang": {
+                            "Strasse": "Berghäuschensweg",
+                            "Hausnummer": "7",
+                            "Postleitzahl": "41464",
+                            "Ort": "Neuss",
+                        },
+                    },
+                }
+            }
+        }
+    }
+
+
+def test_extract_address_from_ein_standort_kontakt_zugang(tmp_data_dir: Path):
+    p = tmp_data_dir / "260100023-773287000-2024.json"
+    p.write_text(json.dumps(_ein_standort_kontakt_zugang_payload()), encoding="utf-8")
+
+    location, _, _, _, _ = parse_hospital_file(p)
+    (
+        ik, standort, year, name, street, house, plz, ort,
+        *_rest,
+    ) = location
+    assert (ik, standort, year) == ("260100023", "773287000", 2024)
+    assert name == "Hospital Ein-Standort"
+    assert street == "Budapester Straße"
+    assert house == "38"
+    assert plz == "20359"
+    assert ort == "Hamburg"
+
+
+def test_extract_address_prefers_standortkontaktdaten(tmp_data_dir: Path):
+    p = tmp_data_dir / "260100023-773287000-2024.json"
+    p.write_text(json.dumps(_mehrere_standorte_payload()), encoding="utf-8")
+
+    location, _, _, _, _ = parse_hospital_file(p)
+    _, _, _, name, street, _house, plz, ort, *_ = location
+    assert name == "Site Clinic"
+    assert street == "Berghäuschensweg"
+    assert plz == "41464"
+    assert ort == "Neuss"
+
+
+def test_extract_address_partial_cascades_across_candidates(tmp_data_dir: Path):
+    """If Standortkontaktdaten supplies some fields but is missing others,
+    later candidates should fill in the gaps."""
+    payload = {
+        "Qualitaetsbericht": {
+            "Krankenhaus": {
+                "Mehrere_Standorte": {
+                    "Krankenhauskontaktdaten": {
+                        "Kontakt_Zugang": {
+                            "Postleitzahl": "41464",
+                            "Ort": "Neuss",
+                        },
+                    },
+                    "Standortkontaktdaten": {
+                        "Name": "Partial Site",
+                        "Kontakt_Zugang": {"Strasse": "Nordkanalallee"},
+                    },
+                }
+            }
+        }
+    }
+    p = tmp_data_dir / "260100023-773287000-2024.json"
+    p.write_text(json.dumps(payload), encoding="utf-8")
+
+    location, _, _, _, _ = parse_hospital_file(p)
+    _, _, _, name, street, _house, plz, ort, *_ = location
+    assert name == "Partial Site"
+    assert street == "Nordkanalallee"
+    assert plz == "41464"
+    assert ort == "Neuss"
+
+
 def test_discover_include_exclude_years(tmp_data_dir: Path):
     (tmp_data_dir / "260100023-773287000-2023.json").write_text("{}", encoding="utf-8")
     (tmp_data_dir / "260100023-773287000-2024.json").write_text("{}", encoding="utf-8")
