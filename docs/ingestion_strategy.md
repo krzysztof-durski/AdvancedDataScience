@@ -32,5 +32,5 @@ This prevents unintended duplicate work during reruns while still allowing updat
 ## Retry and error policy
 
 - Upserts are idempotent, so rerunning after failure is safe.
-- Default mode is fail-fast (`--continue-on-error` disabled).
-- Optional continue mode keeps processing when non-critical phase errors occur.
+- Hospital phase default: skip unparsable JSON files, log them to stderr, and record them in `ingest_files` with `status='failed'` when tracking is enabled. Use `--strict` to fail fast instead.
+- `--failed-log PATH` writes a tab-separated `<file>\t<error>` list as a convenience for triage even when tracking is disabled.

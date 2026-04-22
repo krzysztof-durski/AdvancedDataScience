@@ -1,0 +1,605 @@
+{
+  "Qualitaetsbericht": {
+    "Einleitung": {
+      "Datensatz": {
+        "Datum": "2016-11-15",
+        "Uhrzeit": "10:52:24",
+        "Sprache": "deutsch"
+      },
+      "Software": {
+        "Hersteller": "empira Software GmbH, Troisdorf",
+        "Produktname": "empira Krankenhaus-Qualitätsbericht-Manager QBX Desktop",
+        "Version": "15.10.4036.0 (d0dcd3b3c)"
+      },
+      "Verantwortlicher_Erstellung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Tanja",
+            "Nachname": "Oevermann",
+            "Funktion_Arbeitsschwerpunkt": "Geschäftsführerin"
+          },
+          "Telefon": {
+            "Vorwahl": "0571",
+            "Rufnummer": "76248"
+          },
+          "Fax": {
+            "Vorwahl": "0571",
+            "Rufnummer": "76265"
+          },
+          "Email": "oevermann@porta-venenklinik.de"
+        }
+      },
+      "Verantwortlicher_Krankenhausleitung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Tanja",
+            "Nachname": "Oevermann",
+            "Funktion_Arbeitsschwerpunkt": "Geschäftsführerin"
+          },
+          "Telefon": {
+            "Vorwahl": "0571",
+            "Rufnummer": "76248"
+          },
+          "Email": "oevermann@porta-venenklinik.de"
+        }
+      },
+      "URL_Homepage_Krankenhaus": "http://www.porta-venenklinik.de"
+    },
+    "Krankenhaus": {
+      "Kontaktdaten": {
+        "Name": "Klinik für Venenchirurgie Porta Westfalica GmbH & Co KG",
+        "IK": "510571498",
+        "Standortnummer": "00",
+        "Kontakt_Zugang": {
+          "Strasse": "Hauptstrasse",
+          "Hausnummer": "2",
+          "Postleitzahl": "32457",
+          "Ort": "Porta Westfalica"
+        },
+        "Aerztliche_Leitung": {
+          "Kontakt_Person_lang": [
+            {
+              "Person": {
+                "Titel": "Dr.",
+                "Vorname": "Jürgen",
+                "Nachname": "Reiss",
+                "Funktion_Arbeitsschwerpunkt": "Arzt"
+              },
+              "Telefon": {
+                "Vorwahl": "0571",
+                "Rufnummer": "76248"
+              },
+              "Email": "info@porta-venenklinik.de"
+            },
+            {
+              "Person": {
+                "Titel": "Dr.",
+                "Vorname": "Ulrich",
+                "Nachname": "Gattwinkel",
+                "Funktion_Arbeitsschwerpunkt": "Arzt"
+              },
+              "Telefon": {
+                "Vorwahl": "0571",
+                "Rufnummer": "76248"
+              },
+              "Email": "info@porta-venenklinik.de"
+            }
+          ]
+        },
+        "Pflegedienstleitung": {
+          "Kontakt_Person_lang": {
+            "Person": {
+              "Vorname": "Marc - Oliver",
+              "Nachname": "Engelhardt",
+              "Funktion_Arbeitsschwerpunkt": "Pflegedienstleitung"
+            },
+            "Telefon": {
+              "Vorwahl": "0571",
+              "Rufnummer": "76248"
+            },
+            "Email": "info@porta-venenklinik.de"
+          }
+        },
+        "Verwaltungsleitung": {
+          "Kontakt_Person_lang": {
+            "Person": {
+              "Vorname": "Tanja",
+              "Nachname": "Oevermann",
+              "Funktion_Arbeitsschwerpunkt": "Geschäftsführung"
+            },
+            "Telefon": {
+              "Vorwahl": "0571",
+              "Rufnummer": "76248"
+            },
+            "Email": "oevermann@porta-venenklinik.de"
+          }
+        }
+      }
+    },
+    "Einziger_Standort": {},
+    "Krankenhaustraeger": {
+      "Name": "Klinik für Venenchirurgie PoW VerwaltungsgmbH",
+      "Krankenhaustraeger_Art": {
+        "Art": "privat"
+      }
+    },
+    "Anzahl_Betten": "10",
+    "Fallzahlen": {
+      "Vollstationaere_Fallzahl": "679",
+      "Teilstationaere_Fallzahl": "0",
+      "Ambulante_Fallzahl": "0"
+    },
+    "Personal_des_Krankenhauses": {
+      "Aerzte": {
+        "Aerzte_ohne_Belegaerzte": {
+          "Personalerfassung": {
+            "Anzahl_VK": "1",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "1"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          },
+          "Fachaerzte": {
+            "Personalerfassung": {
+              "Anzahl_VK": "1",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "1"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0"
+                }
+              }
+            }
+          },
+          "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+        },
+        "Belegaerzte": {
+          "Anzahl": "0"
+        },
+        "Aerzte_ohne_Fachabteilungszuordnung": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          },
+          "Fachaerzte": {
+            "Personalerfassung": {
+              "Anzahl_VK": "0",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Pflegekraefte": {
+        "Gesundheits_Krankenpfleger": {
+          "Personalerfassung": {
+            "Anzahl_VK": "6",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "6"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "6"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Medizinische_Fachangestellte": {
+          "Personalerfassung": {
+            "Anzahl_VK": "3",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "3"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "3"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Massgebliche_tarifliche_Wochenarbeitszeit": "38,50"
+      }
+    },
+    "Umgang_mit_Risiken_in_der_Patientenversorgung": {
+      "Verantwortliche_Person_Qualitaetsmanagement": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Henning",
+            "Nachname": "Gattwinkel",
+            "Funktion_Arbeitsschwerpunkt": "Qualitätsbeauftragter"
+          },
+          "Telefon": {
+            "Vorwahl": "0571",
+            "Rufnummer": "76248"
+          },
+          "Email": "info@porta-venenklinik.de"
+        }
+      },
+      "Verantwortliche_Person_Risikomanagement": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Henning",
+            "Nachname": "Gattwinkel",
+            "Funktion_Arbeitsschwerpunkt": "Qualitätsbeauftragter"
+          },
+          "Telefon": {
+            "Vorwahl": "0571",
+            "Rufnummer": "76248"
+          },
+          "Email": "info@porta-venenklinik.de"
+        }
+      },
+      "Instrumente_Massnahmen_Risikomanagement": {
+        "Instrument_Massnahme": [
+          {
+            "RM_Schluessel": "RM02"
+          },
+          {
+            "RM_Schluessel": "RM03"
+          }
+        ]
+      },
+      "Hygienepersonal": {
+        "Krankenhaushygieniker": {
+          "Anzahl": "0"
+        },
+        "Hygienefachkraefte": {
+          "Anzahl": "1"
+        },
+        "Hygienekommission_nicht_eingerichtet": {}
+      },
+      "Weitere_Informationen_Hygiene": {
+        "Hygienestandard_ZVK": {
+          "Standard_Hygiene_ZVK_trifft_nicht_zu": {},
+          "Standard_Liegedauer_ZVK_trifft_nicht_zu": {}
+        },
+        "Antibiotikaprophylaxe_Antibiotikatherapie": {
+          "Leitlinie_Antibiotikatherapie_liegt_nicht_vor": {},
+          "Standard_perioperative_Antibiotikaprophylaxe_liegt_nicht_vor": {}
+        },
+        "Umgang_Wunden": {
+          "Standard_Wundversorgung_Verbandwechsel_liegt_nicht_vor": {}
+        },
+        "Haendedesinfektion": {
+          "Haendedesinfektionsmittelverbrauch_wurde_nicht_erhoben": {}
+        },
+        "Umgang_Patienten_MRE": {
+          "Standardisierte_Information_MRSA": "0",
+          "Informationsmanagement_MRSA": "0",
+          "Risikoadaptives_Aufnahmescreening": "0",
+          "Regelmaessige_Schulungen": "0"
+        },
+        "Hygienebezogenes_Risikomanagement": {
+          "Hygiene_Instrument_Massnahme": [
+            {
+              "HM_Schluessel": "HM05"
+            },
+            {
+              "HM_Schluessel": "HM09"
+            }
+          ]
+        }
+      },
+      "Beschwerdemanagement": {
+        "Strukturiertes_Beschwerdemanagement": {
+          "Strukturiertes_Beschwerdemanagement_eingefuehrt": {}
+        },
+        "Schriftliches_Konzept": {},
+        "Umgang_muendliche_Beschwerden": {
+          "Umgang_muendliche_Beschwerden_geregelt": {}
+        },
+        "Umgang_schriftliche_Beschwerden": {
+          "Umgang_schriftliche_Beschwerden_geregelt": {}
+        },
+        "Zeitziele_fuer_Rueckmeldung": {},
+        "Anonyme_Eingabemoeglichkeiten": {
+          "Anonyme_Eingabemoeglichkeiten_existieren": {}
+        },
+        "Patientenbefragungen": {
+          "Patientenbefragungen_durchgefuehrt": {}
+        },
+        "Einweiserbefragungen": {}
+      }
+    },
+    "Organisationseinheiten_Fachabteilungen": {
+      "Organisationseinheit_Fachabteilung": {
+        "Gliederungsnummer": "1",
+        "Name": "Dermatologie",
+        "Zugaenge": {
+          "Kontakt_Zugang": {
+            "Strasse": "Hauptstrasse",
+            "Hausnummer": "2",
+            "Postleitzahl": "32457",
+            "Ort": "Porta Westfalica"
+          }
+        },
+        "Zielvereinbarungen": {
+          "Keine_Zielvereinbarung_geschlossen": {}
+        },
+        "Fachabteilungsschluessel": {
+          "FA_Schluessel": "3400"
+        },
+        "Medizinische_Leistungsangebote": {
+          "Medizinisches_Leistungsangebot": {
+            "VA_VU_Schluessel": "VC19"
+          }
+        },
+        "Fallzahlen_OE": {
+          "Vollstationaere_Fallzahl": "679",
+          "Teilstationaere_Fallzahl": "0"
+        },
+        "Hauptdiagnosen": {
+          "Hauptdiagnose": [
+            {
+              "ICD_10": "I83.1",
+              "Fallzahl": "73"
+            },
+            {
+              "ICD_10": "I83.2",
+              "Fallzahl": "7"
+            },
+            {
+              "ICD_10": "I83.9",
+              "Fallzahl": "598"
+            }
+          ]
+        },
+        "Prozeduren": {
+          "Verpflichtend": {
+            "Prozedur": [
+              {
+                "OPS_301": "5-385.70",
+                "Anzahl": "532"
+              },
+              {
+                "OPS_301": "5-385.72",
+                "Anzahl": "132"
+              },
+              {
+                "OPS_301": "5-385.90",
+                "Anzahl": "48"
+              },
+              {
+                "OPS_301": "5-385.92",
+                "Anzahl": "7"
+              },
+              {
+                "OPS_301": "5-385.94",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-385.96",
+                "Anzahl": "137"
+              },
+              {
+                "OPS_301": "5-983",
+                "Anzahl": "257"
+              }
+            ]
+          }
+        },
+        "Ambulante_Operationen": {
+          "Keine_Erbracht": {}
+        },
+        "Personelle_Ausstattung": {
+          "Aerztliches_Personal": {
+            "Hauptabteilung": {
+              "Aerzte_ohne_Belegaerzte": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "1",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "1"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "0"
+                    }
+                  }
+                },
+                "Fachaerzte": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "1",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "1"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "0"
+                      }
+                    }
+                  }
+                },
+                "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+              }
+            }
+          },
+          "Aerztliche_Fachexpertisen": {
+            "Fachexpertise": [
+              {
+                "AQ_ZF_Schluessel": "AQ20"
+              },
+              {
+                "AQ_ZF_Schluessel": "ZF03"
+              },
+              {
+                "AQ_ZF_Schluessel": "ZF31"
+              }
+            ]
+          },
+          "Pflegekraefte": {
+            "Gesundheits_Krankenpfleger": {
+              "Personalerfassung": {
+                "Anzahl_VK": "6",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "6"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "6",
+                    "Fall_je_Anzahl": "113,16667"
+                  }
+                }
+              }
+            },
+            "Medizinische_Fachangestellte": {
+              "Personalerfassung": {
+                "Anzahl_VK": "3",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "3"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "3",
+                    "Fall_je_Anzahl": "226,33333"
+                  }
+                }
+              }
+            },
+            "Massgebliche_tarifliche_Wochenarbeitszeit": "38,50"
+          }
+        }
+      }
+    },
+    "Qualitaetssicherung": {
+      "QS_nach_Landesrecht": {
+        "Keine_Teilnahme_landesspezifische_Qualitaetssicherungsmassnahme": {}
+      }
+    }
+  }
+}

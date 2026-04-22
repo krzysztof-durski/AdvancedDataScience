@@ -120,18 +120,39 @@ def _address_from_contact(contact: Any) -> tuple:
     """Pull (Strasse, Hausnummer, Postleitzahl, Ort) from a contact block.
 
     Real-world reports place the address under any of: top-level fields,
-    a nested `Adresse` subobject (older shape), or `Kontakt_Zugang`
-    (the shape used by the vast majority of `*_Standort*kontaktdaten`
-    blocks). Check them in that order.
+    a nested `Adresse` subobject (older shape), `Hausanschrift` (the
+    2008-2012 shape), or `Kontakt_Zugang` (the shape used by most
+    `*_Standort*kontaktdaten` blocks). Check them in that order.
     """
     if not isinstance(contact, dict):
         return None, None, None, None
     addr = _first(contact, "Adresse") or {}
+    haus = _first(contact, "Hausanschrift") or {}
     zugang = _first(contact, "Kontakt_Zugang") or {}
-    street = _first(contact, "Strasse") or _first(addr, "Strasse") or _first(zugang, "Strasse")
-    house = _first(contact, "Hausnummer") or _first(addr, "Hausnummer") or _first(zugang, "Hausnummer")
-    plz = _first(contact, "Postleitzahl") or _first(addr, "Postleitzahl") or _first(zugang, "Postleitzahl")
-    ort = _first(contact, "Ort") or _first(addr, "Ort") or _first(zugang, "Ort")
+    street = (
+        _first(contact, "Strasse")
+        or _first(addr, "Strasse")
+        or _first(haus, "Strasse")
+        or _first(zugang, "Strasse")
+    )
+    house = (
+        _first(contact, "Hausnummer")
+        or _first(addr, "Hausnummer")
+        or _first(haus, "Hausnummer")
+        or _first(zugang, "Hausnummer")
+    )
+    plz = (
+        _first(contact, "Postleitzahl")
+        or _first(addr, "Postleitzahl")
+        or _first(haus, "Postleitzahl")
+        or _first(zugang, "Postleitzahl")
+    )
+    ort = (
+        _first(contact, "Ort")
+        or _first(addr, "Ort")
+        or _first(haus, "Ort")
+        or _first(zugang, "Ort")
+    )
     return street, house, plz, ort
 
 
@@ -145,7 +166,7 @@ def _contact_candidates(report: dict, kr: dict) -> list[dict]:
     candidates: list[dict] = []
     for c in (
         _first(report, "Kontakt_Adresse", "Kontaktdaten"),
-        _first(kr, "Kontakt_Adresse", "Kontaktdaten"),
+        _first(kr, "Kontakt_Adresse", "Kontaktdaten", "Krankenhauskontaktdaten"),
         _dig(kr, "Mehrere_Standorte", "Standortkontaktdaten"),
         _dig(kr, "Ein_Standort", "Krankenhauskontaktdaten"),
         _dig(kr, "Mehrere_Standorte", "Krankenhauskontaktdaten"),
@@ -176,6 +197,8 @@ def _extract_location(report: dict, ik: str, standort: str, year: int, source_fi
             if n:
                 name = n
                 break
+    if not name:
+        name = _first(report, "Krankenhaus_Name") or _first(kr, "Krankenhaus_Name")
     if not name:
         name = "UNKNOWN"
 
@@ -292,8 +315,12 @@ def upsert_location_rows(cur, rows: list[tuple], batch_size: int = 500, retries:
         ik, standortnummer, report_year, hospital_name, street, house_number, postal_code, city, beds_count,
         inpatient_case_count, partial_inpatient_case_count, outpatient_case_count, source_file, ingested_at
       )
-      SELECT ik, standortnummer, report_year, hospital_name, street, house_number, postal_code, city, beds_count,
-             inpatient_case_count, partial_inpatient_case_count, outpatient_case_count, source_file, NOW()
+      SELECT ik, standortnummer, report_year, hospital_name, street, house_number, postal_code, city,
+             beds_count::INTEGER,
+             inpatient_case_count::INTEGER,
+             partial_inpatient_case_count::INTEGER,
+             outpatient_case_count::INTEGER,
+             source_file, NOW()
       FROM incoming
       ON CONFLICT (ik, standortnummer, report_year) DO UPDATE
       SET hospital_name = EXCLUDED.hospital_name,

@@ -1,4 +1,5 @@
 import argparse
+import sys
 from pathlib import Path
 
 from tqdm import tqdm
@@ -82,7 +83,30 @@ def main() -> int:
     parser.add_argument("--batch-size", type=int, default=1000)
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--no-track-files", action="store_true")
-    parser.add_argument("--continue-on-error", action="store_true")
+    parser.add_argument(
+        "--strict",
+        action="store_true",
+        help=(
+            "Fail fast on the first unparsable hospital JSON file. "
+            "Default behaviour is to skip the file, record it in ingest_files "
+            "(status='failed') when tracking is enabled, log it to stderr, and continue."
+        ),
+    )
+    parser.add_argument(
+        "--continue-on-error",
+        dest="continue_on_error",
+        action="store_true",
+        help="Deprecated no-op kept for backward compatibility (skipping is now default).",
+    )
+    parser.add_argument(
+        "--failed-log",
+        default=None,
+        metavar="PATH",
+        help=(
+            "Optional path to write one failed hospital JSON file per line "
+            "('<path>\\t<error>'). Useful when tracking is disabled."
+        ),
+    )
     parser.add_argument(
         "--no-progress",
         action="store_true",
@@ -168,6 +192,10 @@ def main() -> int:
                 "'260100023-773287000-2024.json' anywhere under that directory "
                 "(see --hospital-dir, --include-years, --exclude-years)."
             )
+        failed_log_handle = None
+        if args.failed_log:
+            failed_log_handle = open(args.failed_log, "w", encoding="utf-8")
+        failed_files: list[tuple[str, str]] = []
         parsed_since_flush = 0
         for file_path in tqdm(
             hospital_files,
@@ -213,11 +241,18 @@ def main() -> int:
                     parsed_since_flush = 0
             except Exception as exc:
                 hosp_c.errors += 1
+                err_msg = str(exc) or exc.__class__.__name__
+                failed_files.append((str(file_path), err_msg))
+                # Always surface the failure; tqdm.write keeps the progress bar intact.
+                tqdm.write(f"FAILED {file_path}: {err_msg}", file=sys.stderr)
+                if failed_log_handle is not None:
+                    failed_log_handle.write(f"{file_path}\t{err_msg}\n")
+                    failed_log_handle.flush()
                 if tracking_enabled:
                     with conn.cursor() as cur:
-                        record_file_result(cur, str(file_path), size_b, mtime_ns, sha256, "failed", str(exc))
+                        record_file_result(cur, str(file_path), size_b, mtime_ns, sha256, "failed", err_msg)
                     conn.commit()
-                if not args.continue_on_error:
+                if args.strict:
                     raise
 
         if not args.dry_run:
@@ -231,8 +266,20 @@ def main() -> int:
                 hosp_c,
             )
             _commit_hospital_tracking(conn, tracked_success_files, tracking_enabled)
+        if failed_log_handle is not None:
+            failed_log_handle.close()
         total.merge(hosp_c)
         print_phase("HOSPITAL", hosp_c)
+        if failed_files:
+            print(
+                f"HOSPITAL failed files: {len(failed_files)}"
+                + (
+                    " (see ingest_files where status='failed' for details)"
+                    if tracking_enabled
+                    else ""
+                )
+                + (f"; wrote list to {args.failed_log}" if args.failed_log else "")
+            )
         print_phase("TOTAL", total)
         return 0
     finally:

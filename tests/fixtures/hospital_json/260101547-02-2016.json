@@ -1,0 +1,935 @@
+{
+  "Qualitaetsbericht": {
+    "Einleitung": {
+      "Datensatz": {
+        "Datum": "2017-12-05",
+        "Uhrzeit": "15:43:27",
+        "Sprache": "deutsch"
+      },
+      "Software": {
+        "Hersteller": "netfutura Deutschland GmbH",
+        "Produktname": "promato QBM",
+        "Version": "1.0"
+      },
+      "Verantwortlicher_Erstellung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Oliver",
+            "Nachname": "Soyka",
+            "Funktion_Arbeitsschwerpunkt": "Chefarzt"
+          },
+          "Telefon": {
+            "Vorwahl": "0451",
+            "Rufnummer": "400250434"
+          },
+          "Email": "oliver.soyka@vorwerker-diakonie.de"
+        }
+      },
+      "Verantwortlicher_Krankenhausleitung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Titel": "Dr.med.",
+            "Vorname": "Roxane",
+            "Nachname": "Burdon",
+            "Funktion_Arbeitsschwerpunkt": "Oberärztin"
+          },
+          "Telefon": {
+            "Vorwahl": "0451",
+            "Rufnummer": "400250434"
+          },
+          "Email": "roxane.burdon@vorwerker-diakonie.de"
+        }
+      },
+      "URL_Homepage_Krankenhaus": "https://www.vorwerker-diakonie.de"
+    },
+    "Krankenhaus": {
+      "Kontaktdaten": {
+        "Name": "Tagesklinik Lübeck",
+        "IK": "260101547",
+        "Standortnummer": "99",
+        "Kontakt_Zugang": {
+          "Strasse": "Triftstraße",
+          "Hausnummer": "139-143",
+          "Postleitzahl": "23554",
+          "Ort": "Lübeck"
+        },
+        "Kontakt_Adresse": {
+          "Adresse": {
+            "Strasse": "Triftstraße",
+            "Hausnummer": "139-143"
+          },
+          "Postleitzahl": "23554",
+          "Ort": "Lübeck"
+        },
+        "Aerztliche_Leitung": {
+          "Kontakt_Person_lang": {
+            "Person": {
+              "Titel": "Dr.med.",
+              "Vorname": "Roxane",
+              "Nachname": "Burdon",
+              "Funktion_Arbeitsschwerpunkt": "Oberärztin"
+            },
+            "Telefon": {
+              "Vorwahl": "0451",
+              "Rufnummer": "400250427"
+            },
+            "Email": "roxane.burdon@vorwerker-diakonie.de"
+          }
+        },
+        "Pflegedienstleitung": {
+          "Kontakt_Person_lang": {
+            "Person": {
+              "Vorname": "Tatjana",
+              "Nachname": "Deters-Schwilski",
+              "Funktion_Arbeitsschwerpunkt": "Bereichsleitung Tageskliniken"
+            },
+            "Telefon": {
+              "Vorwahl": "0451",
+              "Rufnummer": "400250182"
+            },
+            "Email": "tatjana.deters-schwilski@vorwerker-diakonie.de"
+          }
+        },
+        "Verwaltungsleitung": {
+          "Kontakt_Person_lang": {
+            "Person": {
+              "Vorname": "Jürgen",
+              "Nachname": "Holznagel",
+              "Funktion_Arbeitsschwerpunkt": "Verwaltungsleiter"
+            },
+            "Telefon": {
+              "Vorwahl": "0451",
+              "Rufnummer": "400250700"
+            },
+            "Email": "juergen.holznagel@vorwerker-diakonie.de"
+          }
+        }
+      }
+    },
+    "Standort_dieses_Berichts": {
+      "Kontaktdaten": {
+        "Name": "Vorwerker Fachklinik (Tagesklinik Lübeck)",
+        "IK": "260101547",
+        "Standortnummer": "02",
+        "Kontakt_Zugang": {
+          "Strasse": "Triftstraße",
+          "Hausnummer": "139-143",
+          "Postleitzahl": "23554",
+          "Ort": "Lübeck"
+        },
+        "Kontakt_Adresse": {
+          "Adresse": {
+            "Strasse": "Triftstraße",
+            "Hausnummer": "139-143"
+          },
+          "Postleitzahl": "23554",
+          "Ort": "Lübeck"
+        },
+        "Aerztliche_Leitung": {
+          "Kontakt_Person_lang": {
+            "Person": {
+              "Titel": "Dr.med.",
+              "Vorname": "Roxane",
+              "Nachname": "Burdon",
+              "Funktion_Arbeitsschwerpunkt": "Oberärztin"
+            },
+            "Telefon": {
+              "Vorwahl": "0451",
+              "Rufnummer": "400250427"
+            },
+            "Email": "roxane.burdon@vorwerker-diakonie.de"
+          }
+        },
+        "Pflegedienstleitung": {
+          "Kontakt_Person_lang": {
+            "Person": {
+              "Vorname": "Tatjana",
+              "Nachname": "Deters-Schwilski",
+              "Funktion_Arbeitsschwerpunkt": "Bereichsleitung Tageskliniken"
+            },
+            "Telefon": {
+              "Vorwahl": "0451",
+              "Rufnummer": "400250182"
+            },
+            "Email": "tatjana.deters-schwilski@vorwerker-diakonie.de"
+          }
+        },
+        "Verwaltungsleitung": {
+          "Kontakt_Person_lang": {
+            "Person": {
+              "Vorname": "Jürgen",
+              "Nachname": "Holznagel",
+              "Funktion_Arbeitsschwerpunkt": "Verwaltungsleiter"
+            },
+            "Telefon": {
+              "Vorwahl": "0451",
+              "Rufnummer": "400250700"
+            },
+            "Email": "juergen.holznagel@vorwerker-diakonie.de"
+          }
+        }
+      }
+    },
+    "Krankenhaustraeger": {
+      "Name": "Vorwerker Diakonie gGmbH",
+      "Krankenhaustraeger_Art": {
+        "Art": "freigemeinnützig"
+      }
+    },
+    "Krankenhaus_Art": {
+      "Akademisches_Lehrkrankenhaus": {
+        "Name_Universitaet": "Medizinische Fakultät der Universität zu Lübeck"
+      }
+    },
+    "Psychiatrisches_Krankenhaus": {
+      "Versorgungsverpflichtung_Psychiatrie": {}
+    },
+    "Anzahl_Betten": "8",
+    "Fallzahlen": {
+      "Vollstationaere_Fallzahl": "0",
+      "Teilstationaere_Fallzahl": "34",
+      "Ambulante_Fallzahl": "0"
+    },
+    "Medizinisch_Pflegerische_Leistungsangebote": {
+      "MP_Leistungsangebot": [
+        {
+          "MP_Schluessel": "MP30"
+        },
+        {
+          "MP_Schluessel": "MP65"
+        },
+        {
+          "MP_Schluessel": "MP34"
+        },
+        {
+          "MP_Schluessel": "MP03"
+        },
+        {
+          "MP_Schluessel": "MP16"
+        },
+        {
+          "MP_Schluessel": "MP23"
+        },
+        {
+          "MP_Schluessel": "MP14"
+        },
+        {
+          "MP_Schluessel": "MP20"
+        }
+      ]
+    },
+    "Nicht_Medizinische_Leistungsangebote": {
+      "NM_Leistungsangebot": [
+        {
+          "NM_Schluessel": "NM63"
+        },
+        {
+          "NM_Schluessel": "NM30",
+          "Zusatzangaben": {
+            "Parkplatznutzung": {
+              "Kosten_pro_Stunde_Max": "0",
+              "Kosten_pro_Tag_Max": "0"
+            }
+          }
+        }
+      ]
+    },
+    "Barrierefreiheit": {
+      "Barrierefreiheit_Aspekt": {
+        "BF_Schluessel": "BF10"
+      }
+    },
+    "Akademische_Lehre": {
+      "Akademische_Lehre_Wissenschaftliche_Taetigkeit": [
+        {
+          "FL_Schluessel": "FL03"
+        },
+        {
+          "FL_Schluessel": "FL04"
+        }
+      ]
+    },
+    "Ausbildung_andere_Heilberufe": {
+      "Ausbildung_in_anderen_Heilberufen": {
+        "HB_Schluessel": "HB02"
+      }
+    },
+    "Personal_des_Krankenhauses": {
+      "Aerzte": {
+        "Aerzte_ohne_Belegaerzte": {
+          "Personalerfassung": {
+            "Anzahl_VK": "1,25",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "1,25"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "1,25"
+              }
+            }
+          },
+          "Fachaerzte": {
+            "Personalerfassung": {
+              "Anzahl_VK": "0,5",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,5"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,5"
+                }
+              }
+            }
+          },
+          "Massgebliche_tarifliche_Wochenarbeitszeit": "40"
+        },
+        "Belegaerzte": {
+          "Anzahl": "0"
+        },
+        "Aerzte_ohne_Fachabteilungszuordnung": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          },
+          "Fachaerzte": {
+            "Personalerfassung": {
+              "Anzahl_VK": "0",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Pflegekraefte": {
+        "Gesundheits_Krankenpfleger": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0"
+              }
+            }
+          }
+        },
+        "Massgebliche_tarifliche_Wochenarbeitszeit": "39,00"
+      },
+      "Ausgewaehltes_Therapeutisches_Personal_Psycho": {
+        "Diplom_Psychologen": {
+          "Personalerfassung": {
+            "Anzahl_VK": "1",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "1"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "1"
+              }
+            }
+          }
+        },
+        "Ergotherapeuten": {
+          "Personalerfassung": {
+            "Anzahl_VK": "1",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "1"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "1"
+              }
+            }
+          }
+        }
+      },
+      "Spezielles_Therapeutisches_Personal": {
+        "Therapeutisches_Personal": {
+          "SP_Schluessel": "SP08",
+          "Personalerfassung": {
+            "Anzahl_VK": "3",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "3"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "3"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Umgang_mit_Risiken_in_der_Patientenversorgung": {
+      "Verantwortliche_Person_Qualitaetsmanagement": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Titel": "Diplom-Psychologe",
+            "Vorname": "Stefan",
+            "Nachname": "Scholten",
+            "Funktion_Arbeitsschwerpunkt": "QMB / Ltd. Psychologe"
+          },
+          "Telefon": {
+            "Vorwahl": "0451",
+            "Rufnummer": "400250434"
+          },
+          "Fax": {
+            "Vorwahl": "0451",
+            "Rufnummer": "404806"
+          },
+          "Email": "stefan.scholten@vorwerker-diakonie.de"
+        }
+      },
+      "Lenkungsgremium_Qualitaetsmanagement": {
+        "Lenkungsgremium": {
+          "Beteiligte_Abteilungen_Funktionsbereiche": "alle Abteilungen",
+          "Tagungsfrequenz": "monatlich"
+        }
+      },
+      "Lenkungsgremium_Risikomanagement": {
+        "Lenkungsgremium": {
+          "Beteiligte_Abteilungen_Funktionsbereiche": "alle",
+          "Tagungsfrequenz": "monatlich"
+        }
+      },
+      "Instrumente_Massnahmen_Risikomanagement": {
+        "Instrument_Massnahme": {
+          "RM_Schluessel": "RM01",
+          "Zusatzangaben_RM": {
+            "SOP": {
+              "Name": "Korrektur- und Vorbeugema&szlig;nahmen",
+              "Datum": "2016-01-01"
+            }
+          }
+        }
+      },
+      "Einrichtungsinternes_Fehlermeldesystem": {
+        "Tagungsgremium": {
+          "Tagungsfrequenz": "quartalsweise"
+        },
+        "Massnahmen": "Maßnahmenplanung",
+        "Fehlermeldesystem_intern": {
+          "System_intern": {
+            "IF_Schluessel": "IF01",
+            "Zusatzangaben_IF": {
+              "Datum": "2016-01-01"
+            }
+          }
+        }
+      },
+      "Einrichtungsuebergreifendes_Fehlermeldesystem": {
+        "Fehlermeldesystem_uebergreifend": {
+          "System_uebergreifend": {
+            "EF_Sonstiges": {
+              "EF_Sonstiges_Schluessel": "EF00",
+              "Erlaeuterungen": "Korrektur- und Vorbeugemaßnahmen"
+            }
+          }
+        },
+        "Tagungsgremium": {
+          "Tagungsfrequenz": "jährlich"
+        }
+      },
+      "Hygienepersonal": {
+        "Krankenhaushygieniker": {
+          "Anzahl": "1",
+          "Erlaeuterungen": "Universitätsklinikum Schleswig-Holstein, Campus Kiel"
+        },
+        "Hygienebeauftragte_Aerzte": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "1"
+          },
+          "Erlaeuterungen": "Dr.med. B. Osterhage"
+        },
+        "Hygienefachkraefte": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "1"
+          },
+          "Erlaeuterungen": "Beratung, Begehungen und Begutachtung durch Fa. OPAL"
+        },
+        "Hygienebeauftragte_Pflege": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "2"
+          }
+        },
+        "Hygienekommission_eingerichtet": {
+          "Kontakt_Person_kurz": {
+            "Person": {
+              "Vorname": "Oliver",
+              "Nachname": "Soyka",
+              "Funktion_Arbeitsschwerpunkt": "Chefarzt, Vorsitzender der Hygienekommission"
+            },
+            "Email": "oliver.soyka@vorwerker-diakonie.de"
+          },
+          "Tagungsfrequenz": "jährlich"
+        }
+      },
+      "Weitere_Informationen_Hygiene": {
+        "Hygienestandard_ZVK": {
+          "Standard_Hygiene_ZVK_trifft_nicht_zu": {},
+          "Standard_Liegedauer_ZVK_trifft_nicht_zu": {}
+        },
+        "Antibiotikaprophylaxe_Antibiotikatherapie": {
+          "Leitlinie_Antibiotikatherapie_liegt_nicht_vor": {},
+          "Standard_perioperative_Antibiotikaprophylaxe_trifft_nicht_zu": {}
+        },
+        "Umgang_Wunden": {
+          "Standard_Wundversorgung_Verbandwechsel_trifft_nicht_zu": {}
+        },
+        "Haendedesinfektion": {
+          "Haendedesinfektionsmittelverbrauch_wurde_nicht_erhoben": {}
+        },
+        "Umgang_Patienten_MRE": {
+          "Standardisierte_Information_MRSA": "1",
+          "Informationsmanagement_MRSA": "1",
+          "Risikoadaptives_Aufnahmescreening": "1",
+          "Regelmaessige_Schulungen": "1"
+        },
+        "Hygienebezogenes_Risikomanagement": {
+          "Hygiene_Instrument_Massnahme": {
+            "HM_Schluessel": "HM09"
+          }
+        }
+      },
+      "Beschwerdemanagement": {
+        "Strukturiertes_Beschwerdemanagement": {
+          "Strukturiertes_Beschwerdemanagement_eingefuehrt": {}
+        },
+        "Schriftliches_Konzept": {
+          "Schriftliches_Konzept_existiert": {}
+        },
+        "Umgang_muendliche_Beschwerden": {
+          "Umgang_muendliche_Beschwerden_geregelt": {}
+        },
+        "Umgang_schriftliche_Beschwerden": {
+          "Umgang_schriftliche_Beschwerden_geregelt": {}
+        },
+        "Zeitziele_fuer_Rueckmeldung": {
+          "Zeitziele_fuer_Rueckmeldung_definiert": {}
+        },
+        "Anonyme_Eingabemoeglichkeiten": {
+          "Anonyme_Eingabemoeglichkeiten_existieren": {}
+        },
+        "Patientenbefragungen": {},
+        "Einweiserbefragungen": {}
+      }
+    },
+    "Organisationseinheiten_Fachabteilungen": {
+      "Organisationseinheit_Fachabteilung": {
+        "Gliederungsnummer": "1",
+        "Name": "Tagesklinik Lübeck",
+        "Chefaerzte": {
+          "Kontakt_Person_lang": {
+            "Person": {
+              "Vorname": "Oliver",
+              "Nachname": "Soyka",
+              "Funktion_Arbeitsschwerpunkt": "Chefarzt"
+            },
+            "Telefon": {
+              "Vorwahl": "0451",
+              "Rufnummer": "400250434"
+            },
+            "Email": "oliver.soyka@vorwerker-diakonie.de"
+          }
+        },
+        "Zugaenge": {
+          "Kontakt_Zugang": {
+            "Strasse": "Triftstra&szlig;e",
+            "Hausnummer": "139-143",
+            "Postleitzahl": "23554",
+            "Ort": "Lübeck"
+          }
+        },
+        "Zielvereinbarungen": {
+          "Keine_Zielvereinbarung_geschlossen": {}
+        },
+        "Fachabteilungsschluessel": {
+          "FA_Schluessel": "3060"
+        },
+        "Medizinische_Leistungsangebote": {
+          "Medizinisches_Leistungsangebot": [
+            {
+              "VA_VU_Schluessel": "VI25"
+            },
+            {
+              "VA_VU_Schluessel": "VP15"
+            },
+            {
+              "VA_VU_Schluessel": "VP09"
+            },
+            {
+              "VA_VU_Schluessel": "VK27"
+            }
+          ]
+        },
+        "Barrierefreiheit": {
+          "Barrierefreiheit_Aspekt": {
+            "BF_Schluessel": "BF08"
+          }
+        },
+        "Fallzahlen_OE": {
+          "Vollstationaere_Fallzahl": "0",
+          "Teilstationaere_Fallzahl": "34"
+        },
+        "Hauptdiagnosen": {
+          "Hauptdiagnose": [
+            {
+              "ICD_10": "F94.2",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F94.1",
+              "Fallzahl": "7"
+            },
+            {
+              "ICD_10": "F92.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F90.1",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F60.3",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F91.3",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F92.8",
+              "Fallzahl": "10"
+            },
+            {
+              "ICD_10": "F84.5",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "F93.8",
+              "Fallzahl": "4"
+            }
+          ]
+        },
+        "Prozeduren": {
+          "Freiwillig": {
+            "Prozedur": [
+              {
+                "OPS_301": "9-656",
+                "Anzahl": "47"
+              },
+              {
+                "OPS_301": "9-654",
+                "Anzahl": "12"
+              },
+              {
+                "OPS_301": "9-655",
+                "Anzahl": "12"
+              },
+              {
+                "OPS_301": "9-666",
+                "Anzahl": "6"
+              },
+              {
+                "OPS_301": "9-672",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "9-693",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "9-696",
+                "Anzahl": "53"
+              },
+              {
+                "OPS_301": "9-983",
+                "Anzahl": "58"
+              }
+            ]
+          }
+        },
+        "Ambulante_Behandlungsmoeglichkeiten": {
+          "Ambulante_Behandlungsmoeglichkeit": {
+            "Ambulanz": {
+              "AM_Schluessel": "AM02",
+              "Leistungen_Ambulanz": {
+                "Medizinisches_Leistungsangebot": [
+                  {
+                    "VA_VU_Schluessel_Ambulanz": "VP01"
+                  },
+                  {
+                    "VA_VU_Schluessel_Ambulanz": "VP02"
+                  },
+                  {
+                    "VA_VU_Schluessel_Ambulanz": "VP09"
+                  },
+                  {
+                    "VA_VU_Schluessel_Ambulanz": "VP06"
+                  },
+                  {
+                    "VA_VU_Schluessel_Ambulanz": "VP04"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "Ambulante_Operationen": {
+          "Keine_Erbracht": {}
+        },
+        "Personelle_Ausstattung": {
+          "Aerztliches_Personal": {
+            "Nicht_Bettenfuehrend_Abteilung": {
+              "Aerzte_ohne_Belegaerzte": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "1,25",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "1,25"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "1,25"
+                    }
+                  }
+                },
+                "Fachaerzte": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "0,5",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "0,5"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "0,5"
+                      }
+                    }
+                  }
+                },
+                "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+              },
+              "Belegaerzte": {
+                "Anzahl": "0"
+              }
+            }
+          },
+          "Aerztliche_Fachexpertisen": {
+            "Fachexpertise": {
+              "AQ_ZF_Schluessel": "AQ37"
+            }
+          },
+          "Pflegekraefte": {
+            "Gesundheits_Krankenpfleger": {
+              "Personalerfassung": {
+                "Anzahl_VK": "0",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "0"
+                  }
+                }
+              },
+              "Personalerfassung_ohne_Fachabteilungszuordnung": {
+                "Anzahl_VK": "0",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "0"
+                  }
+                }
+              }
+            },
+            "Massgebliche_tarifliche_Wochenarbeitszeit": "39,00"
+          },
+          "Ausgewaehltes_Therapeutisches_Personal_Psycho": {
+            "Diplom_Psychologen": {
+              "Personalerfassung": {
+                "Anzahl_VK": "1",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "1"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "1"
+                  }
+                }
+              }
+            },
+            "Ergotherapeuten": {
+              "Personalerfassung": {
+                "Anzahl_VK": "1",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "1"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "1"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Qualitaetssicherung": {
+      "QS_nach_Landesrecht": {
+        "Keine_Teilnahme_landesspezifische_Qualitaetssicherungsmassnahme": {}
+      },
+      "Fortbildung": {
+        "Fortbildungspflichtige": "2",
+        "Nachweispflichtige": "2",
+        "Fortbildungsnachweis_Erbracht_Habende": "2"
+      }
+    }
+  }
+}

@@ -60,7 +60,7 @@ Schema is created during ingestion (`ensure_schema`); you do not need a separate
 
 Env vars (optional, defaults shown): `DB_HOST=localhost`, `DB_PORT=5432`, `DB_NAME=hospital_db`, `DB_USER=postgres`, `DB_PASSWORD=postgres`.
 
-Useful flags (see `--help` for all): `--dry-run`, `--include-years`, `--exclude-years`, `--no-track-files`, `--continue-on-error`, `--icd-path`, `--ops-path`, `--hospital-dir`, `--icd-version-year`, `--ops-version-year`.
+Useful flags (see `--help` for all): `--dry-run`, `--include-years`, `--exclude-years`, `--no-track-files`, `--strict`, `--failed-log PATH`, `--icd-path`, `--ops-path`, `--hospital-dir`, `--icd-version-year`, `--ops-version-year`. (`--continue-on-error` is kept as a deprecated no-op since skipping is now the default.)
 
 ---
 

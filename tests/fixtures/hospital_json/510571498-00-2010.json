@@ -1,0 +1,274 @@
+{
+  "Qualitaetsbericht": {
+    "Datensatz": {
+      "Datum": "2011-06-29",
+      "Uhrzeit": "12:17:24",
+      "Sprache": "deutsch"
+    },
+    "Krankenhaus_Name": "Klinik für Venenchirurgie GmbH & Co. KG",
+    "Kontaktdaten": {
+      "Hausanschrift": {
+        "Strasse": "Hauptstraße",
+        "Hausnummer": "2",
+        "Postleitzahl": "32457",
+        "Ort": "Porta Westfalica"
+      },
+      "Telefon": {
+        "Vorwahl": "0571",
+        "Rufnummer": "76248"
+      },
+      "Fax": {
+        "Vorwahl": "0571",
+        "Rufnummer": "76265"
+      },
+      "Email": "sekretariat@porta-venenklinik.de",
+      "URL": "http://www.porta-venenklinik.de/"
+    },
+    "Standortnummer": "00",
+    "Krankenhaustraeger": {
+      "Name": "Klinik für Venenchirurgie PoW Verwaltungs GmbH",
+      "Krankenhaustraeger_Art": {
+        "Art": "privat"
+      }
+    },
+    "Anzahl_Betten": "10",
+    "Fallzahlen": {
+      "Vollstationaere_Fallzahl": "608",
+      "Teilstationaere_Fallzahl": "0",
+      "Keine_Ambulante_Fallzahlen": {}
+    },
+    "Institutionskennzeichen": {
+      "IK": "510571498"
+    },
+    "Personal_des_Krankenhauses": {
+      "Aerzte": {
+        "Aerzte_ohne_Belegaerzte": {
+          "Anzahl": "3",
+          "Fachaerzte": {
+            "Anzahl": "3"
+          }
+        },
+        "Belegaerzte": {
+          "Anzahl": "0"
+        }
+      },
+      "Pflegekraefte": {
+        "Gesundheits_Krankenpfleger": {
+          "Anzahl": "5"
+        }
+      },
+      "Spezielles_Therapeutisches_Personal": {
+        "Therapeutisches_Personal": {
+          "SP_Schluessel": "SP02",
+          "Anzahl": "4"
+        }
+      }
+    },
+    "Apparative_Ausstattung": {
+      "Geraet": [
+        {
+          "AA_Schluessel": "AA20",
+          "Notfallverfuegbarkeit_24h": "2"
+        },
+        {
+          "AA_Schluessel": "AA29",
+          "Notfallverfuegbarkeit_24h": "0",
+          "Erlaeuterungen": "24h-Notfallverfügbarkeit ist nicht gegeben"
+        }
+      ]
+    },
+    "Organisationseinheiten_Fachabteilungen": {
+      "Organisationseinheit_Fachabteilung": {
+        "Gliederungsnummer": "1",
+        "Name": "Dermatologie",
+        "Chefarzt": "Dr. med. Gattwinkel",
+        "Kontaktdaten": {
+          "Hausanschrift": {
+            "Strasse": "Hauptstraße",
+            "Hausnummer": "2",
+            "Postleitzahl": "32457",
+            "Ort": "Porta Westfalica"
+          },
+          "Telefon": {
+            "Vorwahl": "0571",
+            "Rufnummer": "76248"
+          },
+          "Fax": {
+            "Vorwahl": "0571",
+            "Rufnummer": "76265"
+          },
+          "Email": "sekretariat@porta-venenklinik.de",
+          "URL": "http://www.porta-venenklinik.de/"
+        },
+        "Vollstationaere_Fallzahl": "608",
+        "Teilstationaere_Fallzahl": "0",
+        "Fachabteilungsschluessel": {
+          "FA_Schluessel": "3400"
+        },
+        "Nicht_Medizinische_Serviceangebote": {
+          "Serviceangebot": [
+            {
+              "SA_Schluessel": "SA02"
+            },
+            {
+              "SA_Schluessel": "SA03"
+            },
+            {
+              "SA_Schluessel": "SA08"
+            },
+            {
+              "SA_Schluessel": "SA09"
+            },
+            {
+              "SA_Schluessel": "SA10"
+            },
+            {
+              "SA_Schluessel": "SA11"
+            },
+            {
+              "SA_Schluessel": "SA14"
+            },
+            {
+              "SA_Schluessel": "SA18"
+            },
+            {
+              "SA_Schluessel": "SA20"
+            },
+            {
+              "SA_Schluessel": "SA21"
+            },
+            {
+              "SA_Schluessel": "SA44"
+            },
+            {
+              "SA_Schluessel": "SA45"
+            },
+            {
+              "SA_Schluessel": "SA47"
+            },
+            {
+              "SA_Schluessel": "SA23"
+            },
+            {
+              "SA_Schluessel": "SA24"
+            },
+            {
+              "SA_Schluessel": "SA25"
+            },
+            {
+              "SA_Schluessel": "SA35"
+            },
+            {
+              "SA_Schluessel": "SA36"
+            },
+            {
+              "SA_Schluessel": "SA52"
+            },
+            {
+              "SA_Schluessel": "SA54"
+            }
+          ]
+        },
+        "Hauptdiagnosen": {
+          "Hauptdiagnose": [
+            {
+              "ICD_10": "I83.0",
+              "Fallzahl_Datenschutz": {}
+            },
+            {
+              "ICD_10": "I83.1",
+              "Fallzahl": "85"
+            },
+            {
+              "ICD_10": "I83.2",
+              "Fallzahl": "9"
+            },
+            {
+              "ICD_10": "I83.9",
+              "Fallzahl": "512"
+            }
+          ]
+        },
+        "Prozeduren": {
+          "Verpflichtend": {
+            "Prozedur": [
+              {
+                "OPS_301": "5-385.70",
+                "Fallzahl": "493"
+              },
+              {
+                "OPS_301": "5-385.72",
+                "Fallzahl": "86"
+              },
+              {
+                "OPS_301": "5-385.74",
+                "Fallzahl": "58"
+              },
+              {
+                "OPS_301": "5-385.90",
+                "Fallzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-385.96",
+                "Fallzahl": "52"
+              }
+            ]
+          }
+        },
+        "Ambulante_Operationen": {
+          "Keine_Erbracht": {}
+        },
+        "Personelle_Ausstattung": {
+          "Aerztliches_Personal": {
+            "Hauptabteilung": {
+              "Aerzte_ohne_Belegaerzte": {
+                "Anzahl": "3",
+                "Fachaerzte": {
+                  "Anzahl": "3"
+                }
+              }
+            }
+          },
+          "Aerztliche_Fachexpertisen": {
+            "Fachexpertise": [
+              {
+                "AQ_ZF_Schluessel": "AQ20"
+              },
+              {
+                "AQ_ZF_Schluessel": "ZF03"
+              },
+              {
+                "AQ_ZF_Schluessel": "ZF06"
+              },
+              {
+                "AQ_ZF_Schluessel": "ZF31"
+              }
+            ]
+          },
+          "Pflegekraefte": {
+            "Gesundheits_Krankenpfleger": {
+              "Anzahl": "5"
+            }
+          },
+          "Pflegerische_Fachexpertisen": {
+            "Fachexpertise_Pflege": [
+              {
+                "PQ_ZP_Schluessel": "PQ03"
+              },
+              {
+                "PQ_ZP_Schluessel": "PQ08"
+              }
+            ]
+          },
+          "Spezielles_Therapeutisches_Personal": {
+            "Therapeutisches_Personal": {
+              "SP_Schluessel": "SP02",
+              "Anzahl": "4"
+            }
+          }
+        }
+      }
+    },
+    "Qualitaetssicherung": {}
+  }
+}

@@ -128,8 +128,12 @@ python -m ingest.run_ingest --no-track-files
 # Override inferred ICD/OPS version year (recommended when filename has no year)
 python -m ingest.run_ingest --icd-version-year 2025 --ops-version-year 2025
 
-# Continue mode (skip immediate exit on top-level error)
-python -m ingest.run_ingest --continue-on-error
+# Default skips unparsable hospital JSON files and records them in `ingest_files`
+# (status='failed'); logs each failure to stderr. Use --strict to fail fast instead.
+python -m ingest.run_ingest --strict
+
+# Also write the list of failed files to a plain-text log
+python -m ingest.run_ingest --failed-log failed_hospital.log
 ```
 
 ## Verify Data Loaded
@@ -230,7 +234,7 @@ The list below is a **generic scenario** (large volume, flaky writes, changing s
 | Large per-entry annotations (e.g. ~1MB) later | Core tables are fixed columns; no extension store. | Add a **reference / extension table** (FK to stable entity key, optional `JSONB` or blob **pointer** to object storage for huge payloads); keep hot path tables narrow. |
 | Incremental updates | Hospital JSON: skip unchanged files via `ingest_files` fingerprints; upserts are idempotent. ICD/OPS: full file pass each run. | Add file-level tracking for ICD/OPS, or change feeds, if sources are huge. |
 | Full reload | Rebuild truth from **all** sources: truncate or delete target tables, clear `ingest_files` (or `--no-track-files`). Empty `hospital_locations` forces re-read of JSON when tracking is on. | Document runbook + optional CLI flag; consider separate “staging then swap” for zero-downtime. |
-| Unpredictable write failures | Retries + savepoints on batched `execute_values`; hospital parse errors per file with `--continue-on-error`. | Smaller transactions, dead-letter queue for bad rows/batches, replay from durable log. |
+| Unpredictable write failures | Retries + savepoints on batched `execute_values`; hospital parse errors default to skip+record in `ingest_files` and stderr log, `--strict` restores fail-fast. | Smaller transactions, dead-letter queue for bad rows/batches, replay from durable log. |
 | Evolving data model | `CREATE TABLE IF NOT EXISTS` only in `ensure_schema`. | Migrations (e.g. Alembic/Flyway), additive columns, backward-compatible ingest. |
 | Redundant storage / eventual consistency | Single Postgres connection. | Idempotent keys, outbox pattern, explicit sync jobs; not handled inside this script. |
 | Retroactive deletion (GDPR) | Hard delete is possible in SQL; child rows cascade from `hospital_locations`. | Document **subject/entity → DELETE** procedure; extend tables if annotations hold PII; cover replicas and backups. |
@@ -244,13 +248,13 @@ The list below is a **generic scenario** (large volume, flaky writes, changing s
 - You may still **re-run** that same command whenever inputs change (idempotent upserts and optional `ingest_files` skipping); that is repeat use of one program, not a requirement to coordinate several different executables to obtain a full load.
 
 **2. What should happen when an error occurs?**  
-ICD/OPS skip unusable lines, batched upserts retry transient database errors with savepoints, and a hospital JSON failure increments `errors`, records `failed` in `ingest_files` when tracking is on, then aborts the run unless `--continue-on-error`, while any other uncaught exception also stops the process immediately.
+ICD/OPS skip unusable lines, batched upserts retry transient database errors with savepoints, and a hospital JSON failure increments `errors`, is logged to stderr and (when tracking is on) recorded in `ingest_files` with `status='failed'`, and ingestion continues by default; pass `--strict` to abort on the first bad file. Any other uncaught exception still stops the process immediately.
 
 **3. What should happen when someone runs the ingestion again?**  
 Re-running is idempotent via upserts on stable keys, skips unchanged tracked hospital JSON when fingerprints match, and reprocesses JSON when `hospital_locations` is empty so stale `ingest_files` metadata cannot hide a truncated hospital load.
 
 **4. What configuration options should the program have?**  
-Postgres is configured via `DB_*` environment variables, and ingestion is tuned with `ingest.run_ingest` CLI flags for input paths, ICD/OPS version years, hospital year filters, batch size, hospital flush cadence, dry-run, file tracking, continue-on-error, and progress output.
+Postgres is configured via `DB_*` environment variables, and ingestion is tuned with `ingest.run_ingest` CLI flags for input paths, ICD/OPS version years, hospital year filters, batch size, hospital flush cadence, dry-run, file tracking, strict failure mode, failed-file log, and progress output.
 
 ## Ingestion pipeline design decisions
 
@@ -287,7 +291,8 @@ Postgres is configured via `DB_*` environment variables, and ingestion is tuned 
   - See `docs/ingestion_strategy.md` for deterministic-key notes.
 - Operator modes:
   - `--dry-run`: parse/validate without writing.
-  - Default fail-fast; `--continue-on-error` continues hospital files after a bad file.
+  - Hospital phase skips + records unparsable JSON files by default; `--strict` restores fail-fast.
+  - `--failed-log PATH` writes a tab-separated list of failed files for quick triage.
   - ICD/OPS: bad lines usually bump counters; hard failures still abort.
 - Feedback:
   - Per-phase counters on stdout.

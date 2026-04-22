@@ -1,0 +1,963 @@
+{
+  "Qualitaetsbericht": {
+    "Einleitung": {
+      "Datensatz": {
+        "Datum": "2019-11-12",
+        "Uhrzeit": "16:27:13",
+        "Sprache": "deutsch"
+      },
+      "Software": {
+        "Hersteller": "Saatmann GmbH & Co. KG",
+        "Produktname": "GeDoWin Qualitätsbericht",
+        "Version": "2019.3 SP2"
+      },
+      "Verantwortlicher_Erstellung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Marion",
+            "Nachname": "Multhaupt",
+            "Funktion_Arbeitsschwerpunkt": "Verwaltungsleitung"
+          },
+          "Telefon": {
+            "Vorwahl": "05731",
+            "Rufnummer": "182",
+            "Durchwahl": "0"
+          },
+          "Fax": {
+            "Vorwahl": "05731",
+            "Rufnummer": "182",
+            "Durchwahl": "100"
+          },
+          "Email": "marion.multhaupt@artemed.de"
+        }
+      },
+      "Verantwortlicher_Krankenhausleitung": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Christina",
+            "Nachname": "Gerhardt",
+            "Funktion_Arbeitsschwerpunkt": "Abteilungsleiter"
+          },
+          "Telefon": {
+            "Vorwahl": "05731",
+            "Rufnummer": "182",
+            "Durchwahl": "0"
+          },
+          "Fax": {
+            "Vorwahl": "05731",
+            "Rufnummer": "182",
+            "Durchwahl": "100"
+          },
+          "Email": "christina.gerhardt@artemed.de"
+        }
+      },
+      "URL_Homepage_Krankenhaus": "http://www.artemed-oeynhausen.de",
+      "URL_Weitere_Informationen": "http://www.artemed.de"
+    },
+    "Krankenhaus": {
+      "Krankenhauskontaktdaten": {
+        "Name": "Artemed Fachklinik Prof.Dr.Dr.Salfeld GmbH und Co.KG",
+        "IK": "260571272",
+        "Standortnummer": "00",
+        "Kontakt_Zugang": {
+          "Strasse": "Portastraße",
+          "Hausnummer": "33-35",
+          "Postleitzahl": "32545",
+          "Ort": "Bad Oeynhausen",
+          "URL_Zugang": "http://www.artemed.de"
+        },
+        "Kontakt_Adresse": {
+          "Postfach": "101145",
+          "Postleitzahl": "32511",
+          "Ort": "Bad Oeynhausen"
+        },
+        "Aerztliche_Leitung": {
+          "Kontakt_Person_lang": {
+            "Person": {
+              "Titel": "Prof. Dr. med. Dr. rer. nat.",
+              "Vorname": "Kurt",
+              "Nachname": "Salfeld",
+              "Funktion_Arbeitsschwerpunkt": "Ärztlicher Direktor"
+            },
+            "Telefon": {
+              "Vorwahl": "05731",
+              "Rufnummer": "182",
+              "Durchwahl": "0"
+            },
+            "Fax": {
+              "Vorwahl": "05731",
+              "Rufnummer": "182",
+              "Durchwahl": "100"
+            },
+            "Email": "kurt.salfeld@artemed.de"
+          }
+        },
+        "Pflegedienstleitung": {
+          "Kontakt_Person_lang": {
+            "Person": {
+              "Titel": "Frau",
+              "Vorname": "Birgit",
+              "Nachname": "Zurheide-Gerkensmeyer",
+              "Funktion_Arbeitsschwerpunkt": "Pflegedienstleitung"
+            },
+            "Telefon": {
+              "Vorwahl": "05731",
+              "Rufnummer": "182",
+              "Durchwahl": "0"
+            },
+            "Fax": {
+              "Vorwahl": "05731",
+              "Rufnummer": "182",
+              "Durchwahl": "100"
+            },
+            "Email": "info@artemed.de"
+          }
+        },
+        "Verwaltungsleitung": {
+          "Kontakt_Person_lang": {
+            "Person": {
+              "Titel": "Frau",
+              "Vorname": "Marion",
+              "Nachname": "Multhaupt",
+              "Funktion_Arbeitsschwerpunkt": "Verwaltungsleiterin"
+            },
+            "Telefon": {
+              "Vorwahl": "05731",
+              "Rufnummer": "182",
+              "Durchwahl": "142"
+            },
+            "Fax": {
+              "Vorwahl": "05731",
+              "Rufnummer": "182",
+              "Durchwahl": "100"
+            },
+            "Email": "marion.multhaupt@artemed.de"
+          }
+        }
+      }
+    },
+    "Krankenhaustraeger": {
+      "Name": "Artemed Fachklinik Prof. Dr. Dr. Salfeld GmbH und Co. KG",
+      "Krankenhaustraeger_Art": {
+        "Art": "privat"
+      }
+    },
+    "Nicht_Medizinische_Leistungsangebote": {
+      "NM_Leistungsangebot": [
+        {
+          "NM_Schluessel": "NM03"
+        },
+        {
+          "NM_Schluessel": "NM14",
+          "Zusatzangaben": {
+            "Mediennutzung": {
+              "Kosten_pro_Tag": "3,00"
+            }
+          }
+        },
+        {
+          "NM_Schluessel": "NM30",
+          "Zusatzangaben": {
+            "Parkplatznutzung": {
+              "Kosten_pro_Stunde_Max": "0,50",
+              "Kosten_pro_Tag_Max": "4,00"
+            }
+          }
+        },
+        {
+          "NM_Schluessel": "NM18",
+          "Zusatzangaben": {
+            "Telefonnutzung": {
+              "Kosten_pro_Tag": "1,00",
+              "Kosten_pro_Minute_ins_deutsche_Festnetz": "0,25",
+              "Kosten_pro_Minute_bei_eintreffenden_Anrufen": "0,00"
+            }
+          }
+        },
+        {
+          "NM_Schluessel": "NM19"
+        },
+        {
+          "NM_Schluessel": "NM01"
+        },
+        {
+          "NM_Schluessel": "NM66",
+          "Zusatzangaben": {
+            "Besondere_Ernaehrungsgewohnheiten": "vegetarisch, vegan, koscher"
+          }
+        },
+        {
+          "NM_Schluessel": "NM11"
+        },
+        {
+          "NM_Schluessel": "NM49"
+        }
+      ]
+    },
+    "Barrierefreiheit": {
+      "Barrierefreiheit_Aspekt": {
+        "BF_Schluessel": "BF26",
+        "Erlaeuterungen": "russisch, polnisch, türkisch, arabisch"
+      }
+    },
+    "Anzahl_Betten": "95",
+    "Fallzahlen": {
+      "Vollstationaere_Fallzahl": "4560",
+      "Teilstationaere_Fallzahl": "0",
+      "Ambulante_Fallzahl": "0"
+    },
+    "Personal_des_Krankenhauses": {
+      "Aerzte": {
+        "Aerzte_ohne_Belegaerzte": {
+          "Personalerfassung": {
+            "Anzahl_VK": "11,00",
+            "Erlaeuterungen": {},
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "11,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "11,00"
+              }
+            }
+          },
+          "Fachaerzte": {
+            "Personalerfassung": {
+              "Anzahl_VK": "6,00",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "6,00"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "6,00"
+                }
+              }
+            }
+          },
+          "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+        },
+        "Belegaerzte": {
+          "Anzahl": "0"
+        },
+        "Aerzte_ohne_Fachabteilungszuordnung": {
+          "Personalerfassung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          },
+          "Fachaerzte": {
+            "Personalerfassung": {
+              "Anzahl_VK": "0,00",
+              "Beschaeftigungsverhaeltnis": {
+                "Personal_mit_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Personal_ohne_direktem_BV": {
+                  "Anzahl_VK": "0,00"
+                }
+              },
+              "Versorgungsform": {
+                "Ambulante_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                },
+                "Stationaere_Versorgung": {
+                  "Anzahl_VK": "0,00"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Pflegekraefte": {
+        "Gesundheits_Krankenpfleger": {
+          "Personalerfassung": {
+            "Anzahl_VK": "17,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "17,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "17,00"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          }
+        },
+        "Medizinische_Fachangestellte": {
+          "Personalerfassung": {
+            "Anzahl_VK": "18,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "18,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "18,00"
+              }
+            }
+          },
+          "Personalerfassung_ohne_Fachabteilungszuordnung": {
+            "Anzahl_VK": "0,00",
+            "Beschaeftigungsverhaeltnis": {
+              "Personal_mit_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              },
+              "Personal_ohne_direktem_BV": {
+                "Anzahl_VK": "0,00"
+              }
+            },
+            "Versorgungsform": {
+              "Ambulante_Versorgung": {
+                "Anzahl_VK": "0,00"
+              },
+              "Stationaere_Versorgung": {
+                "Anzahl_VK": "0,00"
+              }
+            }
+          }
+        },
+        "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+      }
+    },
+    "Umgang_mit_Risiken_in_der_Patientenversorgung": {
+      "Verantwortliche_Person_Qualitaetsmanagement": {
+        "Kontakt_Person_lang": {
+          "Person": {
+            "Vorname": "Christina",
+            "Nachname": "Gerhardt",
+            "Funktion_Arbeitsschwerpunkt": "Abteilungsleiter"
+          },
+          "Telefon": {
+            "Vorwahl": "05731",
+            "Rufnummer": "182",
+            "Durchwahl": "0"
+          },
+          "Email": "christina.gerhardt@artemed.de"
+        }
+      },
+      "Hygienepersonal": {
+        "Krankenhaushygieniker": {
+          "Anzahl": "0"
+        },
+        "Hygienebeauftragte_Aerzte": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "1"
+          }
+        },
+        "Hygienefachkraefte": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "1"
+          }
+        },
+        "Hygienebeauftragte_Pflege": {
+          "Hygienepersonalerfassung": {
+            "Anzahl": "2"
+          }
+        },
+        "Hygienekommission_eingerichtet": {
+          "Kontakt_Person_kurz": {
+            "Person": {
+              "Vorname": "Gregor",
+              "Nachname": "Hoffmann",
+              "Funktion_Arbeitsschwerpunkt": "Hygienefachkraft"
+            }
+          },
+          "Tagungsfrequenz": "quartalsweise"
+        }
+      },
+      "Weitere_Informationen_Hygiene": {
+        "Kein_Einsatz_ZVK": {},
+        "Antibiotikaprophylaxe_Antibiotikatherapie": {
+          "Leitlinie_Antibiotikatherapie_liegt_nicht_vor": {},
+          "Standard_perioperative_Antibiotikaprophylaxe_liegt_nicht_vor": {}
+        },
+        "Umgang_Wunden": {
+          "Standard_Wundversorgung_Verbandwechsel_liegt_nicht_vor": {}
+        },
+        "Haendedesinfektion": {
+          "Haendedesinfektionsmittelverbrauch_Allgemeinstationen_wurde_erhoben": {
+            "Haendedesinfektionsmittelverbrauch_Allgemeinstationen": "57,00"
+          },
+          "Keine_Intensivstation_vorhanden": {},
+          "Erfassung_Haendedesinfektionsmittelverbrauch_stationsbezogen": "nein"
+        },
+        "Umgang_Patienten_MRE": {
+          "Standardisierte_Information_MRSA": "nein",
+          "Informationsmanagement_MRSA": "ja",
+          "Risikoadaptives_Aufnahmescreening": "ja",
+          "Regelmaessige_Schulungen": "ja"
+        }
+      },
+      "Beschwerdemanagement": {
+        "Strukturiertes_Beschwerdemanagement": {
+          "Strukturiertes_Beschwerdemanagement_Eingefuehrt": "ja"
+        },
+        "Schriftliches_Konzept": {
+          "Schriftliches_Konzept_Existiert": "ja"
+        },
+        "Umgang_muendliche_Beschwerden": {
+          "Umgang_muendliche_Beschwerden_Geregelt": "ja"
+        },
+        "Umgang_schriftliche_Beschwerden": {
+          "Umgang_schriftliche_Beschwerden_Geregelt": "ja"
+        },
+        "Zeitziele_fuer_Rueckmeldung": {
+          "Zeitziele_fuer_Rueckmeldung_Definiert": "nein"
+        },
+        "Ansprechpartner": {
+          "Ansprechpersonen": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Titel": "Frau",
+                "Vorname": "Marion",
+                "Nachname": "Multhaupt",
+                "Funktion_Arbeitsschwerpunkt": "Verwaltungsleitung"
+              },
+              "Telefon": {
+                "Vorwahl": "05731",
+                "Rufnummer": "182",
+                "Durchwahl": "142"
+              },
+              "Fax": {
+                "Vorwahl": "05731",
+                "Rufnummer": "182",
+                "Durchwahl": "100"
+              },
+              "Email": "marion.multhaupt@artemed.de"
+            }
+          }
+        },
+        "Anonyme_Eingabemoeglichkeiten": {
+          "Anonyme_Eingabemoeglichkeiten_Existieren": "ja"
+        },
+        "Patientenbefragungen": {
+          "Patientenbefragungen_Durchgefuehrt": "ja"
+        },
+        "Einweiserbefragungen": {
+          "Einweiserbefragungen_Durchgefuehrt": "nein"
+        }
+      },
+      "Arzneimitteltherapiesicherheit": {
+        "Verantwortliches_Gremium_AMTS": {
+          "Kein_Gremium_Arbeitsgruppe": {}
+        },
+        "Verantwortliche_Person_AMTS": {
+          "Verantwortliche_Person_nicht_festgelegt": {}
+        },
+        "Pharmazeutisches_Personal": {
+          "Anzahl_Apotheker": "0",
+          "Anzahl_weiteres_pharmazeutisches_Personal": "0"
+        }
+      }
+    },
+    "Organisationseinheiten_Fachabteilungen": {
+      "Organisationseinheit_Fachabteilung": {
+        "Gliederungsnummer": "1",
+        "Name": "Gefäßchirurgie",
+        "Aerztliche_Leitung_OE": {
+          "Chefarzt": {
+            "Kontakt_Person_lang": {
+              "Person": {
+                "Titel": "Dr.med",
+                "Vorname": "Frank",
+                "Nachname": "Wolter",
+                "Funktion_Arbeitsschwerpunkt": "Chefarzt"
+              },
+              "Telefon": {
+                "Vorwahl": "05731",
+                "Rufnummer": "182",
+                "Durchwahl": "0"
+              },
+              "Email": "frank.wolter@artemed.de"
+            },
+            "Kontakt_Zugang": {
+              "Strasse": "Portastraße",
+              "Hausnummer": "33",
+              "Postleitzahl": "32545",
+              "Ort": "Bad Oeynhausen"
+            }
+          }
+        },
+        "Zielvereinbarungen": {
+          "Keine_Zielvereinbarungen_geschlossen": {}
+        },
+        "Fachabteilungsschluessel": {
+          "FA_Schluessel": "1800"
+        },
+        "Medizinische_Leistungsangebote": {
+          "Medizinisches_Leistungsangebot": {
+            "VA_VU_Schluessel": "VC19"
+          }
+        },
+        "Fallzahlen_OE": {
+          "Vollstationaere_Fallzahl": "4560",
+          "Teilstationaere_Fallzahl": "0"
+        },
+        "Hauptdiagnosen": {
+          "Hauptdiagnose": [
+            {
+              "ICD_10": "I83.9",
+              "Fallzahl": "3334"
+            },
+            {
+              "ICD_10": "I83.1",
+              "Fallzahl": "1200"
+            },
+            {
+              "ICD_10": "I83.2",
+              "Fallzahl": "26"
+            }
+          ]
+        },
+        "Prozeduren": {
+          "Verpflichtende_Angabe": {
+            "Prozedur": [
+              {
+                "OPS_301": "5-385.96",
+                "Anzahl": "4432"
+              },
+              {
+                "OPS_301": "5-385.4",
+                "Anzahl": "4360"
+              },
+              {
+                "OPS_301": "5-385.70",
+                "Anzahl": "2982"
+              },
+              {
+                "OPS_301": "5-892.1c",
+                "Anzahl": "2862"
+              },
+              {
+                "OPS_301": "5-388.9b",
+                "Anzahl": "2665"
+              },
+              {
+                "OPS_301": "5-983",
+                "Anzahl": "1119"
+              },
+              {
+                "OPS_301": "5-385.d0",
+                "Anzahl": "925"
+              },
+              {
+                "OPS_301": "5-385.90",
+                "Anzahl": "537"
+              },
+              {
+                "OPS_301": "5-385.72",
+                "Anzahl": "412"
+              },
+              {
+                "OPS_301": "8-650",
+                "Anzahl": "394"
+              },
+              {
+                "OPS_301": "5-056.8",
+                "Anzahl": "159"
+              },
+              {
+                "OPS_301": "5-385.d1",
+                "Anzahl": "141"
+              },
+              {
+                "OPS_301": "5-388.9c",
+                "Anzahl": "118"
+              },
+              {
+                "OPS_301": "5-385.92",
+                "Anzahl": "54"
+              },
+              {
+                "OPS_301": "5-386.a6",
+                "Anzahl": "40"
+              },
+              {
+                "OPS_301": "5-385.74",
+                "Anzahl": "38"
+              },
+              {
+                "OPS_301": "5-386.a5",
+                "Anzahl": "30"
+              },
+              {
+                "OPS_301": "5-385.80",
+                "Anzahl": "15"
+              },
+              {
+                "OPS_301": "5-380.a6",
+                "Anzahl": "13"
+              },
+              {
+                "OPS_301": "5-388.ax",
+                "Anzahl": "9"
+              },
+              {
+                "OPS_301": "5-916.a0",
+                "Anzahl": "8"
+              },
+              {
+                "OPS_301": "8-919",
+                "Anzahl": "8"
+              },
+              {
+                "OPS_301": "5-385.82",
+                "Anzahl": "6"
+              },
+              {
+                "OPS_301": "5-869.1",
+                "Anzahl": "6"
+              },
+              {
+                "OPS_301": "5-896.0f",
+                "Anzahl": "5"
+              },
+              {
+                "OPS_301": "5-380.a5",
+                "Anzahl": "4"
+              },
+              {
+                "OPS_301": "5-385.5",
+                "Anzahl": "4"
+              },
+              {
+                "OPS_301": "5-388.96",
+                "Anzahl": "4"
+              },
+              {
+                "OPS_301": "5-382.9b",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-385.1",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-385.6",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-385.d2",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-386.9b",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-386.9c",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-386.ax",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-388.9x",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-388.a5",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-388.a6",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-389.9b",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-399.8",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-485.4",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-850.b9",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-850.d9",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-892.0e",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-892.1d",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-892.2e",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-913.6f",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-915.0e",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "5-995",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-190.20",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-190.21",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-192.0f",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-192.1f",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-192.xf",
+                "Anzahl_Datenschutz": {}
+              },
+              {
+                "OPS_301": "8-900",
+                "Anzahl_Datenschutz": {}
+              }
+            ]
+          }
+        },
+        "Ambulante_Behandlungsmoeglichkeiten": {
+          "Ambulante_Behandlungsmoeglichkeit": {
+            "Ambulanz": {
+              "AM_Schluessel": "AM11",
+              "Bezeichnung": "Phlebologische Ambulanz",
+              "Leistungen_Ambulanz": {
+                "Medizinisches_Leistungsangebot": {
+                  "VA_VU_Schluessel_Ambulanz": "VC19"
+                }
+              }
+            }
+          }
+        },
+        "Ambulante_Operationen": {
+          "Verpflichtende_Angabe": {
+            "Ambulante_Operation": [
+              {
+                "OPS_301": "5-385.96",
+                "Anzahl": "222"
+              },
+              {
+                "OPS_301": "5-385.70",
+                "Anzahl": "48"
+              },
+              {
+                "OPS_301": "5-385.72",
+                "Anzahl": "25"
+              },
+              {
+                "OPS_301": "5-385.90",
+                "Anzahl": "18"
+              }
+            ]
+          }
+        },
+        "Personelle_Ausstattung": {
+          "Aerztliches_Personal": {
+            "Hauptabteilung": {
+              "Aerzte_ohne_Belegaerzte": {
+                "Personalerfassung": {
+                  "Anzahl_VK": "11,00",
+                  "Beschaeftigungsverhaeltnis": {
+                    "Personal_mit_direktem_BV": {
+                      "Anzahl_VK": "11,00"
+                    },
+                    "Personal_ohne_direktem_BV": {
+                      "Anzahl_VK": "0,00"
+                    }
+                  },
+                  "Versorgungsform": {
+                    "Ambulante_Versorgung": {
+                      "Anzahl_VK": "0,00"
+                    },
+                    "Stationaere_Versorgung": {
+                      "Anzahl_VK": "11,00",
+                      "Fall_je_Anzahl": "414,54545"
+                    }
+                  }
+                },
+                "Fachaerzte": {
+                  "Personalerfassung": {
+                    "Anzahl_VK": "6,00",
+                    "Beschaeftigungsverhaeltnis": {
+                      "Personal_mit_direktem_BV": {
+                        "Anzahl_VK": "6,00"
+                      },
+                      "Personal_ohne_direktem_BV": {
+                        "Anzahl_VK": "0,00"
+                      }
+                    },
+                    "Versorgungsform": {
+                      "Ambulante_Versorgung": {
+                        "Anzahl_VK": "0,00"
+                      },
+                      "Stationaere_Versorgung": {
+                        "Anzahl_VK": "6,00",
+                        "Fall_je_Anzahl": "760,00000"
+                      }
+                    }
+                  }
+                },
+                "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+              }
+            }
+          },
+          "Aerztliche_Fachexpertisen": {
+            "Fachexpertise": [
+              {
+                "AQ_ZF_Schluessel": "AQ06"
+              },
+              {
+                "AQ_ZF_Schluessel": "AQ07"
+              },
+              {
+                "AQ_ZF_Schluessel": "ZF28"
+              },
+              {
+                "AQ_ZF_Schluessel": "ZF31"
+              }
+            ]
+          },
+          "Pflegekraefte": {
+            "Gesundheits_Krankenpfleger": {
+              "Personalerfassung": {
+                "Anzahl_VK": "17,00",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "17,00"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0,00"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0,00"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "17,00",
+                    "Fall_je_Anzahl": "268,23529"
+                  }
+                }
+              }
+            },
+            "Medizinische_Fachangestellte": {
+              "Personalerfassung": {
+                "Anzahl_VK": "18,00",
+                "Beschaeftigungsverhaeltnis": {
+                  "Personal_mit_direktem_BV": {
+                    "Anzahl_VK": "18,00"
+                  },
+                  "Personal_ohne_direktem_BV": {
+                    "Anzahl_VK": "0,00"
+                  }
+                },
+                "Versorgungsform": {
+                  "Ambulante_Versorgung": {
+                    "Anzahl_VK": "0,00"
+                  },
+                  "Stationaere_Versorgung": {
+                    "Anzahl_VK": "18,00",
+                    "Fall_je_Anzahl": "253,33333"
+                  }
+                }
+              }
+            },
+            "Massgebliche_tarifliche_Wochenarbeitszeit": "40,00"
+          }
+        }
+      }
+    },
+    "Qualitaetssicherung": {
+      "QS_nach_Landesrecht": {
+        "Keine_Teilnahme_landesspezifische_Qualitaetssicherungsmassnahme": {}
+      },
+      "Fortbildung": {
+        "Fortbildungspflichtige": "7",
+        "Nachweispflichtige": "7",
+        "Fortbildungsnachweis_Erbracht_Habende": "7"
+      }
+    }
+  }
+}
