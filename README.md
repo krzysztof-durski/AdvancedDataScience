@@ -1,34 +1,105 @@
 # AdvancedDataScience
 
 Hospital data ingestion project for German ICD-10-GM diagnoses, OPS procedures, and hospital location reports.
-The runnable path is Docker Postgres + Python ingestion scripts.
+The runnable path is Docker Postgres + Python ingestion scripts + Streamlit dashboard.
 
-## Quick Start
+## 0 -> Working Dashboard (End-to-End)
+
+Follow these steps in order from a fresh clone.
+
+### 1) Prerequisites
+
+- Docker + Docker Compose
+- Python 3.11+ and `pip`
+- Input data files in `DATA/`:
+  - `DATA/ICD-diagnoses.txt`
+  - `DATA/OPS-procedures.txt`
+  - hospital JSON files under `DATA/**/*.json`
+
+### 2) Create environment file
+
+Create `.env` in the repository root:
+
+```env
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=hospital_db
+DB_USER=postgres
+DB_PASSWORD=postgres
+GEOAPIFY_API_KEY=your_geoapify_key_here
+```
+
+Notes:
+- `GEOAPIFY_API_KEY` is required if you want automatic coordinate enrichment for `dashboard/geocache.csv`.
+- Without it, postal codes can still be synced but lat/lon may remain empty.
+
+### 3) Start PostgreSQL
 
 ```bash
-# 1) Start PostgreSQL
 docker compose up -d
+docker compose ps
+```
 
-# 2) Install Python dependencies
+### 4) Create virtualenv and install dependencies
+
+```bash
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-
-# 3) Ensure input files exist
-ls DATA/ICD-diagnoses.txt DATA/OPS-procedures.txt DATA
-
-# 4) Run ingestion
-python -m ingest.run_ingest --batch-size 1000
-
-# 5) Run tests
-pytest
 ```
 
-If ingestion succeeds, you should see output lines like:
+### 5) Verify required input files
+
+```bash
+ls DATA/ICD-diagnoses.txt DATA/OPS-procedures.txt DATA
+```
+
+### 6) Run full ingestion
+
+```bash
+python -m ingest.run_ingest --batch-size 1000
+```
+
+Expected summary lines include:
 - `ICD: read=... accepted=... skipped=... inserted=... updated=... errors=...`
 - `OPS: read=... accepted=... skipped=... inserted=... updated=... errors=...`
 - `HOSPITAL: read=... accepted=... skipped=... inserted=... updated=... errors=...`
 - `TOTAL: read=... accepted=... skipped=... inserted=... updated=... errors=...`
+
+### 7) Populate/update dashboard geocache (postal code coordinates)
+
+```bash
+# Inspect cache sync status
+python dashboard/sync_geocache.py
+
+# Add missing postal codes and enrich missing lat/lon (uses GEOAPIFY_API_KEY)
+python dashboard/sync_geocache.py --write
+```
+
+Optional sanity check:
+
+```bash
+python - <<'PY'
+import pandas as pd
+df = pd.read_csv("dashboard/geocache.csv", dtype={"postal_code": str})
+missing = ((df["lat"].isna()) | (df["lon"].isna())).sum()
+print(f"rows={len(df)} missing_coords={missing}")
+PY
+```
+
+### 8) Run dashboard
+
+```bash
+streamlit run dashboard/app.py
+```
+
+Open the URL shown in terminal (typically `http://localhost:8501`).
+
+### 9) Optional: run tests
+
+```bash
+pytest
+```
 
 ## Prerequisites
 
@@ -46,9 +117,10 @@ DB_PORT=5432
 DB_NAME=hospital_db
 DB_USER=postgres
 DB_PASSWORD=postgres
+GEOAPIFY_API_KEY=your_geoapify_key_here
 ```
 
-These values are used by Python ingestion (`ingest/common.py`).
+These values are used by Python ingestion (`ingest/common.py`) and dashboard geocache enrichment (`dashboard/geocode.py`).
 
 ## Database (Docker)
 
@@ -335,3 +407,8 @@ Postgres is configured via `DB_*` environment variables, and ingestion is tuned 
   - `tests/test_reference_ingest_scenarios.py`
 - Data:
   - Fixtures under `tests/fixtures/` for small, repeatable inputs without full production dumps.
+
+## Acknowledgment
+
+This project was developed with AI-assisted engineering support (LLM tooling) for tasks such as drafting, refactoring, and documentation.  
+All architecture, implementation decisions, and validation were intentionally reviewed and directed by the project author.
