@@ -4,6 +4,19 @@ Quick reference for commands used in this project. For full context, see the roo
 
 ---
 
+## Quick Start (Run in Order)
+
+Use these commands in sequence to start PostgreSQL in Docker and ingest data.
+
+1. Start database container: `docker compose up -d`
+2. Create and activate venv: `python -m venv .venv` then `source .venv/bin/activate` (macOS/Linux)
+3. Install Python dependencies: `pip install -r requirements.txt`
+4. Confirm required data files exist: `ls DATA/ICD-diagnoses.txt DATA/OPS-procedures.txt`
+5. Run full ingest: `python -m ingest.run_ingest --batch-size 1000`
+6. (Optional) Run tests: `pytest`
+
+---
+
 ## Docker (PostgreSQL)
 
 | Label | Command |
@@ -11,12 +24,14 @@ Quick reference for commands used in this project. For full context, see the roo
 | **Start database** | `docker compose up -d` |
 | **Stop database** | `docker compose down` |
 | **View logs** | `docker compose logs -f postgres` |
-| **Stop and remove volumes** | `docker compose down -v` |
+| **Stop and remove volumes / reset DB (destructive)** | `docker compose down -v` |
 | **Check container status** | `docker compose ps` |
 
 Default connection: `localhost:5432`, user `postgres`, database `hospital_db`.
 
 Password: defaults to `postgres`; override for the container with env `POSTGRES_PASSWORD` (see `docker-compose.yml`). Python ingestion uses `DB_PASSWORD` (default `postgres`) — keep these aligned with `.env` if you change one.
+
+If Postgres 18 reports an upgrade/mount-layout error and keeps restarting, run `docker compose down -v` and then `docker compose up -d` to reinitialize the database volume.
 
 ---
 
