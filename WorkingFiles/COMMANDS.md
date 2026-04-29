@@ -79,6 +79,19 @@ Useful flags (see `--help` for all): `--dry-run`, `--include-years`, `--exclude-
 
 ---
 
+## Geocache Maintenance (Offline Maps)
+
+| Label | Command |
+|-------|---------|
+| **Check missing postal codes** | `python dashboard/sync_geocache.py` |
+| **Append missing postal codes to cache** | `python dashboard/sync_geocache.py --write` |
+
+`dashboard/geocache.csv` is the committed map coordinate source used by the dashboard.  
+If `GEOAPIFY_API_KEY` is set, `--write` attempts to auto-fill missing `lat/lon` via Geoapify for both new and already-cached postal codes with empty coordinates.  
+Without API key, it adds postal codes with empty `lat/lon` for later enrichment.
+
+---
+
 ## Verify data (psql in container)
 
 | Label | Command |
