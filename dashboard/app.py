@@ -14,7 +14,6 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
-from deep_translator import GoogleTranslator
 from folium.plugins import HeatMap, MarkerCluster
 from streamlit_folium import st_folium
 
@@ -243,9 +242,13 @@ def _load_icd_options() -> pd.DataFrame:
     """All 3-char ICD prefixes that appear in hospital data, sorted by code."""
     return query_df("""
         WITH prefixes AS (
-            SELECT DISTINCT SUBSTRING(icd_code, 1, 3) AS prefix
+            SELECT SUBSTRING(icd_code, 1, 3) AS prefix,
+                   SUM(COALESCE(case_count, 0)) AS total_cases
             FROM hospital_department_diagnoses
             WHERE icd_code IS NOT NULL
+              AND case_count IS NOT NULL
+              AND case_count > 0
+            GROUP BY SUBSTRING(icd_code, 1, 3)
         ),
         best_desc AS (
             SELECT DISTINCT ON (SUBSTRING(code, 1, 3))
@@ -255,7 +258,8 @@ def _load_icd_options() -> pd.DataFrame:
             ORDER BY SUBSTRING(code, 1, 3), LENGTH(code) ASC, code ASC
         )
         SELECT p.prefix,
-               COALESCE(d.description_de, p.prefix) AS description_de
+               COALESCE(d.description_de, p.prefix) AS description_de,
+               p.total_cases
         FROM prefixes p
         LEFT JOIN best_desc d ON p.prefix = d.prefix
         ORDER BY p.prefix ASC
@@ -267,9 +271,13 @@ def _load_ops_options() -> pd.DataFrame:
     """All 4-char OPS prefixes (e.g. '5-36') that appear in hospital data, sorted by code."""
     return query_df("""
         WITH prefixes AS (
-            SELECT DISTINCT SUBSTRING(ops_code, 1, 4) AS prefix
+            SELECT SUBSTRING(ops_code, 1, 4) AS prefix,
+                   SUM(COALESCE(case_count, 0)) AS total_cases
             FROM hospital_department_procedures
             WHERE ops_code IS NOT NULL
+              AND case_count IS NOT NULL
+              AND case_count > 0
+            GROUP BY SUBSTRING(ops_code, 1, 4)
         ),
         best_desc AS (
             SELECT DISTINCT ON (SUBSTRING(code, 1, 4))
@@ -279,38 +287,27 @@ def _load_ops_options() -> pd.DataFrame:
             ORDER BY SUBSTRING(code, 1, 4), LENGTH(code) ASC, code ASC
         )
         SELECT p.prefix,
-               COALESCE(d.description_de, p.prefix) AS description_de
+               COALESCE(d.description_de, p.prefix) AS description_de,
+               p.total_cases
         FROM prefixes p
         LEFT JOIN best_desc d ON p.prefix = d.prefix
         ORDER BY p.prefix ASC
     """)
 
 
-@st.cache_data(ttl=86400)
-def _translate_de_to_en(text: str) -> str:
-    """Translate German medical description to English, with safe fallback."""
-    clean = str(text or "").strip()
-    if not clean:
-        return ""
-    try:
-        return GoogleTranslator(source="de", target="en").translate(clean)
-    except Exception:
-        return clean
-
-
 def _build_option_map(df: pd.DataFrame, chapter_en: dict[str, str]) -> dict[str, str]:
-    """Build {label: prefix} dict with English labels, sorted by code."""
+    """Build {label: prefix} dict sorted by code with basic English hint and cases."""
     result: dict[str, str] = {}
     for _, row in df.iterrows():
         prefix: str = str(row["prefix"])
         desc_de: str = str(row["description_de"] or prefix)
-        desc: str = _translate_de_to_en(desc_de)
+        desc: str = desc_de
         if len(desc) > 60:
             desc = desc[:59] + "…"
         en_hint = chapter_en.get(prefix[0].upper(), "")
-        if not desc:
-            desc = en_hint or prefix
-        label = f"{prefix} – {desc}"
+        en_part = f" ({en_hint})" if en_hint else ""
+        case_count = int(row["total_cases"]) if pd.notna(row["total_cases"]) else 0
+        label = f"{prefix} – {desc}{en_part}  [{case_count:,} cases]"
         result[label] = prefix
     return result
 
@@ -629,7 +626,7 @@ with tab3:
             source_key = "ops"
 
     with col_n:
-        top_n = st.number_input("Top N", min_value=5, max_value=2000, value=30, step=5)
+        top_n = st.number_input("Top N", min_value=5, max_value=2000, value=2000, step=5)
 
     with st.spinner("Querying database …"):
         df_top = _top_hospitals(code_prefix, source_key, int(top_n))
