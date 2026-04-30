@@ -319,7 +319,7 @@ def _build_option_map(df: pd.DataFrame, chapter_en: dict[str, str]) -> dict[str,
 with tab1:
     st.header("Hospital Size vs. Type of Stay")
     st.info(
-        "**Deduplication strategy:** hospitals appearing in both the 2023 and 2024 "
+        "**Deduplication strategy:** hospitals appearing in eg. both the 2023 and 2024 "
         "quality reports are deduplicated by keeping only the **latest year's** entry. "
         "This prevents double-counting while using the most current data available.",
         icon="ℹ️",
@@ -901,37 +901,7 @@ with tab4:
         fig_sc5.update_layout(height=460)
         st.plotly_chart(fig_sc5, width="stretch")
 
-        # Top movers by inpatient delta
-        st.subheader("Biggest Changes in Inpatient Cases")
-        df_movers = df_both.dropna(subset=["inpatient_delta"]).copy()
-        df_movers["inpatient_delta"] = pd.to_numeric(df_movers["inpatient_delta"])
-
-        top_gain = df_movers.nlargest(8, "inpatient_delta")[
-            ["hospital_name", "city", "inpatient_a", "inpatient_b", "inpatient_delta"]
-        ]
-        top_loss = df_movers.nsmallest(8, "inpatient_delta")[
-            ["hospital_name", "city", "inpatient_a", "inpatient_b", "inpatient_delta"]
-        ]
-        combined = pd.concat([top_gain, top_loss])
-        combined["inpatient_delta"] = pd.to_numeric(combined["inpatient_delta"])
-
-        fig_movers = px.bar(
-            combined,
-            x="inpatient_delta",
-            y="hospital_name",
-            orientation="h",
-            color="inpatient_delta",
-            color_continuous_scale="RdYlGn",
-            title=f"Top 8 Gainers & Losers (Inpatient Cases {year_a}→{year_b})",
-            labels={"inpatient_delta": "Δ Cases", "hospital_name": ""},
-            hover_data=["city", "inpatient_a", "inpatient_b"],
-        )
-        fig_movers.update_layout(
-            height=420,
-            yaxis={"categoryorder": "total ascending"},
-            coloraxis_showscale=False,
-        )
-        st.plotly_chart(fig_movers, width="stretch")
+       
 
     with col_tbl:
         inner_tab_new, inner_tab_gone, inner_tab_both = st.tabs([
@@ -972,13 +942,11 @@ with tab4:
             st.caption(f"Hospitals present in both {year_a} and {year_b}.")
             st.dataframe(
                 df_both[["hospital_name", "city", "beds_a", "beds_b",
-                          "beds_delta", "inpatient_a", "inpatient_b", "inpatient_delta"]]
+                          "beds_delta"]]
                 .rename(columns={
                     "hospital_name": "Hospital", "city": "City",
                     "beds_a": f"Beds {year_a}", "beds_b": f"Beds {year_b}",
                     "beds_delta": "Δ Beds",
-                    "inpatient_a": f"Inp. {year_a}", "inpatient_b": f"Inp. {year_b}",
-                    "inpatient_delta": "Δ Inpatient",
                 }),
                 width="stretch", hide_index=True, height=520,
             )
