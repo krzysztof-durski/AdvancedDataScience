@@ -3,6 +3,8 @@
 Hospital data ingestion project for German ICD-10-GM diagnoses, OPS procedures, and hospital location reports.
 The runnable path is Docker Postgres + Python ingestion scripts + Streamlit dashboard.
 
+---
+
 ## 0 -> Working Dashboard (End-to-End)
 
 Follow these steps in order from a fresh clone.
@@ -121,6 +123,8 @@ GEOAPIFY_API_KEY=your_geoapify_key_here
 ```
 
 These values are used by Python ingestion (`ingest/common.py`) and dashboard geocache enrichment (`dashboard/geocode.py`).
+
+---
 
 ## Database (Docker)
 
@@ -407,6 +411,8 @@ Postgres is configured via `DB_*` environment variables, and ingestion is tuned 
   - `tests/test_reference_ingest_scenarios.py`
 - Data:
   - Fixtures under `tests/fixtures/` for small, repeatable inputs without full production dumps.
+
+---
 
 ## Acknowledgment
 
